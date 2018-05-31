@@ -125,6 +125,12 @@ footer a {
   text-decoration: underline;
 }
 
+ol a {
+  color: black;
+  text-decoration: underline;
+}
+
+
 em {
   font-style: italic;
 }
@@ -267,7 +273,7 @@ Full-Width Styles
 .inner {
   position: relative;
   max-width: 640px;
-  padding: 20px 10px;
+  padding: 20px 5px;
   margin: 0 auto;
 }
 
@@ -277,7 +283,7 @@ Full-Width Styles
   top:0;
   right: 10px;
   z-index: 10;
-  padding: 10px 50px 10px 10px;
+  padding: 10px 40px 10px 10px;
   color: #fff;
   background: url('../images/blacktocat.png') #0090ff no-repeat 95% 50%;
   font-weight: 700;
@@ -296,7 +302,7 @@ Full-Width Styles
 }
 
 #header_wrap .inner {
-  padding: 10px 10px 30px 10px;
+  padding: 10px 10px 10px 10px;
 }
 
 #header_title {
@@ -460,4 +466,54 @@ img{
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+#mySidenav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.5s;
+    padding: 10px;
+    width: 90px;
+    height: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    border-radius: 0  10px 5px 0;
+    border: 2px solid black;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+#LinkedIn {
+    top: 50px;
+    background-color:rgb(168, 158, 158);
+}
+
+#blog {
+    top: 80px;
+    background-color: rgb(168, 158, 158);
+}
+
+#projects {
+    top: 110px;
+    background-color: rgb(168, 158, 158);
+}
+
+#contact {
+    top: 140px;
+    background-color: rgb(168, 158, 158);
+
+}
+
+#contact2 {
+    top: 170px;
+    background-color: rgb(168, 158, 158);
+
 }
