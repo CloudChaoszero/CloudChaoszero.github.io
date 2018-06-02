@@ -7,16 +7,19 @@
     <meta name="description" content="Cloudchaoszero.GitHub.io : ">
     <link rel="icon" href="images/cloud.jpg">
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-    <p style="color:white">WEBSITE STILL UNDER MAINTENANCE, 5/20/18</p>
+    <!--p style="color:white">WEBSITE STILL UNDER MAINTENANCE, 5/20/18</p-->
     <title>Raul Maldonado</title>
+  
   </head>
   
   <body>
     <!-- HEADER -->
+    
     <div id="header_wrap" class="outer">
 
 
       <header class="inner">
+        
           <a id="forkme_banner" href="https://github.com/CloudChaoszero">View on GitHub</a>
           <h1 id="header_title">Raul Maldonado</h1>
           <h2 id="header_tagline">Data Analyst & Data Bootcamp Teaching Assistant</h2>
@@ -71,10 +74,6 @@
       </div>
     </div>
 
-    <!-- <div id="profilePic">
-      <image src="images/ProfilePicture.jpg" alt="Raul Maldonado">
-    </div> -->
-
   <div id="Introduction">
       <a id="welcome" class="anchor" href="#welcome" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome</h3>
               
@@ -120,8 +119,17 @@
           Past Presentations
           </h3>
 
+          
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/OjT7mT5Ydw0" frameborder="0" allow="autoplay; encrypted-media"
+            allowfullscreen></iframe>
 
-          <p>Stay Tuned...</p>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/6heNoHvhrdo" frameborder="0" allow="autoplay; encrypted-media"
+            allowfullscreen></iframe>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/lKYiaQybMvA" frameborder="0" allow="autoplay; encrypted-media"
+              allowfullscreen></iframe>
+
+              <p>Stay tuned for more...</p>
 
 
     <div id="FAQ-section">
@@ -129,26 +137,36 @@
         <a id="FAQ" class="anchor" href="#FAQ" aria-hidden="true">
           <span aria-hidden="true" class="octicon octicon-link"></span>
         </a>
-            FAQ (2016 responses [need update....])
+            FAQ
       </h3>
           
       <h4>
-        What big-data problem would you solve that can benefit society at a large scale?
+         Give us an example of a challening SQL project you worked on?
       </h4>
         <p>
-            A benefit to society at large would be targeting assistance for the persons in poverty and/or low-income. With my proficient
-            technical abilities, I plan to somehow mitigate the homelessness attrition rate that has occurred in the last several years
-            in the US.
+             I have had the pleasure of working with 70+ students from both my current data bootcamp teaching assistant role, outside
+            of being a Data Analyst at Mobileiron, and Data Foundation Mentor role with Udacity on teaching and resolving SQL queries.
+            This material encompassed concepts such as sub queries, inner queries, and the complexity of joins in a relational database
+            system using MySQL and SQLIte SQL syntaxes.
         </p>
 
        <h4>
-          What is the most interesting fact or trend you've learned from analyzing data?
+           Why was it challenging, how did you tackle them?
       </h4>
         <p>
-          The 2017 NBA Basketball season recently ended, and I took the pleasure of extracting NBA finals data from BasketballReference.com.
-          I confirmed a foul-trouble hypothesis that occurred in game three of the Golden State Warriors v. Cleveland Cavaliers series.
-          That is, I confirmed in the 2017 NBA finals game 4 that there was an increased amount of fouls called against the Warriors
-          that ultimately, suspiciously, led to a Cavaliers win.
+           Sometimes students would pose questions in the severity of having these large queries, database infrastructure and Entity
+          Relationship modeling, and the need/differences between left, cross, and right joins. 
+          
+        </p>
+          
+        <p>
+          And currently, I am still going through
+          a similar process by teaching students the integration of SQLAlchemy, creating a server for database storage, and rendering
+          information through a Python script. 
+        </p>
+        <p>
+            It's been a pleasure going through these challenges teaching students not just about
+            SQL, but how establishing a database can serve well into integrating with APIs and computing tasks
         </p>
 
 
@@ -187,8 +205,33 @@
 
 
 
+<h3>
+SQL Code Demo
+</h3>
+<h4>1. Get The name from candidate that has the most votes</h4>
+<p>
+  <code>
+SELECT Name FROM Candidate WHERE Candidate.`id` =
+(SELECT CandidateId
+FROM VOTE 
+GROUP BY CandidateId 
+ORDER BY COUNT(Vote.`Id`) DESC LIMIT 1)</code>
+</p>
 
 
+<h4>
+2. 
+Write code to provide a list of distinct clients that have an email address, signed up for BI after 01/01/2010, and purchased
+mascara after 3/10/2010 </h4>
+
+<p>
+  <code>
+SELECT DISTINCT(clean_customer.customer_id), clean_customer.email_address, clean_customer.BI_signup_date,ls.order_date,
+p.class FROM (SELECT * FROM customer WHERE BI_signup_date != "not BI") clean_customer INNER JOIN line_sales ls ON clean_customer.customer_id
+= ls.customer_id INNER JOIN product p ON ls.product_key = p.product_key WHERE (clean_customer.email_address != "" OR clean_customer.email_address
+IS NOT NULL) AND clean_customer.BI_signup_date > "01/01/2010" AND (p.class = "mascara" AND ls.order_date > "3/10/2010");
+</code>
+</p>
 
 
       <h3>
@@ -197,8 +240,11 @@
         </a>
           Additional Notes
       </h3>
-
+      <p>N/A</p>
           </div>
+        <h3>Check this out!</h3>
+          <img src="http://4.bp.blogspot.com/-uhjF2kC3tFc/U_r3myvwzHI/AAAAAAAACiw/tPQ2XOXFYKY/s1600/Circles-3.gif" alt="Visual">
+
   </div>
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">

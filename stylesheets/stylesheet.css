@@ -492,28 +492,28 @@ img{
 }
 
 #LinkedIn {
-    top: 50px;
+    top: -1px;
     background-color:rgb(168, 158, 158);
 }
 
 #blog {
-    top: 80px;
+    top: 29px;
     background-color: rgb(168, 158, 158);
 }
 
 #projects {
-    top: 110px;
+    top: 59px;
     background-color: rgb(168, 158, 158);
 }
 
 #contact {
-    top: 140px;
+    top: 89px;
     background-color: rgb(168, 158, 158);
 
 }
 
 #contact2 {
-    top: 170px;
+    top: 119px;
     background-color: rgb(168, 158, 158);
 
 }
