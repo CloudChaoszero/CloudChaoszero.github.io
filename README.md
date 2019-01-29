@@ -15,6 +15,8 @@ If you would like to learn more about how I implement some portions of my websit
 2. Javascript
 3. Tableau
 
+<img src="https://media.giphy.com/media/o0vwzuFwCGAFO/giphy.gif" title="Welcome Image">
+
 
 ## Potential Upcoming Features
 
