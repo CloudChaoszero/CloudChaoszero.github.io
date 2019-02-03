@@ -1,4 +1,3 @@
-<script>
 (function(i,s,o,g,r,a,m){
   i['GoogleAnalyticsObject']=r;
   i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},
@@ -11,4 +10,3 @@
 
 ga('create', 'UA-133706600-1', 'auto');
 ga('send', 'pageview');
-</script>
