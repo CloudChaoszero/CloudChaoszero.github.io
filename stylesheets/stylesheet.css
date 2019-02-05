@@ -272,7 +272,7 @@ Full-Width Styles
 
 .inner {
   position: relative;
-  max-width: 640px;
+  max-width: 940px;
   padding: 20px 5px;
   margin: 0 auto;
 }
@@ -493,27 +493,92 @@ img{
 
 #LinkedIn {
     top: -1px;
-    background-color:rgb(168, 158, 158);
+    background-color: rgb(95, 95, 95);
 }
 
 #blog {
     top: 29px;
-    background-color: rgb(168, 158, 158);
+    background-color:  rgb(95, 95, 95);
 }
 
 #projects {
     top: 59px;
-    background-color: rgb(168, 158, 158);
+    background-color:  rgb(95, 95, 95);
 }
 
 #contact {
     top: 89px;
-    background-color: rgb(168, 158, 158);
+    background-color:  rgb(95, 95, 95);
 
 }
 
 #contact2 {
     top: 119px;
-    background-color: rgb(168, 158, 158);
+    background-color: rgb(95, 95, 95);
 
+}
+
+
+.slideshow-container {
+  max-width: 550px;
+  position: relative;
+  margin: auto;
+}
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 26px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
 }
