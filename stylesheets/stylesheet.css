@@ -271,7 +271,7 @@ Full-Width Styles
 }
 
 .inner {
-  position: relative;
+  position: left;
   max-width: 940px;
   padding: 20px 5px;
   margin: 0 auto;
@@ -302,7 +302,7 @@ Full-Width Styles
 }
 
 #header_wrap .inner {
-  padding: 10px 10px 10px 10px;
+  padding: 10px 0px 10px 10px;
 }
 
 #header_title {
@@ -367,7 +367,7 @@ Full-Width Styles
 }
 
 #main_content {
-  padding-top: 40px;
+  padding-top: 10px;
 }
 
 #footer_wrap {
@@ -492,28 +492,23 @@ img{
 }
 
 #LinkedIn {
-    top: -1px;
     background-color: rgb(95, 95, 95);
 }
 
 #blog {
-    top: 29px;
     background-color:  rgb(95, 95, 95);
 }
 
 #projects {
-    top: 59px;
     background-color:  rgb(95, 95, 95);
 }
 
-#contact {
-    top: 89px;
+#tableau {
     background-color:  rgb(95, 95, 95);
 
 }
 
-#contact2 {
-    top: 119px;
+#email {
     background-color: rgb(95, 95, 95);
 
 }
@@ -581,4 +576,75 @@ img{
 
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
+}
+
+
+
+/*Navigation Bar w/Dropdown*/
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+  
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  float: left;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(0, 36, 156);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  
+  background-color: #f9f9f9;
+  min-width: 105px;
+  top: 195px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.navbar-right {
+  float: right;
 }
