@@ -14,6 +14,8 @@ Hello! Welcome to this portion of my Github profile. This project is implementat
 
 If you would like to learn more about how I implement some portions of my website, feel free to ask!
 
+Have a great day!
+
 ## Requirments
 
 1. HTML
