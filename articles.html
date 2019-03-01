@@ -60,4 +60,147 @@
           </div>
 
   </body>
+
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+
+
+        <section id="main_content" class="inner">
+            <h1> Medium Articles</h1>
+
+
+
+
+        <!-- Slideshow container -->
+<div class="slideshow-container" >
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 6</div>
+                <a href="https://medium.com/@CloudChaoszero/next-career-move-striving-for-full-time-contributing-analytic-and-technical-solutions-a65542d54be0" target="_blank">
+                    <img src="https://cdn-images-1.medium.com/max/1200/1*EnPK7dJNJI0EHCS1VcjCOg.jpeg" alt="Italian Trulli" width="20" height="10">
+                </a>
+                <a href="https://medium.com/@CloudChaoszero/next-career-move-striving-for-full-time-contributing-analytic-and-technical-solutions-a65542d54be0" target="_blank">
+                    Next Career Move, Striving for Full-Time Contributing Analytic and Technical Solutions
+                </a>
+        </div>
+      
+        <div class="mySlides fade">
+                <div class="numbertext">2 / 6</div>
+                    <a href="https://medium.com/@CloudChaoszero/quick-guide-to-okrs-e7724b75bed6" target="_blank">
+                        <img src="https://www.seoclerk.com/pics/483846-11PaMu1476896694.png" alt="Italian Trulli" id="myImage">
+                    </a>
+                    <a href="https://medium.com/@CloudChaoszero/quick-guide-to-okrs-e7724b75bed6" target="_blank">
+                        A Quick Guide to OKRs
+                    </a>
+            </div>
+      
+        <div class="mySlides fade">
+                <div class="numbertext">3 / 6</div>
+                    <a href="https://medium.com/@CloudChaoszero/quickly-getting-started-with-google-maps-api-w-python-july-2018-platform-eaea5306c7be" target="_blank">
+                        <img src="https://www.seoclerk.com/pics/483846-11PaMu1476896694.png" alt="Italian Trulli" id="myImage">
+                    </a>
+                    <a href="https://medium.com/@CloudChaoszero/quickly-getting-started-with-google-maps-api-w-python-july-2018-platform-eaea5306c7be" target="_blank">
+                        Quickly Getting Started with Google Maps API w/Python (July 2018 Platform)
+                    </a>
+            </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 6</div>
+                <a href="https://medium.com/@CloudChaoszero/quick-guide-to-okrs-e7724b75bed6" target="_blank">
+                    <img src="https://www.seoclerk.com/pics/483846-11PaMu1476896694.png" alt="Italian Trulli" id="myImage">
+                </a>
+                <a href="https://medium.com/@CloudChaoszero/quick-guide-to-okrs-e7724b75bed6" target="_blank">
+                    A Quick Guide to OKRs
+                </a>
+        </div>
+
+        <div class="mySlides fade">
+                <div class="numbertext">5 / 6</div>
+                    <a href="https://medium.com/@CloudChaoszero/gdpr-compliance-and-you-a-quick-summary-bc335960d2a5" target="_blank">
+                        <img src="https://www.seoclerk.com/pics/483846-11PaMu1476896694.png" alt="Italian Trulli" id="myImage">
+                    </a>
+                    <a href="https://medium.com/@CloudChaoszero/gdpr-compliance-and-you-a-quick-summary-bc335960d2a5" target="_blank">
+                        GDPR Compliance (and you)
+                    </a>
+        </div>
+
+        <div class="mySlides fade">
+                <div class="numbertext">6 / 6</div>
+                    <a href="https://medium.com/@CloudChaoszero/finding-data-professional-mentors-or-meetups-in-san-francisco-bay-area-1b7b8a7f2ba4" target="_blank">
+                        <img src="https://www.seoclerk.com/pics/483846-11PaMu1476896694.png" alt="Italian Trulli" id="myImage">
+                    </a>
+                    <a href="https://medium.com/@CloudChaoszero/finding-data-professional-mentors-or-meetups-in-san-francisco-bay-area-1b7b8a7f2ba4" target="_blank">
+                        Finding Data Professional Mentors or Meetups in San Francisco Bay Area
+                    </a>
+        </div>
+    
+    
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;&#10095;</a>
+      </div>
+    
+      <br>
+      
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+        <span class="dot" onclick="currentSlide(4)"></span> 
+        <span class="dot" onclick="currentSlide(5)"></span> 
+        <span class="dot" onclick="currentSlide(6)"></span> 
+      </div>
+    
+      <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+    
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+    
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+    
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+      }
+      </script>
+
+<h1> Documentation</h1>
+
+<ul>
+    <li><a href="https://github.com/CloudChaoszero/DataMentor-Tips4Students-Library"> Tips & Tricks for Data Analytics Bootcamp Students </a>
+        </li>
+
+        <li><a href="https://github.com/CloudChaoszero/Data-Analyst-Track-Dataquest.io-Projects"> DataQuest.io Data Analyst Projects </a>
+        </li>
+        
+    </ul>
+
+
+        </section>
+    </div>
+    
+
+
+
+
+
 </html>
