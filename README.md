@@ -1,7 +1,12 @@
-# My Personal Website Code
+# Personal Website: Repository
 by [Raul Maldonado]()
 
-[cloudchaoszero.github.io/](https://cloudchaoszero.github.io/)
+
+<a href="https://cloudchaoszero.github.io/">
+     <img src="https://miro.medium.com/max/308/1*uTD6djbD6vJOfvllre6Pdw.jpeg" width="110" height="160">
+</a>
+
+Website: [cloudchaoszero.github.io/](https://cloudchaoszero.github.io/)
 
 ## Introduction
 
