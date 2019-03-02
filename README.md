@@ -6,7 +6,11 @@ by [Raul Maldonado]()
      <img src="https://miro.medium.com/max/308/1*uTD6djbD6vJOfvllre6Pdw.jpeg" width="110" height="160">
 </a>
 
-Website: [cloudchaoszero.github.io/](https://cloudchaoszero.github.io/)
+Website (Version 3.0): 
+
+<a href="https://cloudchaoszero.github.io/">
+     <img src="images/WebsiteVersions/Version_3_0.png" width="50%" height="50%">
+</a>
 
 ## Introduction
 
