@@ -46,7 +46,7 @@
 
       <header class="inner">
 
-        <a id="forkme_banner" href="https://github.com/CloudChaoszero">View on GitHub</a>
+        <a id="forkme_banner" href="https://github.com/CloudChaoszero">Hosted on GitHub</a>
         <h1 id="header_title">Raul Maldonado</h1>
         <h2 id="header_tagline">Data Analyst, San Francisco, CA</h2>
 
@@ -108,10 +108,8 @@
         <p>
           My recent accomplishments have been the following:
             <ol>
-              <li>a <strong>Business Data Analyst</strong> Contractor driving impact for Sales and Engineering under Signature Consultants onsite @ a <strong>top-5 tech company</strong></li>
-              <li>a <strong>Data Analyst</strong> Contractor driving impact for Business Intelligence and Sales at <strong>MobileIron</strong></li>
-              <li>a <strong>Teaching Assistant & Substitute Instructor</strong> at one of <strong>UC Berkeley Extension's</strong> Data Visualization Bootcamps for 30+ student cohorts </li>
-             <li> a <strong>DataKind Core Volunteer</strong> enabling other profits to have pro-bono data consulting and driving change for data for good</li>
+              <li>a <strong>Business Data Analyst</strong> driving impact for Sales and Engineering under Signature Consultants onsite @ a <strong>top-5 tech company</strong></li>
+              <li>a <strong>Data Analyst</strong> driving impact for Business Intelligence and Sales at <strong>MobileIron</strong></li>
             </ol>
         </p>
         
@@ -151,9 +149,76 @@
           Cheers!
         </p>
 
-    <h3>Thanks for visiting! Here is a cool image as a present for coming!</h3>
-      <img src="https://78.media.tumblr.com/4c419500dd33434610fb5918c31df719/tumblr_oz8t4jivLc1ua2j9eo1_500.gif" alt="Visual">
+    <h3>Thanks for visiting! Here are some cool pictures from my recent trip, as a present for coming!</h3>
 
+    <strong>London 2019</strong> 
+
+<!-- Slideshow container -->
+
+<div class="slideshow-container" >
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+
+        <img width="20" height="10" src="images/AdditionalContent/RecentTrip/London2019-5.jpg"  style="max-width:none; transform:rotate(90deg); ! important;"  >
+
+    </div>
+
+    <div class="mySlides fade">
+            <img src="images/AdditionalContent/RecentTrip/London2019-3.jpg"  style="max-width:none; transform:rotate(90deg); ! important;" alt="Italian Trulli" width="20" height="10">
+        </div>
+
+    <div class="mySlides fade">
+        <img src="images/AdditionalContent/RecentTrip/London2019-4.jpg" style="max-width:none; transform:rotate(90deg); ! important;" alt="Italian Trulli" width="250" height="10">
+    </div>
+
+    <div class="mySlides fade">
+            <img src="images/AdditionalContent/RecentTrip/London2019-1.jpg"  style="max-width:none; transform:rotate(90deg); ! important;" alt="Italian Trulli" width="20" height="10">
+    </div>
+    
+
+
+
+  </div>
+
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)" style="background-color: rgb(0, 60, 189); max-width:none; transform:rotate(90deg); ! important;"></span> 
+    <span class="dot" onclick="currentSlide(2)" style="background-color: rgb(0, 60, 189); max-width:none; transform:rotate(90deg); ! important;"></span> 
+    <span class="dot" onclick="currentSlide(3) " style="background-color: rgb(0, 60, 189); max-width:none; transform:rotate(90deg); ! important;"></span> 
+    <span class="dot" onclick="currentSlide(4)" style="background-color: rgb(0, 60, 189); max-width:none; transform:rotate(90deg); ! important;"></span> 
+  </div>
+
+  <script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+  }
+
+  </script>
     
 
   </body>

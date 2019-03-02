@@ -20,7 +20,7 @@ fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
+menu, nav, output, ruby, section, section-left,section-right, summary,
 time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -31,7 +31,7 @@ time, mark, audio, video {
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+footer, header, hgroup, menu, nav, section,section-left,section-right {
   display: block;
   
 }
@@ -109,7 +109,7 @@ footer p {
 
 a {
   text-decoration: none;
-  color: #007edf;
+  color: #1d6ac2;
   text-shadow: none;
 
   transition: color 0.5s ease;
@@ -144,7 +144,6 @@ em {
 strong {
   font-weight: bold;
 }
-
 img {
   position: relative;
   margin: 0 auto;
@@ -158,6 +157,7 @@ img {
   -moz-box-shadow: 0 0 5px #ebebeb;
   -o-box-shadow: 0 0 5px #ebebeb;
   -ms-box-shadow: 0 0 5px #ebebeb;
+
 }
 
 p img {
@@ -576,7 +576,7 @@ img{
 }
 
 @keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .9} 
   to {opacity: 1}
 }
 
@@ -628,7 +628,7 @@ img{
   position: absolute;
   
   background-color: #f9f9f9;
-  min-width: 105px;
+  min-width: 160px;
   top: 195px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
