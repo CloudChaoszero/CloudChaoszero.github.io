@@ -1,5 +1,5 @@
 # Personal Website: Repository
-by [Raul Maldonado]()
+by [Raul Maldonado](https://cloudchaoszero.github.io/)
 
 
 <a href="https://cloudchaoszero.github.io/">
@@ -33,3 +33,4 @@ Have a great day!
 
 1. Google Analytics Tracking
 2. Additional Project Examples/Links
+    i. Updated Domain Name
