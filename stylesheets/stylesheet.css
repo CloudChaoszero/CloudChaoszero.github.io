@@ -2,6 +2,10 @@
 Slate Theme for GitHub Pages
 by Jason Costello, @jsncostello
 *******************************************************************************/
+$scroll-factor : .5;
+
+$background: #333;
+$header-height : 50px;
 
 @import url(github-light.css);
 
@@ -291,7 +295,7 @@ Full-Width Styles
   z-index: 10;
   padding: 10px 40px 10px 10px;
   color: #fff;
-  background: url('../images/blacktocat.png') #0090ff no-repeat 95% 50%;
+  background: url('../images/blacktocat.png') #0a3a57 no-repeat 95% 50%;
   font-weight: 700;
   box-shadow: 0 0 10px rgba(0,0,0,.5);
   border-bottom-left-radius: 2px;
@@ -299,12 +303,17 @@ Full-Width Styles
 }
 
 #header_wrap {
-  background: #212121;
-  background: -moz-linear-gradient(top, #373737, #212121);
-  background: -webkit-linear-gradient(top, #373737, #212121);
-  background: -ms-linear-gradient(top, #373737, #212121);
-  background: -o-linear-gradient(top, #373737, #212121);
-  background: linear-gradient(top, #373737, #212121);
+  height: 80vh;
+  background: url("../images/background.jpg");
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  vertical-align: top;
+  transform-origin: center top;
+  transform: 
+    translateZ(-#{$scroll-factor * 2}px);
+    scale(1 + $scroll-factor * 2);
+  height:200px;
 }
 
 #header_wrap .inner {
