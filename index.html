@@ -99,11 +99,7 @@
     <div class="container">
       <img src="images/ProfilePicture.jpg" alt="Avatar" class="image" width="20" height="20">
         <div class="overlayProfPic">
-          <iframe width="550" height="270" src="https://www.youtube.com/embed/G15E6GqiDg8" 
-              frameborder="0" 
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen maring = 0 auto>
-          </iframe>
+
       
 
         </div>
@@ -132,131 +128,7 @@
       <p>
         Note: My online alias is either Cloud Chaoszero or RaulingAverage. If curious, I am happy to explain the former alias to others.
       </p>
-      <p>  
-        <h2>Content
-        </h2>
-  
-        <ol>
-          <li>
-            <a href='index.html' style="color: rgb(0, 60, 189); ! important">Welcome page</a>
-          </li>
-          <li>
-              <a href='projects.html' style="color: rgb(0, 60, 189); ! important">My recent achievements and accomplishments</a>
-          </li>
-          <li>
-              <a href='projects.html' style="color: rgb(0, 60, 189); ! important">Data projects and presentations I've created</a>
-          </li>
-          <li>
-              <a href='articles.html' style="color: rgb(0, 60, 189); ! important">Publications and Documentation</a>
-          </li>
-        </ol>
-        </p>
-        
-        
-      <p>            
-        <!--Tableau Dashboard-->
-            <div class='tableauPlaceholder' id='viz1548738948163' style='position: relative'><noscript><a href='#'
-              ><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Po&#47;Portfolio_52&#47;Portfolio-2018&#47;1_rss.png' 
-              style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'><param name='host_url' 
-              value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> 
-              <param name='site_root' value='' /><param name='name' value='Portfolio_52&#47;Portfolio-2018' />
-              <param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' 
-              value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Po&#47;Portfolio_52&#47;Portfolio-2018&#47;1.png' />
-              <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' />
-              <param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object>
-            </div> 
-              
-            <script type='text/javascript'> 
-            var divElement = document.getElementById('viz1548738948163'); var vizElement = divElement.getElementsByTagName('object')[0]; 
-            vizElement.style.minWidth='420px';vizElement.style.maxWidth='650px';vizElement.style.width='100%';vizElement.style.minHeight='587px';
-            vizElement.style.maxHeight='487px';vizElement.style.height=(divElement.offsetWidth*0.65)+'px'; var scriptElement = 
-            document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; 
-            vizElement.parentNode.insertBefore(scriptElement, vizElement); 
-            </script>
-      </p>
-
-
-      <p>  
-        <h3>Thanks for visiting! Here are some cool pictures from my recent trip, 
-            as a present for coming!
-        </h3>
-
-        <strong>London 2019</strong> 
-      </p>
-    </div>
-
-    <div id="Ending">
-      <!-- Slideshow container -->
-
-      <div class="slideshow-container" >
-          <!-- Full-width images with number and caption text -->
-          <div class="mySlides fade">
-
-              <img width="20" height="10" src="images/AdditionalContent/RecentTrip/London2019-5.jpg"  style="max-width:none; transform:rotate(90deg); ! important;"  >
-
-          </div>
-
-          <div class="mySlides fade">
-                  <img src="images/AdditionalContent/RecentTrip/London2019-3.jpg"  style="max-width:none; transform:rotate(90deg); ! important;" alt="Italian Trulli" width="20" height="10">
-              </div>
-
-          <div class="mySlides fade">
-              <img src="images/AdditionalContent/RecentTrip/London2019-4.jpg" style="max-width:none; transform:rotate(90deg); ! important;" alt="Italian Trulli" width="250" height="10">
-          </div>
-
-          <div class="mySlides fade">
-                  <img src="images/AdditionalContent/RecentTrip/London2019-1.jpg"  style="max-width:none; transform:rotate(90deg); ! important;" alt="Italian Trulli" width="20" height="10">
-          </div>
-          
-
-
-
-      </div>
-
-      <br>
-        
-        <!-- The dots/circles -->
-        <div style="text-align:center">
-          <span class="dot" onclick="currentSlide(1)" style="background-color: rgb(0, 60, 189); max-width:none; transform:rotate(90deg); ! important;"></span> 
-          <span class="dot" onclick="currentSlide(2)" style="background-color: rgb(0, 60, 189); max-width:none; transform:rotate(90deg); ! important;"></span> 
-          <span class="dot" onclick="currentSlide(3) " style="background-color: rgb(0, 60, 189); max-width:none; transform:rotate(90deg); ! important;"></span> 
-          <span class="dot" onclick="currentSlide(4)" style="background-color: rgb(0, 60, 189); max-width:none; transform:rotate(90deg); ! important;"></span> 
-        </div>
-
-        <script>
-        var slideIndex = 1;
-        showSlides(slideIndex);
-
-        function plusSlides(n) {
-          showSlides(slideIndex += n);
-        }
-
-        function currentSlide(n) {
-          showSlides(slideIndex = n);
-        }
-
-        function showSlides(n) {
-          var i;
-          var slides = document.getElementsByClassName("mySlides");
-          var dots = document.getElementsByClassName("dot");
-          if (n > slides.length) {slideIndex = 1}    
-          if (n < 1) {slideIndex = slides.length}
-          for (i = 0; i < slides.length; i++) {
-              slides[i].style.display = "none";  
-          }
-          for (i = 0; i < dots.length; i++) {
-              dots[i].className = dots[i].className.replace(" active", "");
-          }
-          slides[slideIndex-1].style.display = "block";  
-          dots[slideIndex-1].className += " active";
-        }
-
-        </script>
-    </div>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/UTJY001LxSg" 
-    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-  </iframe>
+      
   </section>
   </div>
   </body>
