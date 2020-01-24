@@ -1,0 +1,184 @@
+---
+permalink: /portfolio/
+title: "Portfolio & Projects"
+author_profile: True 
+
+last_modified_at: 2020-01-22T23:46:43-04:00
+toc: true
+---
+
+
+
+</head>
+
+<body>
+  <!-- HEADER -->
+  <div id="header_wrap" class="outer">
+
+    <header class="inner">
+
+      <a id="forkme_banner" href="https://github.com/CloudChaoszero" target="_blank" >GitHub</a>
+      <h1 id="header_title">Raul Maldonado</h1>
+      <h2 id="header_tagline">Full Stack Data Analyst</h2>
+
+    </header>
+
+
+
+    <div class="navbar">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Portfolio</a>
+      <a href="articles.html">Blog & Talks</a>
+
+      <div class="navbar-right">
+        <div class="dropdown">
+
+          <button class="dropbtn">Contact + More&#x25BC;</button>
+
+          <div class="dropdown-content">
+            <a href="https://www.linkedin.com/in/raulm8/" target="_blank" id="LinkedIn">LinkedIn</a>
+            <a href="https://medium.com/@CloudChaoszero" target="_blank" id="blog">Medium</a>
+            <a href="https://github.com/CloudChaoszero" target="_blank" id="projects">Github
+            </a>
+            <a href="https://public.tableau.com/profile/raul.maldonado#!/" target="_blank" id="tableau">Tableau
+            </a>
+            <a href="mailto:rmaldonadocloud@gmail.com" id="email">Email</a>
+            <a href="https://www.strava.com/athletes/26468777"  target="_blank" id="email">Strava</a>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+
+  <div id="main_content_wrap" class="outer">
+
+    <section id="main_content" class="inner">
+ 
+
+      <h1>
+        Visual Resume
+      </h1>
+
+      <!--Tableau Dashboard-->
+      <div class='tableauPlaceholder' id='viz1548738948163' style='position: relative'><noscript><a href='#'><img alt=' '
+              src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Po&#47;Portfolio_52&#47;Portfolio-2018&#47;1_rss.png'
+              style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+          <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+          <param name='embed_code_version' value='3' />
+          <param name='site_root' value='' />
+          <param name='name' value='Portfolio_52&#47;Portfolio-2018' />
+          <param name='tabs' value='no' />
+          <param name='toolbar' value='yes' />
+          <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Po&#47;Portfolio_52&#47;Portfolio-2018&#47;1.png' />
+          <param name='animate_transition' value='yes' />
+          <param name='display_static_image' value='yes' />
+          <param name='display_spinner' value='yes' />
+          <param name='display_overlay' value='yes' />
+          <param name='display_count' value='yes' /></object>
+      </div>
+
+      <script type='text/javascript'>
+        var divElement = document.getElementById('viz1548738948163');
+        var vizElement = divElement.getElementsByTagName('object')[0];
+        vizElement.style.minWidth = '420px';
+        vizElement.style.maxWidth = '650px';
+        vizElement.style.width = '100%';
+        vizElement.style.minHeight = '587px';
+        vizElement.style.maxHeight = '487px';
+        vizElement.style.height = (divElement.offsetWidth * 0.65) + 'px';
+        var scriptElement =
+          document.createElement('script');
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+      </script>
+
+
+      <h1>
+        Projects
+      </h1>
+      <p>
+        In my spare time, I produce data-related projects. The following is a sample of some personal projects I have
+        produced
+      </p>
+
+      <ul>
+        <li>
+          <strong>
+            <a href="https://cloudchaoszero.github.io/Strava-Running-Visualization/" target="_blank">
+              My Strava running mileage per session data, using D3.js & HTML.
+            </a>
+          </strong>
+        </li>
+
+        <li>
+          <strong>
+            <a href="https://github.com/CloudChaoszero/Youtube-TrendingVideos-AnalysisV2" target="_blank">
+              Youtube Data Analysis Project (APIs, Python, SQLALchemy, Flask, SQL)
+
+            </a>
+          </strong>
+        </li>
+
+        <li>
+          <strong>
+            <a href="https://github.com/CloudChaoszero/UdacityNanodegree_DataAnalyst_Projects_2017/blob/master/P3-Wrangle-OpenStreetMap-Data/P3-Wrangle-OpenStreetMap-Main/OpenStreepMap-SF-Wrangle.ipynb"
+              target="_blank">
+              OpenStreepMap: San Francisco GSI Data Analysis (APIs, Python, Data Transformation, JSON)
+            </a>
+          </strong>
+        </li>
+
+        <li>
+          <strong>
+            <a href="https://github.com/CloudChaoszero" target="_blank">
+              And so much more!
+            </a>
+          </strong>
+        </li>
+
+      </ul>
+
+      <h1> Documentation</h1>
+
+      <ul>
+          <li><a href="https://github.com/CloudChaoszero/DataMentor-Tips4Students-Library">
+                  Tips & Tricks for Data Analytics Bootcamp Students
+              </a>
+          </li>
+
+          <li><a href="https://github.com/CloudChaoszero/Data-Analyst-Track-Dataquest.io-Projects">
+                  DataQuest.io Data Analyst Projects
+              </a>
+          </li>
+
+          <li><a href="https://github.com/CloudChaoszero/CloudChaoszero.github.io/blob/master/README.md">
+                  Website Documentation
+              </a>
+          </li>
+
+          <li><a href="https://github.com/CloudChaoszero/Youtube-TrendingVideos-AnalysisV2/blob/master/README.md">
+                  Youtube Project & API Documentation
+              </a>
+          </li>
+
+          <li>More content coming soon ;D </li>
+      </ul>
+
+
+
+    </section>
+
+  </div>
+
+
+
+
+</body>
+
+
+</html>
