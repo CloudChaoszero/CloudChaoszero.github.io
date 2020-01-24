@@ -34,3 +34,8 @@ Have a great day!
 1. Google Analytics Tracking
 2. Additional Project Examples/Links
     i. Updated Domain Name
+
+
+## Resources:
+
+* Medium to Markdown converter: https://medium-to-markdown.now.sh/
