@@ -2,17 +2,6 @@
 permalink: /about/
 title: "About Me"
 author_profile: false 
-
-layouts_gallery:
-  - url: /assets/images/mm-layout-splash.png
-    image_path: /assets/images/mm-layout-splash.png
-    alt: "splash layout example"
-  - url: /assets/images/mm-layout-single-meta.png
-    image_path: /assets/images/mm-layout-single-meta.png
-    alt: "single layout with comments and related posts"
-  - url: /assets/images/mm-layout-archive.png
-    image_path: /assets/images/mm-layout-archive.png
-    alt: "archive layout example"
 last_modified_at: 2020-01-22T23:46:43-04:00
 toc: true
 ---
@@ -54,10 +43,4 @@ toc: true
 
 ## Resume
 
-<iframe src="https://drive.google.com/file/d/1oqE9Eja0H1a06cXp_-SsqNkqIQlTSRIr/preview" class="is-fullwidth" width="100%" height="150%"></iframe>
-
-
-
-{% include gallery id="layouts_gallery" caption="Examples of included layouts `splash`, `single`, and `archive`." %}
-
-
+<iframe src="https://drive.google.com/file/d/1oqE9Eja0H1a06cXp_-SsqNkqIQlTSRIr/preview" class="is-fullwidth" width="100%" height="250%"></iframe>
