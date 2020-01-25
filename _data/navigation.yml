@@ -1,0 +1,21 @@
+main:
+  - title: "Who Am I?"
+    url: /home
+  - title: "What I've done"
+    url: /about
+  - title: "Portfolio"
+    url: /portfolio
+  - title: "Blog & Talks"
+    url: /tags
+
+blogroll:
+    - title: "Subscribed Blogs"
+      children:
+        - title: "Uber Engineering"
+          url: https://eng.uber.com/
+        - title: "Stitch Fix Technology"
+          url: https://multithreaded.stitchfix.com/blog/
+    - title: "Motivational"
+      children:
+    - title: "Subscribed Podcasts"
+      children:

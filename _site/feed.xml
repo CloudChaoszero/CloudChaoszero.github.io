@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-01-24T22:53:25-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Raul Maldonado</title><subtitle>A website for everything data, music, puns, and more!</subtitle><author><name>Raul Maldonado</name></author><entry><title type="html">Quick Guide to OKRs</title><link href="http://localhost:4000/quick-guide-to-okrs/" rel="alternate" type="text/html" title="Quick Guide to OKRs" /><published>2020-01-22T00:00:00-08:00</published><updated>2020-01-22T00:00:00-08:00</updated><id>http://localhost:4000/quick-guide-to-okrs</id><content type="html" xml:base="http://localhost:4000/quick-guide-to-okrs/">&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2426/1*m87-DMxwddK2o6teYiEG1w.jpeg&quot; alt=&quot;OKR (via [https://medium.com/@LazaroIbanez/introduction-to-okr-6cc0ca8b4767](https://medium.com/@LazaroIbanez/introduction-to-okr-6cc0ca8b4767))&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;what-is-an-okr&quot;&gt;What is an OKR?&lt;/h1&gt;
+
+&lt;p&gt;OKR (Objectives and Key Results)[Not OKRA] is a framework for defining and tracking objectives and outcomes to drive engagement and focus on your goals.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Objectives&lt;/strong&gt; are motivational, challenging, and qualitative descriptions of what you want to achieve.&lt;/p&gt;
+
+&lt;p&gt;**Key Results **are a set of metrics that measure your progress towards the Objective.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2400/1*HLkJFt8lZPFfD5mQyq9T7A.png&quot; alt=&quot;OKR Timeline (via [www.perdoo.com/okr/](https://www.perdoo.com/okr/))&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;OKR methodology was introduced to Intel by &lt;a href=&quot;https://en.wikipedia.org/wiki/Andrew_Grove&quot;&gt;Andy Grove&lt;/a&gt; in his 1983 book “High Output Management”. Later on in 1999, Intel’s John Doerr recommends the methodology to Google’ CEOs Larry Page and Sergey Brin for their 40+team.&lt;/p&gt;
+
+&lt;h1 id=&quot;okr-example&quot;&gt;OKR Example&lt;/h1&gt;
+
+&lt;h4 id=&quot;okr-formulation&quot;&gt;OKR Formulation&lt;/h4&gt;
+
+&lt;p&gt;The following is a general structure for forming and OKR&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;I will [Objective] as measured by [Key Result].&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;and can be used in the following example&lt;/p&gt;
+
+&lt;h4 id=&quot;example&quot;&gt;Example&lt;/h4&gt;
+
+&lt;p&gt;Engineering Manager’s OKR:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Objective:&lt;/strong&gt; Create a better Customer Experience&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Key Results:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Improve Net Promoter Score from X to Y.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Mitigate Churn or Bounce Rate under Z%&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Improve Product/Business Awareness for Engineering team from 30% familiarity to 80% familiarity.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In some instances, a hierarchy of OKRs can be created too. The manager above can have OKRs tied to team performance and growth, outside of business objectives as well.&lt;/p&gt;
+
+&lt;p&gt;Employee’s OKR:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Objective:&lt;/strong&gt; Improve Customer Journey with Product&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Key Results:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Create training/documentation on product usability&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Optimize UI and usability of product from X% engagement to X+ Y % engagement&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“If it does not have a number,&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;it is not a Key Result.” -Marissa Mayer&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;the-benefits&quot;&gt;The Benefits&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Agile Goals&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Simple&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Transparent&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Nested Cadences&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Bidirectional Goal Setting&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/996/1*6hu7GlEQ4pHMk8FPztzLLA.gif&quot; alt=&quot;(The Office Vogue Dance Scene)&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;okr-mistakes&quot;&gt;OKR Mistakes&lt;/h1&gt;
+
+&lt;p&gt;OKRs sounds so enticing, and when starting with the methodology, many are tempted to “LIST ALL THE GOALS”. However, avoid these OKR mistakes to ensure you reach your goal(s):&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Forgetting about your OKRs&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Using OKR as a task list&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Setting too many OKRs (Use between 2–5 Objectives)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Not aligning your OKRs&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Separate metrics from initiatives&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;getting-started&quot;&gt;Getting Started&lt;/h1&gt;
+
+&lt;p&gt;If you have a sophisticated system/software for driving OKR culture to your company, then awesome!&lt;/p&gt;
+
+&lt;p&gt;If you do not have funding for such sophisticated software, please feel free to check out the following resources to get you started:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/OKR&quot;&gt;What is an OKR&lt;/a&gt;?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.slideshare.net/meetfelipe/what-is-okr&quot;&gt;What is an OKR [Slides]?&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.perdoo.com/okr/&quot;&gt;Perdoo’s OKR breakdown&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://docs.google.com/document/d/1OHpQOvZz76_10ebJP2AKvvXUF3H9yd6FC89F5jS4mks/edit?pli=1&quot;&gt;OKR Google Doc Template&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1DGOSjkW70bYsgtubVoEYNi65cS4U9po4GGUTpfhEVOk/edit#gid=941531332&quot;&gt;OKR Google Sheet Template&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Hopefully you’ve enjoyed this quick breakdown. If you have any questions, feel free to reach out to &lt;a href=&quot;https://www.linkedin.com/in/raulm8&quot;&gt;me via LinkedIn&lt;/a&gt;.&lt;/p&gt;</content><author><name>Raul Maldonado</name></author><category term="Project Management" /><summary type="html"></summary></entry><entry><title type="html">Next Career Move, Striving for Full-Time Contributing Analytic and Technical Solutions</title><link href="http://localhost:4000/next-career-move-striving-for-full-time-contributing-analytic-and-technical-solutions/" rel="alternate" type="text/html" title="Next Career Move, Striving for Full-Time Contributing Analytic and Technical Solutions" /><published>2019-01-31T00:00:00-08:00</published><updated>2019-01-31T00:00:00-08:00</updated><id>http://localhost:4000/next-career-move-striving-for-full-time-contributing-analytic-and-technical-solutions</id><content type="html" xml:base="http://localhost:4000/next-career-move-striving-for-full-time-contributing-analytic-and-technical-solutions/">&lt;p&gt;It’s been &lt;strong&gt;1&lt;/strong&gt; week since I started the next part of my journey — a situation in which a lot of my coworkers appeared startled after responding “Nothing yet. I am going to start looking for my next opportunity soon” after the question “Where are you going to go next?”…&lt;/p&gt;
+
+&lt;p&gt;I made the decision to not extend my Business Data Analyst contract at a Top 10 Technology company.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/5766/1*LWypNwWcOod8-ZYxzlomIQ.jpeg&quot; alt=&quot;Visiting one of many office workspaces&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;From the food, commuting, work environment, and various fruitful amenities provided from the role to working with a wonderful group of Business Intelligence, Insights, and Engineering individuals in an agile and great environment, I was still not satisfied. I was not content with myself.&lt;/p&gt;
+
+&lt;p&gt;I still yearned to deliver scalable data solutions with recognition as a team member of the encompassing organization, as opposed to an external contributor. Moreover, I wanted to acquire and grow new data-related skills and techniques while maintaining my existing proficient data analytics experiences.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“You are your own startup”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;If you know me, my driven goals for career growth aspirations and providing qualitative analyses, automation, visualization, and knowledge to organizations stem from my core goal after graduating college— being part of a team making effective contributions, and feel a part of that organization. I had no opportunities handed to me, so I set to obtain those experiences through contracting. Thereafter, I would transition my skills to provide deployed solutions thereby turning complex data into meaningful insights and comprehensive business recommendations.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;“Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.” — Thomas Edison&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;That’s a story I talked about &lt;a href=&quot;https://medium.com/@CloudChaoszero/who-is-raul-54d5304f2178&quot;&gt;in a past article&lt;/a&gt;, but I am happy to the recent experiences I acquired from this role. As a sample of my recent accomplishments, I enabled a large organization of Sales users to understand compensation and SMB customer performances assigned to them for increased productivity, resolved and improved performances of workflows for deliverable data from disparate systems to other teams, built automation tools, lead in contributions for engineering requests, and even provided knowledge transfer sessions to enable other BI or developer contractors to effectively enable them to drive impact to the organization themselves.&lt;/p&gt;
+
+&lt;p&gt;When the time came to turn in my badge, I felt satisfied. I accomplished so much with my past implementations, and I was excited for the next opportunity for providing scalable data analytic and technical solutions for the next team I will collaborate with. Additionally, what was definitely a pleasing thought in turning my badge was amusingly recalling a quote I provided in a “Thank You” follow up email (from a brutal onsite technical interview from this mentioned contracting role) …&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/5416/1*EnPK7dJNJI0EHCS1VcjCOg.jpeg&quot; alt=&quot;Goodbye &amp;lt;/3&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;it-is-not-the-mountain-we-conquer-but-ourselves--sir-edmund-hillary&quot;&gt;&lt;em&gt;“It is not the mountain we conquer, but ourselves.” -Sir Edmund Hillary&lt;/em&gt;&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;In the meantime, I am still a Teaching Assistant for an evening Data Analytics bootcamp enabling 30+student cohorts to understand and develop Big Data related projects and volunteering for a Data-for-Good nonprofit.&lt;/p&gt;
+
+&lt;p&gt;Moreover, I am showcasing deliverable data insights and tools from my experiences through several projects for my Q1 2019 pipeline. Stay tuned for that. :)&lt;/p&gt;
+
+&lt;p&gt;Here is a selection of personal projects and presentations I have created in the past:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cloudchaoszero.github.io/&quot;&gt;Website (hosted via Git Pages)&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cloudchaoszero.github.io/Strava-Running-Visualization/&quot;&gt;Strava Data Visualization&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://drive.google.com/file/d/1nUt11SW61YbghJAAgEiT-e3ajZUh4YFG/view&quot;&gt;Google Ads: Search Certification&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://certification.salesforce.com/verification?&amp;amp;fullname=Raul%20Maldonado&quot;&gt;SalesForce Admin Certification&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=OjT7mT5Ydw0&amp;amp;t=9s&quot;&gt;Lightning Talk/Seminar at a Python Meetup&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=g-sTaaaEVZQ&quot;&gt;Data Analytics Bootcamp: Example Lecture&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://public.tableau.com/profile/raul.maldonado#!/vizhome/Portfolio_52/Portfolio-2018?publish=yes&quot;&gt;Visual Portfolio/Resume (powered by Tableau)&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://github.com/CloudChaoszero/Youtube-TrendingVideos-AnalysisV2&quot;&gt;Youtube Data Analysis Project&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://github.com/CloudChaoszero&quot;&gt;Compilation of other data projects via Github&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can reach me via &lt;a href=&quot;https://www.linkedin.com/in/raulm8&quot;&gt;LinkedIn&lt;/a&gt; for any inquires or questions on projects, experiences, or how I can contribute to your data-related learnings.&lt;/p&gt;
+
+&lt;p&gt;Cheers!&lt;/p&gt;</content><author><name>Raul Maldonado</name></author><category term="Career" /><summary type="html">It’s been 1 week since I started the next part of my journey — a situation in which a lot of my coworkers appeared startled after responding “Nothing yet. I am going to start looking for my next opportunity soon” after the question “Where are you going to go next?”…</summary></entry><entry><title type="html">Finding Data Professional Mentors or Meetups in San Francisco Bay Area</title><link href="http://localhost:4000/finding-data-professional-mentors-or-meetups-in-san-francisco-bay-area/" rel="alternate" type="text/html" title="Finding Data Professional Mentors or Meetups in San Francisco Bay Area" /><published>2018-07-14T00:00:00-07:00</published><updated>2018-07-14T00:00:00-07:00</updated><id>http://localhost:4000/finding-data-professional-mentors-or-meetups-in-san-francisco-bay-area</id><content type="html" xml:base="http://localhost:4000/finding-data-professional-mentors-or-meetups-in-san-francisco-bay-area/">&lt;p&gt;Though I never had the opportunity to be a part of, you either just finished your Data Analytics/Science bootcamp or class. #BelatedCongrats!&lt;/p&gt;
+
+&lt;p&gt;Or maybe you are just part of the following:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Career change into the Data profession&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Recent college graduate&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Forgotten what places to go to to network&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Well, don’t worry. The following information are some of the network opportunities I found in the Bay Area to help get you started.&lt;/p&gt;
+
+&lt;p&gt;*Note: *If you have some additional resources,&lt;a href=&quot;https://www.linkedin.com/in/raulm8/&quot;&gt; let me know via Linkedin&lt;/a&gt;! I am happy to add and author your contribution.&lt;/p&gt;
+
+&lt;h1 id=&quot;data-science&quot;&gt;Data Science&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/5536/0*JiF6YGJfLEPv_iDT&quot; alt=&quot;Photo by [Mika Baumeister](https://unsplash.com/@mbaumi?utm_source=medium&amp;amp;utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&amp;amp;utm_medium=referral)&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A university’s group under name of&lt;a href=&quot;https://www.meetup.com/San-Francisco-ODSC/&quot;&gt; San Francisco Data Science&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/DataKind-SF-Bay-Area/&quot;&gt;DataKind, SF&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A community of top data scientists and social sector leaders working to tackle the world’s toughest problems with data science.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;AI &amp;amp; Deep Learning Enthusiasts (organized by same individual[s])&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Group of individuals remotely or in person diving into AI &amp;amp; Deep Learning education and research space.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.accel.ai/&quot;&gt;Accel.Ai&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Have not attended, but a friend has referred me to it.&lt;/p&gt;
+
+&lt;p&gt;Organized by Laura Montoya (Also organizer of the following)&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.latinxinai.org/&quot;&gt;Latinx In AI&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;New group discussing AI ethics and other sessions. Great sessions based on what a friend has told me. I actually have not attended, but give it a try!&lt;/p&gt;
+
+&lt;h1 id=&quot;programming-or-python&quot;&gt;Programming or Python&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/12000/0*vXJXOeCQ0JD6C9be&quot; alt=&quot;Photo by [Max Nelson](https://unsplash.com/@maxcodes?utm_source=medium&amp;amp;utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&amp;amp;utm_medium=referral)&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/sfpython/&quot;&gt;SF Python Bay Area&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Lead by Grace Law and other members, SF Python hosts bi weekly Wednesday sessions where you can grow your technical career by learning and sharing what you know with other local Python developers.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Also organizing &lt;a href=&quot;https://pybay.com/&quot;&gt;PyBay&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/PyLadiesSF/&quot;&gt;PyLadies, SF Chapter&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;International mentorship group with a focus on helping more women and people who identify as women in a way significant to them become active participants and leaders in the Python open-source community.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/events/zcxqvpyxkbxb/&quot;&gt;Code for San Francisco- Civic Hack Night&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Group of volunteers focused on civic tech and making government services better in San Francisco.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;other-networking-opportunities&quot;&gt;Other Networking Opportunities&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/12000/0*w8MwJYJYwsKmgz1M&quot; alt=&quot;Photo by [Christian Fregnan](https://unsplash.com/@christianfregnan?utm_source=medium&amp;amp;utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&amp;amp;utm_medium=referral)&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/district4toastmasters/&quot;&gt;Toastmasters (SF)&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Group organized to help you public speaking skills&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://kagglenoobs.herokuapp.com/&quot;&gt;Kaggler Noob Slack Channel&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Want to partner with a group of n0obs that aim to compete in ML/AI related Kaggle Competitions? Well here is the place to be!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/techqueria/messages/boards/thread/49556757&quot;&gt;Techqueria&lt;/a&gt; Slack Channel&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Hispanics for networking. I don’t participate in it, but it looks great!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;recommendations-from-others&quot;&gt;Recommendations from Others&lt;/h1&gt;
+
+&lt;p&gt;To be edited&lt;/p&gt;
+
+&lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.meetup.com/&quot;&gt;Meetup.com&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://facebook.com&quot;&gt;Facebook Events&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.galvanize.com/san-francisco/events&quot;&gt;Galvanize Events&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.thisismetis.com/events&quot;&gt;Metis&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=dQw4w9WgXcQ&quot;&gt;Word of Mouth&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;You can reach me &lt;a href=&quot;https://www.linkedin.com/in/raulm8/&quot;&gt;through LinkedIn &lt;/a&gt;for any questions or suggestions.&lt;/p&gt;
+
+&lt;p&gt;Cheers!
+x&lt;/p&gt;</content><author><name>Raul Maldonado</name></author><category term="Networking" /><summary type="html">Though I never had the opportunity to be a part of, you either just finished your Data Analytics/Science bootcamp or class. #BelatedCongrats!</summary></entry><entry><title type="html">Quickly Getting Started with Google Maps API w/Python (July 2018 Platform)</title><link href="http://localhost:4000/quickly-getting-started-with-google-maps-api-w-python-july-2018-platform/" rel="alternate" type="text/html" title="Quickly Getting Started with Google Maps API w/Python (July 2018 Platform)" /><published>2018-07-08T00:00:00-07:00</published><updated>2018-07-08T00:00:00-07:00</updated><id>http://localhost:4000/quickly-getting-started-with-google-maps-api-w-python-july-2018-platform</id><content type="html" xml:base="http://localhost:4000/quickly-getting-started-with-google-maps-api-w-python-july-2018-platform/">&lt;p&gt;You probably want to harness the power of Google Maps API for application development. Moreover, your are coding in Python.&lt;/p&gt;
+
+&lt;p&gt;This article provides instruction on how to utilize Google Map’s API from the new Maps Platform, and a brief mention about the legacy process ( Post July 2018 and Pre-July 2018, respectively).&lt;/p&gt;
+
+&lt;p&gt;I will start with the newer process, and then go into the Legacy process for existing developer accounts from &lt;a href=&quot;https://developers.google.com/&quot;&gt;developers.google.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you have any questions, please feel free to reach out to me &lt;a href=&quot;https://www.linkedin.com/in/raulm8/&quot;&gt;via LinkedIn.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Prerequisites:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Python 3.6 (can have older versions…&lt;a href=&quot;https://www.linuxjournal.com/content/transitioning-python-3&quot;&gt;but get with the times&lt;/a&gt;)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;requests&lt;/code&gt; library (built-in with Python)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Google Account&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;new-process-post-july-2018&quot;&gt;New Process (Post July 2018)&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Get Started&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Please go to &lt;a href=&quot;https://cloud.google.com/maps-platform/&quot;&gt;https://cloud.google.com/maps-platform/&lt;/a&gt; , below.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;table&gt;
+    &lt;tbody&gt;
+      &lt;tr&gt;
+        &lt;td&gt;[**Geo-location APIs&lt;/td&gt;
+        &lt;td&gt;Google Maps Platform&lt;/td&gt;
+        &lt;td&gt;Google Cloud**](https://cloud.google.com/maps-platform/)&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/tbody&gt;
+  &lt;/table&gt;
+
+  &lt;p&gt;&lt;small&gt;Choose Google Maps Platform to create immersive location experiences and make better business decisions with accurate real-time data &amp;amp; dynamic imagery.&lt;/small&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;After that, click on “Get Started”.&lt;/p&gt;
+
+&lt;p&gt;You will see a list of options to enable API groups. For limiting the number of types of APIs you manage for your account, you can select the desired API you want to use.&lt;/p&gt;
+
+&lt;p&gt;If you select one type of API group, then those will only be enabled. All other APIs would have to be enabled thereafter.&lt;/p&gt;
+
+&lt;p&gt;For playing around, let’s enable them all, seen below&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1408/1*PtQxTkIdEjotTBOO5hTgIQ.png&quot; alt=&quot;Enabling all Google API groups&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Thereafter, you can select an existing project (session, if you will) or create a new project. (e.g. Title: myApplicationWillBeFire)&lt;/p&gt;
+
+&lt;p&gt;Now, you must enter in some billing information. Though we are entering are billing information, and assumingly testing out this API, we should not be charged for using the API. &lt;a href=&quot;https://cloud.google.com/maps-platform/pricing/&quot;&gt;Per pricing documentation here&lt;/a&gt;, “get $200 in free usage for Maps, Routes, and Places every month”.&lt;/p&gt;
+
+&lt;p&gt;Cool. :)&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;**Note: **Just be careful if you have your app running in production with a lot of requests made to Google Maps API. Else, you may get charged in that month of all $200 credits being used&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Assuming you enabled all three API groups, we can now get our API credential key. You can find this credential key in any of the API listings, or in your home page. Just look for the &lt;strong&gt;credentials&lt;/strong&gt; tab.&lt;/p&gt;
+
+&lt;p&gt;Now that we have the credentials, we request information from the enabled &lt;a href=&quot;https://developers.google.com/maps/documentation/geocoding/start&quot;&gt;MapsAPI “Geocoding API”&lt;/a&gt; through our python file&lt;/p&gt;
+
+&lt;iframe width=&quot;0&quot; height=&quot;0&quot; src=&quot;&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;You should see a the JSON object from &lt;code class=&quot;highlighter-rouge&quot;&gt;response_json&lt;/code&gt; .&lt;/p&gt;
+
+&lt;p&gt;Note:&lt;a href=&quot;https://developers.google.com/maps/documentation/&quot;&gt; THIS DOCUMENTATION LINK IS YOUR FRIEND&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;……..or stackoverflow….ha&lt;/p&gt;
+
+&lt;h1 id=&quot;old-processs-pre-july-2018&quot;&gt;&lt;strong&gt;Old Processs (Pre-July 2018)&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[Per documentation](&amp;lt;https://cloud.google.com/maps-platform/user-guide/?__utma=102347093.1225766217.1531971273.1531974912.1531974912.1&amp;amp;__utmb=102347093.0.10.1531974912&amp;amp;__utmc=102347093&amp;amp;__utmx=-&amp;amp;__utmz=102347093.1531974912.1.1.utmcsr=(direct)&lt;/td&gt;
+      &lt;td&gt;utmccn=(direct)&lt;/td&gt;
+      &lt;td&gt;utmcmd=(none)&amp;amp;__utmv=-&amp;amp;__utmk=194186285&amp;amp;_ga=2.26811837.1017490544.1531971273-1225766217.1531971273&amp;gt;), existing developers using Google’s Maps API know&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;With the launch of Google Maps Platform, we’ve introduced changes to our products, pricing, and support to provide you with greater flexibility, transparency, and control. This guide explains how these changes may impact you and what steps you need to take. You can also read our &lt;a href=&quot;https://mapsplatform.googleblog.com/2018/05/introducing-google-maps-platform.html&quot;&gt;blog &lt;/a&gt;for additional context.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;As of June 11, 2018, you must enable billing with a credit card and have a valid API key for all of your projects. This will give you the ability to scale easily with less downtime and fewer performance issues. In addition, we’ve simplified our 18 individual APIs into three products: Maps, Routes, and Places.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In June 2016 &lt;a href=&quot;https://maps-apis.googleblog.com/2016/06/building-for-scale-updates-to-google.html&quot;&gt;we announced&lt;/a&gt; that we would stop supporting keyless usage, meaning any request that doesn’t include an API key or Client ID. This went into effect on June 11 2018, and keyless access is no longer supported. Keyless calls to the Maps JavaScript API and Street View API will return low-resolution maps watermarked with “for development purposes only.” Keyless calls to any of the following APIs will return an error: Maps Static API (including Static Street View), Directions API, Distance Matrix API, Geocoding API, Geolocation API, Places API, Roads API, and Time Zone API.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The old process was to simply to go to developers.google.com with your google account and create your developer account. Therafter, you could generate a key credential key in your project, without having to enable any APIs. It was just starting that project, and then creating the key for one API usage.&lt;/p&gt;
+
+&lt;h1 id=&quot;ending-comments-will-be-updated&quot;&gt;Ending Comments (Will be updated):&lt;/h1&gt;
+
+&lt;h4 id=&quot;why-have-a-pricing-model-for-api-platform&quot;&gt;&lt;em&gt;Why have a pricing model for API platform?&lt;/em&gt;&lt;/h4&gt;
+
+&lt;p&gt;My opinion is that applications from indie developers have have been popular, and using Google’s API service at an extraneous/well performed rate shows opportunity to capatilize on provided service. This is normal in industry.&lt;/p&gt;
+
+&lt;p&gt;What’s great is that they at least do $200 each month, pay as you use. Anything more, then you pay.&lt;/p&gt;
+
+&lt;h4 id=&quot;was-it-easier-back-then&quot;&gt;Was it easier back then?&lt;/h4&gt;
+
+&lt;p&gt;A bit, but times change. haha&lt;/p&gt;
+
+&lt;h4 id=&quot;how-is-the-billing-calculated&quot;&gt;How is the billing calculated?&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Usage is tracked for each Product SKU.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A SKU is the combination of the Product API + the service or function called (for example, Places API — Place Details).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A product may have multiple SKUs billed at different rates (for example, Places API — Place Details; Places API — Autocomplete — Per Character).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;SKU pricing is tiered, based on volume of use, with three tiers: 0–100,000; 100,001–500,000; 500,001+.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Cost is calculated by SKU Usage x Price per each use.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;For each billing account, for qualifying Google Maps Platform SKUs, a $200 USD Google Maps Platform credit is available each month, and automatically applied to the qualifying SKUs.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;See more info below:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;table&gt;
+    &lt;tbody&gt;
+      &lt;tr&gt;
+        &lt;td&gt;[**Understanding Billing for Maps, Routes, and Places&lt;/td&gt;
+        &lt;td&gt;Google Maps Platform&lt;/td&gt;
+        &lt;td&gt;Google Developers**](&amp;lt;https://developers.google.com/maps/billing/understanding-cost-of-use?__utma=236542612.1225766217.1531971273.1531974912.1531974912.1&amp;amp;__utmb=236542612.0.10.1531974912&amp;amp;__utmc=236542612&amp;amp;__utmx=-&amp;amp;__utmz=236542612.1531974912.1.1.utmcsr=(direct)&lt;/td&gt;
+        &lt;td&gt;utmccn=(direct)&lt;/td&gt;
+        &lt;td&gt;utmcmd=(none)&amp;amp;__utmv=-&amp;amp;__utmk=70452179&amp;amp;_ga=2.185321641.-1225766217.1531971273&amp;gt;)&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/tbody&gt;
+  &lt;/table&gt;
+
+  &lt;p&gt;&lt;small&gt;Learn about the cost of use by SKU for the Google Maps Platform APIs&lt;/small&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>Raul Maldonado</name></author><category term="Coding" /><summary type="html">You probably want to harness the power of Google Maps API for application development. Moreover, your are coding in Python.</summary></entry><entry><title type="html">Resources for creating Tableau Visualizations through Python</title><link href="http://localhost:4000/resources-for-creating-tableau-visualizations-through-python/" rel="alternate" type="text/html" title="Resources for creating Tableau Visualizations through Python" /><published>2018-06-23T00:00:00-07:00</published><updated>2018-06-23T00:00:00-07:00</updated><id>http://localhost:4000/resources-for-creating-tableau-visualizations-through-python</id><content type="html" xml:base="http://localhost:4000/resources-for-creating-tableau-visualizations-through-python/">&lt;p&gt;I have not personally tried to create Tableau visualizations through Python, but there does exist a python library called &lt;strong&gt;TabPy&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;This library is currently being developed by the Tableau team, and is under Beta/development.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://github.com/tableau/TabPy&quot;&gt;&lt;strong&gt;tableau/TabPy&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;small&gt;Execute Python code on the fly and display results in Tableau visualizations - tableau/TabPy&lt;/small&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/8860/0*VTIRgg3CTQ_2Ysib&quot; alt=&quot;“Man wearing headphones at desk with window view of sunset in background” by [Simon Abrams](https://unsplash.com/@flysi3000?utm_source=medium&amp;amp;utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&amp;amp;utm_medium=referral)&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;tabpy-documentation&quot;&gt;TabPy Documentation&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://community.tableau.com/thread/236479&quot;&gt;https://community.tableau.com/thread/236479&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.tableau.com/about/blog/2017/1/building-advanced-analytics-applications-tabpy-64916&quot;&gt;https://www.tableau.com/about/blog/2017/1/building-advanced-analytics-applications-tabpy-64916&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;How to get Started&lt;/code&gt; &lt;a href=&quot;https://github.com/tableau/TabPy/blob/master/client.md&quot;&gt;https://github.com/tableau/TabPy/blob/master/client.md&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;security-considerations&quot;&gt;Security Considerations&lt;/h1&gt;
+
+&lt;p&gt;The following security issues should be kept in mind as you use TabPy with Tableau:&lt;/p&gt;
+
+&lt;p&gt;The data channel between Tableau and TabPy is currently not encrypted.&lt;/p&gt;
+
+&lt;p&gt;TabPy currently does not use authentication.&lt;/p&gt;
+
+&lt;p&gt;Python scripts can contain code which can harm security on the server where the TabPy is running. For example:&lt;/p&gt;
+
+&lt;p&gt;Access file system (read/write)&lt;/p&gt;
+
+&lt;p&gt;Install new Python packages which can contain binary code&lt;/p&gt;
+
+&lt;p&gt;Execute operating system commands&lt;/p&gt;
+
+&lt;p&gt;Open network connections to other servers and download files&lt;/p&gt;
+
+&lt;h1 id=&quot;unofficial-python-and-tableau-libraryies&quot;&gt;Unofficial Python and Tableau Library(ies)&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://tableau.github.io/document-api-python/docs/&quot;&gt;http://tableau.github.io/document-api-python/docs/&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Raul Maldonado</name></author><category term="Visualization" /><summary type="html">I have not personally tried to create Tableau visualizations through Python, but there does exist a python library called TabPy.</summary></entry><entry><title type="html">Farewell, MobileIron</title><link href="http://localhost:4000/farewell-mobileiron/" rel="alternate" type="text/html" title="Farewell, MobileIron" /><published>2018-06-21T00:00:00-07:00</published><updated>2018-06-21T00:00:00-07:00</updated><id>http://localhost:4000/farewell-mobileiron</id><content type="html" xml:base="http://localhost:4000/farewell-mobileiron/">&lt;p&gt;Today was my last day contracting for &lt;a href=&quot;https://www.mobileiron.com/en/welcome-era-modern-work&quot;&gt;MobileIron&lt;/a&gt;. I was onboarded in August 2017 as the Business Application team’s Data Analyst for an ongoing project.&lt;/p&gt;
+
+&lt;p&gt;What has felt like such a small time-frame, almost one year, I am humbled to have had this great opportunity to work with a wonderful and diverse team. In my time there, I had the opportunity to become a certified Salesforce Administrator, participate in both &lt;a href=&quot;https://www.sinnaps.com/en/project-management-blog/agile-project-management-sprint-methodology&quot;&gt;Sprint&lt;/a&gt; and &lt;a href=&quot;https://en.wikipedia.org/wiki/Scrum_(software_development)&quot;&gt;Scrum &lt;/a&gt;methodology, lead some post analysis and reporting initiatives in &lt;a href=&quot;https://www.domo.com/solution/business-dashboards-free?gcreative=245027423409&amp;amp;gdevice=c&amp;amp;gnetwork=g&amp;amp;gkeyword=domo&amp;amp;gplacement=&amp;amp;gmatchtype=e&amp;amp;gtarget=&amp;amp;gadposition=1t1&amp;amp;s_kwcid=AL!5964!3!245027423409!e!!g!!domo&amp;amp;gclid=EAIaIQobChMIoeb14efj2wIVjtdkCh0CzQYXEAAYASAAEgLvbPD_BwE&quot;&gt;Domo&lt;/a&gt;, and so much more!&lt;/p&gt;
+
+&lt;p&gt;Additionally, I had the opportunity to go to &lt;a href=&quot;https://www.salesforce.com/blog/2017/11/the-dreamforce-2017-ultimate-content-guide.html&quot;&gt;Dreamforce 2017&lt;/a&gt; for the first time; oh my, my goal to going to Dreamforce happened!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2156/1*okiLLTwDL4nGiD_sVR22Xw.jpeg&quot; alt=&quot;Dreamforce 2017&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;However, the best experiences at MobileIron were my team — especially learning from my manager. Both my team and my manager’s humbling and great thinking were a great opportunity for technical and business experience exposure, surrounding data. This diverse exposure to certain ideas, communication, and so much more has enabled me to grow my business skills simultaneous to my analytic related skills.&lt;/p&gt;
+
+&lt;p&gt;However, since the release of the project earlier this year, I knew I was excited for my next steps/challenges, while maintaining my evening role as a Teaching Assistant at a Data Bootcamp.&lt;/p&gt;
+
+&lt;p&gt;To you, the reader, here are a few learning lessons I learned in my time at MobileIron:&lt;/p&gt;
+
+&lt;h1 id=&quot;sales-cycle-is-so-much-more-than-purchasing-an-item-and-sales-team-ownership&quot;&gt;&lt;strong&gt;Sales Cycle is so much more than purchasing an item and Sales team ownership&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1920/1*kBr62g-FvCZ4_E5yY9F3uA.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;With this opportunity, I not only learned about the general cycle of a B2B transaction, but I understood the technical flow of said transaction from Prospect to a Closed Won Opportunity. Additionally, I met a great and diverse group of Sales users in the Sales department. Additionally, I got to meet other individuals that partake in closing a transaction. I loved everyone’s high energy and great personalities. Adopting some of their own communication skills has allowed me to become an effective communicator with some of those users.&lt;/p&gt;
+
+&lt;h1 id=&quot;slow-is-smooth-and-smooth-is-fast&quot;&gt;&lt;strong&gt;“Slow is Smooth, and Smooth is Fast”&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;p&gt;I had the great opportunity to not only work with the Business Application team at MobileIron, but I had the pleasure of working with a great consulting Project Manager. His wonderful jokes, laughs, and general personality combined with his effective work ethic has showed me what it takes to balance work and family life.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/640/1*7S7DVbArKKtIEM4fCfIoFQ.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;One quote that stuck out to me when talking with him was “Slow is smooth, and smooth is fast”.&lt;/p&gt;
+
+&lt;p&gt;This changed the way I thought about assigned data analysis tasks. Getting the job done is great, but doing it with being mindful is better.&lt;/p&gt;
+
+&lt;h1 id=&quot;you-are-always-learning&quot;&gt;&lt;strong&gt;You are always learning&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;p&gt;I had the opportunity to be under a great manager. She taught me a lot about how to accelerate my personal growth in data and business. She was even happy to teach me her strategies to emulate herself on being effective with business operations and communication. I am truly thankful for the opportunity for me to be the team’s Data Analyst…and her being a great mentor.&lt;/p&gt;
+
+&lt;h1 id=&quot;now&quot;&gt;Now&lt;/h1&gt;
+
+&lt;p&gt;I am excited to start my next opportunity next week. I will have the opportunity to utilize some of my higher level technical skills. In particular, I will be using SQL, Python, and Angular.js within my next role’s responsibilities. Lastly, I get to work onsite with another great team and company!&lt;/p&gt;
+
+&lt;p&gt;So, farewell MobileIron. I am “&lt;strong&gt;owning&lt;/strong&gt;” my career…..&lt;/p&gt;
+
+&lt;p&gt;with an “iron” fist. Get it (Mobile “Iron”)? haha&lt;/p&gt;
+
+&lt;p&gt;Anyways,&lt;/p&gt;
+
+&lt;h3 id=&quot;own-it&quot;&gt;“Own it”&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/6048/1*AWnhpzt0R4PmiKtf-8Bvww@2x.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Cheers,&lt;/p&gt;
+
+&lt;p&gt;Raul Maldonado&lt;/p&gt;</content><author><name>Raul Maldonado</name></author><category term="Career" /><summary type="html">Today was my last day contracting for MobileIron. I was onboarded in August 2017 as the Business Application team’s Data Analyst for an ongoing project.</summary></entry><entry><title type="html">Opening your HTML code through VS Code</title><link href="http://localhost:4000/opening-your-html-code-through-vs-code/" rel="alternate" type="text/html" title="Opening your HTML code through VS Code" /><published>2018-05-07T00:00:00-07:00</published><updated>2018-05-07T00:00:00-07:00</updated><id>http://localhost:4000/opening-your-html-code-through-vs-code</id><content type="html" xml:base="http://localhost:4000/opening-your-html-code-through-vs-code/">&lt;p&gt;Being a past Sublime PC user, I would right click the html file and select &lt;strong&gt;Open in Browser&lt;/strong&gt;. Pretty simple. However, now I would like to go through this process in VS Code.&lt;/p&gt;
+
+&lt;p&gt;How would I open HTML code from VS Code into my web browser, particularly Google Chrome?&lt;/p&gt;
+
+&lt;p&gt;Well, boy oh boy, here is the solution for you, &lt;a href=&quot;https://www.webucator.com/blog/2016/06/launch-files-browser-visual-studio-code/&quot;&gt;provided in this article&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Open VS Code&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Enter CTRL+Shift+P&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;In the opened pallette selection, enter in &lt;strong&gt;Configure Task Run&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You will then click &lt;strong&gt;build,&lt;/strong&gt; in which a* task.json *file will appear.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Replace the text with the following:&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1198/1*gwNP2uMg1dqbctBa_uRuOw.png&quot; alt=&quot;Json Object seen below (image from stack overflow link, below&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;{&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“version”: “0.1.0”,&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“command”: “Chrome”,&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“windows”: {&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“command”: “C:\Program Files (x86)\Google\Chrome\Application\chrome.exe”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;},&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“args”: [“${file}”]&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;}&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/30039512/how-to-view-my-html-code-in-browser-with-visual-studio-code&quot;&gt;Stack Overflow Link to “How to View HTMl Code in Browser&lt;/a&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Save the task.json file&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Enter CTRL+Shift+B (Similar to that of Sublime Text) [It’s okay to re-load]&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;And presto! You are done.&lt;/p&gt;
+
+&lt;p&gt;Cheers,&lt;/p&gt;
+
+&lt;p&gt;Raul Maldonado&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Note: Mac user editing can be found in Stack Overflow link above, after raw json code.&lt;/em&gt;&lt;/p&gt;</content><author><name>Raul Maldonado</name></author><category term="Programming" /><summary type="html">Being a past Sublime PC user, I would right click the html file and select Open in Browser. Pretty simple. However, now I would like to go through this process in VS Code.</summary></entry><entry><title type="html">In the Eyes of the Aspired, from the View Quite Higher</title><link href="http://localhost:4000/i-wrote-this-when-i-was-a-teller-at-wells-fargo-in-2016/" rel="alternate" type="text/html" title="In the Eyes of the Aspired, from the View Quite Higher" /><published>2018-05-07T00:00:00-07:00</published><updated>2018-05-07T00:00:00-07:00</updated><id>http://localhost:4000/i-wrote-this-when-i-was-a-teller-at-wells-fargo-in-2016</id><content type="html" xml:base="http://localhost:4000/i-wrote-this-when-i-was-a-teller-at-wells-fargo-in-2016/">&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1200/1*-bvE8rF6LRfnAW9gftRL-g.jpeg&quot; alt=&quot;Contemplating your path to success&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I wrote this when I was a Teller at Wells Fargo in 2016. I thought I’d share it to inspire other aspired individuals to reach not their dreams, but their goals.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Setting &lt;strong&gt;goals&lt;/strong&gt; is the first step in turning the invisible into the visible.” — Tony Robbins&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;My activities in my youth were quite slothful. I would enjoy my time playing action shooter video games online. I recall staying up in the evenings till eleven at night in the same scenario of completing unfulfilling game challenges. Entering junior college in 2010 after high school, I made the decision to quit my lifelong passion of video games to culminate my educational career.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1290/1*jZDCY_wP-q7aJEcAfHM_sA.png&quot; alt=&quot;My 2009 year summed up in one Modern Warfare 2 Screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Furthermore, I pondered on the perception of my grandmother consistently seeing me enjoy my time playing video games as she did house chores all while working horrible late evening shifts. Her perception of me hated myself because I didn’t want to be another disappointment in my family.&lt;/p&gt;
+
+&lt;h3 id=&quot;i-needed-to-change-fast&quot;&gt;I needed to change, fast.&lt;/h3&gt;
+
+&lt;p&gt;I can grandma’s hard work ethic woven into the characteristics I provide for my activities. I have worked consecutively since my sophomore year of high school, in 2007. However, I crippled my grade point average during my attendance at University of California, Davis (UCD). I worked as a Student Housing Logistics member, where I moved incoming freshmen furniture, a Student Housing Janitor in my summers, and then became a cafe manager for one year. These indications displayed my distaste for a languid lifestyle, but should have focused that same attention to my studies.&lt;/p&gt;
+
+&lt;p&gt;Furthermore, to properly finance myself during my attendance in college, I needed to maintain my job status to support myself. These actions are not excuses for my average performance in my Mathematics upper division courses, but indicate the level of my productive daily activities.&lt;/p&gt;
+
+&lt;p&gt;Standing in the discussion of academia performance, I switched the emphasis of my major from General Mathematics to Applied Mathematics, the second to last year of my stay at UCD. General Mathematics offered simplistic theories and hypotheses with a tremendous amount of abstractive work that had no applications to world scenarios; the degree of application being higher in applied mathematics compared to the general case.&lt;/p&gt;
+
+&lt;p&gt;My actual shift from general Mathematics would have been Statistics, but that would have required me to not progress from my undergraduate career until spring of 2017. By graduating in March 2016 at UCD, I realized I was able to perform Statistics and other relatable Data Science applications independent from my attendance at my university.&lt;/p&gt;
+
+&lt;p&gt;This past fall, I moved from Davis, Ca to San Francisco to become a data scientist consultant while simultaneously delve into the data science community. However, these initial months of my data scientist goals have been set back. I could not find relatable careers outside my current in-congruent job to hone my technical skills. I am currently a teller at Wells Fargo. The rich time I utilized to financially support myself with my job pauses my technical tools and knowledge for implementing big data analysis.&lt;/p&gt;
+
+&lt;p&gt;My vigorous passion to become a data scientist all while being unique stems from my cautious nature to avoid generational repetition of being low income status.&lt;/p&gt;
+
+&lt;p&gt;My mother and several older family members never required me to go to high school. I could easily not go to high school, and not graduate from it. I could have continued playing video games and binge watching television shows in my latter part of my teen years.&lt;/p&gt;
+
+&lt;p&gt;Furthermore, I didn’t have to waste two to three hours in the hot weather or cold rain for public transportation to get to school. I didn’t have to work a minimum wage job to support myself to get a computer, feed myself properly, or generate funds to help my grandma.&lt;/p&gt;
+
+&lt;p&gt;However, my path to not be another low income statistic has lead me to be the first in my family to getting a college degree, and move forward to a progressing technical world of innovation, San Francisco…and become a Data Scientist.&lt;/p&gt;</content><author><name>Raul Maldonado</name></author><category term="Motivation" /><summary type="html"></summary></entry></feed>
