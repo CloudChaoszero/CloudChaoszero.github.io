@@ -34,15 +34,16 @@ toc: true
 In my spare time, I produce data-related projects. The following is a sample of some personal projects I have
 produced
 
-* [My Strava running mileage per session data, using D3.js & HTML.](https://cloudchaoszero.github.io/Strava-Running-Visualization/)
+* [AB Testing in Python talk @PyData LA 2019](https://cloudchaoszero.github.io/AB-Testing-Python-PyData-2019)
 
 * [Youtube Data Analysis Project (APIs, Python, SQLALchemy, Flask, SQL](https://github.com/CloudChaoszero/Youtube-TrendingVideos-AnalysisV2)
 
-* [My Strava running mileage per session data, using D3.js & HTML.](https://github.com/CloudChaoszero/UdacityNanodegree_DataAnalyst_Projects_2017/blob/master/P3-Wrangle-OpenStreetMap-Data/P3-Wrangle-OpenStreetMap-Main/OpenStreepMap-SF-Wrangle.ipynb)
-
-* [And so much more!](https://github.com/CloudChaoszero)
 
 * [My Strava running mileage per session data, using D3.js & HTML.](https://cloudchaoszero.github.io/Strava-Running-Visualization/)
+
+* [Open Street Map Data Wrangling](https://github.com/CloudChaoszero/UdacityNanodegree_DataAnalyst_Projects_2017/blob/master/P3-Wrangle-OpenStreetMap-Data/P3-Wrangle-OpenStreetMap-Main/OpenStreepMap-SF-Wrangle.ipynb)
+
+* [And so much more!](https://github.com/CloudChaoszero)
 
 # Documentation
 
