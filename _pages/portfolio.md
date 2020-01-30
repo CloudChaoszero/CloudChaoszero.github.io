@@ -36,8 +36,11 @@ produced
 
 * [AB Testing in Python talk @PyData LA 2019](https://cloudchaoszero.github.io/AB-Testing-Python-PyData-2019)
 
+* [Bridge To Prosperity Tableau Dashboard #MakeOverMonday](https://public.tableau.com/profile/raul.maldonado#!/vizhome/BridgeToProsperity-MakeOverMonday/First-Draft-Dash)
+
 * [Youtube Data Analysis Project (APIs, Python, SQLALchemy, Flask, SQL](https://github.com/CloudChaoszero/Youtube-TrendingVideos-AnalysisV2)
 
+* [Flask & SQLAlchemy Demo (PyBay 2018)](https://github.com/CloudChaoszero/Presentations/blob/master/PyBayTalks/2018/Flask-SQLAlchemySLides/Flask-SQLAlchemy-Demo/SQLAlchemy-Demo-YoutubeData.ipynb)
 
 * [My Strava running mileage per session data, using D3.js & HTML.](https://cloudchaoszero.github.io/Strava-Running-Visualization/)
 
@@ -50,7 +53,7 @@ produced
 * [Tips & Tricks for Data Analytics Bootcamp Students](https://github.com/CloudChaoszero/DataMentor-Tips4Students-Library")
 
 
-* [DataQuest.io Data Analyst Projects](https://github.com/CloudChaoszero/DataMentor-Tips4Students-Library)
+* [DataQuest.io Data Analyst Projects](https://github.com/CloudChaoszero/Data-Analyst-Track-Dataquest.io-Projects)
 
 * [Youtube Project & API Documentation](https://github.com/CloudChaoszero/Youtube-TrendingVideos-AnalysisV2/blob/master/README.md)
 

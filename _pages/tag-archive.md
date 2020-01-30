@@ -1,5 +1,5 @@
 ---
-title: "Blog Archive"
+title: "Archive"
 permalink: /tags/
 layout: tags
 author_profile: false 

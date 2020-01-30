@@ -5,16 +5,20 @@ main:
     url: /about
   - title: "Portfolio"
     url: /portfolio
-  - title: "Blog & Talks"
+  - title: "Archive"
     url: /tags
 
 blogroll:
     - title: "Subscribed Blogs"
       children:
+        - title: "Linear Digression"
+          url: http://lineardigressions.com/
         - title: "Uber Engineering"
           url: https://eng.uber.com/
         - title: "Stitch Fix Technology"
           url: https://multithreaded.stitchfix.com/blog/
+        - title: 3 Blue 1 Brown
+          url: https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw
     - title: "Motivational"
       children:
     - title: "Subscribed Podcasts"
