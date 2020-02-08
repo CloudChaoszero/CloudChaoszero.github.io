@@ -24,8 +24,8 @@ description              : "A website for everything data, music, puns, and more
 url                      : "https://raulingaverage.dev/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "CloudChaoszero/CloudChaoszero.github.io" # GitHub username/repo-name
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : ""
+teaser                   : assets/images/ProfilePicture.jpg
+logo                     : assets/images/cloud.jpg
 masthead_title           : "Rauling Average"
 breadcrumbs              : true
 words_per_minute         : 200
