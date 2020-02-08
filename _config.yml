@@ -24,7 +24,7 @@ description              : "A website for everything data, music, puns, and more
 url                      : "https://raulingaverage.dev/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "CloudChaoszero/CloudChaoszero.github.io" # GitHub username/repo-name
-teaser                   : assets/images/ProfilePicture.jpg
+teaser                   : #
 logo                     : assets/images/cloud.jpg
 masthead_title           : "Rauling Average"
 breadcrumbs              : true
@@ -89,7 +89,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : assets/images/ProfilePicture.jpg 
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
