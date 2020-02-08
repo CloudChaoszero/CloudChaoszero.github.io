@@ -26,7 +26,7 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "CloudChaoszero/CloudChaoszero.github.io" # GitHub username/repo-name
 teaser                   : #
 logo                     : assets/images/cloud.jpg
-masthead_title           : #
+masthead_title           : ""
 breadcrumbs              : true
 words_per_minute         : 200
 comments:
