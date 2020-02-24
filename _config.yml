@@ -16,19 +16,19 @@ minimal_mistakes_skin    : "air"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Raul Maldonado"
+title                    : ""
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 :  # site tagline that appears below site title in masthead
 name                     : "Raul Maldonado"
-description              : "A website for everything data, music, puns, and more!"
+description              : "Portfolio website including such things as data, puns and more!"
 url                      : "https://raulingaverage.dev/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "CloudChaoszero/CloudChaoszero.github.io" # GitHub username/repo-name
 teaser                   : #
-logo                     : assets/images/cloud.jpg
-masthead_title           : ""
+logo                     : #
+masthead_title           : "Rauling Average"
 breadcrumbs              : true
-words_per_minute         : 200
+words_per_minute         : #
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
@@ -65,8 +65,8 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : true
-search_full_content      : true
+search                   : false
+search_full_content      : false
 search_provider          : "google"
 algolia:
   application_id         : # YOUR_APPLICATION_ID
@@ -109,7 +109,7 @@ analytics:
 author:
   name: "Raul Maldonado"
   avatar : "assets/images/ProfilePicture.jpg"
-  bio  : "Full Stack Data Analyst, interested in Data Science."
+  bio  : "Full Stack Data Analyst"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"

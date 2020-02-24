@@ -39,3 +39,5 @@ Have a great day!
 ## Resources:
 
 * Medium to Markdown converter: https://medium-to-markdown.now.sh/
+
+* Executing: `bundle update` & `bundle exec jekyll serve`

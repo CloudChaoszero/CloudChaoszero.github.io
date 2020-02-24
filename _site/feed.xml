@@ -1,4 +1,362 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-01-24T22:53:25-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Raul Maldonado</title><subtitle>A website for everything data, music, puns, and more!</subtitle><author><name>Raul Maldonado</name></author><entry><title type="html">Quick Guide to OKRs</title><link href="http://localhost:4000/quick-guide-to-okrs/" rel="alternate" type="text/html" title="Quick Guide to OKRs" /><published>2020-01-22T00:00:00-08:00</published><updated>2020-01-22T00:00:00-08:00</updated><id>http://localhost:4000/quick-guide-to-okrs</id><content type="html" xml:base="http://localhost:4000/quick-guide-to-okrs/">&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2426/1*m87-DMxwddK2o6teYiEG1w.jpeg&quot; alt=&quot;OKR (via [https://medium.com/@LazaroIbanez/introduction-to-okr-6cc0ca8b4767](https://medium.com/@LazaroIbanez/introduction-to-okr-6cc0ca8b4767))&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-23T17:24:05-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Raul Maldonado</title><subtitle>Portfolio website including such things as data, puns and more!</subtitle><author><name>Raul Maldonado</name></author><entry><title type="html">Survival Analysis</title><link href="http://localhost:4000/Survival-Analysis/" rel="alternate" type="text/html" title="Survival Analysis" /><published>2020-02-23T00:00:00-08:00</published><updated>2020-02-23T00:00:00-08:00</updated><id>http://localhost:4000/Survival-Analysis</id><content type="html" xml:base="http://localhost:4000/Survival-Analysis/"></content><author><name>Raul Maldonado</name></author><summary type="html"></summary></entry><entry><title type="html">Looking back at 2019’s “Next Career Move”</title><link href="http://localhost:4000/Looking-Back-2019/" rel="alternate" type="text/html" title="Looking back at 2019's &quot;Next Career Move&quot;" /><published>2020-02-08T00:00:00-08:00</published><updated>2020-02-08T00:00:00-08:00</updated><id>http://localhost:4000/Looking-Back-2019</id><content type="html" xml:base="http://localhost:4000/Looking-Back-2019/">&lt;p&gt;2019 was quite a year, I would say. I ran X amount of miles, I traveled to London, Boston, and Japan. I fortiously got the simileanous experiences of startup movement I yearned most, meanwhile being at a corporate role. And most importantly, I became more at peace with myself.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I was near my deadline to finding a full-time role, and considered going back to being a TCV–but they wanted to continue next steps into interviewing…”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In this article, I want to review 3 things that I am truly blessed to have, after having to endure trials and learnings since the past 3 years coming to San Francisco, seen here.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Traveling&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Landing a Full-time job as a Data Professional&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The 2020 Vision: Next Steps&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;traveling&quot;&gt;Traveling&lt;/h1&gt;
+
+&lt;p&gt;My first time traveling outside of California was in 2018, going to Hawaii with a special someone. This was a surreal experience, as I had my first takeoff into a immersed world, only what felt like a combination of being distant from a world, and feeling a sense of isolation from it all- Heck, now I know why Sora from Kingdom Hearts was looking into the ocean, feeling what was out there.&lt;/p&gt;
+
+&lt;p&gt;Anyways, I wanted 2019 to be different–my girlfriend pushed me to go to the #1 place I always wanted to be in, London UK. Always talking about the culture, diversity in music, arts, and more I was interested in the country. Super happy she made me go then, and this was a celebration therafter I took my leap of faith into finding a full time role. Looking back…It was great to have a calm before the storm of dissapointed, self reflection,and beatened conficdence in—&lt;strong&gt;the job search&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;landing-a-full-time-job-as-a-data-professional&quot;&gt;Landing a Full-time job as a Data Professional&lt;/h1&gt;
+
+&lt;h1 id=&quot;the-2020-vision-next-steps&quot;&gt;The 2020 Vision: Next Steps&lt;/h1&gt;</content><author><name>Raul Maldonado</name></author><category term="Motivation" /><summary type="html">2019 was quite a year, I would say. I ran X amount of miles, I traveled to London, Boston, and Japan. I fortiously got the simileanous experiences of startup movement I yearned most, meanwhile being at a corporate role. And most importantly, I became more at peace with myself.</summary></entry><entry><title type="html">SaaS Metrics</title><link href="http://localhost:4000/SaaS-Metrics/" rel="alternate" type="text/html" title="SaaS Metrics" /><published>2020-01-30T00:00:00-08:00</published><updated>2020-01-30T00:00:00-08:00</updated><id>http://localhost:4000/SaaS%20Metrics</id><content type="html" xml:base="http://localhost:4000/SaaS-Metrics/">&lt;p&gt;This document is a review and breakdown of Metrics Definitions and formulas related to SaaS Metrics, particulary 16 SaaS Metrics critical for business growth&lt;/p&gt;
+
+&lt;h2 id=&quot;breaking-down-profit&quot;&gt;Breaking Down Profit&lt;/h2&gt;
+
+&lt;p&gt;Profit = Revenue - Cost&lt;/p&gt;
+
+&lt;p&gt;Where:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Revenue = Paying Users x amount paid by userrevenue is equal to&lt;/li&gt;
+  &lt;li&gt;Paying Users = New Users + Repeated Paying Users&lt;/li&gt;
+  &lt;li&gt;New Users = Trial Users * Conversion Rate&lt;/li&gt;
+  &lt;li&gt;Repeated Paying Users = Previous Paying Users x (1-Churn Rate)&lt;/li&gt;
+  &lt;li&gt;Trial Users = (SEO Visitors + SEM Visitors + Viral Visitors)Trial Conversion Rate&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Note: Churn rate has a nonlinear improvement in revenue over time&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;metric-definitions-and-formulas&quot;&gt;Metric Definitions and Formulas&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-net-mrr-growth-rate&quot;&gt;1. Net MRR Growth Rate&lt;/h3&gt;
+
+&lt;p&gt;Month over Month % increase in net MRR is an important metric&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Note: If a company is not able to reach a sustainable ratio of 3.5-4x or more than lost MRR, bussiness is not sustainable - Alexander Bruehl, Angel Investor&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;11-calculation&quot;&gt;1.1 Calculation&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;Net MRR&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Net MRR = Existing MRR ($) + New Business ($) + Reactivation ($) + Expansion ($) - (Churn ($) + Contractural ($))&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Net MRR Growth Rate&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;$\tfrac{\text{Net MRR Growth Rate Month B}-\text{Net MRR Growth Rate Month q}}{\text{Net MRR Growth Rate Month A}}$&lt;/p&gt;
+
+&lt;h3 id=&quot;2-growth-mrr-churn-rate&quot;&gt;2. Growth MRR Churn Rate&lt;/h3&gt;
+
+&lt;p&gt;The measured % of MRR Churn Rate. That is, Percent of revenue lost due to cancellation or downgrades. It estimates the company, in contrast to Net MRR Churn Rate that calculates relative loss for company&lt;/p&gt;
+
+&lt;h4 id=&quot;21-calculation&quot;&gt;2.1 Calculation&lt;/h4&gt;
+
+&lt;p&gt;$\tfrac{\text{Total MRR Churn this month}}{\text{Total MRR at the Start of this Month}}$ x 100&lt;/p&gt;
+
+&lt;h3 id=&quot;3-expansion-mrr-rate&quot;&gt;3. Expansion MRR Rate&lt;/h3&gt;
+
+&lt;h3 id=&quot;4-average-revenue-per-account-arpa&quot;&gt;4. Average Revenue Per Account (ARPA)&lt;/h3&gt;
+
+&lt;h4 id=&quot;41-calculation&quot;&gt;4.1 Calculation&lt;/h4&gt;
+
+&lt;p&gt;$\tfrac{\text{Total Monthly Recurring Revenue}}{\text{Total Number of Accounts}}$&lt;/p&gt;
+
+&lt;h3 id=&quot;5-ltvcac-ratio&quot;&gt;5. LTV:CAC Ratio&lt;/h3&gt;
+
+&lt;p&gt;Average Lifetime value of your customer is the average monthly revenue per adjusted for monthly churn and gross margin&lt;/p&gt;
+
+&lt;h4 id=&quot;51-calculation&quot;&gt;5.1 Calculation&lt;/h4&gt;
+
+&lt;p&gt;$\tfrac{LTC}{CAC}$&lt;/p&gt;
+
+&lt;h3 id=&quot;6-lifetime-value-ltv&quot;&gt;6. Lifetime Value (LTV)&lt;/h3&gt;
+&lt;p&gt;Average revenue a single customer is predicted to generate for an assumed duration of their account&lt;/p&gt;
+
+&lt;p&gt;Average Monthly Revenue per Customer X Number of Months for customer = $\tfrac{\text{Average Monthly Revenue Per Customer}}{\text{Monthly Churn}}$&lt;/p&gt;
+
+&lt;h3 id=&quot;7-customer-acquisition-cost-cac&quot;&gt;7. Customer Acquisition Cost (CAC)&lt;/h3&gt;
+
+&lt;h4 id=&quot;71-calculation&quot;&gt;7.1 Calculation&lt;/h4&gt;
+
+&lt;p&gt;$\tfrac{\text{Total Sales and Marketing Expense}}{\text{Number of New Customers acquired}}$&lt;/p&gt;
+
+&lt;p&gt;Average expense of gaining a single customer&lt;/p&gt;
+
+&lt;h3 id=&quot;8-cac-payback-period&quot;&gt;8. CAC Payback Period&lt;/h3&gt;
+
+&lt;p&gt;CAC Payback Period is the number of months it takes to earn back money in acquiring customers.&lt;/p&gt;
+
+&lt;p&gt;$\tfrac{CAC}{\text{ARPA x Gross Margin (%)}}$&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Note: Two rules about CAC–LTV should be 3x of CaC and Recover CAC &amp;lt;12 months….else business would require too mich capital in future&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;9-monthly-active-users-mau&quot;&gt;9. Monthly Active Users (MAU)&lt;/h3&gt;
+
+&lt;p&gt;Number of unique individuals visiting website each month&lt;/p&gt;
+
+&lt;h3 id=&quot;10-qualified-lead-velocity-rate-lvr&quot;&gt;10. Qualified Lead Velocity Rate (LVR)&lt;/h3&gt;
+
+&lt;p&gt;LVR is a great indicator of future sales attainment&lt;/p&gt;
+
+&lt;p&gt;$LVR = \tfrac{\text{Qualified Leads Current Month}-\text{Qualified Leads Previous Month}}{\text{Qualified Leads Previous Month}}$ x 100&lt;/p&gt;
+
+&lt;h3 id=&quot;11-product-qualified-lead-pql&quot;&gt;11. Product Qualified Lead (PQL)&lt;/h3&gt;
+
+&lt;p&gt;Potential Customers who have used product and reach pre-defined trigger to likely become paying customer&lt;/p&gt;
+
+&lt;h3 id=&quot;organic-vs-paid-traffice-rate&quot;&gt;Organic vs Paid Traffice Rate&lt;/h3&gt;
+
+&lt;h3 id=&quot;viral-coefficient&quot;&gt;Viral Coefficient&lt;/h3&gt;
+
+&lt;p&gt;Viral Coefficient = Invites X Conversion Percent&lt;/p&gt;
+
+&lt;p&gt;where invites is the number of invites a user sends&lt;/p&gt;
+
+&lt;h3 id=&quot;conversion-rate-to-customer&quot;&gt;Conversion Rate to Customer&lt;/h3&gt;
+
+&lt;p&gt;Coversion Rate to Customer = $\tfrac{\text{Number of PQLs}}{\text{Total Number of New Cusotmers during same time period}}$&lt;/p&gt;
+
+&lt;h3 id=&quot;stickiness-ratio&quot;&gt;Stickiness Ratio&lt;/h3&gt;
+
+&lt;p&gt;$\tfrac{DAU}{MAU}$&lt;/p&gt;
+
+&lt;h3 id=&quot;net-promoter-score-nps&quot;&gt;Net Promoter Score (NPS)&lt;/h3&gt;
+
+&lt;p&gt;Metric used to gauge customer satisfaction and loyalty to your offering&lt;/p&gt;
+
+&lt;h4 id=&quot;calculation&quot;&gt;Calculation&lt;/h4&gt;
+
+&lt;p&gt;NPS = % of Promoters - % of detractors, where&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;% of promoters = number of respondents who ranked 9 or 10 divided by total number of respondents&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;% of detractors, number or respondents who ranked $\leq 6$, divided by total number of respondents&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;tips&quot;&gt;Tips&lt;/h2&gt;
+
+&lt;h3 id=&quot;lean-product-analytics-cycle&quot;&gt;Lean Product Analytics Cycle&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;Identify your metrics&lt;/li&gt;
+  &lt;li&gt;Measure Metrics Baseline Values&lt;/li&gt;
+  &lt;li&gt;Evaluate Metrics Upside Potential&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Select Top Metric&lt;/p&gt;
+
+    &lt;p&gt;a. Iterate&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;If your product feature is being released, for testing, please have a &lt;strong&gt;counterfactual&lt;/strong&gt;  to really gage wether product feature launch provided significant improvement in product&lt;/p&gt;
+
+    &lt;p&gt;a. (i.e. with product feature launch, have control and treatment groups)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;notes&quot;&gt;Notes&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;What is Product Analytics?
+    &lt;ul&gt;
+      &lt;li&gt;Pull Data from SQL database&lt;/li&gt;
+      &lt;li&gt;BI Tool for visualization&lt;/li&gt;
+      &lt;li&gt;Pageview Analytics&lt;/li&gt;
+      &lt;li&gt;Behavioral Analytics&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Distinguish between Bookings and Revenue&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Upsell vs cross sell&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;KPIs&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Reasonable number of KPIs between 3 and 7 (5 $\pm$ 2)
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;p&gt;More KPIs create distractions as opposed to focus (for a team)&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;Warren Buffet: Write down top 25 goals. Then, choose top 5 goals. Focus on those, and ignore other 20 until you achieved first 5.&lt;/p&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Quantifiable piece of objectives and goals&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Needs 4 attributes:&lt;/p&gt;
+
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;p&gt;Measure&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;Target&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;Source&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;Frequency&lt;/p&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Having Raw #’s, Progress, and Change % is important&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Leading and Lagging Indicator&lt;/p&gt;
+
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;p&gt;Lagging (occurred/outcome)&lt;/p&gt;
+
+            &lt;ul&gt;
+              &lt;li&gt;
+                &lt;p&gt;Example; Margin, profit, revenue–results&lt;/p&gt;
+              &lt;/li&gt;
+              &lt;li&gt;
+                &lt;p&gt;Note: Can’t control lag, because we experienced it&lt;/p&gt;
+              &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;Leading (soon to-be occuring)&lt;/p&gt;
+
+            &lt;ul&gt;
+              &lt;li&gt;
+                &lt;p&gt;Example: Number of contacts, actions, marketing&lt;/p&gt;
+              &lt;/li&gt;
+              &lt;li&gt;
+                &lt;p&gt;Note: It’s predictable and influential for future business results&lt;/p&gt;
+              &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=dwL97n06HFs&quot;&gt;How to improve your product analytics&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Bb8DfkBSL_A&quot;&gt;Lean Product Playbook&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://tomtunguz.com/negative-churn/?_ga=2.19068216.1033635996.1542876886-1344136856.1541905224&quot;&gt;Negative Churn&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.geckoboard.com/learn/kpi-examples/saas-kpis/net-mrr-churn-rate/&quot;&gt;Examples of Net MRR Churn Rate&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://blogs.sas.com/content/iml/2016/01/25/moving-average.html&quot;&gt;Moving Average&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://databox.com/metrics-every-saas-company-should-track&quot;&gt;SaaS Metrics Companies should track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=EPji2e2XwDk&quot;&gt;Optional Video: AirBnB Product Insights&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://a16z.com/2015/09/23/16-more-metrics/&quot;&gt;16 More SaaS Metrics&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Product Enagement: the most important metric you aren’t tracking for your SaaS business&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;General QUestions for manager about metrics
+    &lt;ul&gt;
+      &lt;li&gt;Are you, as a manager, tired of trying to gauge how your accounts performing or engagement this month is?&lt;/li&gt;
+      &lt;li&gt;As a customer success manager, do you want an easier want to get a gauge of user adoption and usabuluty wuthout having to check emails or communicate with teams about calls or check-ins?&lt;/li&gt;
+      &lt;li&gt;As an AE, how many times did you wish you could see those deeper in funnel of prospect would be a converted customer?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;4 steps to creating engagement score for your SaaS product
+    &lt;ul&gt;
+      &lt;li&gt;Define Activity or Engagement for Product
+        &lt;ul&gt;
+          &lt;li&gt;Event Tracking
+            &lt;ul&gt;
+              &lt;li&gt;tasks completed&lt;/li&gt;
+              &lt;li&gt;team members added&lt;/li&gt;
+              &lt;li&gt;comments left&lt;/li&gt;
+              &lt;li&gt;team members added&lt;/li&gt;
+              &lt;li&gt;projects completed&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;Start tracking product events/activities
+            &lt;ul&gt;
+              &lt;li&gt;Segmentation and analytics
+                &lt;ul&gt;
+                  &lt;li&gt;User Engagement Score&lt;/li&gt;
+                  &lt;li&gt;NPS Score analytics&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;Advanced Analytics
+            &lt;ul&gt;
+              &lt;li&gt;Normalizing Engagement Scores&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;Apply Scores to make them actionable&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Rank Users
+    &lt;ul&gt;
+      &lt;li&gt;Discover Power Users&lt;/li&gt;
+      &lt;li&gt;Prioritize Customer success efforts through driving solutions and growth for customers&lt;/li&gt;
+      &lt;li&gt;Identify business strategy implementations for customers&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Score and Rank Accounts
+    &lt;ul&gt;
+      &lt;li&gt;Understand engagement metrics in aggregation at account level, and other available levels thereafter&lt;/li&gt;
+      &lt;li&gt;Understand health of biz&lt;/li&gt;
+      &lt;li&gt;Prioritize CS efforts by focusing on accounts that are ripe for expansion or upgrade&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Calculate overall score for product&lt;/li&gt;
+  &lt;li&gt;Compare populations or cohorts&lt;/li&gt;
+  &lt;li&gt;Correlate with other business metrics and teams&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Evaluation for adoption and engagement with other business metrics (e.g. Sales, Retention, Churn, LTV, etc.) then more quality in CS improves over time&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Test and Learn&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Raul Maldonado</name></author><category term="Project Management" /><summary type="html">This document is a review and breakdown of Metrics Definitions and formulas related to SaaS Metrics, particulary 16 SaaS Metrics critical for business growth</summary></entry><entry><title type="html">Quick Guide to OKRs</title><link href="http://localhost:4000/quick-guide-to-okrs/" rel="alternate" type="text/html" title="Quick Guide to OKRs" /><published>2020-01-22T00:00:00-08:00</published><updated>2020-01-22T00:00:00-08:00</updated><id>http://localhost:4000/quick-guide-to-okrs</id><content type="html" xml:base="http://localhost:4000/quick-guide-to-okrs/">&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2426/1*m87-DMxwddK2o6teYiEG1w.jpeg&quot; alt=&quot;OKR (via [https://medium.com/@LazaroIbanez/introduction-to-okr-6cc0ca8b4767](https://medium.com/@LazaroIbanez/introduction-to-okr-6cc0ca8b4767))&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;what-is-an-okr&quot;&gt;What is an OKR?&lt;/h1&gt;
 
@@ -662,36 +1020,4 @@ x&lt;/p&gt;</content><author><name>Raul Maldonado</name></author><category term=
 
 &lt;p&gt;Raul Maldonado&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Note: Mac user editing can be found in Stack Overflow link above, after raw json code.&lt;/em&gt;&lt;/p&gt;</content><author><name>Raul Maldonado</name></author><category term="Programming" /><summary type="html">Being a past Sublime PC user, I would right click the html file and select Open in Browser. Pretty simple. However, now I would like to go through this process in VS Code.</summary></entry><entry><title type="html">In the Eyes of the Aspired, from the View Quite Higher</title><link href="http://localhost:4000/i-wrote-this-when-i-was-a-teller-at-wells-fargo-in-2016/" rel="alternate" type="text/html" title="In the Eyes of the Aspired, from the View Quite Higher" /><published>2018-05-07T00:00:00-07:00</published><updated>2018-05-07T00:00:00-07:00</updated><id>http://localhost:4000/i-wrote-this-when-i-was-a-teller-at-wells-fargo-in-2016</id><content type="html" xml:base="http://localhost:4000/i-wrote-this-when-i-was-a-teller-at-wells-fargo-in-2016/">&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1200/1*-bvE8rF6LRfnAW9gftRL-g.jpeg&quot; alt=&quot;Contemplating your path to success&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I wrote this when I was a Teller at Wells Fargo in 2016. I thought I’d share it to inspire other aspired individuals to reach not their dreams, but their goals.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Setting &lt;strong&gt;goals&lt;/strong&gt; is the first step in turning the invisible into the visible.” — Tony Robbins&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;My activities in my youth were quite slothful. I would enjoy my time playing action shooter video games online. I recall staying up in the evenings till eleven at night in the same scenario of completing unfulfilling game challenges. Entering junior college in 2010 after high school, I made the decision to quit my lifelong passion of video games to culminate my educational career.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1290/1*jZDCY_wP-q7aJEcAfHM_sA.png&quot; alt=&quot;My 2009 year summed up in one Modern Warfare 2 Screenshot&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Furthermore, I pondered on the perception of my grandmother consistently seeing me enjoy my time playing video games as she did house chores all while working horrible late evening shifts. Her perception of me hated myself because I didn’t want to be another disappointment in my family.&lt;/p&gt;
-
-&lt;h3 id=&quot;i-needed-to-change-fast&quot;&gt;I needed to change, fast.&lt;/h3&gt;
-
-&lt;p&gt;I can grandma’s hard work ethic woven into the characteristics I provide for my activities. I have worked consecutively since my sophomore year of high school, in 2007. However, I crippled my grade point average during my attendance at University of California, Davis (UCD). I worked as a Student Housing Logistics member, where I moved incoming freshmen furniture, a Student Housing Janitor in my summers, and then became a cafe manager for one year. These indications displayed my distaste for a languid lifestyle, but should have focused that same attention to my studies.&lt;/p&gt;
-
-&lt;p&gt;Furthermore, to properly finance myself during my attendance in college, I needed to maintain my job status to support myself. These actions are not excuses for my average performance in my Mathematics upper division courses, but indicate the level of my productive daily activities.&lt;/p&gt;
-
-&lt;p&gt;Standing in the discussion of academia performance, I switched the emphasis of my major from General Mathematics to Applied Mathematics, the second to last year of my stay at UCD. General Mathematics offered simplistic theories and hypotheses with a tremendous amount of abstractive work that had no applications to world scenarios; the degree of application being higher in applied mathematics compared to the general case.&lt;/p&gt;
-
-&lt;p&gt;My actual shift from general Mathematics would have been Statistics, but that would have required me to not progress from my undergraduate career until spring of 2017. By graduating in March 2016 at UCD, I realized I was able to perform Statistics and other relatable Data Science applications independent from my attendance at my university.&lt;/p&gt;
-
-&lt;p&gt;This past fall, I moved from Davis, Ca to San Francisco to become a data scientist consultant while simultaneously delve into the data science community. However, these initial months of my data scientist goals have been set back. I could not find relatable careers outside my current in-congruent job to hone my technical skills. I am currently a teller at Wells Fargo. The rich time I utilized to financially support myself with my job pauses my technical tools and knowledge for implementing big data analysis.&lt;/p&gt;
-
-&lt;p&gt;My vigorous passion to become a data scientist all while being unique stems from my cautious nature to avoid generational repetition of being low income status.&lt;/p&gt;
-
-&lt;p&gt;My mother and several older family members never required me to go to high school. I could easily not go to high school, and not graduate from it. I could have continued playing video games and binge watching television shows in my latter part of my teen years.&lt;/p&gt;
-
-&lt;p&gt;Furthermore, I didn’t have to waste two to three hours in the hot weather or cold rain for public transportation to get to school. I didn’t have to work a minimum wage job to support myself to get a computer, feed myself properly, or generate funds to help my grandma.&lt;/p&gt;
-
-&lt;p&gt;However, my path to not be another low income statistic has lead me to be the first in my family to getting a college degree, and move forward to a progressing technical world of innovation, San Francisco…and become a Data Scientist.&lt;/p&gt;</content><author><name>Raul Maldonado</name></author><category term="Motivation" /><summary type="html"></summary></entry></feed>
+&lt;p&gt;&lt;em&gt;Note: Mac user editing can be found in Stack Overflow link above, after raw json code.&lt;/em&gt;&lt;/p&gt;</content><author><name>Raul Maldonado</name></author><category term="Programming" /><summary type="html">Being a past Sublime PC user, I would right click the html file and select Open in Browser. Pretty simple. However, now I would like to go through this process in VS Code.</summary></entry></feed>

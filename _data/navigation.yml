@@ -1,10 +1,22 @@
 main:
-  - title: "Who Am I?"
+  - title: "About"
     url: /home
-  - title: "What I've done"
-    url: /about
+  - title: "Accomplishments"
+    url: /accomplishments
   - title: "Portfolio"
     url: /portfolio
+  # - title: "Notes"
+  #   sublinks:
+  #     - title: Command Line
+  #       url: /tags/
+  #     - title: Statistics
+  #       url: /categories/
+  #     - title: Git
+  #       url: /year-archive/
+  #     - title: Python
+  #       url: /year-archive/
+  #     - title: Databases
+  #       url: /year-archive/
   - title: "Archive"
     url: /tags
 

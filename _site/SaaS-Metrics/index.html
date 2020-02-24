@@ -1,0 +1,974 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.17.2 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>SaaS Metrics -</title>
+<meta name="description" content="This document is a review and breakdown of Metrics Definitions and formulas related to SaaS Metrics, particulary 16 SaaS Metrics critical for business growth  ">
+
+
+  <meta name="author" content="Raul Maldonado">
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="">
+<meta property="og:title" content="SaaS Metrics">
+<meta property="og:url" content="http://localhost:4000/SaaS-Metrics/">
+
+
+  <meta property="og:description" content="This document is a review and breakdown of Metrics Definitions and formulas related to SaaS Metrics, particulary 16 SaaS Metrics critical for business growth  ">
+
+
+
+  <meta property="og:image" content="http://localhost:4000/assets/images/ProfilePicture.jpg">
+
+
+
+  <meta name="twitter:site" content="@raulingaverage">
+  <meta name="twitter:title" content="SaaS Metrics">
+  <meta name="twitter:description" content="This document is a review and breakdown of Metrics Definitions and formulas related to SaaS Metrics, particulary 16 SaaS Metrics critical for business growth  ">
+  <meta name="twitter:url" content="http://localhost:4000/SaaS-Metrics/">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+      <meta name="twitter:image" content="http://localhost:4000/assets/images/ProfilePicture.jpg">
+    
+  
+
+  
+
+
+
+  <meta property="article:published_time" content="2020-01-30T00:00:00-08:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/SaaS-Metrics/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Raul Maldonado",
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title=" Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Rauling Average
+          
+        </a>
+        <ul class="visible-links">
+              
+              
+                  <li class="masthead__menu-item">
+                      <a href="/home">About</a>
+                  </li>
+              
+          
+              
+              
+                  <li class="masthead__menu-item">
+                      <a href="/accomplishments">Accomplishments</a>
+                  </li>
+              
+          
+              
+              
+                  <li class="masthead__menu-item">
+                      <a href="/portfolio">Portfolio</a>
+                  </li>
+              
+          
+              
+              
+                  <li class="masthead__menu-item">
+                      <a href="/tags">Archive</a>
+                  </li>
+              
+          
+      </ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="http://localhost:4000/" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        <li class="current">SaaS Metrics</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+
+      
+        <img src="/assets/images/ProfilePicture.jpg" alt="Raul Maldonado" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Raul Maldonado</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>Full Stack Data Analyst</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+        
+          
+            <li><a href="rmaldonadocloud@gmail.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+          
+        
+          
+            <li><a href="https://raulingaverage.dev" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
+          
+        
+          
+            <li><a href="https://twitter.com/raulingaverage" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+          
+        
+          
+            <li><a href="https://github.com/CloudChaoszero" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+          
+        
+          
+            <li><a href="https://www.linkedin.com/in/raulm8/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i> LinkedIn</a></li>
+          
+        
+          
+            <li><a href="https://public.tableau.com/profile/raul.maldonado#!/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Tableau</a></li>
+          
+        
+          
+            <li><a href="https://www.strava.com/athletes/26468777" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-strava" aria-hidden="true"></i> Strava</a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="SaaS Metrics">
+    <meta itemprop="description" content="This document is a review and breakdown of Metrics Definitions and formulas related to SaaS Metrics, particulary 16 SaaS Metrics critical for business growth">
+    <meta itemprop="datePublished" content="2020-01-30T00:00:00-08:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">SaaS Metrics
+</h1>
+          
+            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  5 minute read
+
+</p>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>This document is a review and breakdown of Metrics Definitions and formulas related to SaaS Metrics, particulary 16 SaaS Metrics critical for business growth</p>
+
+<h2 id="breaking-down-profit">Breaking Down Profit</h2>
+
+<p>Profit = Revenue - Cost</p>
+
+<p>Where:</p>
+<ol>
+  <li>Revenue = Paying Users x amount paid by userrevenue is equal to</li>
+  <li>Paying Users = New Users + Repeated Paying Users</li>
+  <li>New Users = Trial Users * Conversion Rate</li>
+  <li>Repeated Paying Users = Previous Paying Users x (1-Churn Rate)</li>
+  <li>Trial Users = (SEO Visitors + SEM Visitors + Viral Visitors)Trial Conversion Rate</li>
+</ol>
+
+<blockquote>
+  <p>Note: Churn rate has a nonlinear improvement in revenue over time</p>
+</blockquote>
+
+<h2 id="metric-definitions-and-formulas">Metric Definitions and Formulas</h2>
+
+<h3 id="1-net-mrr-growth-rate">1. Net MRR Growth Rate</h3>
+
+<p>Month over Month % increase in net MRR is an important metric</p>
+
+<blockquote>
+  <p>Note: If a company is not able to reach a sustainable ratio of 3.5-4x or more than lost MRR, bussiness is not sustainable - Alexander Bruehl, Angel Investor</p>
+</blockquote>
+
+<h4 id="11-calculation">1.1 Calculation</h4>
+
+<p><strong>Net MRR</strong></p>
+
+<p>Net MRR = Existing MRR ($) + New Business ($) + Reactivation ($) + Expansion ($) - (Churn ($) + Contractural ($))</p>
+
+<p><strong>Net MRR Growth Rate</strong></p>
+
+<p>$\tfrac{\text{Net MRR Growth Rate Month B}-\text{Net MRR Growth Rate Month q}}{\text{Net MRR Growth Rate Month A}}$</p>
+
+<h3 id="2-growth-mrr-churn-rate">2. Growth MRR Churn Rate</h3>
+
+<p>The measured % of MRR Churn Rate. That is, Percent of revenue lost due to cancellation or downgrades. It estimates the company, in contrast to Net MRR Churn Rate that calculates relative loss for company</p>
+
+<h4 id="21-calculation">2.1 Calculation</h4>
+
+<p>$\tfrac{\text{Total MRR Churn this month}}{\text{Total MRR at the Start of this Month}}$ x 100</p>
+
+<h3 id="3-expansion-mrr-rate">3. Expansion MRR Rate</h3>
+
+<h3 id="4-average-revenue-per-account-arpa">4. Average Revenue Per Account (ARPA)</h3>
+
+<h4 id="41-calculation">4.1 Calculation</h4>
+
+<p>$\tfrac{\text{Total Monthly Recurring Revenue}}{\text{Total Number of Accounts}}$</p>
+
+<h3 id="5-ltvcac-ratio">5. LTV:CAC Ratio</h3>
+
+<p>Average Lifetime value of your customer is the average monthly revenue per adjusted for monthly churn and gross margin</p>
+
+<h4 id="51-calculation">5.1 Calculation</h4>
+
+<p>$\tfrac{LTC}{CAC}$</p>
+
+<h3 id="6-lifetime-value-ltv">6. Lifetime Value (LTV)</h3>
+<p>Average revenue a single customer is predicted to generate for an assumed duration of their account</p>
+
+<p>Average Monthly Revenue per Customer X Number of Months for customer = $\tfrac{\text{Average Monthly Revenue Per Customer}}{\text{Monthly Churn}}$</p>
+
+<h3 id="7-customer-acquisition-cost-cac">7. Customer Acquisition Cost (CAC)</h3>
+
+<h4 id="71-calculation">7.1 Calculation</h4>
+
+<p>$\tfrac{\text{Total Sales and Marketing Expense}}{\text{Number of New Customers acquired}}$</p>
+
+<p>Average expense of gaining a single customer</p>
+
+<h3 id="8-cac-payback-period">8. CAC Payback Period</h3>
+
+<p>CAC Payback Period is the number of months it takes to earn back money in acquiring customers.</p>
+
+<p>$\tfrac{CAC}{\text{ARPA x Gross Margin (%)}}$</p>
+
+<blockquote>
+  <p>Note: Two rules about CAC–LTV should be 3x of CaC and Recover CAC &lt;12 months….else business would require too mich capital in future</p>
+</blockquote>
+
+<h3 id="9-monthly-active-users-mau">9. Monthly Active Users (MAU)</h3>
+
+<p>Number of unique individuals visiting website each month</p>
+
+<h3 id="10-qualified-lead-velocity-rate-lvr">10. Qualified Lead Velocity Rate (LVR)</h3>
+
+<p>LVR is a great indicator of future sales attainment</p>
+
+<p>$LVR = \tfrac{\text{Qualified Leads Current Month}-\text{Qualified Leads Previous Month}}{\text{Qualified Leads Previous Month}}$ x 100</p>
+
+<h3 id="11-product-qualified-lead-pql">11. Product Qualified Lead (PQL)</h3>
+
+<p>Potential Customers who have used product and reach pre-defined trigger to likely become paying customer</p>
+
+<h3 id="organic-vs-paid-traffice-rate">Organic vs Paid Traffice Rate</h3>
+
+<h3 id="viral-coefficient">Viral Coefficient</h3>
+
+<p>Viral Coefficient = Invites X Conversion Percent</p>
+
+<p>where invites is the number of invites a user sends</p>
+
+<h3 id="conversion-rate-to-customer">Conversion Rate to Customer</h3>
+
+<p>Coversion Rate to Customer = $\tfrac{\text{Number of PQLs}}{\text{Total Number of New Cusotmers during same time period}}$</p>
+
+<h3 id="stickiness-ratio">Stickiness Ratio</h3>
+
+<p>$\tfrac{DAU}{MAU}$</p>
+
+<h3 id="net-promoter-score-nps">Net Promoter Score (NPS)</h3>
+
+<p>Metric used to gauge customer satisfaction and loyalty to your offering</p>
+
+<h4 id="calculation">Calculation</h4>
+
+<p>NPS = % of Promoters - % of detractors, where</p>
+
+<ul>
+  <li>
+    <p>% of promoters = number of respondents who ranked 9 or 10 divided by total number of respondents</p>
+  </li>
+  <li>
+    <p>% of detractors, number or respondents who ranked $\leq 6$, divided by total number of respondents</p>
+  </li>
+</ul>
+
+<h2 id="tips">Tips</h2>
+
+<h3 id="lean-product-analytics-cycle">Lean Product Analytics Cycle</h3>
+<ol>
+  <li>Identify your metrics</li>
+  <li>Measure Metrics Baseline Values</li>
+  <li>Evaluate Metrics Upside Potential</li>
+  <li>
+    <p>Select Top Metric</p>
+
+    <p>a. Iterate</p>
+  </li>
+</ol>
+
+<ul>
+  <li>
+    <p>If your product feature is being released, for testing, please have a <strong>counterfactual</strong>  to really gage wether product feature launch provided significant improvement in product</p>
+
+    <p>a. (i.e. with product feature launch, have control and treatment groups)</p>
+  </li>
+</ul>
+
+<h2 id="notes">Notes</h2>
+
+<ul>
+  <li>What is Product Analytics?
+    <ul>
+      <li>Pull Data from SQL database</li>
+      <li>BI Tool for visualization</li>
+      <li>Pageview Analytics</li>
+      <li>Behavioral Analytics</li>
+    </ul>
+  </li>
+  <li>
+    <p>Distinguish between Bookings and Revenue</p>
+  </li>
+  <li>
+    <p>Upsell vs cross sell</p>
+  </li>
+  <li>
+    <p>KPIs</p>
+
+    <ul>
+      <li>Reasonable number of KPIs between 3 and 7 (5 $\pm$ 2)
+        <ul>
+          <li>
+            <p>More KPIs create distractions as opposed to focus (for a team)</p>
+          </li>
+          <li>
+            <p>Warren Buffet: Write down top 25 goals. Then, choose top 5 goals. Focus on those, and ignore other 20 until you achieved first 5.</p>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <p>Quantifiable piece of objectives and goals</p>
+      </li>
+      <li>
+        <p>Needs 4 attributes:</p>
+
+        <ul>
+          <li>
+            <p>Measure</p>
+          </li>
+          <li>
+            <p>Target</p>
+          </li>
+          <li>
+            <p>Source</p>
+          </li>
+          <li>
+            <p>Frequency</p>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <p>Having Raw #’s, Progress, and Change % is important</p>
+      </li>
+      <li>
+        <p>Leading and Lagging Indicator</p>
+
+        <ul>
+          <li>
+            <p>Lagging (occurred/outcome)</p>
+
+            <ul>
+              <li>
+                <p>Example; Margin, profit, revenue–results</p>
+              </li>
+              <li>
+                <p>Note: Can’t control lag, because we experienced it</p>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <p>Leading (soon to-be occuring)</p>
+
+            <ul>
+              <li>
+                <p>Example: Number of contacts, actions, marketing</p>
+              </li>
+              <li>
+                <p>Note: It’s predictable and influential for future business results</p>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="resources">Resources</h2>
+<p><a href="https://www.youtube.com/watch?v=dwL97n06HFs">How to improve your product analytics</a></p>
+
+<p><a href="https://www.youtube.com/watch?v=Bb8DfkBSL_A">Lean Product Playbook</a></p>
+
+<p><a href="http://tomtunguz.com/negative-churn/?_ga=2.19068216.1033635996.1542876886-1344136856.1541905224">Negative Churn</a></p>
+
+<p><a href="https://www.geckoboard.com/learn/kpi-examples/saas-kpis/net-mrr-churn-rate/">Examples of Net MRR Churn Rate</a></p>
+
+<p><a href="https://blogs.sas.com/content/iml/2016/01/25/moving-average.html">Moving Average</a></p>
+
+<p><a href="https://databox.com/metrics-every-saas-company-should-track">SaaS Metrics Companies should track</a></p>
+
+<p><a href="https://www.youtube.com/watch?v=EPji2e2XwDk">Optional Video: AirBnB Product Insights</a></p>
+
+<p><a href="https://a16z.com/2015/09/23/16-more-metrics/">16 More SaaS Metrics</a></p>
+
+<p>Product Enagement: the most important metric you aren’t tracking for your SaaS business</p>
+
+<ul>
+  <li>General QUestions for manager about metrics
+    <ul>
+      <li>Are you, as a manager, tired of trying to gauge how your accounts performing or engagement this month is?</li>
+      <li>As a customer success manager, do you want an easier want to get a gauge of user adoption and usabuluty wuthout having to check emails or communicate with teams about calls or check-ins?</li>
+      <li>As an AE, how many times did you wish you could see those deeper in funnel of prospect would be a converted customer?</li>
+    </ul>
+  </li>
+  <li>4 steps to creating engagement score for your SaaS product
+    <ul>
+      <li>Define Activity or Engagement for Product
+        <ul>
+          <li>Event Tracking
+            <ul>
+              <li>tasks completed</li>
+              <li>team members added</li>
+              <li>comments left</li>
+              <li>team members added</li>
+              <li>projects completed</li>
+            </ul>
+          </li>
+          <li>Start tracking product events/activities
+            <ul>
+              <li>Segmentation and analytics
+                <ul>
+                  <li>User Engagement Score</li>
+                  <li>NPS Score analytics</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>Advanced Analytics
+            <ul>
+              <li>Normalizing Engagement Scores</li>
+            </ul>
+          </li>
+          <li>Apply Scores to make them actionable</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Rank Users
+    <ul>
+      <li>Discover Power Users</li>
+      <li>Prioritize Customer success efforts through driving solutions and growth for customers</li>
+      <li>Identify business strategy implementations for customers</li>
+    </ul>
+  </li>
+  <li>Score and Rank Accounts
+    <ul>
+      <li>Understand engagement metrics in aggregation at account level, and other available levels thereafter</li>
+      <li>Understand health of biz</li>
+      <li>Prioritize CS efforts by focusing on accounts that are ripe for expansion or upgrade</li>
+    </ul>
+  </li>
+  <li>Calculate overall score for product</li>
+  <li>Compare populations or cohorts</li>
+  <li>Correlate with other business metrics and teams</li>
+</ul>
+
+<p>Evaluation for adoption and engagement with other business metrics (e.g. Sales, Retention, Churn, LTV, etc.) then more quality in CS improves over time</p>
+
+<blockquote>
+  <p>Test and Learn</p>
+</blockquote>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+</code></pre></div></div>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/tags/#project-management" class="page__taxonomy-item" rel="tag">Project Management</a>
+    
+    </span>
+  </p>
+
+
+
+
+        
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2020-01-30T00:00:00-08:00">January 30, 2020</time></p>
+        
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?via=raulingaverage&text=SaaS+Metrics%20http%3A%2F%2Flocalhost%3A4000%2FSaaS-Metrics%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2FSaaS-Metrics%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2FSaaS-Metrics%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/quick-guide-to-okrs/" class="pagination--pager" title="Quick Guide to OKRs
+">Previous</a>
+    
+    
+      <a href="/Looking-Back-2019/" class="pagination--pager" title="Looking back at 2019’s “Next Career Move”
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You may also enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/Survival-Analysis/" rel="permalink">Survival Analysis
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  less than 1 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/Looking-Back-2019/" rel="permalink">Looking back at 2019’s “Next Career Move”
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  1 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">2019 was quite a year, I would say. I ran X amount of miles, I traveled to London, Boston, and Japan. I fortiously got the simileanous experiences of startup...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/quick-guide-to-okrs/" rel="permalink">Quick Guide to OKRs
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  1 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/next-career-move-striving-for-full-time-contributing-analytic-and-technical-solutions/" rel="permalink">Next Career Move, Striving for Full-Time Contributing Analytic and Technical Solutions
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  2 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">It’s been 1 week since I started the next part of my journey — a situation in which a lot of my coworkers appeared startled after responding “Nothing yet. I ...</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
+<link rel="manifest" href="/assets/images/site.webmanifest">
+<link rel="mask-icon" href="/assets/images/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="rmaldonadocloud@gmail.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+        
+          <li><a href="https://raulingaverage.dev" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/raulingaverage" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/CloudChaoszero" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://www.linkedin.com/in/raulm8/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://public.tableau.com/profile/raul.maldonado#!/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Tableau</a></li>
+        
+      
+        
+          <li><a href="https://www.strava.com/athletes/26468777" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-strava" aria-hidden="true"></i> Strava</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 Raul Maldonado. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
