@@ -5,8 +5,8 @@ main:
     url: /accomplishments
   - title: "Portfolio"
     url: /portfolio
-  # - title: "Notes"
-  #   sublinks:
+  - title: "Notes"
+    sublinks:
   #     - title: Command Line
   #       url: /tags/
   #     - title: Statistics
@@ -15,8 +15,14 @@ main:
   #       url: /year-archive/
   #     - title: Python
   #       url: /year-archive/
+      - title: APIs
+        url: /notes/api
   #     - title: Databases
   #       url: /year-archive/
+      - title: "Databases: Snowflake"
+        url: /notes/databases-snowflake/
+      - title: Technical
+        url: /notes/technical 
   - title: "Archive"
     url: /tags
 
@@ -33,5 +39,13 @@ blogroll:
           url: https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw
     - title: "Motivational"
       children:
+        - title: "Pursuit of Happyness Clip (Youtube)"
+          url: https://www.youtube.com/watch?v=DvtxOzO6OAE
     - title: "Subscribed Podcasts"
       children:
+        - title: "The Daily"
+          url: https://www.nytimes.com/column/the-daily
+        - title: "Up First"
+          url: https://www.npr.org/podcasts/510318/up-first
+        - title: "Data Engineering Podcast"
+          url: https://www.dataengineeringpodcast.com/

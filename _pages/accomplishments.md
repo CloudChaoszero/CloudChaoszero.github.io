@@ -1,8 +1,8 @@
 ---
 permalink: /accomplishments/
 title: "Recent Accomplishments"
-author_profile: false 
-last_modified_at: 2020-01-22T23:46:43-04:00
+author_profile: true 
+last_modified_at: 2020-02-24T23:46:43-04:00
 toc: true
 ---
 
@@ -11,6 +11,9 @@ toc: true
 
 * a **Data Analyst** driving impact for Autodesk's SaaS ACS arm in Strategy & Operations 
               and working cross functionally with different teams
+
+* a [Teaching Fellow at Delta Analytics](http://www.deltanalytics.org/teaching-fellows.html) helping with ML curriculum development and operational tasks.
+
 * a **Business Data Analyst** driving impact for Sales and Engineering under Signature
   Consultants onsite @ a top-5 tech company
 
@@ -41,4 +44,4 @@ toc: true
 
 ## Resume
 
-<iframe src="https://drive.google.com/file/d/1oqE9Eja0H1a06cXp_-SsqNkqIQlTSRIr/preview" class="is-fullwidth" width="100%" height="250%"></iframe>
+<iframe src="https://drive.google.com/file/d/1oqE9Eja0H1a06cXp_-SsqNkqIQlTSRIr/preview" class="is-fullwidth" width="100%" height="350%"></iframe>

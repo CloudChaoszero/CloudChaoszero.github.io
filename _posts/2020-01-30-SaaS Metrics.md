@@ -1,5 +1,11 @@
+---
 
-# SaaS Metrics 
+firstPublishedAt: 2020-01-30
+title: SaaS Metrics
+
+tag: Project Management
+---
+
 
 This document is a review and breakdown of Metrics Definitions and formulas related to SaaS Metrics, particulary 16 SaaS Metrics critical for business growth
 
