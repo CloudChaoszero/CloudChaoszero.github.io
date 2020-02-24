@@ -101,7 +101,7 @@ social:
     - "https://www.linkedin.com/in/raulm8/"
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : "google" # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          : UA-133706600-1
     anonymize_ip         : # true, false (default)
