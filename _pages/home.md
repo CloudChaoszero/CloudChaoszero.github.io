@@ -1,10 +1,11 @@
 ---
 layout: splash
 permalink: /home
+title: "About Me"
 ---
 
 
-# Welcome!
+Welcome!
               
 My name is Raul, and **I am a Data Analyst** residing in San Francisco, Ca. 
 

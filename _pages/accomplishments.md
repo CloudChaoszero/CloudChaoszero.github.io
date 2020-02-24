@@ -1,13 +1,11 @@
 ---
-permalink: /about/
-title: "About Me"
+permalink: /accomplishments/
+title: "Recent Accomplishments"
 author_profile: false 
 last_modified_at: 2020-01-22T23:46:43-04:00
 toc: true
 ---
 
-
-# Recent Accomplishments
 
 ## Professional Accomplishments
 
