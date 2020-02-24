@@ -20,7 +20,7 @@ main:
   #     - title: Databases
   #       url: /year-archive/
       - title: "Databases: Snowflake"
-        url: /notes/databases-snowflake/
+        url: /notes/databases-snowflake
       - title: Technical
         url: /notes/technical 
   - title: "Archive"
