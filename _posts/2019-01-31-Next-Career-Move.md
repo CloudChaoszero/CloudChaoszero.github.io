@@ -5,6 +5,8 @@ latestPublishedAt: 1549755575282
 slug: next-career-move-striving-for-full-time-contributing-analytic-and-technical-solutions
 title: Next Career Move, Striving for Full-Time Contributing Analytic and Technical Solutions
 tag: Career
+author_profile: true 
+toc: true
 ---
 
 It’s been **1** week since I started the next part of my journey — a situation in which a lot of my coworkers appeared startled after responding “Nothing yet. I am going to start looking for my next opportunity soon” after the question “Where are you going to go next?”…

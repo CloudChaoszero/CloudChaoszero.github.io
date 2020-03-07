@@ -5,6 +5,8 @@ latestPublishedAt: 1531592653273
 slug: finding-data-professional-mentors-or-meetups-in-san-francisco-bay-area
 title: Finding Data Professional Mentors or Meetups in San Francisco Bay Area
 tag: Networking
+author_profile: true 
+toc: true
 ---
 
 Though I never had the opportunity to be a part of, you either just finished your Data Analytics/Science bootcamp or class. #BelatedCongrats!

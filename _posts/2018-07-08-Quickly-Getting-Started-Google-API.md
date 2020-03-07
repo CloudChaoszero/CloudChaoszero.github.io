@@ -6,6 +6,8 @@ slug: quickly-getting-started-with-google-maps-api-w-python-july-2018-platform
 title: Quickly Getting Started with Google Maps API w/Python (July 2018 Platform)
 
 tag: Coding
+author_profile: true 
+toc: true
 ---
 
 You probably want to harness the power of Google Maps API for application development. Moreover, your are coding in Python.
