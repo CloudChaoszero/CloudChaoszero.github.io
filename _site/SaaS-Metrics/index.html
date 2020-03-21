@@ -20,26 +20,26 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="">
 <meta property="og:title" content="SaaS Metrics">
-<meta property="og:url" content="https://raulingaverage.dev//SaaS-Metrics/">
+<meta property="og:url" content="http://localhost:4000/SaaS-Metrics/">
 
 
   <meta property="og:description" content="This document is a review and breakdown of Metrics Definitions and formulas related to SaaS Metrics, particulary 16 SaaS Metrics critical for business growth  ">
 
 
 
-  <meta property="og:image" content="https://raulingaverage.dev//assets/images/ProfilePicture.jpg">
+  <meta property="og:image" content="http://localhost:4000/assets/images/ProfilePicture.jpg">
 
 
 
   <meta name="twitter:site" content="@raulingaverage">
   <meta name="twitter:title" content="SaaS Metrics">
   <meta name="twitter:description" content="This document is a review and breakdown of Metrics Definitions and formulas related to SaaS Metrics, particulary 16 SaaS Metrics critical for business growth  ">
-  <meta name="twitter:url" content="https://raulingaverage.dev//SaaS-Metrics/">
+  <meta name="twitter:url" content="http://localhost:4000/SaaS-Metrics/">
 
   
     <meta name="twitter:card" content="summary">
     
-      <meta name="twitter:image" content="https://raulingaverage.dev//assets/images/ProfilePicture.jpg">
+      <meta name="twitter:image" content="http://localhost:4000/assets/images/ProfilePicture.jpg">
     
   
 
@@ -58,7 +58,7 @@
   
 
 
-<link rel="canonical" href="https://raulingaverage.dev//SaaS-Metrics/">
+<link rel="canonical" href="http://localhost:4000/SaaS-Metrics/">
 
 
 
@@ -69,7 +69,7 @@
     
       "@type": "Person",
       "name": "Raul Maldonado",
-      "url": "https://raulingaverage.dev//",
+      "url": "http://localhost:4000/",
       "sameAs": ["https://twitter.com/raulingaverage","https://github.com/CloudChaoszero","https://www.linkedin.com/in/raulm8/"]
     
   }
@@ -161,15 +161,41 @@
           
               
               
-                  <li class="masthead__menu-item">
-                      <a href="/accomplishments">Accomplishments</a>
+                  <li class="dropdown ">
+                      <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Accomplishments    <i class="fa fa-caret-down fa-sm" aria-hidden="true"></i><span class="caret"></span></a>
+                      <ul class="dropdown-content">
+                          
+                              <li>
+                                  <a href="/accomplishments/main">    Professional & Volunteering</a>
+                              </li>
+                          
+                              <li>
+                                  <a href="/accomplishments/resume">    Resume</a>
+                              </li>
+                          
+                              <li>
+                                  <a href="/accomplishments/cert">    Certifications</a>
+                              </li>
+                          
+                      </ul>
                   </li>
               
           
               
               
-                  <li class="masthead__menu-item">
-                      <a href="/portfolio">Portfolio</a>
+                  <li class="dropdown ">
+                      <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Portfolio    <i class="fa fa-caret-down fa-sm" aria-hidden="true"></i><span class="caret"></span></a>
+                      <ul class="dropdown-content">
+                          
+                              <li>
+                                  <a href="/portfolio/projects">    Projects</a>
+                              </li>
+                          
+                              <li>
+                                  <a href="/portfolio/presentations">    Presentations</a>
+                              </li>
+                          
+                      </ul>
                   </li>
               
           
@@ -231,7 +257,7 @@
     
       
         <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-          <a href="https://raulingaverage.dev//" itemprop="item"><span itemprop="name">Home</span></a>
+          <a href="http://localhost:4000/" itemprop="item"><span itemprop="name">Home</span></a>
           <meta itemprop="position" content="1" />
         </li>
         <span class="sep">/</span>
@@ -401,6 +427,67 @@
       
 
       <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu">
+  <li><a href="#breaking-down-profit">Breaking Down Profit</a></li>
+  <li><a href="#metric-definitions-and-formulas">Metric Definitions and Formulas</a>
+    <ul>
+      <li><a href="#1-net-mrr-growth-rate">1. Net MRR Growth Rate</a>
+        <ul>
+          <li><a href="#11-calculation">1.1 Calculation</a></li>
+        </ul>
+      </li>
+      <li><a href="#2-growth-mrr-churn-rate">2. Growth MRR Churn Rate</a>
+        <ul>
+          <li><a href="#21-calculation">2.1 Calculation</a></li>
+        </ul>
+      </li>
+      <li><a href="#3-expansion-mrr-rate">3. Expansion MRR Rate</a></li>
+      <li><a href="#4-average-revenue-per-account-arpa">4. Average Revenue Per Account (ARPA)</a>
+        <ul>
+          <li><a href="#41-calculation">4.1 Calculation</a></li>
+        </ul>
+      </li>
+      <li><a href="#5-ltvcac-ratio">5. LTV:CAC Ratio</a>
+        <ul>
+          <li><a href="#51-calculation">5.1 Calculation</a></li>
+        </ul>
+      </li>
+      <li><a href="#6-lifetime-value-ltv">6. Lifetime Value (LTV)</a></li>
+      <li><a href="#7-customer-acquisition-cost-cac">7. Customer Acquisition Cost (CAC)</a>
+        <ul>
+          <li><a href="#71-calculation">7.1 Calculation</a></li>
+        </ul>
+      </li>
+      <li><a href="#8-cac-payback-period">8. CAC Payback Period</a></li>
+      <li><a href="#9-monthly-active-users-mau">9. Monthly Active Users (MAU)</a></li>
+      <li><a href="#10-qualified-lead-velocity-rate-lvr">10. Qualified Lead Velocity Rate (LVR)</a></li>
+      <li><a href="#11-product-qualified-lead-pql">11. Product Qualified Lead (PQL)</a></li>
+      <li><a href="#organic-vs-paid-traffice-rate">Organic vs Paid Traffice Rate</a></li>
+      <li><a href="#viral-coefficient">Viral Coefficient</a></li>
+      <li><a href="#conversion-rate-to-customer">Conversion Rate to Customer</a></li>
+      <li><a href="#stickiness-ratio">Stickiness Ratio</a></li>
+      <li><a href="#net-promoter-score-nps">Net Promoter Score (NPS)</a>
+        <ul>
+          <li><a href="#calculation">Calculation</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#tips">Tips</a>
+    <ul>
+      <li><a href="#lean-product-analytics-cycle">Lean Product Analytics Cycle</a></li>
+    </ul>
+  </li>
+  <li><a href="#notes">Notes</a></li>
+  <li><a href="#resources">Resources</a></li>
+</ul>
+
+            </nav>
+          </aside>
         
         <p>This document is a review and breakdown of Metrics Definitions and formulas related to SaaS Metrics, particulary 16 SaaS Metrics critical for business growth</p>
 
@@ -771,11 +858,11 @@
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?via=raulingaverage&text=SaaS+Metrics%20https%3A%2F%2Fraulingaverage.dev%2F%2FSaaS-Metrics%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?via=raulingaverage&text=SaaS+Metrics%20http%3A%2F%2Flocalhost%3A4000%2FSaaS-Metrics%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fraulingaverage.dev%2F%2FSaaS-Metrics%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2FSaaS-Metrics%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fraulingaverage.dev%2F%2FSaaS-Metrics%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2FSaaS-Metrics%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
@@ -786,7 +873,7 @@
 ">Previous</a>
     
     
-      <a href="/Looking-Back-2019/" class="pagination--pager" title="Looking back at 2019’s “Next Career Move”
+      <a href="/Survival-Analysis/" class="pagination--pager" title="Survival Analysis
 ">Next</a>
     
   </nav>
@@ -801,6 +888,41 @@
     <div class="page__related">
       <h4 class="page__related-title">You may also enjoy</h4>
       <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/2019Lookback-2020Growth/" rel="permalink"><table>
+  <tbody>
+    <tr>
+      <td>2019 Lookback</td>
+      <td>#2020Vision Outlook</td>
+    </tr>
+  </tbody>
+</table>
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  5 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">It’s been a while since I’ve produced some quality personal content. Moreover, I’ve noticed that it’s been 1 year since my time as a Data Analyst at Autodesk...</p>
+  </article>
+</div>
+
         
           
 
@@ -827,34 +949,6 @@
     
     <p class="archive__item-excerpt" itemprop="description">
 </p>
-  </article>
-</div>
-
-        
-          
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="/Looking-Back-2019/" rel="permalink">Looking back at 2019’s “Next Career Move”
-</a>
-      
-    </h2>
-    
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-
-
-
-
-  1 minute read
-
-</p>
-    
-    <p class="archive__item-excerpt" itemprop="description">2019 was quite a year, I would say. I ran X amount of miles, I traveled to London, Boston, and Japan. I fortiously got the simileanous experiences of startup...</p>
   </article>
 </div>
 

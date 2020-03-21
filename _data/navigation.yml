@@ -2,9 +2,19 @@ main:
   - title: "About"
     url: /home
   - title: "Accomplishments"
-    url: /accomplishments
+    sublinks:
+      - title: "Professional & Volunteering"
+        url: /accomplishments/main
+      - title: "Resume"
+        url: /accomplishments/resume
+      - title: "Certifications"
+        url: /accomplishments/cert
   - title: "Portfolio"
-    url: /portfolio
+    sublinks:
+      - title: "Projects"
+        url: /portfolio/projects
+      - title: "Presentations"
+        url: /portfolio/presentations
   - title: "Notes"
     sublinks:
   #     - title: Command Line
