@@ -23,6 +23,15 @@ toc: true
 
 Totango API page [here](https://support.totango.com/hc/en-us/articles/203639605-Totango-HTTP-API-Overview)
 
+## Kaggle API
+
+[Kaggle API](https://github.com/Kaggle/kaggle-api)
+
+I mainly use this to download data
+```
+!kaggle competitions download -c kaggle-dataset-of-your-choice -p '../../SomePath'
+```
+> Note: There might be some overhead to this
 ### Retrieving touchpoints
 
 ```
