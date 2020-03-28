@@ -7,8 +7,6 @@ author_profile: true
 toc: true
 ---
 
-# Background
-
 My initial blog started off with several considerations as a website. Should I create a website? If I create the website, how much would I have to pay for a yearly subscription? Is it worth it? What about free solutions?
 > I tried it out, and it didn't work out. I was broke in early 2016-2017, and had to save money
 
