@@ -5,6 +5,7 @@ title: Why I Upgraded my Website from HTML -> Jekyll
 tag: Coding
 author_profile: true 
 toc: true
+mathjax: true
 ---
 
 My initial blog started off with several considerations as a website. Should I create a website? If I create the website, how much would I have to pay for a yearly subscription? Is it worth it? What about free solutions?
@@ -38,8 +39,8 @@ As I grew to knowing more methods to place my content, I understood that managin
 
 For example, I had to:
 
-Post on Medium $\rightarrow$ Copy and Paste to LinkedIn Article
-$\rightarrow$ Convert article to HTML file to publish on website
+Post on Medium $$\rightarrow$$ Copy and Paste to LinkedIn Article
+$$\rightarrow$$ Convert article to HTML file to publish on website
 
 This was a hassle, and all of that should not have to be done in 2020, provided recent updates in the digital writing space.
 
@@ -109,10 +110,10 @@ I can easily add formulas through markdown files with Jekyll's accessibility to 
 
 (in proper proper notation!)
 
-Say we have a 2-dimensional graph with points a=$(x_1,y_1)$ and point b= $(x_2,y_2)$. 
+Say we have a 2-dimensional graph with points a=$$(x_1,y_1)$$ and point b= $$(x_2,y_2)$$. 
 
 The distance between the two are calculated as such
-$d(a,b) = d((x_1,y_1),(x_2,y_2)) =\sqrt{(x_1-x_2)^2 + (y_1-y_2)^2}$
+$$d(a,b) = d((x_1,y_1),(x_2,y_2)) =\sqrt{(x_1-x_2)^2 + (y_1-y_2)^2}$$
 
 Wow, that looks better than plain-text. :D 
 
