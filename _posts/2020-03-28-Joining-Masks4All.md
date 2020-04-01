@@ -101,6 +101,11 @@ But I leave you with a question--**What will you do?**
 ![Notes on the DIY mask](../assets/images/covid19/diy-mask-notes.png)
 [Source](https://youtu.be/BoDwXwZXsDI?t=1929)
 
+
+Also, **Stay Home**, please. <3
+
+<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FLOWSTEPPA%2Fvideos%2F246170693444915%2F&show_text=0&width=345" width="345" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+
 # Research & Resources
 
 The following is an appendix of existing resources I used for this article, plus the ones provided by researchers Lex Fridmen, Jeremy Howard & Rachel Thomas, and Petr Ludwig
