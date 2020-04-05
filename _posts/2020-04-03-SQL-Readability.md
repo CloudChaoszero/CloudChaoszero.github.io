@@ -66,7 +66,7 @@ This can enable:
 * More time to focus on the core logic.
 * Quicker turnover of implementations
 
-<b><center>That seems like it's worth it, right?</b></center>
+<b><center>That seems like it's worth it, right?</center></b>
 
 <center><img src="https://media.giphy.com/media/69jvP3VXUYhr3YUYu9/giphy.gif" alt="right?" class="center"></center>
 
