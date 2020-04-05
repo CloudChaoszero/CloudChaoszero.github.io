@@ -343,7 +343,10 @@ Here, we add a block-quote comment `/* */` and single-line comments `--` to clar
 ```sql
 
 /*
-Querying the Myspace Events table with user information for the time after the first Musician profile-user was created.
+
+* Querying the Myspace Events table with user information for the time
+* after the first Musician profile-user was created.
+
 */
 
 WITH earliest_musician_user_date AS ( 
