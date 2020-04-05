@@ -111,7 +111,7 @@ group by 1,2,3,4,5,6
 3. Ensure particular words are [reserved](https://docs.microsoft.com/en-us/sql/t-sql/language-elements/reserved-keywords-transact-sql?view=sql-server-ver15) in your SQL queries.
     * For example, some reserve words are `SELECT`, `INNER`, `JOIN`--so don't use those words as columns.
 
-### Example
+
 
 Here, we modified the query to have declarative statements be on seperate lines and capitalize said statements.
 
@@ -135,7 +135,7 @@ GROUP BY 1,2,3,4,5,6
 
 
 
-### Example
+
 
 ```sql
 SELECT 
@@ -164,7 +164,7 @@ Here, I am abiding to past enforcement of reading ergonomics that I learned from
 
 Here, the long-winded sub-query went from one line, to multiple lines, within an 80 character limit.
 
-### Example
+
 
 ```sql
 SELECT 
@@ -198,7 +198,7 @@ GROUP BY 1,2,3,4,5,6
 
 ## Subqueries and WITH statements
 
-### Example
+
 
 ```sql
 
@@ -242,7 +242,7 @@ GROUP BY 1,2,3,4,5,6
 Don't pass on the `AS` statement. With adding the alias, we are ensuring we are explicit with defining nick-names of ingested information, to what we can expect for output information.
 
 
-### Example
+
 
 Here, we move the subqueries from the bottom of the list to the top, and then call the reference in the same location.
 
@@ -289,7 +289,6 @@ In other coding language readability guidelines, there is an enforcement of code
 with SQL, we have our naming conventions be 'Snake" conventions. 
 
 
-### Example
 
 Here, we have all variable names be snake case (e.g. `createdDate` $\rightarrow$ `created_date`), along with other columns.
 
@@ -332,7 +331,7 @@ GROUP BY 1,2,3,4,5,6
 Both in the beginning of the code snippet to say what data the snippet pulls, the business logic it includes, and throughout, as much as possible, to reference subqueries. SQL makes it hard to read through an entire piece of code without running specific pieces one by one to get where you’re going and comments will help jog the memory. Include them at the end of lines in code, or in blocks at the beginning of code.
 
 
-### Example
+
 
 Here, we add a block-quote comment `/* */` and single-line comments `--` to clarify logic
 
