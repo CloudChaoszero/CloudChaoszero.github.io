@@ -1,6 +1,6 @@
 ---
 firstPublishedAt: 2020-04-03
-title: SQL Readability and your Team (2020)
+title: SQL Readability (2020)
 tag: Coding
 author_profile: true 
 toc: true
@@ -10,17 +10,18 @@ header:
   og_image: /assets/images/sql-query-worked.jpg
 ---
 
-Scenario: You're going to submit a Pull Request (PR) for an advanced and sophisticated contribution to production, that you spent hours on.
+Scenario: You submitted a Pull Request (PR) for a sophisticated contribution to production (prod), that you spent **several** hours on.
 
 **Kudos to you!** 
 
-![Far Out--Hackers](https://media2.giphy.com/media/FV8YUdZ88fNLi/source.gif)
+![SQL Query Worked](/assets/images/sql-query-worked.jpg)
+
 
 **But then a code reviewer does not approve your PR.**
 
 ![Crying--10 Things I hate about you](https://media1.giphy.com/media/6tSHBDVDyOF3O/source.gif)
 
-Your query works, so what happened? 
+Your query worked, so what happened? 
 
 It may turn out that you're writing style may not be up-to-par with the team's standards.
 
@@ -40,16 +41,14 @@ From the introduction, I emphasized that coding practices are enforced by teams 
 
 Let's look at a scenario.
 
-### A Scenario
+### The Scenario
 
-When a developer initially writes the code their knowledge of the system is very detailed and complex. And in this writing, they've spent a substantial amount of time to know every logical condition or output from the results--well hopefully.
+When a developer initially writes the code their knowledge of the system is very detailed and complex. And in it, they've spent a substantial amount of time to know the logical conditions, output, and corner cases--well hopefully.
 
-1 year later, another person decides to change this code due to updated business logic needed w.r.t to the code. However, that past developer's work was written poorly. 
+1 year later, another person would like to change this query due to updated business logic respective of the query implementation. 
 
+Recall the logic being complex? Well, this developer added another layer of complexity as well--poor formatting, which can actually put-off, confuse, or just reduce productivity for the current individual.
 
-Recall the logic being complex? Well, this developer added another layer of complexity as well, which can actually disastisfy the current developer on fixing the code.
-
-![Sleepy](https://i.pinimg.com/originals/17/7e/29/177e297fa5b9b5e5c889ef0b7da3abe3.gif)
 
 This new developer may experence:
 * Difficult to understand logic and ouuts
@@ -57,16 +56,19 @@ This new developer may experence:
 * Maintenance issues
 * The complexity of reading code
 
-With readabilit practices, we alleviate the complexity of reading the code for the developer. 
+![Sleepy](https://i.pinimg.com/originals/17/7e/29/177e297fa5b9b5e5c889ef0b7da3abe3.gif)
+
+With readability practices, we alleviate the complexity of reading the code for the developer. 
 
 This can enable:
+
 * Increased Productivity 
 * More time to focus on the core logic.
 * Quicker turnover of implementations
 
 <b><center>That seems like it's worth it, right?</b></center>
 
-![](https://media.giphy.com/media/69jvP3VXUYhr3YUYu9/giphy.gif)
+![right?](https://media.giphy.com/media/69jvP3VXUYhr3YUYu9/giphy.gif)
 
 # Why am I writing about this?
 
@@ -412,6 +414,9 @@ And possible enable:
 * Increased Productivity 
 * More time to focus on the core logic.
 * Quicker turnover of fixes or tasks
+
+![Far Out--Hackers](https://media2.giphy.com/media/FV8YUdZ88fNLi/source.gif)
+
 
 
 Now, 
