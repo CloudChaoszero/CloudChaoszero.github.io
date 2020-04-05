@@ -5,6 +5,9 @@ tag: Coding
 author_profile: true 
 toc: true
 mathjax: true
+header:
+  teaser: /assets/images/sql-query-worked.jpg
+  og_image: /assets/images/sql-query-worked.jpg
 ---
 
 Scenario: You're going to submit a Pull Request (PR) for an advanced and sophisticated contribution to production, that you spent hours on.
