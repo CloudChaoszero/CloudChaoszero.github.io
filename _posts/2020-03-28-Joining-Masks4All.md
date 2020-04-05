@@ -6,6 +6,9 @@ tag: Personal
 author_profile: true 
 toc: true
 mathjax: true
+header:
+  teaser: /assets/images/covid19/effect-against-particles.png
+  og_image: /assets/images/covid19/effect-against-particles.png
 ---
 
 I am a avid viewer of Lex Fridman's podcasts and other misc. content, particularly his Youtube videos. I recently watched one of his videos on ["Face Masks for All" & DIY Masks, seen here](https://www.youtube.com/watch?v=qFmaSNP6_z4).
