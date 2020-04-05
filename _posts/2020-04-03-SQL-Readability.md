@@ -56,7 +56,7 @@ This new developer may experence:
 * Maintenance issues
 * The complexity of reading code
 
-![Sleepy](https://i.pinimg.com/originals/17/7e/29/177e297fa5b9b5e5c889ef0b7da3abe3.gif)
+<center><img src="https://i.pinimg.com/originals/17/7e/29/177e297fa5b9b5e5c889ef0b7da3abe3.gif" alt="Sleepy" class="center"></center>
 
 With readability practices, we alleviate the complexity of reading the code for the developer. 
 
@@ -68,7 +68,8 @@ This can enable:
 
 <b><center>That seems like it's worth it, right?</b></center>
 
-![right?](https://media.giphy.com/media/69jvP3VXUYhr3YUYu9/giphy.gif)
+<center><img src="https://media.giphy.com/media/69jvP3VXUYhr3YUYu9/giphy.gif" alt="right?" class="center"></center>
+
 
 # Why am I writing about this?
 
@@ -81,7 +82,7 @@ Being with Autodesk, I wanted to drive impact to both colleagues and individuals
 Now,
 <b><center>SQL Readability</center></b>
 
-![Reading Vision](https://thumbs.gfycat.com/SandyHelpfulAmazondolphin-max-1mb.gif)
+<center><img src="https://thumbs.gfycat.com/SandyHelpfulAmazondolphin-max-1mb.gif" alt="Reading Vision" class="center"></center>
 
 
 # SQL Readability
@@ -136,8 +137,7 @@ GROUP BY 1,2,3,4,5,6
 
 "Do not optimize for a smaller number of lines of code. newlines are cheap, brain time is expensive" - [Source](https://github.com/fishtown-analytics/corp/blob/master/dbt_coding_conventions.md)
 
-![Space](https://thumbs.gfycat.com/ElaborateEsteemedJackal-max-1mb.gif)
-
+<center><img src="https://thumbs.gfycat.com/ElaborateEsteemedJackal-max-1mb.gif" alt="Space" class="center"></center>
 
 
 
@@ -418,7 +418,7 @@ And possible enable:
 * More time to focus on the core logic.
 * Quicker turnover of fixes or tasks
 
-![Far Out--Hackers](https://media2.giphy.com/media/FV8YUdZ88fNLi/source.gif)
+<center><img src="https://media2.giphy.com/media/FV8YUdZ88fNLi/source.gif" alt="Far Out--Hackers" class="center"></center>
 
 
 
