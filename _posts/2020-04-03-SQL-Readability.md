@@ -10,7 +10,7 @@ header:
   og_image: /assets/images/sql-query-worked.jpg
 ---
 
-Scenario: You submitted a Pull Request (PR) for a sophisticated contribution to production (prod), that you spent **several** hours on.
+Scenario: You submitted a Pull Request (PR) for a sophisticated contribution to production (prod), that you spent **several** hours working on.
 
 **Kudos to you!** 
 
@@ -31,7 +31,7 @@ But why? First...
 
 # What is Readability?
 
-Readability is the style, standarization, and practice for "readable" code. An analogy, it's like correcting for punctuation in a writing practice.
+Readability is the style, standardization, and practice for "readable" code. An analogy, it's like correcting for punctuation in a writing practice.
 
 The enforcement of readability practices, typically by teams, are tied to code reviewing between peers to push code to production.
 
@@ -45,13 +45,13 @@ Let's look at a scenario.
 
 When a developer initially writes the code their knowledge of the system is very detailed and complex. And in it, they've spent a substantial amount of time to know the logical conditions, output, and corner cases--well hopefully.
 
-1 year later, another person would like to change this query due to updated business logic respective of the query implementation. 
+1 year later, another person would like to change this query due to updated business logic regarding the query implementation. 
 
 Recall the logic being complex? Well, this developer added another layer of complexity as well--poor formatting, which can actually put-off, confuse, or just reduce productivity for the current individual.
 
 
-This new developer may experence:
-* Difficult to understand logic and ouuts
+This new developer may experience:
+* Difficult to understand logic and outputs
 * Longer to debug
 * Maintenance issues
 * The complexity of reading code
@@ -165,7 +165,7 @@ GROUP BY 1,2,3,4,5,6
 
 ## 80 Characters
 
-Here, I am abiding to past enforcement of reading ergonomics that I learned from the engineering community. However, I think there is something more, historical to this[...seen here](https://softwareengineering.stackexchange.com/questions/148677/why-is-80-characters-the-standard-limit-for-code-width).
+Here, I am abiding by past enforcement of reading ergonomics that I learned from the engineering community. However, I think there is something more, historical to this[...seen here](https://softwareengineering.stackexchange.com/questions/148677/why-is-80-characters-the-standard-limit-for-code-width).
 
 Here, the long-winded sub-query went from one line, to multiple lines, within an 80 character limit.
 
@@ -407,7 +407,7 @@ Isn't that better?!
 
 We learned by encouraging a readability practice for submitting code to a team's repository, production, developers do not have to face:
 
-* Difficult to understand logic and ouuts
+* Difficult to understand logic and outputs
 * Longer to debug
 * Maintenance issues
 * The complexity of reading code
@@ -427,6 +427,17 @@ Now,
 
 ![You do you](https://i.kym-cdn.com/photos/images/original/001/175/473/0c3.gif)
 
+# Bonus
+
+## SQL Linters
+
+### VS Code
+
+*  https://marketplace.visualstudio.com/items?itemName=sensourceinc.vscode-sql-beautify
+
+### Mode Analytics
+
+[Format SQL mode](https://mode.com/blog/new-sql-formatting-capability)
 
 # Resources
 
