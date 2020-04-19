@@ -31,6 +31,8 @@ Here we have a selection of presentations related to data analytics, engineering
 
 Feel free to hover over to see the video to see the topic title!
 
+> To see the slides, check out the [Presentations part of this website here](https://raulingaverage.dev/Presentations/#/)
+
 # Conference Presentations
 {% include gallery id="layouts_gallery" %}
 
