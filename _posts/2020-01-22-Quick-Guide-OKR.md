@@ -4,7 +4,8 @@ firstPublishedAt: 1551244473750
 latestPublishedAt: 1551244473750
 slug: quick-guide-to-okrs
 title: Quick Guide to OKRs
-
+author_profile: true 
+toc: true
 tag: Project Management
 ---
 
