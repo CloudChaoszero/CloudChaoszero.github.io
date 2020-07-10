@@ -1,0 +1,1235 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.17.2 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>SQL Readability (2020) -</title>
+<meta name="description" content="Scenario: You submitted a Pull Request (PR) for a sophisticated contribution to production (prod), that you spent several hours working on.  ">
+
+
+  <meta name="author" content="Raul Maldonado">
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="">
+<meta property="og:title" content="SQL Readability (2020)">
+<meta property="og:url" content="http://localhost:4000/SQL-Readability/">
+
+
+  <meta property="og:description" content="Scenario: You submitted a Pull Request (PR) for a sophisticated contribution to production (prod), that you spent several hours working on.  ">
+
+
+
+  <meta property="og:image" content="http://localhost:4000/assets/images/sql-query-worked.jpg">
+
+
+
+  <meta name="twitter:site" content="@raulingaverage">
+  <meta name="twitter:title" content="SQL Readability (2020)">
+  <meta name="twitter:description" content="Scenario: You submitted a Pull Request (PR) for a sophisticated contribution to production (prod), that you spent several hours working on.  ">
+  <meta name="twitter:url" content="http://localhost:4000/SQL-Readability/">
+
+  
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="http://localhost:4000/assets/images/sql-query-worked.jpg">
+  
+
+  
+
+
+
+  <meta property="article:published_time" content="2020-04-03T00:00:00-07:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/SQL-Readability/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Raul Maldonado",
+      "url": "http://localhost:4000/",
+      "sameAs": ["https://twitter.com/raulingaverage","https://github.com/CloudChaoszero","https://www.linkedin.com/in/raulm8/"]
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title=" Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
+<link rel="manifest" href="/assets/images/site.webmanifest">
+<link rel="mask-icon" href="/assets/images/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<!-- end custom head snippets -->
+
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Rauling Average
+          
+        </a>
+        <ul class="visible-links">
+              
+              
+                  <li class="masthead__menu-item">
+                      <a href="/home">About</a>
+                  </li>
+              
+          
+              
+              
+                  <li class="dropdown ">
+                      <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Accomplishments    <i class="fa fa-caret-down fa-sm" aria-hidden="true"></i><span class="caret"></span></a>
+                      <ul class="dropdown-content">
+                          
+                              <li>
+                                  <a href="/accomplishments/main">    Professional & Volunteering</a>
+                              </li>
+                          
+                              <li>
+                                  <a href="/accomplishments/resume">    Resume</a>
+                              </li>
+                          
+                              <li>
+                                  <a href="/accomplishments/cert">    Certifications</a>
+                              </li>
+                          
+                      </ul>
+                  </li>
+              
+          
+              
+              
+                  <li class="dropdown ">
+                      <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Portfolio    <i class="fa fa-caret-down fa-sm" aria-hidden="true"></i><span class="caret"></span></a>
+                      <ul class="dropdown-content">
+                          
+                              <li>
+                                  <a href="/portfolio/projects">    Projects</a>
+                              </li>
+                          
+                              <li>
+                                  <a href="/portfolio/presentations">    Presentations</a>
+                              </li>
+                          
+                      </ul>
+                  </li>
+              
+          
+              
+              
+                  <li class="dropdown ">
+                      <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Notes    <i class="fa fa-caret-down fa-sm" aria-hidden="true"></i><span class="caret"></span></a>
+                      <ul class="dropdown-content">
+                          
+                              <li>
+                                  <a href="/notes/api">    APIs</a>
+                              </li>
+                          
+                              <li>
+                                  <a href="/notes/databases-snowflake">    Databases: Snowflake</a>
+                              </li>
+                          
+                              <li>
+                                  <a href="/notes/technical">    Technical</a>
+                              </li>
+                          
+                      </ul>
+                  </li>
+              
+          
+              
+              
+                  <li class="masthead__menu-item">
+                      <a href="/tags">Archive</a>
+                  </li>
+              
+          
+      </ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="http://localhost:4000/" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        <li class="current">SQL Readability (2020)</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+
+      
+        <img src="/assets/images/ProfilePicture.jpg" alt="Raul Maldonado" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Raul Maldonado</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>Full Stack Data Analyst</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+        
+          
+            <li><a href="rmaldonadocloud@gmail.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+          
+        
+          
+            <li><a href="https://raulingaverage.dev" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
+          
+        
+          
+            <li><a href="https://twitter.com/raulingaverage" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+          
+        
+          
+            <li><a href="https://github.com/CloudChaoszero" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+          
+        
+          
+            <li><a href="https://www.linkedin.com/in/raulm8/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i> LinkedIn</a></li>
+          
+        
+          
+            <li><a href="https://public.tableau.com/profile/raul.maldonado#!/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Tableau</a></li>
+          
+        
+          
+            <li><a href="https://www.strava.com/athletes/26468777" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-strava" aria-hidden="true"></i> Strava</a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="SQL Readability (2020)">
+    <meta itemprop="description" content="Scenario: You submitted a Pull Request (PR) for a sophisticated contribution to production (prod), that you spent several hours working on.">
+    <meta itemprop="datePublished" content="2020-04-03T00:00:00-07:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">SQL Readability (2020)
+</h1>
+          
+            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  6 minute read
+
+</p>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu">
+  <li><a href="#what-is-readability">What is Readability?</a>
+    <ul>
+      <li><a href="#why-should-i-encourage-readability-best-practices">Why should I encourage readability best practices?</a>
+        <ul>
+          <li><a href="#the-scenario">The Scenario</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#why-am-i-writing-about-this">Why am I writing about this?</a></li>
+  <li><a href="#sql-readability">SQL Readability</a>
+    <ul>
+      <li><a href="#the-scenario-1">The Scenario</a></li>
+      <li><a href="#statement-syntax">Statement Syntax</a></li>
+      <li><a href="#spacing">Spacing</a></li>
+      <li><a href="#80-characters">80 Characters</a></li>
+      <li><a href="#subqueries-and-with-statements">Subqueries and WITH statements</a></li>
+      <li><a href="#aliases">Aliases</a></li>
+      <li><a href="#camel-case-or-snake">Camel Case or Snake?</a></li>
+      <li><a href="#comments">Comments</a></li>
+    </ul>
+  </li>
+  <li><a href="#recap">Recap</a></li>
+  <li><a href="#bonus">Bonus</a>
+    <ul>
+      <li><a href="#sql-linters">SQL Linters</a>
+        <ul>
+          <li><a href="#vs-code">VS Code</a></li>
+          <li><a href="#mode-analytics">Mode Analytics</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#resources">Resources</a></li>
+</ul>
+
+            </nav>
+          </aside>
+        
+        <p>Scenario: You submitted a Pull Request (PR) for a sophisticated contribution to production (prod), that you spent <strong>several</strong> hours working on.</p>
+
+<p><strong>Kudos to you!</strong></p>
+
+<p><img src="/assets/images/sql-query-worked.jpg" alt="SQL Query Worked" /></p>
+
+<p><strong>But then a code reviewer does not approve your PR.</strong></p>
+
+<p><img src="https://media1.giphy.com/media/6tSHBDVDyOF3O/source.gif" alt="Crying--10 Things I hate about you" /></p>
+
+<p>Your query worked, so what happened?</p>
+
+<p>It may turn out that you’re writing style may not be up-to-par with the team’s standards.</p>
+
+<p>And that’s not your fault! It’s something you should not be ashamed about, but understanding about.</p>
+
+<p>But why? First…</p>
+
+<h1 id="what-is-readability">What is Readability?</h1>
+
+<p>Readability is the style, standardization, and practice for “readable” code. An analogy, it’s like correcting for punctuation in a writing practice.</p>
+
+<p>The enforcement of readability practices, typically by teams, are tied to code reviewing between peers to push code to production.</p>
+
+<h2 id="why-should-i-encourage-readability-best-practices">Why should I encourage readability best practices?</h2>
+
+<p>From the introduction, I emphasized that coding practices are enforced by teams in agreement for better practices, standards, and alignment to contribute value to a product or organization. But what’s in it for the team? What’s in it for you</p>
+
+<p>Let’s look at a scenario.</p>
+
+<h3 id="the-scenario">The Scenario</h3>
+
+<p>When a developer initially writes the code their knowledge of the system is very detailed and complex. And in it, they’ve spent a substantial amount of time to know the logical conditions, output, and corner cases–well hopefully.</p>
+
+<p>1 year later, another person would like to change this query due to updated business logic regarding the query implementation.</p>
+
+<p>Recall the logic being complex? Well, this developer added another layer of complexity as well–poor formatting, which can actually put-off, confuse, or just reduce productivity for the current individual.</p>
+
+<p>This new developer may experience:</p>
+<ul>
+  <li>Difficult to understand logic and outputs</li>
+  <li>Longer to debug</li>
+  <li>Maintenance issues</li>
+  <li>The complexity of reading code</li>
+</ul>
+
+<center><img src="https://i.pinimg.com/originals/17/7e/29/177e297fa5b9b5e5c889ef0b7da3abe3.gif" alt="Sleepy" class="center" /></center>
+
+<p>With readability practices, we alleviate the complexity of reading the code for the developer.</p>
+
+<p>This can enable:</p>
+
+<ul>
+  <li>Increased Productivity</li>
+  <li>More time to focus on the core logic.</li>
+  <li>Quicker turnover of implementations</li>
+</ul>
+
+<p><b><center>That seems like it's worth it, right?</center></b></p>
+
+<center><img src="https://media.giphy.com/media/69jvP3VXUYhr3YUYu9/giphy.gif" alt="right?" class="center" /></center>
+
+<h1 id="why-am-i-writing-about-this">Why am I writing about this?</h1>
+
+<p>Being an upcoming analyst, I didn’t mind code readability along with the content I produced.</p>
+
+<p>However, one job I submitted SQL, Python, and Javascript PR’s (Change Lists[CL]) to code production, and I learned the impact of readability for teams, and the long-term benefits from it.</p>
+
+<p>Being with Autodesk, I wanted to drive impact to both colleagues and individuals that should be encouraged to enforce these same practices, as we evolve in analytics and (soft) engineering.</p>
+
+<p>Now,
+<b><center>SQL Readability</center></b></p>
+
+<center><img src="https://thumbs.gfycat.com/SandyHelpfulAmazondolphin-max-1mb.gif" alt="Reading Vision" class="center" /></center>
+
+<h1 id="sql-readability">SQL Readability</h1>
+
+<h2 id="the-scenario-1">The Scenario</h2>
+
+<p>Let’s say we want to have the total amount of logins for the past 7 days of <a href="https://en.wikipedia.org/wiki/Myspace">Myspace</a> data per user, and some attributes along with that.</p>
+
+<p>We create a workable query using <a href="https://docs.snowflake.com/en/sql-reference/functions/ascii.html">ASCII SQL syntax</a>.</p>
+
+<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">select</span> 
+
+<span class="n">id</span><span class="p">,</span> <span class="n">createdDate</span><span class="p">,</span> <span class="n">events</span><span class="p">.</span><span class="n">login_id</span><span class="p">,</span> <span class="n">geoState</span><span class="p">,</span> <span class="n">firstName</span><span class="p">,</span> <span class="n">lastName</span><span class="p">,</span> <span class="k">sum</span><span class="p">(</span><span class="n">login</span><span class="p">.</span><span class="n">logIn</span><span class="p">)</span> <span class="n">total_logins</span>
+
+<span class="k">from</span> <span class="n">mySpace_events</span> <span class="k">as</span> <span class="n">events</span>
+<span class="k">LEFT</span> <span class="k">OUTER</span> <span class="k">JOIN</span> <span class="n">mySpace_users</span> <span class="n">users</span>
+<span class="k">on</span> <span class="n">users</span><span class="p">.</span><span class="n">id</span> <span class="o">=</span> <span class="n">events</span><span class="p">.</span><span class="n">user_id</span>
+<span class="k">WHERE</span> <span class="n">login</span><span class="p">.</span><span class="nb">date</span> <span class="o">&gt;=</span> <span class="k">current_date</span> <span class="o">-</span> <span class="p">(</span><span class="k">select</span> <span class="k">min</span><span class="p">(</span><span class="n">createdDate</span><span class="p">)</span> <span class="k">from</span> <span class="n">mySpace_users</span> <span class="k">where</span> <span class="n">profile</span>  <span class="o">=</span> <span class="s1">'Musician'</span><span class="p">)</span>
+<span class="k">group</span> <span class="k">by</span> <span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span>
+</code></pre></div></div>
+
+<h2 id="statement-syntax">Statement Syntax</h2>
+
+<ol>
+  <li>
+    <p><code class="highlighter-rouge">Upper case</code> declarative statements withing your SQL queries. This allows for another dimension to mentally filter out non-essential information when going to your main target–the logic.</p>
+  </li>
+  <li>
+    <p>Have the statements be on <code class="highlighter-rouge">Seperate Lines</code></p>
+  </li>
+  <li>
+    <p>Ensure particular words are <a href="https://docs.microsoft.com/en-us/sql/t-sql/language-elements/reserved-keywords-transact-sql?view=sql-server-ver15">reserved</a> in your SQL queries.</p>
+    <ul>
+      <li>For example, some reserve words are <code class="highlighter-rouge">SELECT</code>, <code class="highlighter-rouge">INNER</code>, <code class="highlighter-rouge">JOIN</code>–so don’t use those words as columns.</li>
+    </ul>
+  </li>
+</ol>
+
+<p>Here, we modified the query to have declarative statements be on seperate lines and capitalize said statements.</p>
+
+<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">SELECT</span> 
+
+<span class="n">id</span><span class="p">,</span> <span class="n">createdDate</span><span class="p">,</span> <span class="n">events</span><span class="p">.</span><span class="n">login_id</span><span class="p">,</span> <span class="n">geoState</span><span class="p">,</span> <span class="n">firstName</span><span class="p">,</span> <span class="n">lastName</span><span class="p">,</span> <span class="k">SUM</span><span class="p">(</span><span class="n">login</span><span class="p">.</span><span class="n">logIn</span><span class="p">)</span> <span class="n">total_logins</span>
+
+<span class="k">FROM</span> <span class="n">mySpace_events</span> <span class="k">AS</span> <span class="n">events</span>
+<span class="k">LEFT</span> <span class="k">OUTER</span> <span class="k">JOIN</span> <span class="n">mySpace_users</span> <span class="n">users</span> <span class="k">ON</span> <span class="n">users</span><span class="p">.</span><span class="n">id</span> <span class="o">=</span> <span class="n">events</span><span class="p">.</span><span class="n">user_id</span>
+<span class="k">WHERE</span> <span class="n">login</span><span class="p">.</span><span class="nb">date</span> <span class="o">&gt;=</span> <span class="k">CURRENT_DATE</span> <span class="o">-</span> <span class="p">(</span><span class="k">SELECT</span> <span class="k">MIN</span><span class="p">(</span><span class="n">createdDate</span><span class="p">)</span> <span class="k">FROM</span> <span class="n">mySpace_users</span> <span class="k">WHERE</span> <span class="n">profile</span>  <span class="o">=</span> <span class="s1">'Musician'</span><span class="p">)</span>
+<span class="k">GROUP</span> <span class="k">BY</span> <span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span>
+</code></pre></div></div>
+
+<h2 id="spacing">Spacing</h2>
+
+<p>“Do not optimize for a smaller number of lines of code. newlines are cheap, brain time is expensive” - <a href="https://github.com/fishtown-analytics/corp/blob/master/dbt_coding_conventions.md">Source</a></p>
+
+<center><img src="https://thumbs.gfycat.com/ElaborateEsteemedJackal-max-1mb.gif" alt="Space" class="center" /></center>
+
+<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">SELECT</span> 
+
+    <span class="n">id</span><span class="p">,</span> 
+    <span class="n">createdDate</span><span class="p">,</span> 
+    <span class="n">events</span><span class="p">.</span><span class="n">login_id</span><span class="p">,</span> 
+    <span class="n">geoState</span><span class="p">,</span> 
+    <span class="n">firstName</span><span class="p">,</span> 
+    <span class="n">lastName</span><span class="p">,</span> 
+    <span class="k">SUM</span><span class="p">(</span><span class="n">login</span><span class="p">.</span><span class="n">logIn</span><span class="p">)</span> <span class="n">total_logins</span>
+
+<span class="k">FROM</span> <span class="n">mySpace_events</span> <span class="k">AS</span> <span class="n">events</span>
+
+<span class="k">LEFT</span> <span class="k">OUTER</span> <span class="k">JOIN</span> <span class="n">mySpace_users</span> <span class="n">users</span> <span class="k">ON</span>
+     <span class="n">users</span><span class="p">.</span><span class="n">id</span> <span class="o">=</span> <span class="n">events</span><span class="p">.</span><span class="n">user_id</span>
+
+<span class="k">WHERE</span> <span class="n">login</span><span class="p">.</span><span class="nb">date</span> <span class="o">&gt;=</span> <span class="k">CURRENT_DATE</span> <span class="o">-</span> <span class="p">(</span><span class="k">SELECT</span> <span class="k">MIN</span><span class="p">(</span><span class="n">createdDate</span><span class="p">)</span> <span class="k">FROM</span> <span class="n">mySpace_users</span> <span class="k">WHERE</span> <span class="n">profile</span>  <span class="o">=</span> <span class="s1">'Musician'</span><span class="p">)</span>
+
+<span class="k">GROUP</span> <span class="k">BY</span> <span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span>
+</code></pre></div></div>
+
+<h2 id="80-characters">80 Characters</h2>
+
+<p>Here, I am abiding by past enforcement of reading ergonomics that I learned from the engineering community. However, I think there is something more, historical to this<a href="https://softwareengineering.stackexchange.com/questions/148677/why-is-80-characters-the-standard-limit-for-code-width">…seen here</a>.</p>
+
+<p>Here, the long-winded sub-query went from one line, to multiple lines, within an 80 character limit.</p>
+
+<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">SELECT</span> 
+
+    <span class="n">id</span><span class="p">,</span> 
+    <span class="n">createdDate</span><span class="p">,</span> 
+    <span class="n">events</span><span class="p">.</span><span class="n">login_id</span><span class="p">,</span> 
+    <span class="n">geoState</span><span class="p">,</span> 
+    <span class="n">firstName</span><span class="p">,</span> 
+    <span class="n">lastName</span><span class="p">,</span> 
+    <span class="k">SUM</span><span class="p">(</span><span class="n">login</span><span class="p">.</span><span class="n">logIn</span><span class="p">)</span> <span class="n">total_logins</span>
+
+<span class="k">FROM</span> <span class="n">mySpace_events</span> <span class="k">AS</span> <span class="n">events</span>
+
+<span class="k">LEFT</span> <span class="k">OUTER</span> <span class="k">JOIN</span> <span class="n">mySpace_users</span> <span class="n">users</span>
+
+<span class="k">ON</span> <span class="n">users</span><span class="p">.</span><span class="n">id</span> <span class="o">=</span> <span class="n">events</span><span class="p">.</span><span class="n">user_id</span>
+
+<span class="k">WHERE</span> <span class="n">login</span><span class="p">.</span><span class="nb">date</span> <span class="o">&gt;=</span> <span class="k">CURRENT_DATE</span> <span class="o">-</span> <span class="p">(</span>
+    <span class="k">SELECT</span> 
+    
+        <span class="k">MIN</span><span class="p">(</span><span class="n">createdDate</span><span class="p">)</span> 
+    
+    <span class="k">FROM</span> <span class="n">mySpace_users</span> 
+    
+    <span class="k">WHERE</span> <span class="n">profile</span>  <span class="o">=</span> <span class="s1">'Musician'</span>
+    <span class="p">)</span>
+
+<span class="k">GROUP</span> <span class="k">BY</span> <span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span>
+</code></pre></div></div>
+
+<h2 id="subqueries-and-with-statements">Subqueries and WITH statements</h2>
+
+<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="k">WITH</span> <span class="n">earliest_musician_user_date</span> <span class="k">AS</span> <span class="p">(</span> 
+
+    <span class="k">SELECT</span> 
+    
+        <span class="k">MIN</span><span class="p">(</span><span class="n">createdDate</span><span class="p">)</span> 
+    
+    <span class="k">FROM</span> <span class="n">mySpace_users</span> 
+    
+    <span class="k">WHERE</span> <span class="n">profile</span>  <span class="o">=</span> <span class="s1">'Musician'</span>
+
+<span class="p">)</span>
+
+<span class="k">SELECT</span> 
+
+    <span class="n">id</span><span class="p">,</span> 
+    <span class="n">createdDate</span><span class="p">,</span> 
+    <span class="n">events</span><span class="p">.</span><span class="n">login_id</span><span class="p">,</span> 
+    <span class="n">geoState</span><span class="p">,</span> 
+    <span class="n">firstName</span><span class="p">,</span> 
+    <span class="n">lastName</span><span class="p">,</span> 
+    <span class="k">SUM</span><span class="p">(</span><span class="n">login</span><span class="p">.</span><span class="n">logIn</span><span class="p">)</span> <span class="n">total_logins</span>
+
+<span class="k">FROM</span> <span class="n">mySpace_events</span> <span class="k">AS</span> <span class="n">events</span>
+
+<span class="k">LEFT</span> <span class="k">OUTER</span> <span class="k">JOIN</span> <span class="n">mySpace_users</span> <span class="n">users</span>
+
+<span class="k">ON</span> <span class="n">users</span><span class="p">.</span><span class="n">id</span> <span class="o">=</span> <span class="n">events</span><span class="p">.</span><span class="n">user_id</span>
+
+<span class="k">WHERE</span> <span class="n">login</span><span class="p">.</span><span class="nb">date</span> <span class="o">&gt;=</span> <span class="k">CURRENT_DATE</span> <span class="o">-</span> <span class="n">earliest_musician_user_date</span>
+
+<span class="k">GROUP</span> <span class="k">BY</span> <span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span>
+</code></pre></div></div>
+
+<h2 id="aliases">Aliases</h2>
+
+<p>Don’t pass on the <code class="highlighter-rouge">AS</code> statement. With adding the alias, we are ensuring we are explicit with defining nick-names of ingested information, to what we can expect for output information.</p>
+
+<p>Here, we move the subqueries from the bottom of the list to the top, and then call the reference in the same location.</p>
+
+<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="k">WITH</span> <span class="n">earliest_musician_user_date</span> <span class="k">AS</span> <span class="p">(</span> 
+
+    <span class="k">SELECT</span> 
+    
+        <span class="k">MIN</span><span class="p">(</span><span class="n">createdDate</span><span class="p">)</span>
+    
+    <span class="k">FROM</span> <span class="n">mySpace_users</span> 
+    
+    <span class="k">WHERE</span> <span class="n">profile</span>  <span class="o">=</span> <span class="s1">'Musician'</span>
+
+<span class="p">)</span>
+
+<span class="k">SELECT</span> 
+
+    <span class="n">id</span><span class="p">,</span> 
+    <span class="n">createdDate</span><span class="p">,</span> 
+    <span class="n">events</span><span class="p">.</span><span class="n">login_id</span><span class="p">,</span> 
+    <span class="n">geoState</span><span class="p">,</span> 
+    <span class="n">firstName</span><span class="p">,</span> 
+    <span class="n">lastName</span><span class="p">,</span> 
+    <span class="k">SUM</span><span class="p">(</span><span class="n">login</span><span class="p">.</span><span class="n">logIn</span><span class="p">)</span> <span class="k">AS</span> <span class="n">total_logins</span>
+
+<span class="k">FROM</span> <span class="n">mySpace_events</span> <span class="k">AS</span> <span class="n">events</span>
+
+<span class="k">LEFT</span> <span class="k">OUTER</span> <span class="k">JOIN</span> <span class="k">AS</span> <span class="n">mySpace_users</span> <span class="n">users</span> <span class="k">ON</span> 
+    <span class="n">users</span><span class="p">.</span><span class="n">id</span> <span class="o">=</span> <span class="n">events</span><span class="p">.</span><span class="n">user_id</span>
+
+<span class="k">WHERE</span> <span class="n">login</span><span class="p">.</span><span class="nb">date</span> <span class="o">&gt;=</span> <span class="k">CURRENT_DATE</span> <span class="o">-</span> <span class="n">earliest_musician_user_date</span>
+
+<span class="k">GROUP</span> <span class="k">BY</span> <span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span>
+</code></pre></div></div>
+
+<h2 id="camel-case-or-snake">Camel Case or Snake?</h2>
+
+<p>In other coding language readability guidelines, there is an enforcement of code readability. Particularly, in Python <a href="https://www.python.org/dev/peps/pep-0008/">PEP 8</a> variable names are set to <code class="highlighter-rouge">camelCase</code> and file names are set to <code class="highlighter-rouge">snake_case</code>.</p>
+
+<p><a href="https://www.python.org/dev/peps/pep-0008/"><img src="https://4.bp.blogspot.com/-c4o1jtkNXoM/TZyVEvHZTwI/AAAAAAAAAW4/XlD0PjNQdBM/s1600/Slithering-Camel.jpg" alt="Camel Snake" /></a></p>
+
+<p>with SQL, we have our naming conventions be ‘Snake” conventions.</p>
+
+<p>Here, we have all variable names be snake case (e.g. <code class="highlighter-rouge">createdDate</code> $\rightarrow$ <code class="highlighter-rouge">created_date</code>), along with other columns.</p>
+
+<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="k">WITH</span> <span class="n">earliest_musician_user_date</span> <span class="k">AS</span> <span class="p">(</span> 
+
+    <span class="k">SELECT</span> 
+    
+        <span class="k">MIN</span><span class="p">(</span><span class="n">created_date</span><span class="p">)</span>
+    
+    <span class="k">FROM</span> <span class="n">mySpace_users</span> 
+    
+    <span class="k">WHERE</span> <span class="n">profile</span>  <span class="o">=</span> <span class="s1">'Musician'</span>
+
+<span class="p">)</span>
+
+<span class="k">SELECT</span> 
+
+    <span class="n">id</span><span class="p">,</span> 
+    <span class="n">created_date</span><span class="p">,</span> 
+    <span class="n">events</span><span class="p">.</span><span class="n">login_id</span><span class="p">,</span> 
+    <span class="n">geo_state</span><span class="p">,</span> 
+    <span class="n">first_name</span><span class="p">,</span> 
+    <span class="n">last_name</span><span class="p">,</span> 
+    <span class="k">SUM</span><span class="p">(</span><span class="n">login</span><span class="p">.</span><span class="n">logIn</span><span class="p">)</span> <span class="k">AS</span> <span class="n">total_logins</span>
+
+<span class="k">FROM</span> <span class="n">mySpace_events</span> <span class="k">AS</span> <span class="n">events</span>
+
+<span class="k">LEFT</span> <span class="k">OUTER</span> <span class="k">JOIN</span> <span class="k">AS</span> <span class="n">myspace_users</span> <span class="n">users</span>
+
+<span class="k">ON</span> <span class="n">users</span><span class="p">.</span><span class="n">id</span> <span class="o">=</span> <span class="n">events</span><span class="p">.</span><span class="n">user_id</span>
+
+<span class="k">WHERE</span> <span class="n">login</span><span class="p">.</span><span class="nb">date</span> <span class="o">&gt;=</span> <span class="k">CURRENT_DATE</span> <span class="o">-</span> <span class="n">earliest_musician_user_date</span>
+
+<span class="k">GROUP</span> <span class="k">BY</span> <span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span>
+</code></pre></div></div>
+<h2 id="comments">Comments</h2>
+
+<p>Both in the beginning of the code snippet to say what data the snippet pulls, the business logic it includes, and throughout, as much as possible, to reference subqueries. SQL makes it hard to read through an entire piece of code without running specific pieces one by one to get where you’re going and comments will help jog the memory. Include them at the end of lines in code, or in blocks at the beginning of code.</p>
+
+<p>Here, we add a block-quote comment <code class="highlighter-rouge">/* */</code> and single-line comments <code class="highlighter-rouge">--</code> to clarify logic</p>
+
+<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="cm">/*
+
+* Querying the Myspace Events table with user information for the time
+* after the first Musician profile-user was created.
+
+*/</span>
+
+<span class="k">WITH</span> <span class="n">earliest_musician_user_date</span> <span class="k">AS</span> <span class="p">(</span> 
+
+    <span class="k">SELECT</span> 
+    
+        <span class="k">MIN</span><span class="p">(</span><span class="n">created_date</span><span class="p">)</span>
+    
+    <span class="k">FROM</span> <span class="n">mySpace_users</span> 
+    
+    <span class="k">WHERE</span> <span class="n">profile</span>  <span class="o">=</span> <span class="s1">'Musician'</span>
+
+<span class="p">)</span>
+
+<span class="k">SELECT</span> 
+
+    <span class="n">id</span><span class="p">,</span> 
+    <span class="n">created_date</span><span class="p">,</span> 
+    <span class="n">events</span><span class="p">.</span><span class="n">login_id</span><span class="p">,</span> 
+    <span class="n">geo_state</span><span class="p">,</span> 
+    <span class="n">first_name</span><span class="p">,</span> 
+    <span class="n">last_name</span><span class="p">,</span> 
+    <span class="k">SUM</span><span class="p">(</span><span class="n">login</span><span class="p">.</span><span class="n">logIn</span><span class="p">)</span> <span class="k">AS</span> <span class="n">total_logins</span> <span class="c1">-- Obtaining total logins</span>
+
+<span class="k">FROM</span> <span class="n">mySpace_events</span> <span class="k">AS</span> <span class="n">events</span>
+
+<span class="k">LEFT</span> <span class="k">OUTER</span> <span class="k">JOIN</span> <span class="k">AS</span> <span class="n">myspace_users</span> <span class="n">users</span>
+
+<span class="k">ON</span> <span class="n">users</span><span class="p">.</span><span class="n">id</span> <span class="o">=</span> <span class="n">events</span><span class="p">.</span><span class="n">user_id</span>
+
+<span class="k">WHERE</span> <span class="n">login</span><span class="p">.</span><span class="nb">date</span> <span class="o">&gt;=</span> <span class="k">CURRENT_DATE</span> <span class="o">-</span> <span class="n">earliest_musician_user_date</span>
+
+<span class="k">GROUP</span> <span class="k">BY</span> <span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span>
+</code></pre></div></div>
+
+<p>There are other things to refine here, but let’s stop here.</p>
+<blockquote>
+  <p>e.g. GROUP BY names should be actual names of columns, when code is in production</p>
+</blockquote>
+
+<p>Now, take a look at the query above compared to the original one?</p>
+
+<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">select</span> 
+
+<span class="n">id</span><span class="p">,</span> <span class="n">createdDate</span><span class="p">,</span> <span class="n">events</span><span class="p">.</span><span class="n">login_id</span><span class="p">,</span> <span class="n">geoState</span><span class="p">,</span> <span class="n">firstName</span><span class="p">,</span> <span class="n">lastName</span><span class="p">,</span> <span class="k">sum</span><span class="p">(</span><span class="n">login</span><span class="p">.</span><span class="n">logIn</span><span class="p">)</span> <span class="n">total_logins</span>
+
+<span class="k">from</span> <span class="n">mySpace_events</span> <span class="k">as</span> <span class="n">events</span>
+<span class="k">LEFT</span> <span class="k">OUTER</span> <span class="k">JOIN</span> <span class="n">mySpace_users</span> <span class="n">users</span>
+<span class="k">on</span> <span class="n">users</span><span class="p">.</span><span class="n">id</span> <span class="o">=</span> <span class="n">events</span><span class="p">.</span><span class="n">user_id</span>
+<span class="k">WHERE</span> <span class="n">login</span><span class="p">.</span><span class="nb">date</span> <span class="o">&gt;=</span> <span class="k">current_date</span> <span class="o">-</span> <span class="p">(</span><span class="k">select</span> <span class="k">min</span><span class="p">(</span><span class="n">createdDate</span><span class="p">)</span> <span class="k">from</span> <span class="n">mySpace_users</span> <span class="k">where</span> <span class="n">profile</span>  <span class="o">=</span> <span class="s1">'Musician'</span><span class="p">)</span>
+<span class="k">group</span> <span class="k">by</span> <span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span>
+</code></pre></div></div>
+
+<p>Isn’t that better?!</p>
+
+<p><img src="https://media1.giphy.com/media/xT5LMWbDQuncMUJTmU/source.gif" alt="We can read!" /></p>
+
+<h1 id="recap">Recap</h1>
+
+<p>We learned by encouraging a readability practice for submitting code to a team’s repository, production, developers do not have to face:</p>
+
+<ul>
+  <li>Difficult to understand logic and outputs</li>
+  <li>Longer to debug</li>
+  <li>Maintenance issues</li>
+  <li>The complexity of reading code</li>
+</ul>
+
+<p>And possible enable:</p>
+
+<ul>
+  <li>Increased Productivity</li>
+  <li>More time to focus on the core logic.</li>
+  <li>Quicker turnover of fixes or tasks</li>
+</ul>
+
+<center><img src="https://media2.giphy.com/media/FV8YUdZ88fNLi/source.gif" alt="Far Out--Hackers" class="center" /></center>
+
+<p>Now,</p>
+<blockquote>
+  <p>Never RIGHT, move it to the LEFT..and <strong>SQL ON</strong>…</p>
+</blockquote>
+
+<p><img src="https://i.kym-cdn.com/photos/images/original/001/175/473/0c3.gif" alt="You do you" /></p>
+
+<h1 id="bonus">Bonus</h1>
+
+<h2 id="sql-linters">SQL Linters</h2>
+
+<h3 id="vs-code">VS Code</h3>
+
+<ul>
+  <li>https://marketplace.visualstudio.com/items?itemName=sensourceinc.vscode-sql-beautify</li>
+</ul>
+
+<h3 id="mode-analytics">Mode Analytics</h3>
+
+<p><a href="https://mode.com/blog/new-sql-formatting-capability">Format SQL mode</a></p>
+
+<h1 id="resources">Resources</h1>
+
+<ol>
+  <li>
+    <p><a href="http://veekaybee.github.io/2015/06/02/good-sql/">Vicki Boykis’ take on readable SQL</a></p>
+  </li>
+  <li>
+    <p><a href="https://www.sqlstyle.guide/">SQL Style Guide</a></p>
+  </li>
+  <li>
+    <p><a href="http://www.craigkerstiens.com/2016/01/08/writing-better-sql/">Craig Kersteins’ take on Legible SQL</a></p>
+  </li>
+  <li>
+    <p><a href="https://www.quora.com/Why-do-we-need-to-improve-the-readability-of-our-code">Quora: Why do we need to improve readability of our code?</a></p>
+  </li>
+  <li>Unofficial: My own past experience on SQL Readability form 2018 learnings
+    <blockquote>
+      <p>Note: Company never open-sourced Readability standards for SQL, <a href="(http://google.github.io/styleguide/)">but has for others</a></p>
+    </blockquote>
+  </li>
+  <li>
+    <p><a href="https://www.codeproject.com/Articles/126380/Writing-Readable-SQL">Code Project; Writing SQL</a></p>
+  </li>
+  <li><a href="https://www.python.org/dev/peps/pep-0008/">PEP 8</a></li>
+</ol>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/tags/#coding" class="page__taxonomy-item" rel="tag">Coding</a>
+    
+    </span>
+  </p>
+
+
+
+
+        
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2020-04-03T00:00:00-07:00">April 3, 2020</time></p>
+        
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?via=raulingaverage&text=SQL+Readability+%282020%29%20http%3A%2F%2Flocalhost%3A4000%2FSQL-Readability%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2FSQL-Readability%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2FSQL-Readability%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/TimeSeriesAnalysis-Overview/" class="pagination--pager" title="Timeseriesanalysis Overview
+">Previous</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You may also enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src=
+          
+            "/assets/images/ProfilePicture.jpg"
+          
+          alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/TimeSeriesAnalysis-Overview/" rel="permalink">Timeseriesanalysis Overview
+</a>
+      
+    </h2>
+    <!-- dvhart: date read-time meta line -->
+    <p class="page__meta">
+      
+        <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="2020-04-01T00:00:00-07:00">April 01, 2020 </time>&emsp;
+      
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  less than 1 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src=
+          
+            "/assets/images/covid19/effect-against-particles.png"
+          
+          alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/Joining-Masks4All/" rel="permalink">Joining #Masks4All against Coronavirus
+</a>
+      
+    </h2>
+    <!-- dvhart: date read-time meta line -->
+    <p class="page__meta">
+      
+        <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="2020-03-28T00:00:00-07:00">March 28, 2020 </time>&emsp;
+      
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  3 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">I am a avid viewer of Lex Fridman’s podcasts and other misc. content, particularly his Youtube videos. I recently watched one of his videos on “Face Masks fo...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src=
+          
+            "/assets/images/ProfilePicture.jpg"
+          
+          alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/2019Lookback-2020Growth/" rel="permalink">2019 Lookback and the #2020Vision
+</a>
+      
+    </h2>
+    <!-- dvhart: date read-time meta line -->
+    <p class="page__meta">
+      
+        <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="2020-03-10T00:00:00-07:00">March 10, 2020 </time>&emsp;
+      
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  5 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">It’s been a while since I’ve produced some quality personal content. Moreover, I’ve noticed that it’s been 1 year since my time as a Data Analyst at Autodesk...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src=
+          
+            "/assets/images/ProfilePicture.jpg"
+          
+          alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/Survival-Analysis/" rel="permalink">Survival Analysis
+</a>
+      
+    </h2>
+    <!-- dvhart: date read-time meta line -->
+    <p class="page__meta">
+      
+        <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="2020-02-23T00:00:00-08:00">February 23, 2020 </time>&emsp;
+      
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  less than 1 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
+<link rel="manifest" href="/assets/images/site.webmanifest">
+<link rel="mask-icon" href="/assets/images/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="rmaldonadocloud@gmail.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+        
+          <li><a href="https://raulingaverage.dev" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/raulingaverage" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/CloudChaoszero" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://www.linkedin.com/in/raulm8/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://public.tableau.com/profile/raul.maldonado#!/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Tableau</a></li>
+        
+      
+        
+          <li><a href="https://www.strava.com/athletes/26468777" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-strava" aria-hidden="true"></i> Strava</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 Raul Maldonado. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+  </body>
+</html>

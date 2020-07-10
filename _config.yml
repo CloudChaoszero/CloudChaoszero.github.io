@@ -111,7 +111,7 @@ analytics:
 author:
   name: "Raul Maldonado"
   avatar : "assets/images/ProfilePicture.jpg"
-  bio  : "Full Stack Data Analyst"
+  bio  : "Data Scientist"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
