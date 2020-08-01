@@ -1,41 +1,35 @@
 main:
   - title: "About"
     url: /home
-  - title: "Accomplishments"
     sublinks:
-      - title: "Professional & Volunteering"
-        url: /accomplishments/main
+      - title: "About Me"
+        url: /home
       - title: "Resume"
         url: /accomplishments/resume
       - title: "Certifications"
         url: /accomplishments/cert
   - title: "Portfolio"
     sublinks:
-      - title: "Projects"
-        url: /portfolio/projects
       - title: "Presentations"
         url: /portfolio/presentations
+      - title: "Projects"
+        url: /portfolio/projects
+  - title: "1st Quartile of Fun"
+    sublinks:
+      - title: "Music"
+        url: /music
+      - title: "Puns"
+        url: /puns
   - title: "Notes"
     sublinks:
-  #     - title: Command Line
-  #       url: /tags/
-  #     - title: Statistics
-  #       url: /categories/
-  #     - title: Git
-  #       url: /year-archive/
-  #     - title: Python
-  #       url: /year-archive/
       - title: APIs
         url: /notes/api
-  #     - title: Databases
-  #       url: /year-archive/
       - title: "Databases: Snowflake"
         url: /notes/databases-snowflake
       - title: Technical
-        url: /notes/technical 
+        url: /notes/technical
   - title: "Archive"
     url: /tags
-
 blogroll:
     - title: "Subscribed Blogs"
       children:
@@ -47,6 +41,12 @@ blogroll:
           url: https://multithreaded.stitchfix.com/blog/
         - title: 3 Blue 1 Brown
           url: https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw
+    - title: "Noteable Articles"
+      children:
+        - title: "What people don't tell you about Data Science (DataQuest & Dataiku blog)"
+          url: https://blog.dataiku.com/what-people-dont-tell-you-about-being-a-data-scientist
+        - title: "Cost Efficiency with Data Architecture at Netflix"
+          url: https://netflixtechblog.com/byte-down-making-netflixs-data-infrastructure-cost-effective-fee7b3235032
     - title: "Motivational"
       children:
         - title: "Pursuit of Happyness Clip (Youtube)"
