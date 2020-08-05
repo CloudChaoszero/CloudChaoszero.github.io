@@ -20,10 +20,10 @@ main:
         url: /music
       - title: "Puns"
         url: /puns
-  - title: "Notes"
+  - title: "Resources"
     sublinks:
-      - title: APIs
-        url: /notes/api
+      - title: "Career Tips"
+        url: /career-tips
       - title: "Databases: Snowflake"
         url: /notes/databases-snowflake
       - title: Technical
