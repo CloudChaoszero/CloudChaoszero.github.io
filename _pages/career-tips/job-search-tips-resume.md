@@ -9,27 +9,21 @@ read_time: true
 
 ## Introduction
 
-In this article, you will learn how to craft a resume to effectively make you stand out to employers, compared to other candidates interviewing for job `XYZ`.
+In this article, you will learn how to create a resume to effectively make you stand out to employers, compared to other candidates interviewing for job `XYZ`.
 
 ## Why Listen to Me?
 
-* You want to have guidance on a succinct and effective pitch for job opportunities
-* I had hella jobs. (I.e. I have a seasoned experience in job searching)
+* You want to show a succinct and effective pitch for prospective jobs
+* I have a seasoned experience in job searching (I.e. I had hella jobs)
     * In 2007, I went to a Taco Bell everyday until I got the opportunity to interview
     * 2016-2018 I worked contracted jobs in pursuit of achieving my goals in the Data-field
     * From 2017-2018, I worked in the gig economy as a "TaskRabbiter". There, I had to contstantly fine-tune my profile everyday for moving, officework, cleaning, and waiting in line tasks.
+    * And more!
 
-## Example
-
-<iframe src="https://drive.google.com/file/d/15hJ7xHLeNZKs3cScgu0xpGnRGTcJzWDH/preview" class="is-fullwidth" width="250%" height="450%"></iframe>
-
-The attached document above showcases a real-life resume from 2010. This was post-high school. I was trying to find a job, but ultimately did not find one. I created this resume with no guidance, curation, or feedback. 
-
-> This looks...neat(?)
 
 ## Agenda
 
-That resume is surprisingly not persuasive to pitch to a prospective employer.
+Coming up, we'll see a not-so persuasive resume to pitch to a prospective employer. This was one of my very first resumes in late 2000s.
 > Maybe my looks aren't the reason why I wasn't interviewed....maybe.
 
 Let's spruce it up more to enable us to be more of an attractive candidate for employers.
@@ -41,17 +35,28 @@ The first section will suggest tips to make a great resume, meanwhile we comment
 
 Thereafter, we will jump into section two to discuss my current resume. In this, we too consider how we can make it more effective.
 
-Let's get started!
+## Example
+
+<iframe src="https://drive.google.com/file/d/15hJ7xHLeNZKs3cScgu0xpGnRGTcJzWDH/preview" class="is-fullwidth" width="250%" height="450%"></iframe>
+
+The attached document above showcases a real-life resume from 2010. This was post-high school. I was trying to find a job, but ultimately did not find one. I created this resume with no guidance, curation, or feedback. 
+
+> This looks...neat(?)
+
+
+**Let's get started!**
 
 # Resume Tips
 
 ## 1. Keywords in Job Posting
 
-With the innovation of technology, comes the prospect of automating/reducing number of tasks for people. Moreover, employers have more opportunities to filter candiates. That being said....**employers have more opportunities to filter candidates**.
+With the innovation of technology, comes the prospect of reducing number of tasks for people (automation). That being said....**employers have more opportunities to filter candidates**.
 
-If I were applying to a warehouse, I should have added in keywords like `logistics`, `assemble`, `lbs.` (pounds), or something more to that nature.
+So to **not be filtered out** of the application pool, If I were applying to a warehouse, I should have added in keywords like `logistics`, `assemble`, `lbs.` (pounds), or something more to that nature.
 
 For a retail customer service role, I should add keywords like `customer support`, `onboard`, `train`, or something else to that nature.
+
+If I either add no or irrelevant keywords, the likehood of me not getting the job increases.
 
 ## 2. Include 1-page worth of Relevant Information
 
@@ -77,20 +82,26 @@ This example could be shortened and strengthened in the following:
 
 > “Led multiple teams and shifts for effectively coordinating to serve 300+ customers per workday.”
 
-In that re-write, I ddi something else  I provided an estimate of 300+ customers being served. Why? This allows to provide some "magnitude" with the direction you're trying to lead in. that is, we are trying to show our vector of success in the listed responsibilty.
+In that re-write, I added another effective idea. I provided an estimate of 300+ customers being served. 
+
+> Why?
+
+ This allows to provide some "magnitude" with the direction you're trying to lead in. that is, we are trying to show our vector of success in the listed responsibilty.
 
 > Note: Don't smudge numbers; be as close to honest you can be. Also, if the metric isn't that ideal to pitch, don't bother embedding it.
 
-## 4. Misc
+## 4. Other helpful tips
 
-* Keep it (Reverse) Chronological
+* Keep History in Reverse (Most Recent) Order
 * Carefully Stand Out
-* No Relevant Experience? No Worries!
+    * If you flex too hard, it may come off as being an imposter
 * Show—Don’t Tell—Your Soft Skills
 * No specific addresses
 * Optional Summary
 * organization matters
     * Education before work history can have impact
+* No Relevant Experience? No Worries!
+    * There is always opportunity to grow into the existing or other career paths <3
 
 
 ## 5. Formatting
@@ -99,27 +110,32 @@ In that re-write, I ddi something else  I provided an estimate of 300+ customers
     * If saved as a .rtf, .docx, or something else, then the structure of the resume will change (due to technical issues)
 
 * UX
-    * You want your potential employer to have a seamless experience to understand how you can fit into the company. Having a seamless user experience (UX) allows you to reduce the time to disect your portfolio, and more opportunity for further consideration
+    * You want your potential employer to have a seamless user experience (UX) to understand how you can fit into the company. 
+        * A great UX allows you to reduce the time to look into your portfolio, and more opportunity for further consider **you** :D 
 
-## 6. Kill Short Term Jobs
+## 6. Remove Short Term Jobs
 
 * Instead of singular gig related roles, try the full length of your time in the encompassing gig timeframe?
 * If a short job timeframe, don't even include it (unless this is freelance work)
 
-# Example (Revised)
+# Example Resume: Updated
 
 <iframe src="https://drive.google.com/file/d/1ciVQvQPfzXqXSi8qykbBP_pf1hps9oBZ/preview" class="is-fullwidth" width="250%" height="450%"></iframe>
 
 In the above, I did the following:
 
-* Description of job descriptions with Active words & numbers
-* Re-arranging Work Experience before Education
-* Better UX experience
-* Removed some additional person information (e.g. Zip Code)
-> Phone & Email are required, in my experience
-* Removed "Short term" job 
-* Remove `Objective` Section. For me, this is definital optional
+* In green:
+    * Description of job descriptions with Active words & numbers
 
+* In red:
+    * Removed some additional person information (e.g. Zip Code)
+> Phone & Email are required, in my experience
+    * Removed "Short term" job 
+    * Remove `Objective` Section. For me, this is definitely optional
+* In blue:
+    * Re-arranging Work Experience before Education
+    * Better UX experience
+    * Other minor requirements
 
 ## 7. Proofread
 
@@ -138,7 +154,9 @@ You are packaging and delivering an product that seamlessly portray your portfol
 ## Considerations
 * Be Ready to talk about job hops
 * Explain Gaps
-
+* Learn a thing a day
+    * I sometimes try to learn a new word a day, to add to my ways to communicate with others
+* Be humble, but confident
 
 
 # Conclusion
