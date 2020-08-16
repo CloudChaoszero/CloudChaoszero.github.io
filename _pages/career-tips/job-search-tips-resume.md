@@ -158,14 +158,16 @@ You are packaging and delivering an product that seamlessly portray your portfol
     * I sometimes try to learn a new word a day, to add to my ways to communicate with others
 * Be humble, but confident
 
+<iframe src="https://drive.google.com/file/d/1FNeeqCbfKRerW04rbvmS7n-mI1ySeqBJ/preview" class="is-fullwidth" width="250%" height="450%"></iframe>
 
 # Conclusion
 
 
-Remember, be confident and trust in your pursuit of your career path. However, don't be overly confident, like the following example
+Remember, be confident and trust in your pursuit of your career path. However, don't be overly confident, like the following example:
 
-![Dwight Interview](https://www.youtube.com/watch?v=JJzMUqXrQrE)
+* [Dwight Interview](https://www.youtube.com/watch?v=JJzMUqXrQrE)
 
+If you have any questions or concerns, happy to answer them. Moreover, if you want to add something to this article, let me know!
 
 Cheers, and good luck on your job search!
 
