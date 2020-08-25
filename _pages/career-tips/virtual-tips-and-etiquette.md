@@ -23,8 +23,7 @@ In this article, you will learn a few things that have helped me with best pract
 
 ## Motivation
 
-During these unprecedented times, people around the world are going through major difficulties that either are pushing them into a lower in class, or is increasing the existing social status division. To help mitigate that in any way, I thought I'd offer my consultation on effectively transitiong into digital communication or learning
-
+During these unprecedented times, people around the world are going through major difficulties that either are pushing them into a lower in class, or is increasing the existing social status division. To help mitigate that in any way, I thought I'd offer my consultation on effectively transitioning into digital communication or learning.
 
 # 2. Joining a Call
 
@@ -92,6 +91,12 @@ Getting ready for your zoom call? The following are good steps I take before joi
 
 * Take your time sharing your screen. 
     * You don't want to share a screen of [your favorite music Playlist](https://www.youtube.com/watch?v=9FXSN6Y2pgY)
+
+Some may ask...
+![Why tho](https://media0.giphy.com/media/3oEjHKw7by5QJ0sm6Q/giphy.gif)
+
+It's just about respecting others, I suppose. I can write some long paragraph about why, but I'll say this, `especially during these times`:
+> "Treat people with respect, if you want that same respect back"
 
 # 5. Ending the Call
 
