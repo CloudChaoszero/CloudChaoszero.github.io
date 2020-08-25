@@ -4,7 +4,9 @@ title: "Virtual Etiquette in a Transformative World"
 author_profile: true
 toc: true
 read_time: true
-
+header:
+  teaser: https://specials-images.forbesimg.com/imageserve/1207944368/960x0.jpg?fit=scale
+  og_image: https://specials-images.forbesimg.com/imageserve/1207944368/960x0.jpg?fit=scale
 ---
 
 `Note`: This article contains vocabulary that appeals to a wider audience.
