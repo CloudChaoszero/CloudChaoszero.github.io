@@ -14,12 +14,12 @@ main:
         url: /portfolio/presentations
       - title: "Projects"
         url: /portfolio/projects
-  - title: "1st Quartile of Fun"
+  - title: "Content"
     sublinks:
-      - title: "Music"
-        url: /music
-      - title: "Puns"
-        url: /puns
+      - title: "Analytics Engineering & dbt: 0-100 Onboard"
+        url: "https://raulingaverage.dev/onboarding-2-dbt"
+      - title: "Misc. Music & Puns"
+        url: /music-puns
   - title: "Resources"
     sublinks:
       - title: "Career Tips"
