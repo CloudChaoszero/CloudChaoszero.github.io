@@ -20,8 +20,6 @@ title                    : ""
 title_separator          : "-"
 subtitle                 :  # site tagline that appears below site title in masthead
 name                     : "Raul Maldonado"
-I enjoy solving problems and bringing value to both businesses and aspirant individuals through data & analytics-related tools or concepts. My career goal is to empower business users as a Data Scientist with baseline "jack of all trades and a master of none" framework championing best practices, ethics, and implementations.
-
 description              : "Enabling you or your business with resources, data concepts, or puns/jokes!"
 url                      : "https://raulingaverage.dev/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
