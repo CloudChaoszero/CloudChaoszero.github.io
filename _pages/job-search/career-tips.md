@@ -24,8 +24,8 @@ Other Resources
 
 * [How to make a Great Data Science Resume](https://www.dataquest.io/blog/how-data-science-resume-cv/)
 
-# [Making a quality Cover Letter](/job-search/cover-letter)
-
+# Making a quality Cover Letter
+* [Cover Letter Examples by The Muse](https://www.themuse.com/advice/cover-letter-examples-every-type-job-seeker)
 
 # Interviewing
 
