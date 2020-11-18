@@ -49,11 +49,6 @@ var store = [{
         "tags": ["Coding"],
         "url": "http://localhost:4000/Migrating-Blog/",
         "teaser":"http://localhost:4000/assets/images/ProfilePicture.jpg"},{
-        "title": "Survival Analysis",
-        "excerpt":" ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/Survival-Analysis/",
-        "teaser":"http://localhost:4000/assets/images/ProfilePicture.jpg"},{
         "title": "2019 Lookback and the \\#2020Vision",
         "excerpt":"It’s been a while since I’ve produced some quality personal content. Moreover, I’ve noticed that it’s been 1 year since my time as a Data Analyst at Autodesk! Though the journey has been amazing to work in a start-up-like workflow, meanwhile working to drive impact to a corporation, I thought...","categories": [],
         "tags": ["Motivation"],
@@ -64,13 +59,18 @@ var store = [{
         "tags": ["Personal"],
         "url": "http://localhost:4000/Joining-Masks4All/",
         "teaser":"http://localhost:4000/assets/images/covid19/effect-against-particles.png"},{
-        "title": "Timeseriesanalysis Overview",
-        "excerpt":" ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/TimeSeriesAnalysis-Overview/",
-        "teaser":"http://localhost:4000/assets/images/ProfilePicture.jpg"},{
         "title": "SQL Readability (2020)",
         "excerpt":"Scenario: You submitted a Pull Request (PR) for a sophisticated contribution to production (prod), that you spent several hours working on. Kudos to you! But then a code reviewer does not approve your PR. Your query worked, so what happened? It may turn out that you’re writing style may not...","categories": [],
         "tags": ["Coding"],
         "url": "http://localhost:4000/SQL-Readability/",
+        "teaser":"http://localhost:4000/assets/images/sql-query-worked.jpg"},{
+        "title": "Avoiding Data Project Failures",
+        "excerpt":"Data Analytics is more than ‘Analytics’. Regardless of the size of your analysis or project implementation, future proofing said items with either documentation, tests, or transparency ensures both short term and long term success for your team and organization. That being said, I discuss some borrowed Project Management skillsets that’s...","categories": [],
+        "tags": ["Project Management"],
+        "url": "http://localhost:4000/Projects-Gathering-Requirements/",
+        "teaser":"https://t8f8b3g9.stackpathcdn.com/wp-content/uploads/2019/07/3.png"},{
+        "title": "IT'S TIME TO IMPACT",
+        "excerpt":"“Every Western institution was unprepared for the coronavirus pandemic, despite many prior warnings. This monumental failure of institutional effectiveness will reverberate for the rest of the decade…But the other part of the problem is what we didn’t do in advance, and what we’re failing to do now. And that is...","categories": [],
+        "tags": ["Coding"],
+        "url": "http://localhost:4000/Its-Time-For-Impact/",
         "teaser":"http://localhost:4000/assets/images/sql-query-worked.jpg"}]

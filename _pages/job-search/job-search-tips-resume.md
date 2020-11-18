@@ -1,6 +1,6 @@
 ---
-permalink: /career-tips/resume
-title: "Job Search Tips: Resume"
+permalink: /job-search/resume
+title: "Job Search: Resume Tips"
 author_profile: true
 toc: true
 read_time: true

@@ -155,19 +155,12 @@
         <ul class="visible-links">
               
               
-                  <li class="masthead__menu-item">
-                      <a href="/home">About</a>
-                  </li>
-              
-          
-              
-              
                   <li class="dropdown ">
-                      <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Accomplishments    <i class="fa fa-caret-down fa-sm" aria-hidden="true"></i><span class="caret"></span></a>
+                      <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About    <i class="fa fa-caret-down fa-sm" aria-hidden="true"></i><span class="caret"></span></a>
                       <ul class="dropdown-content">
                           
                               <li>
-                                  <a href="/accomplishments/main">    Professional & Volunteering</a>
+                                  <a href="/home">    About Me</a>
                               </li>
                           
                               <li>
@@ -189,11 +182,11 @@
                       <ul class="dropdown-content">
                           
                               <li>
-                                  <a href="/portfolio/projects">    Projects</a>
+                                  <a href="/portfolio/presentations">    Presentations</a>
                               </li>
                           
                               <li>
-                                  <a href="/portfolio/presentations">    Presentations</a>
+                                  <a href="/portfolio/projects">    Projects</a>
                               </li>
                           
                       </ul>
@@ -203,11 +196,29 @@
               
               
                   <li class="dropdown ">
-                      <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Notes    <i class="fa fa-caret-down fa-sm" aria-hidden="true"></i><span class="caret"></span></a>
+                      <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Content    <i class="fa fa-caret-down fa-sm" aria-hidden="true"></i><span class="caret"></span></a>
                       <ul class="dropdown-content">
                           
                               <li>
-                                  <a href="/notes/api">    APIs</a>
+                                  <a href="https://raulingaverage.dev/onboarding-2-dbt">    Analytics Engineering & dbt: 0-100 Onboard</a>
+                              </li>
+                          
+                              <li>
+                                  <a href="/music-puns">    Misc. Music & Puns</a>
+                              </li>
+                          
+                      </ul>
+                  </li>
+              
+          
+              
+              
+                  <li class="dropdown ">
+                      <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resources    <i class="fa fa-caret-down fa-sm" aria-hidden="true"></i><span class="caret"></span></a>
+                      <ul class="dropdown-content">
+                          
+                              <li>
+                                  <a href="/job-search">    Job Search Prep.</a>
                               </li>
                           
                               <li>
@@ -297,7 +308,7 @@
     
     
       <div class="author__bio" itemprop="description">
-        <p>Full Stack Data Analyst</p>
+        <p>Data-Analyst-Sci-Eng.csv</p>
 
       </div>
     
@@ -309,14 +320,6 @@
       
 
       
-        
-          
-            <li><a href="rmaldonadocloud@gmail.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
-          
-        
-          
-            <li><a href="https://raulingaverage.dev" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
-          
         
           
             <li><a href="https://twitter.com/raulingaverage" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
@@ -570,15 +573,15 @@
 
 <ol>
   <li>
-    <p><code class="highlighter-rouge">Upper case</code> declarative statements withing your SQL queries. This allows for another dimension to mentally filter out non-essential information when going to your main target–the logic.</p>
+    <p><code class="language-plaintext highlighter-rouge">Upper case</code> declarative statements withing your SQL queries. This allows for another dimension to mentally filter out non-essential information when going to your main target–the logic.</p>
   </li>
   <li>
-    <p>Have the statements be on <code class="highlighter-rouge">Seperate Lines</code></p>
+    <p>Have the statements be on <code class="language-plaintext highlighter-rouge">Seperate Lines</code></p>
   </li>
   <li>
     <p>Ensure particular words are <a href="https://docs.microsoft.com/en-us/sql/t-sql/language-elements/reserved-keywords-transact-sql?view=sql-server-ver15">reserved</a> in your SQL queries.</p>
     <ul>
-      <li>For example, some reserve words are <code class="highlighter-rouge">SELECT</code>, <code class="highlighter-rouge">INNER</code>, <code class="highlighter-rouge">JOIN</code>–so don’t use those words as columns.</li>
+      <li>For example, some reserve words are <code class="language-plaintext highlighter-rouge">SELECT</code>, <code class="language-plaintext highlighter-rouge">INNER</code>, <code class="language-plaintext highlighter-rouge">JOIN</code>–so don’t use those words as columns.</li>
     </ul>
   </li>
 </ol>
@@ -694,7 +697,7 @@
 
 <h2 id="aliases">Aliases</h2>
 
-<p>Don’t pass on the <code class="highlighter-rouge">AS</code> statement. With adding the alias, we are ensuring we are explicit with defining nick-names of ingested information, to what we can expect for output information.</p>
+<p>Don’t pass on the <code class="language-plaintext highlighter-rouge">AS</code> statement. With adding the alias, we are ensuring we are explicit with defining nick-names of ingested information, to what we can expect for output information.</p>
 
 <p>Here, we move the subqueries from the bottom of the list to the top, and then call the reference in the same location.</p>
 
@@ -733,13 +736,13 @@
 
 <h2 id="camel-case-or-snake">Camel Case or Snake?</h2>
 
-<p>In other coding language readability guidelines, there is an enforcement of code readability. Particularly, in Python <a href="https://www.python.org/dev/peps/pep-0008/">PEP 8</a> variable names are set to <code class="highlighter-rouge">camelCase</code> and file names are set to <code class="highlighter-rouge">snake_case</code>.</p>
+<p>In other coding language readability guidelines, there is an enforcement of code readability. Particularly, in Python <a href="https://www.python.org/dev/peps/pep-0008/">PEP 8</a> variable names are set to <code class="language-plaintext highlighter-rouge">camelCase</code> and file names are set to <code class="language-plaintext highlighter-rouge">snake_case</code>.</p>
 
 <p><a href="https://www.python.org/dev/peps/pep-0008/"><img src="https://4.bp.blogspot.com/-c4o1jtkNXoM/TZyVEvHZTwI/AAAAAAAAAW4/XlD0PjNQdBM/s1600/Slithering-Camel.jpg" alt="Camel Snake" /></a></p>
 
 <p>with SQL, we have our naming conventions be ‘Snake” conventions.</p>
 
-<p>Here, we have all variable names be snake case (e.g. <code class="highlighter-rouge">createdDate</code> $\rightarrow$ <code class="highlighter-rouge">created_date</code>), along with other columns.</p>
+<p>Here, we have all variable names be snake case (e.g. <code class="language-plaintext highlighter-rouge">createdDate</code> $\rightarrow$ <code class="language-plaintext highlighter-rouge">created_date</code>), along with other columns.</p>
 
 <div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
 <span class="k">WITH</span> <span class="n">earliest_musician_user_date</span> <span class="k">AS</span> <span class="p">(</span> 
@@ -778,7 +781,7 @@
 
 <p>Both in the beginning of the code snippet to say what data the snippet pulls, the business logic it includes, and throughout, as much as possible, to reference subqueries. SQL makes it hard to read through an entire piece of code without running specific pieces one by one to get where you’re going and comments will help jog the memory. Include them at the end of lines in code, or in blocks at the beginning of code.</p>
 
-<p>Here, we add a block-quote comment <code class="highlighter-rouge">/* */</code> and single-line comments <code class="highlighter-rouge">--</code> to clarify logic</p>
+<p>Here, we add a block-quote comment <code class="language-plaintext highlighter-rouge">/* */</code> and single-line comments <code class="language-plaintext highlighter-rouge">--</code> to clarify logic</p>
 
 <div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
 <span class="cm">/*
@@ -959,11 +962,12 @@
       
   <nav class="pagination">
     
-      <a href="/TimeSeriesAnalysis-Overview/" class="pagination--pager" title="Timeseriesanalysis Overview
+      <a href="/Joining-Masks4All/" class="pagination--pager" title="Joining #Masks4All against Coronavirus
 ">Previous</a>
     
     
-      <a href="#" class="pagination--pager disabled">Next</a>
+      <a href="/Projects-Gathering-Requirements/" class="pagination--pager" title="Avoiding Data Project Failures
+">Next</a>
     
   </nav>
 
@@ -988,21 +992,21 @@
       <div class="archive__item-teaser">
         <img src=
           
-            "/assets/images/ProfilePicture.jpg"
+            "/assets/images/sql-query-worked.jpg"
           
           alt="">
       </div>
     
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="/TimeSeriesAnalysis-Overview/" rel="permalink">Timeseriesanalysis Overview
+        <a href="/Its-Time-For-Impact/" rel="permalink">IT’S TIME TO IMPACT
 </a>
       
     </h2>
     <!-- dvhart: date read-time meta line -->
     <p class="page__meta">
       
-        <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="2020-04-01T00:00:00-07:00">April 01, 2020 </time>&emsp;
+        <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="2020-10-06T00:00:00-07:00">October 06, 2020 </time>&emsp;
       
     
       <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
@@ -1010,12 +1014,52 @@
 
 
 
-  less than 1 minute read
+  1 minute read
 
 </p>
     
-    <p class="archive__item-excerpt" itemprop="description">
+    <p class="archive__item-excerpt" itemprop="description">“Every Western institution was unprepared for the coronavirus pandemic, despite many prior warnings. This monumental failure of institutional effectiveness w...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src=
+          
+            "https://t8f8b3g9.stackpathcdn.com/wp-content/uploads/2019/07/3.png"
+          
+          alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/Projects-Gathering-Requirements/" rel="permalink">Avoiding Data Project Failures
+</a>
+      
+    </h2>
+    <!-- dvhart: date read-time meta line -->
+    <p class="page__meta">
+      
+        <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="2020-09-26T00:00:00-07:00">September 26, 2020 </time>&emsp;
+      
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  1 minute read
+
 </p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Data Analytics is more than ‘Analytics’. Regardless of the size of your analysis or project implementation, future proofing said items with either documentat...</p>
   </article>
 </div>
 
@@ -1102,48 +1146,6 @@
 </div>
 
         
-          
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-      <div class="archive__item-teaser">
-        <img src=
-          
-            "/assets/images/ProfilePicture.jpg"
-          
-          alt="">
-      </div>
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="/Survival-Analysis/" rel="permalink">Survival Analysis
-</a>
-      
-    </h2>
-    <!-- dvhart: date read-time meta line -->
-    <p class="page__meta">
-      
-        <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="2020-02-23T00:00:00-08:00">February 23, 2020 </time>&emsp;
-      
-    
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-
-
-
-
-  less than 1 minute read
-
-</p>
-    
-    <p class="archive__item-excerpt" itemprop="description">
-</p>
-  </article>
-</div>
-
-        
       </div>
     </div>
   
@@ -1173,14 +1175,6 @@
     
 
     
-      
-        
-          <li><a href="rmaldonadocloud@gmail.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
-        
-      
-        
-          <li><a href="https://raulingaverage.dev" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
-        
       
         
           <li><a href="https://twitter.com/raulingaverage" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>

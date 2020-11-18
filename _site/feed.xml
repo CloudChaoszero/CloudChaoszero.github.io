@@ -1,4 +1,101 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-10T03:25:16-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Raul Maldonado</title><subtitle>Portfolio website including such things as data, puns and more!</subtitle><author><name>Raul Maldonado</name></author><entry><title type="html">SQL Readability (2020)</title><link href="http://localhost:4000/SQL-Readability/" rel="alternate" type="text/html" title="SQL Readability (2020)" /><published>2020-04-03T00:00:00-07:00</published><updated>2020-04-03T00:00:00-07:00</updated><id>http://localhost:4000/SQL-Readability</id><content type="html" xml:base="http://localhost:4000/SQL-Readability/">&lt;p&gt;Scenario: You submitted a Pull Request (PR) for a sophisticated contribution to production (prod), that you spent &lt;strong&gt;several&lt;/strong&gt; hours working on.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-18T12:40:11-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Raul Maldonado</title><subtitle>Portfolio website including such things as data, puns and more!</subtitle><author><name>Raul Maldonado</name></author><entry><title type="html">IT’S TIME TO IMPACT</title><link href="http://localhost:4000/Its-Time-For-Impact/" rel="alternate" type="text/html" title="IT'S TIME TO IMPACT" /><published>2020-10-06T00:00:00-07:00</published><updated>2020-10-06T00:00:00-07:00</updated><id>http://localhost:4000/Its-Time-For-Impact</id><content type="html" xml:base="http://localhost:4000/Its-Time-For-Impact/">&lt;p&gt;“Every Western institution was unprepared for the coronavirus pandemic, despite many prior warnings. This monumental failure of institutional effectiveness will reverberate for the rest of the decade…But the other part of the problem is what we didn’t &lt;strong&gt;do&lt;/strong&gt; in advance, and what we’re failing to do now. And that is a failure of action, and specifically our widespread inability to &lt;strong&gt;build&lt;/strong&gt;.” - &lt;a href=&quot;https://a16z.com/2020/04/18/its-time-to-build/&quot;&gt;IT’S TIME TO BUILD (April 2020)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s November 6th, 2020. Since the start of the pandemic, we’ve seen the acceleration of technological adaption, and it’s been fantastic, from a investor perspective. However, there had been consequential adoption in misinformation, strategy, and investments.&lt;/p&gt;
+
+&lt;p&gt;However, I would say that now we should focus on the following:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Investing in ourselves, is investing in others&lt;/li&gt;
+  &lt;li&gt;Business Personafication &amp;amp; Identity&lt;/li&gt;
+  &lt;li&gt;Good Trouble&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Vanity metrics are statistics that aspire to a business goal, meanwhile look hypothetically good. However, they only aspire, but never achieve to such goal. Actionable metrics are specific tasks that are either incrementally or reach your business goal.&lt;/p&gt;
+
+&lt;p&gt;At the beginning of the COVID-19 outbreak, technologists and other thinkers envisoned a better future, through building processes for a better future. However, we must consider that maybe we had the pieces all along. However, are we making an impact?&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Metrics about Economy&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Focus on net-good deployment&lt;/li&gt;
+  &lt;li&gt;Social Strife
+    &lt;blockquote&gt;
+      &lt;p&gt;GoodTrouble&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Example of clubhouse situations&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Example of “It is what it is”
+It’s Time for Impact.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The following was an important part to the article, but I would like to change something, seen highlighted:&lt;/p&gt;
+
+&lt;p&gt;“Every step of the way, to everyone around us, we should be asking the question, what are you &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;impacting&lt;/code&gt;? What are you &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;impacting&lt;/code&gt; directly, or helping other people to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;impact&lt;/code&gt;, or teaching other people to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;impact&lt;/code&gt;, or taking care of people who are &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;impacting&lt;/code&gt;? If the work you’re doing isn’t either leading to something being built or taking care of people directly, we’ve failed you, and we need to get you into a position, an occupation, a career where you can contribute to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;impacting&lt;/code&gt;. There are always outstanding people in even the most broken systems — we need to get all the talent we can on the biggest problems we have, and on building the answers to those problems.”&lt;/p&gt;</content><author><name>Raul Maldonado</name></author><category term="Coding" /><summary type="html">“Every Western institution was unprepared for the coronavirus pandemic, despite many prior warnings. This monumental failure of institutional effectiveness will reverberate for the rest of the decade…But the other part of the problem is what we didn’t do in advance, and what we’re failing to do now. And that is a failure of action, and specifically our widespread inability to build.” - IT’S TIME TO BUILD (April 2020)</summary></entry><entry><title type="html">Avoiding Data Project Failures</title><link href="http://localhost:4000/Projects-Gathering-Requirements/" rel="alternate" type="text/html" title="Avoiding Data Project Failures" /><published>2020-09-26T00:00:00-07:00</published><updated>2020-09-26T00:00:00-07:00</updated><id>http://localhost:4000/Projects-Gathering-Requirements</id><content type="html" xml:base="http://localhost:4000/Projects-Gathering-Requirements/">&lt;p&gt;Data Analytics is more than ‘Analytics’. Regardless of the size of your analysis or project implementation, future proofing said items with either documentation, tests, or transparency ensures both &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;short term&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;long term&lt;/code&gt; success for your team and organization.&lt;/p&gt;
+
+&lt;p&gt;That being said, I discuss some borrowed Project Management skillsets that’s helped me become sucessful with short &amp;amp; long term impact. This can be seen in the following:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Short Term
+    &lt;ul&gt;
+      &lt;li&gt;Transparency&lt;/li&gt;
+      &lt;li&gt;Reproducibility&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Long Term
+    &lt;ul&gt;
+      &lt;li&gt;Documentation&lt;/li&gt;
+      &lt;li&gt;Requirements Gathering
+        &lt;ul&gt;
+          &lt;li&gt;Business Requirement Documents&lt;/li&gt;
+          &lt;li&gt;Project Requirement Documents&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;why-should-i-further-read-this&quot;&gt;Why Should I Further Read This?&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I was a contributor to a high impact project under Agile Methodology&lt;/li&gt;
+  &lt;li&gt;I helped and assisted with migrations and reporting at a agile paced team in a top 5 Tech Company&lt;/li&gt;
+  &lt;li&gt;I currently contribute best, or at least better, practices in my team with eclectic project management skill-sets I learned from the preceding mentions&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;short-term&quot;&gt;Short Term&lt;/h2&gt;
+
+&lt;h3 id=&quot;transparency&quot;&gt;Transparency&lt;/h3&gt;
+
+&lt;p&gt;Scenario:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;My business analyst provides a report on Company X’s user engagement, per request. However, I notice the y-axis on my visualization is blank. Moreover, why is there a trough, dropping, in March 2020?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;What happened?&lt;/p&gt;
+
+&lt;p&gt;As an analyst, we provided a report from a requested user as some point of time $t$. However, what happens if we do not consider the following:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Virality
+    &lt;ul&gt;
+      &lt;li&gt;How frequent will this report be shared?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Lifespan
+    &lt;ul&gt;
+      &lt;li&gt;Will this report be resurfaced? If so, when?
+*
+Will this report be shared again business analyst provided the report, but now you
+Time and time again
+        &lt;h3 id=&quot;reproducibility&quot;&gt;Reproducibility&lt;/h3&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;long-term&quot;&gt;Long Term&lt;/h2&gt;
+&lt;p&gt;about something that’s been on my mind the past year. And with recently working with particular Analytics Engineering best practices, it further ins&lt;/p&gt;</content><author><name>Raul Maldonado</name></author><category term="Project Management" /><summary type="html">Data Analytics is more than ‘Analytics’. Regardless of the size of your analysis or project implementation, future proofing said items with either documentation, tests, or transparency ensures both short term and long term success for your team and organization.</summary></entry><entry><title type="html">SQL Readability (2020)</title><link href="http://localhost:4000/SQL-Readability/" rel="alternate" type="text/html" title="SQL Readability (2020)" /><published>2020-04-03T00:00:00-07:00</published><updated>2020-04-03T00:00:00-07:00</updated><id>http://localhost:4000/SQL-Readability</id><content type="html" xml:base="http://localhost:4000/SQL-Readability/">&lt;p&gt;Scenario: You submitted a Pull Request (PR) for a sophisticated contribution to production (prod), that you spent &lt;strong&gt;several&lt;/strong&gt; hours working on.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Kudos to you!&lt;/strong&gt;&lt;/p&gt;
 
@@ -96,15 +193,15 @@
 
 &lt;ol&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Upper case&lt;/code&gt; declarative statements withing your SQL queries. This allows for another dimension to mentally filter out non-essential information when going to your main target–the logic.&lt;/p&gt;
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Upper case&lt;/code&gt; declarative statements withing your SQL queries. This allows for another dimension to mentally filter out non-essential information when going to your main target–the logic.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Have the statements be on &lt;code class=&quot;highlighter-rouge&quot;&gt;Seperate Lines&lt;/code&gt;&lt;/p&gt;
+    &lt;p&gt;Have the statements be on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Seperate Lines&lt;/code&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Ensure particular words are &lt;a href=&quot;https://docs.microsoft.com/en-us/sql/t-sql/language-elements/reserved-keywords-transact-sql?view=sql-server-ver15&quot;&gt;reserved&lt;/a&gt; in your SQL queries.&lt;/p&gt;
     &lt;ul&gt;
-      &lt;li&gt;For example, some reserve words are &lt;code class=&quot;highlighter-rouge&quot;&gt;SELECT&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;INNER&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;JOIN&lt;/code&gt;–so don’t use those words as columns.&lt;/li&gt;
+      &lt;li&gt;For example, some reserve words are &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SELECT&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;INNER&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;JOIN&lt;/code&gt;–so don’t use those words as columns.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
@@ -220,7 +317,7 @@
 
 &lt;h2 id=&quot;aliases&quot;&gt;Aliases&lt;/h2&gt;
 
-&lt;p&gt;Don’t pass on the &lt;code class=&quot;highlighter-rouge&quot;&gt;AS&lt;/code&gt; statement. With adding the alias, we are ensuring we are explicit with defining nick-names of ingested information, to what we can expect for output information.&lt;/p&gt;
+&lt;p&gt;Don’t pass on the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;AS&lt;/code&gt; statement. With adding the alias, we are ensuring we are explicit with defining nick-names of ingested information, to what we can expect for output information.&lt;/p&gt;
 
 &lt;p&gt;Here, we move the subqueries from the bottom of the list to the top, and then call the reference in the same location.&lt;/p&gt;
 
@@ -259,13 +356,13 @@
 
 &lt;h2 id=&quot;camel-case-or-snake&quot;&gt;Camel Case or Snake?&lt;/h2&gt;
 
-&lt;p&gt;In other coding language readability guidelines, there is an enforcement of code readability. Particularly, in Python &lt;a href=&quot;https://www.python.org/dev/peps/pep-0008/&quot;&gt;PEP 8&lt;/a&gt; variable names are set to &lt;code class=&quot;highlighter-rouge&quot;&gt;camelCase&lt;/code&gt; and file names are set to &lt;code class=&quot;highlighter-rouge&quot;&gt;snake_case&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;In other coding language readability guidelines, there is an enforcement of code readability. Particularly, in Python &lt;a href=&quot;https://www.python.org/dev/peps/pep-0008/&quot;&gt;PEP 8&lt;/a&gt; variable names are set to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;camelCase&lt;/code&gt; and file names are set to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;snake_case&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.python.org/dev/peps/pep-0008/&quot;&gt;&lt;img src=&quot;https://4.bp.blogspot.com/-c4o1jtkNXoM/TZyVEvHZTwI/AAAAAAAAAW4/XlD0PjNQdBM/s1600/Slithering-Camel.jpg&quot; alt=&quot;Camel Snake&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;with SQL, we have our naming conventions be ‘Snake” conventions.&lt;/p&gt;
 
-&lt;p&gt;Here, we have all variable names be snake case (e.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;createdDate&lt;/code&gt; $\rightarrow$ &lt;code class=&quot;highlighter-rouge&quot;&gt;created_date&lt;/code&gt;), along with other columns.&lt;/p&gt;
+&lt;p&gt;Here, we have all variable names be snake case (e.g. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;createdDate&lt;/code&gt; $\rightarrow$ &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;created_date&lt;/code&gt;), along with other columns.&lt;/p&gt;
 
 &lt;div class=&quot;language-sql highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
 &lt;span class=&quot;k&quot;&gt;WITH&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;earliest_musician_user_date&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;AS&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; 
@@ -304,7 +401,7 @@
 
 &lt;p&gt;Both in the beginning of the code snippet to say what data the snippet pulls, the business logic it includes, and throughout, as much as possible, to reference subqueries. SQL makes it hard to read through an entire piece of code without running specific pieces one by one to get where you’re going and comments will help jog the memory. Include them at the end of lines in code, or in blocks at the beginning of code.&lt;/p&gt;
 
-&lt;p&gt;Here, we add a block-quote comment &lt;code class=&quot;highlighter-rouge&quot;&gt;/* */&lt;/code&gt; and single-line comments &lt;code class=&quot;highlighter-rouge&quot;&gt;--&lt;/code&gt; to clarify logic&lt;/p&gt;
+&lt;p&gt;Here, we add a block-quote comment &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/* */&lt;/code&gt; and single-line comments &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--&lt;/code&gt; to clarify logic&lt;/p&gt;
 
 &lt;div class=&quot;language-sql highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
 &lt;span class=&quot;cm&quot;&gt;/*
@@ -435,7 +532,7 @@
     &lt;p&gt;&lt;a href=&quot;https://www.codeproject.com/Articles/126380/Writing-Readable-SQL&quot;&gt;Code Project; Writing SQL&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.python.org/dev/peps/pep-0008/&quot;&gt;PEP 8&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Raul Maldonado</name></author><category term="Coding" /><summary type="html">Scenario: You submitted a Pull Request (PR) for a sophisticated contribution to production (prod), that you spent several hours working on.</summary></entry><entry><title type="html">Timeseriesanalysis Overview</title><link href="http://localhost:4000/TimeSeriesAnalysis-Overview/" rel="alternate" type="text/html" title="Timeseriesanalysis Overview" /><published>2020-04-01T00:00:00-07:00</published><updated>2020-04-01T00:00:00-07:00</updated><id>http://localhost:4000/TimeSeriesAnalysis-Overview</id><content type="html" xml:base="http://localhost:4000/TimeSeriesAnalysis-Overview/"></content><author><name>Raul Maldonado</name></author><summary type="html"></summary></entry><entry><title type="html">Joining \#Masks4All against Coronavirus</title><link href="http://localhost:4000/Joining-Masks4All/" rel="alternate" type="text/html" title="Joining \#Masks4All against Coronavirus" /><published>2020-03-28T00:00:00-07:00</published><updated>2020-03-28T00:00:00-07:00</updated><id>http://localhost:4000/Joining-Masks4All</id><content type="html" xml:base="http://localhost:4000/Joining-Masks4All/">&lt;p&gt;I am a avid viewer of Lex Fridman’s podcasts and other misc. content, particularly his Youtube videos. I recently watched one of his videos on &lt;a href=&quot;https://www.youtube.com/watch?v=qFmaSNP6_z4&quot;&gt;“Face Masks for All” &amp;amp; DIY Masks, seen here&lt;/a&gt;.&lt;/p&gt;
+&lt;/ol&gt;</content><author><name>Raul Maldonado</name></author><category term="Coding" /><summary type="html">Scenario: You submitted a Pull Request (PR) for a sophisticated contribution to production (prod), that you spent several hours working on.</summary></entry><entry><title type="html">Joining \#Masks4All against Coronavirus</title><link href="http://localhost:4000/Joining-Masks4All/" rel="alternate" type="text/html" title="Joining \#Masks4All against Coronavirus" /><published>2020-03-28T00:00:00-07:00</published><updated>2020-03-28T00:00:00-07:00</updated><id>http://localhost:4000/Joining-Masks4All</id><content type="html" xml:base="http://localhost:4000/Joining-Masks4All/">&lt;p&gt;I am a avid viewer of Lex Fridman’s podcasts and other misc. content, particularly his Youtube videos. I recently watched one of his videos on &lt;a href=&quot;https://www.youtube.com/watch?v=qFmaSNP6_z4&quot;&gt;“Face Masks for All” &amp;amp; DIY Masks, seen here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;In it, he discusses what you need to know about face masks and its impact on it and the spread of COVID19 (2019 Coronavirus)&lt;/p&gt;
 &lt;blockquote&gt;
@@ -702,7 +799,7 @@ I have to give some credit to this Youtube on shedding some light&lt;/p&gt;
   &lt;p&gt;Learn, grow, empower.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;#2020Vision&lt;/p&gt;</content><author><name>Raul Maldonado</name></author><category term="Motivation" /><summary type="html">It’s been a while since I’ve produced some quality personal content. Moreover, I’ve noticed that it’s been 1 year since my time as a Data Analyst at Autodesk! Though the journey has been amazing to work in a start-up-like workflow, meanwhile working to drive impact to a corporation, I thought it would be beneficial to readers to provide some lessons learned. Also, what’s coming up for me in 2020?</summary></entry><entry><title type="html">Survival Analysis</title><link href="http://localhost:4000/Survival-Analysis/" rel="alternate" type="text/html" title="Survival Analysis" /><published>2020-02-23T00:00:00-08:00</published><updated>2020-02-23T00:00:00-08:00</updated><id>http://localhost:4000/Survival-Analysis</id><content type="html" xml:base="http://localhost:4000/Survival-Analysis/"></content><author><name>Raul Maldonado</name></author><summary type="html"></summary></entry><entry><title type="html">Why I Upgraded my Website from HTML -&amp;gt; Jekyll</title><link href="http://localhost:4000/Migrating-Blog/" rel="alternate" type="text/html" title="Why I Upgraded my Website from HTML -&gt; Jekyll" /><published>2020-02-01T00:00:00-08:00</published><updated>2020-02-01T00:00:00-08:00</updated><id>http://localhost:4000/Migrating-Blog</id><content type="html" xml:base="http://localhost:4000/Migrating-Blog/">&lt;p&gt;My initial blog started off with several considerations as a website. Should I create a website? If I create the website, how much would I have to pay for a yearly subscription? Is it worth it? What about free solutions?&lt;/p&gt;
+&lt;p&gt;#2020Vision&lt;/p&gt;</content><author><name>Raul Maldonado</name></author><category term="Motivation" /><summary type="html">It’s been a while since I’ve produced some quality personal content. Moreover, I’ve noticed that it’s been 1 year since my time as a Data Analyst at Autodesk! Though the journey has been amazing to work in a start-up-like workflow, meanwhile working to drive impact to a corporation, I thought it would be beneficial to readers to provide some lessons learned. Also, what’s coming up for me in 2020?</summary></entry><entry><title type="html">Why I Upgraded my Website from HTML -&amp;gt; Jekyll</title><link href="http://localhost:4000/Migrating-Blog/" rel="alternate" type="text/html" title="Why I Upgraded my Website from HTML -&gt; Jekyll" /><published>2020-02-01T00:00:00-08:00</published><updated>2020-02-01T00:00:00-08:00</updated><id>http://localhost:4000/Migrating-Blog</id><content type="html" xml:base="http://localhost:4000/Migrating-Blog/">&lt;p&gt;My initial blog started off with several considerations as a website. Should I create a website? If I create the website, how much would I have to pay for a yearly subscription? Is it worth it? What about free solutions?&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;I tried it out, and it didn’t work out. I was broke in early 2016-2017, and had to save money&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -741,8 +838,8 @@ I have to give some credit to this Youtube on shedding some light&lt;/p&gt;
 
 &lt;p&gt;For example, I had to:&lt;/p&gt;
 
-&lt;p&gt;Post on Medium &lt;script type=&quot;math/tex&quot;&gt;\rightarrow&lt;/script&gt; Copy and Paste to LinkedIn Article
-&lt;script type=&quot;math/tex&quot;&gt;\rightarrow&lt;/script&gt; Convert article to HTML file to publish on website&lt;/p&gt;
+&lt;p&gt;Post on Medium \(\rightarrow\) Copy and Paste to LinkedIn Article
+\(\rightarrow\) Convert article to HTML file to publish on website&lt;/p&gt;
 
 &lt;p&gt;This was a hassle, and all of that should not have to be done in 2020, provided recent updates in the digital writing space.&lt;/p&gt;
 
@@ -819,10 +916,10 @@ I have to give some credit to this Youtube on shedding some light&lt;/p&gt;
 
 &lt;p&gt;(in proper proper notation!)&lt;/p&gt;
 
-&lt;p&gt;Say we have a 2-dimensional graph with points a=&lt;script type=&quot;math/tex&quot;&gt;(x_1,y_1)&lt;/script&gt; and point b= &lt;script type=&quot;math/tex&quot;&gt;(x_2,y_2)&lt;/script&gt;.&lt;/p&gt;
+&lt;p&gt;Say we have a 2-dimensional graph with points a=\((x_1,y_1)\) and point b= \((x_2,y_2)\).&lt;/p&gt;
 
 &lt;p&gt;The distance between the two are calculated as such
-&lt;script type=&quot;math/tex&quot;&gt;d(a,b) = d((x_1,y_1),(x_2,y_2)) =\sqrt{(x_1-x_2)^2 + (y_1-y_2)^2}&lt;/script&gt;&lt;/p&gt;
+\(d(a,b) = d((x_1,y_1),(x_2,y_2)) =\sqrt{(x_1-x_2)^2 + (y_1-y_2)^2}\)&lt;/p&gt;
 
 &lt;p&gt;Wow, that looks better than plain-text. :D&lt;/p&gt;
 

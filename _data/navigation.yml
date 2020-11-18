@@ -22,8 +22,8 @@ main:
         url: /music-puns
   - title: "Resources"
     sublinks:
-      - title: "Career Tips"
-        url: /career-tips
+      - title: "Job Search Prep."
+        url: /job-search
       - title: "Databases: Snowflake"
         url: /notes/databases-snowflake
       - title: Technical
