@@ -1,6 +1,7 @@
 ---
 permalink: /job-search
 title: "Job Search Preparation"
+description: "Enabling you to be successful in your job search."
 author_profile: true
 toc: true
 read_time: false
