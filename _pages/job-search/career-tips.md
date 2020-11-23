@@ -16,6 +16,8 @@ any other aspect of their portfolio.
 
 Enjoy!
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Chfq5aqWTpI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ![Job Search](https://media.giphy.com/media/LoUmCyntgoQA6Rf2Mz/giphy.gif)
 
 # [Creating a stellar Resume](/job-search/resume)
