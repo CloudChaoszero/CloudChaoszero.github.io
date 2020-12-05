@@ -5,8 +5,8 @@ tag: Personal
 author_profile: true 
 toc: true
 header:
-  teaser: ../assets/images/quotes/data-informed.jpg
-  og_image: ../assets/images/quotes/data-informed.jpg
+  teaser: https://cdn.vox-cdn.com/thumbor/gZbcLANIyly6BjxTBBxq6RsqbEM=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19867593/acastro_200402_3959_drFauci_0001.jpg
+  og_image: https://cdn.vox-cdn.com/thumbor/gZbcLANIyly6BjxTBBxq6RsqbEM=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19867593/acastro_200402_3959_drFauci_0001.jpg
 ---
 
 In this article, I list out my resources for reliable COVID-19 updates & research. Moreover, I discuss what holds for Americans after COVID-19.
