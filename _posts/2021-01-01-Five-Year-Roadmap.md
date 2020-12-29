@@ -1,5 +1,5 @@
 ---
-firstPublishedAt: 2020-01-01
+firstPublishedAt: 2021-01-01
 title: "Next 5 years -- Another Raul'd-Map (Roadmap)"
 tag: Personal
 author_profile: true
@@ -98,21 +98,24 @@ This year, I have never been in a position to take my next steps into Data Scien
 
 * Losing weight, per usual :cry:
 
-* Home Ownership?
-
 * Frequently travel to the London
 
 * Travel to five Countries, that I have not already been to.
 
 * Attend [Defcon Festival by Q-dance in Europe](https://youtu.be/vJ2eHsQv7Ac?t=3779)
 
+* Home Ownership?
+
 ## Wrapping it all up
 
-Looking back into past decade, I've updated my goals to center around more Altruistic contributions, meanwhile pursuiing my career path.
+Looking back into past decade, I've updated my goals to center around more Altruistic contributions, meanwhile pursuiing my career path & personal goals.
+
+Now, I end with this Roadmap with two sentimental songs I heard as a kid.
 
 
-Now, I end with a sentimental song I heard as a Modesto, CA kid.
-
-> Ignore the fact Kanye West is in this (I.e. 'I miss the old Kanye...I hate the new Kanye.')
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Kxi3RQl6xVI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+> Ignore the fact Kanye West is in the above video (I.e. 'I miss the old Kanye...I hate the new Kanye.')
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RvVfgvHucRY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
