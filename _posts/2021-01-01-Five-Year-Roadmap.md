@@ -52,6 +52,8 @@ Sometimes, I felt that wasn't the case--and maybe it was because I haven't had b
 
 That being said, to give more than I've taken away from the San Francisco community, I need to contribute more time than my skills. Moreover, how can I lead by example both in the subcommunities that I interact with?
 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">🧵 With many of the Valley’s richest companies fleeing the Bay mid-pandemic, I feel compelled to speak out. There’s no question that California is imperfect. The cost of living, taxes and policies, among other things, make it difficult for lots of people to succeed here. (1/9)</p>&mdash; Jeff Lawson (@jeffiel) <a href="https://twitter.com/jeffiel/status/1339996375581396999?ref_src=twsrc%5Etfw">December 18, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ### 1.2 Share The Codes
 
 This section can be summarized in the following:
@@ -67,9 +69,11 @@ However, many other cohorts have jumped into it without proper introduction, onb
 
 (E.g. [The Social deilemma](https://g.co/kgs/LZikMX), tying truth with memes, [Q-Anon](https://abcnews.go.com/Politics/men-qanon/story?id=73046374), echo chambers, etc).
 
-Moreover, even with younger demographics or even my age group, I would assumed aligned moral ethics and upholdment of truth would reside in their hearts. However, they've become one-issue partisan where if their issue is not addressed, then no matter their morals, they'll stick with the unjust. Even to older demographics, how can I educate them on how to properly navigate the internet, meanwhile not impose too much bias into those recommendations?
+Moreover, even with younger demographics or even my age group (i.e. younger family members & friends), I would assumed aligned moral ethics and upholdment of truth would reside in their hearts. However, they've become one-issue partisan where if their issue is not addressed, then no matter their morals, they'll stick with the unjust. Even to older demographics, how can I educate them on how to properly navigate the internet, meanwhile not impose too much bias into those recommendations?
 
 **This is something I am still thinking about how to solve**. If you have a suitable solution in the meantime, feel free to let me know.
+
+>  "There are three kinds of lies: lies, damned lies, and statistics." --Mark Twain (via my Junior College Stats Professor)
 
 ## 2.0 Career
 
@@ -80,20 +84,27 @@ In 2016, I graduated with a Bachelors in Applied Mathematics and Minor in Econom
 This year, I have never been in a position to take my next steps into Data Science. With that being said, I plan to do the following:
 * Officially have a Data Science title and responsibilties
 * Contribute to Open Source
-  * Give back more than I've taken from the Python community (i.e. not being part of the stadium group, mentioned by [Working in Public: The Making and Maintenance of Open Source by Nadia Eghbal](https://www.amazon.com/Working-Public-Making-Maintenance-Software/dp/0578675862))
+  * Give back more than I've taken from the Python community (i.e. not being part of the 'Stadium' users, mentioned by [Working in Public: The Making and Maintenance of Open Source by Nadia Eghbal](https://www.amazon.com/Working-Public-Making-Maintenance-Software/dp/0578675862))
 * Continue with Data-related Nonprofit contributions
 
 ### 2.2 Transparent Background
 
 
-* Linkedin
-  * I'll be more transparent about my background both on Linkedin and my curated [Job Search Preparation material](https://raulingaverage.dev/job-search) for lower-income individuals who are interested in starting their career.
+Linkedin
+* I'll be more transparent about my background both on Linkedin and my curated [Job Search Preparation material](https://raulingaverage.dev/job-search) for lower-income individuals who are interested in starting their career.
 
+That being said, my article cover is the following:
+
+![In between--the hustle. Modesto, CA Bus Stop](../assets/images/personal/TacoBell-X-Bus-Stop.png)
+
+My first job was at Taco Bell, in 2007. In between transfeering buses to get to High School, I went into that Taco Bell asking, honestly annoying, the team & manager if they had an open position. It took a few months, but I had a shot at getting a job.
+
+Mentions
 * Offer more transparent background in workshop/talks
 
 ### 3.0 Personal
 
-* Celebrating my 10 year anniversary of running a Marathon.
+* Celebrating [my 10 year anniversary of running a Marathon](https://results.rmraces.live/Modesto-Marathon/events/2011/Modesto-Marathon/274/entrant/share).
 
 * Losing weight, per usual :cry:
 
