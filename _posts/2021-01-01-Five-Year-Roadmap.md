@@ -121,7 +121,7 @@ My first job was at Taco Bell, in 2007. In between transfeering buses to get to 
 Mentions
 * Offer more transparent background in workshop/talks
 
-### 3.0 Personal
+## 3.0 Personal
 
 Here are some personal goals that I also would like reach:
 
