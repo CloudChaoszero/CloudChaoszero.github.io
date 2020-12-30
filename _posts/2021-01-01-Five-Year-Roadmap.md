@@ -8,9 +8,7 @@ header:
   og_image: ../assets/images/personal/TacoBell-X-Bus-Stop.png
 ---
 
-2020--Never heard of it.
-
-2020 was truly, yes I will repeat it, ["unprecedented times"](https://www.dictionary.com/e/s/the-best-words-to-use-during-unprecedented-times/#1) for us all. 
+2020--Never heard of it. Just kidding. 2020 was truly, yes I will repeat it, ["unprecedented times"](https://www.dictionary.com/e/s/the-best-words-to-use-during-unprecedented-times/#1) for us all. 
 
 
 <center><img src="https://i.pinimg.com/originals/e1/40/fe/e140feb66e180e555fa62a7ba8afb4f7.jpg" alt="1918 Pandemic with cat having mask on it." width="175" height="175"></center>
@@ -18,7 +16,7 @@ header:
 
 However, there are those who quite haven't been impacted by the COVID-19 situation, and I feel I've been truly blessed to be somewhat in that cohort, given my recent relative privelege.
 
-What do I mean by that?
+What do I mean by that? Let me take a step back...
 
 
 > Note to the reader: This blog post is not a recommendation into [hustle culture](https://www.youtube.com/watch?v=L9Gpr7PEnbs), financial advise, or imposing political views & opinions.
