@@ -22,6 +22,7 @@ What do I mean by that? Let me take a step back...
 > Note to the reader: This blog post is not a recommendation into [hustle culture](https://www.youtube.com/watch?v=L9Gpr7PEnbs), financial advise, or imposing political views & opinions.
 
 ____
+
 ## Self-Reflection
 
 In the past decade, I had the opportunity to both endure and succeed in my initiatives. In that path were underlying 2010 & 2016 5-year goals, graduating from college & getting a career, respectively. However, these ambitions and goals were certainly never expected of me. 
@@ -38,7 +39,8 @@ How so? Well, in:
 > “As a child, I was always one level below the average in math, and I felt incompetent compared to peers.” --[My "5-Year Plan For Career Success" feature in a Udacity blog post](https://blog.udacity.com/2017/12/5-year-plan-for-career-success.html)
 
 **Reiterating**, I had several opportunities to regress into an expected lifestyle, even so without a safety net. However, keeping that in mind, with lot of preparation, grit, network of opportunities & people, **someone to personally help me in my journey**, I am fortunately still able to continue with my goals without minimized 2020 setback--hence the "relative privilege" term.
-_____
+
+___
 
 ## Motivation for this Roadmap
 
