@@ -40,6 +40,8 @@ How so? Well, in:
 
 **Reiterating**, I had several opportunities to regress into an expected lifestyle, even so without a safety net. However, keeping that in mind, with lot of preparation, grit, network of opportunities & people, **someone to personally help me in my journey**, I am fortunately still able to continue with my goals without minimized 2020 setback--hence the "relative privilege" term.
 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">“You have to work from one point to go to another point”<br>@ zen_ameer <a href="https://t.co/Wg20TKhEfI">pic.twitter.com/Wg20TKhEfI</a></p>&mdash; 2PAC (@2PAC) <a href="https://twitter.com/2PAC/status/1325893011176185857?ref_src=twsrc%5Etfw">November 9, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ___
 
 ## Motivation for this Roadmap
