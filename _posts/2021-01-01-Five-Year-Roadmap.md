@@ -14,7 +14,7 @@ header:
 <center><img src="https://i.pinimg.com/originals/e1/40/fe/e140feb66e180e555fa62a7ba8afb4f7.jpg" alt="1918 Pandemic with cat having mask on it." width="175" height="175"></center>
 <center>1918 Pandemic with cat wearing a mask.</center>
 
-However, there are those who quite haven't been impacted by the COVID-19 situation, and I feel I've been truly blessed to be somewhat in that cohort, given my recent relative privelege.
+However, there are those who quite haven't been impacted by the COVID-19 situation, and I feel I've been truly blessed to be somewhat in that cohort, given my recent relative privilege.
 
 What do I mean by that? Let me take a step back...
 
@@ -29,7 +29,7 @@ In the past decade, I had the opportunity to both endure and succeed in my initi
 
 How so? Well, in:
 
-* ~2009: I had the opportunity to drop out of High School, without traditional 'sit-com family confrentational' reprocussions I used to watch.
+* ~2009: I had the opportunity to drop out of High School, without traditional 'sit-com family confrontational' repercussions I used to watch.
 
 * 2010: The Great Recession lead me to not finding a job after High School (I was looking for warehouse or Fast Food jobs). So, I enrolled into Junior College, not knowing what to do.
   * 2013: I transferred to UC Davis--truly thankful of their diversity initiatives for accepting me.
@@ -51,7 +51,7 @@ The above prelude is not a boast, flex, or brag. But rather, a reflection on som
 * Am I another case of cruising upwards into middle-class, while ignoring my origins?
 * How can I use that same numbing frustration of the [2020 Summer BLM movement](https://www.npr.org/2020/05/29/865685777/why-u-s-needs-black-lives-matter-movement-today), rapid rise of corruption in American government, and deaths of tragic heroes like [Kobe Bryant](https://en.wikipedia.org/wiki/Kobe_Bryant), [Ruth Bader Ginsburg](https://en.wikipedia.org/wiki/Ruth_Bader_Ginsburg), [John Lewis](https://en.wikipedia.org/wiki/John_Lewis), & more as motivation?
 
-Visibily experiencing the [k-shaped](https://www.cnet.com/personal-finance/americas-v-shaped-vs-k-shaped-economic-recovery-what-does-it-all-mean/) bifurcation of the economy, theme of [rich keep on getting richer](https://www.youtube.com/watch?v=15pFQxG9wko), and continuing with my ambitions while not fully being impacted from 'The 'Rona', I have somewhat continued to drift, meanwhile knowing there are others like me that are dealing with their own hardships to a significant degree.
+Visibly experiencing the [k-shaped](https://www.cnet.com/personal-finance/americas-v-shaped-vs-k-shaped-economic-recovery-what-does-it-all-mean/) bifurcation of the economy, theme of [rich keep on getting richer](https://www.youtube.com/watch?v=15pFQxG9wko), and continuing with my ambitions while not fully being impacted from 'The 'Rona', I have somewhat continued to drift, meanwhile knowing there are others like me that are dealing with their own hardships to a significant degree.
 
 With these considerations, I lay out my Roadmap for the next 5 years.
 
@@ -63,9 +63,9 @@ From the [Black Lives Matter Movement](https://slate.com/podcasts/what-next/2020
 
 ### 1.1 Contribute your time, not your skills
 
-I am currently, and have, volunteered with Nonprofits these past few years. The responsibilities associated with these contributions have been in Operational & Strategty-capacities. However, was my perceived impact...truly 'impactful', both in perception and [non-performative](https://yaledailynews.com/sjp2020/2020/09/05/a-tale-of-performative-activism-how-black-lives-matter-became-just-a-trend/)?
+I am currently, and have, volunteered with Nonprofits these past few years. The responsibilities associated with these contributions have been in Operational & Strategy-capacities. However, was my perceived impact...truly 'impactful', both in perception and [non-performative](https://yaledailynews.com/sjp2020/2020/09/05/a-tale-of-performative-activism-how-black-lives-matter-became-just-a-trend/)?
 
-If true, this insignificant impact to individuals is consequential in that have I given more than I've taken from the San Francisco & other subcommunities that I have been a part of? Moreover, how can I represent the good of tech workers (ignoring the acclaimed [Tech Excodus that is happening in 2020 #CommitTotTheBay](https://www.linkedin.com/pulse/its-time-committothebay-jeff-lawson/?trackingId=%2BdoojZvZQaOFRFdmYNfjHA%3D%3D)).
+If true, this insignificant impact to individuals is consequential in that have I given more than I've taken from the San Francisco & other subcommunities that I have been a part of? Moreover, how can I represent the good of tech workers (ignoring the acclaimed [Tech Exodus that is happening in 2020 #CommitTotTheBay](https://www.linkedin.com/pulse/its-time-committothebay-jeff-lawson/?trackingId=%2BdoojZvZQaOFRFdmYNfjHA%3D%3D)).
 
 Sometimes, I felt that wasn't the case--and maybe it was because I haven't had by 'boots to the ground'.
 
@@ -86,12 +86,12 @@ I've been fortunate to started my journey online in 2009, when I bought my own H
 
 However, many other cohorts have jumped into it without proper introduction, onboarding, or guidance on how to navigate the internet.
 
-(E.g. [The Social deilemma](https://g.co/kgs/LZikMX), tying truth with memes, [Q-Anon](https://abcnews.go.com/Politics/men-qanon/story?id=73046374), echo chambers, etc).
+(E.g. [The Social dilemma](https://g.co/kgs/LZikMX), tying truth with memes, [Q-Anon](https://abcnews.go.com/Politics/men-qanon/story?id=73046374), echo chambers, etc).
 
 
-I should also mention even with either younger demographics or even my age group (i.e. younger family members & friends), I would assumed aligned moral ethics and upholdment of truth would reside in their hearts. And resent the corruption that exists now.
+I should also mention even with either younger demographics or even my age group (i.e. younger family members & friends), I would assumed aligned moral ethics and uphold of truth would reside in their hearts. And resent the corruption that exists now.
 
-However, they've lacked to updating their prior beliefs, and in consequence have a [insufficent update in their posterior belief of particular topics](https://scholar.harvard.edu/files/fryer/files/biasedupdating-mar-12-2017-revised.pdf). In consequence, they accept the unjust. Even to older demographics, how can I educate them on how to properly navigate the internet, meanwhile not impose too much bias into those recommendations?
+However, they've lacked to updating their prior beliefs, and in consequence have a [insufficient update in their posterior belief of particular topics](https://scholar.harvard.edu/files/fryer/files/biasedupdating-mar-12-2017-revised.pdf). In consequence, they accept the unjust. Even to older demographics, how can I educate them on how to properly navigate the internet, meanwhile not impose too much bias into those recommendations?
 
 **This is something I am still thinking about how to solve**. If you have a suitable solution in the meantime, feel free to let me know.
 
@@ -104,7 +104,7 @@ However, they've lacked to updating their prior beliefs, and in consequence have
 In 2016, I graduated with a Bachelors in Applied Mathematics and Minor in Economics. But surprisingly, I didn't know what I wanted to do. [From that time](https://www.youtube.com/watch?v=AGBGetoOW4s&pbjreload=101), I aspired to go into [Data Science](https://towardsdatascience.com/data-sciences-most-misunderstood-hero-2705da366f40), which can be summarized in the opportunity to be featured in a Udacity blog  ["5-Year Plan For Career Success" in a Udacity blog post](https://blog.udacity.com/2017/12/5-year-plan-for-career-success.html) by Caroline Watson.
 
 This year, I have never been in a position to take my next steps into Data Science. With that being said, I plan to do the following:
-* Officially have a Data Science title and responsibilties
+* Officially have a Data Science title and responsibilities
 * Contribute to Open Source
   * Give back more than I've taken from the Python community (i.e. not being part of the 'Stadium' users, mentioned by [Working in Public: The Making and Maintenance of Open Source by Nadia Eghbal](https://www.amazon.com/Working-Public-Making-Maintenance-Software/dp/0578675862))
 * Continue with Data-related Nonprofit contributions
@@ -119,7 +119,7 @@ That being said, let me explain my blog cover...
 
 ![In between--the hustle. Modesto, CA Bus Stop](../assets/images/personal/TacoBell-X-Bus-Stop.png)
 
-My first job was at Taco Bell, in 2007. In between transfeering buses to get to High School, I went into that Taco Bell asking, honestly annoying, the team & manager if they had an open position. It took a few months, but I had a shot at getting a job.
+My first job was at Taco Bell, in 2007. In between transferring buses to get to High School, I went into that Taco Bell asking, honestly annoying, the team & manager if they had an open position. It took a few months, but I had a shot at getting a job.
 * ...I failed the interview, but the manager liked my perseverance and I got the job.
 
 Mentions
@@ -143,7 +143,7 @@ Here are some personal goals that I also would like reach:
 
 ## Wrapping it all up
 
-Looking back into past decade, I've updated my goals to center around more impactful altruistic contributions, meanwhile pursuiing my career path & personal goals.
+Looking back into past decade, I've updated my goals to center around more impactful altruistic contributions, meanwhile pursuing my career path & personal goals.
 
 Now, I end with this Roadmap with two sentimental songs I heard as a kid.
 
