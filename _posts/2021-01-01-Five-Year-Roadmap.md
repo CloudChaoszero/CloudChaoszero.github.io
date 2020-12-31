@@ -79,7 +79,7 @@ This section can be summarized in the following:
 
 <blockquote class="twitter-tweet"><p lang="und" dir="ltr"><a href="https://twitter.com/hashtag/SHARETHECODES?src=hash&amp;ref_src=twsrc%5Etfw">#SHARETHECODES</a> 💫🌱 <a href="https://twitter.com/Pharrell?ref_src=twsrc%5Etfw">@Pharrell</a> <a href="https://twitter.com/tylerthecreator?ref_src=twsrc%5Etfw">@tylerthecreator</a> <a href="https://t.co/nJm5WnzGbG">pic.twitter.com/nJm5WnzGbG</a></p>&mdash; my.💅🏽 (@_MAYA_A_) <a href="https://twitter.com/_MAYA_A_/status/1331667687815086080?ref_src=twsrc%5Etfw">November 25, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-### 1.3 Minimizing predatory mis/dis information to Americans
+### 1.3 Minimizing American mis/dis-information
 
 
 I've been fortunate to started my journey online in 2009, when I bought my own HP laptop. Starting their, I had the opportunity to grow and contribute to the internet culture with early adoption of [Rage Comic memes](https://www.buzzfeednews.com/article/katienotopoulos/memes-that-defined-the-2010s), [Golden Age of Youtube](https://www.theverge.com/2019/4/5/18287318/youtube-logan-paul-pewdiepie-demonetization-adpocalypse-premium-influencers-creators), and more.
