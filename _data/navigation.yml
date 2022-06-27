@@ -22,12 +22,12 @@ main:
         url: /music-puns
   - title: "Resources"
     sublinks:
-      - title: "Job Search Prep."
-        url: /job-search
-      - title: "Databases: Snowflake"
-        url: /notes/databases-snowflake
+      - title: "YIMBYism"
+        url: /notes/yimby
       - title: Technical
         url: /notes/technical
+      - title: "Job Search Prep."
+        url: /job-search
   - title: "Archive"
     url: /tags
 blogroll:
