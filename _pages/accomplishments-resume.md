@@ -2,13 +2,13 @@
 permalink: /accomplishments/resume
 title: "Resume"
 author_profile: true 
-last_modified_at: 2020-02-20T23:46:43-04:00
+last_modified_at: 2022-06-26T23:46:43-04:00
 toc: true
 ---
 
 # Google Doc Version
 
-<iframe src="https://drive.google.com/file/d/117a-PCIFlm8tiUaSo5gnl_dv9bpBshby/preview" class="is-fullwidth" width="100%" height="750%"></iframe>
+<iframe src="https://drive.google.com/file/d/1nXsoPacqL8W4eQ9fXj_N_KzNraQRrAaU/preview" class="is-fullwidth" width="100%" height="750%"></iframe>
 
 <p></p>
 <p></p>
