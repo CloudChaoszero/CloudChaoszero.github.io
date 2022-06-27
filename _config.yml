@@ -111,7 +111,7 @@ analytics:
 author:
   name: "Raul Maldonado"
   avatar : "assets/images/ProfilePicture.jpg"
-  bio  : "Data-And-More(9_000).csv"
+  bio  : "Data-And-More(9_001).csv"
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
