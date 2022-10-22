@@ -4,7 +4,7 @@ firstPublishedAt: 1529784517706
 latestPublishedAt: 1532106756890
 slug: resources-for-creating-tableau-visualizations-through-python
 title: Resources for creating Tableau Visualizations through Python
-tag: Visualization
+tag: Technical
 ---
 
 I have not personally tried to create Tableau visualizations through Python, but there does exist a python library called **TabPy**.

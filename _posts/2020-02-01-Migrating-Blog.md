@@ -2,7 +2,7 @@
 
 firstPublishedAt: 2020-02-01
 title: Why I Upgraded my Website from HTML -> Jekyll  
-tag: Coding
+tag: Technical
 author_profile: true 
 toc: true
 mathjax: true

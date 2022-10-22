@@ -40,10 +40,11 @@ Have a great day!
 1. Head to Repository folder (e.g. CloudClouz....io)
 2. Enter `bundle update`
      a. If you get an error, first proceed with `bundle config set --local path 'vendor/bundle'`
-3. Enter `bundle exec jekyll serve`
+3. For Local development, enter `bundle exec jekyll serve`
+4. Commit code and productionize towards `master` branch
 
 ## Resources:
 
 * Medium to Markdown converter: https://medium-to-markdown.now.sh/
-
+* [Minimal Mistakes: Remote Method](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#github-pages-method)
 * Executing: `bundle update` & `bundle exec jekyll serve`

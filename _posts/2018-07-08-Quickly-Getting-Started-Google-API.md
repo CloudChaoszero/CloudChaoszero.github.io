@@ -5,7 +5,7 @@ latestPublishedAt: 1531981092428
 slug: quickly-getting-started-with-google-maps-api-w-python-july-2018-platform
 title: Quickly Getting Started with Google Maps API w/Python (July 2018 Platform)
 
-tag: Coding
+tag: Technical
 author_profile: true 
 toc: true
 ---

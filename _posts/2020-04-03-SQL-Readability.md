@@ -1,7 +1,7 @@
 ---
 firstPublishedAt: 2020-04-03
 title: SQL Readability (2020)
-tag: Coding
+tag: Technical
 author_profile: true 
 toc: true
 mathjax: true
