@@ -30,27 +30,47 @@ I would say this exam is more geared towards the following folks:
 * 3-6months of startup or full dbt project build
 * 6+months in dbt experience
 
+If you are a newcomer to the space, I recommend developing a dbt project using your preffered Database & BI tool. You can find trials for such tools on their available website.
+
+My (personal) recommended tools w/free trials are the following:
+* Snowflake`
+* Mode Analytics
+* Superset
+
+You can see how I developed a dbt project, in my past (personal) training course [Analytic Engineering & dbt: 0-100](https://raulingaverage.dev/onboarding-2-dbt/)
+
 ### You can be technically correct in one sense, but wrong in the question's scenario
 
 Imagine you are configuring a YAML file called `src_sfdc.yml`. The question you get calls for identifying a test configuration. You have 4 multiple choice questions. Two of them say "model" in their explanation, and sound right. REMEMBER, this is about a **Source, not a model**.
 
 
 
-## Mitigating Anxiety
+## Mitigating Non-dbt Exam issues
 
-* Learning about DOS testing strategy before you find out the hard way.
+Learning about Discrete Option Multiple Choice (DOMC) questions...before you find out the hard way.
 
+I didn't look into DOMC-style questions. When I first saw one, I was a bit confused on what to do. Moreover, what the interpretation of a Yes/No question meant. As a consequence, I wasted 1min-2min deciphering what to do. That time could have been ~1.8mins on re-evaluating another question (120mins / 65Q's).
+
+As a summary:
+
+> "DOMC represents a relatively simple but very useful change in the delivery of multiple choice question. Instead of showing all of the options at one time, as is usually done, options are randomly presented one at a time. For each presented option, the test taker chooses YES or NO indicating whether the he or she thinks it is the correct one." - [source](https://domc.caveon.com/about)
+
+I should also note that DOMC-style questions are not necessarily 2+ Yes/No path questions. They could be 1 Yes/No or 3 Yes/No path questions.
 
 ## Types of Questions
 
 Someone after the exam told me they had 2 Snapshot questions. However, I have none of those, and 3+ Incremental questions
 
+* YAML file configurations
+
 ## Resources
 
-* YAML file configurations
+* [dbt Analytics Engineering Certification Exam Study Guide](https://www.getdbt.com/assets/uploads/dbt_certificate_study_guide.pdf)
 
 * dbt Fundamentals
     * Advanced Materialization
+    * Jinja & Macro Statements
+    * 
 
 * Coalesce NOLA '22
     * Advanced Materialization
