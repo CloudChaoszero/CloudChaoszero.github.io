@@ -37,6 +37,11 @@ Have a great day!
 
 ## Deployment
 
+1. Head to Repository folder (e.g. CloudClouz....io)
+2. Enter `bundle update`
+     a. If you get an error, first proceed with `bundle config set --local path 'vendor/bundle'`
+3. Enter `bundle exec jekyll serve`
+
 ## Resources:
 
 * Medium to Markdown converter: https://medium-to-markdown.now.sh/

@@ -218,15 +218,15 @@
                       <ul class="dropdown-content">
                           
                               <li>
-                                  <a href="/job-search">    Job Search Prep.</a>
-                              </li>
-                          
-                              <li>
-                                  <a href="/notes/databases-snowflake">    Databases: Snowflake</a>
+                                  <a href="/notes/yimby">    YIMBYism</a>
                               </li>
                           
                               <li>
                                   <a href="/notes/technical">    Technical</a>
+                              </li>
+                          
+                              <li>
+                                  <a href="/job-search">    Job Search Prep.</a>
                               </li>
                           
                       </ul>
@@ -314,7 +314,7 @@
 
 
 
-  less than 1 minute read
+  1 minute read
 
 </p>
           
@@ -341,6 +341,10 @@
       <li><a href="#data-bootcamp-tips-2017">Data Bootcamp Tips (2017)</a></li>
     </ul>
   </li>
+  <li><a href="#snowflake">Snowflake</a></li>
+  <li><a href="#parsing-json-with-anscii-sql-in-snowflake">Parsing JSON with ANSCII SQL in Snowflake</a></li>
+  <li><a href="#listagg-missing-">LISTAGG Missing </a></li>
+  <li><a href="#migrating-from-one-query-engine-andor-database-to-snowflake">Migrating from one query engine and/or database to Snowflake</a></li>
 </ul>
 
             </nav>
@@ -361,6 +365,53 @@ python -m ipykernel install --user --name myenv --display-name "Python (myenv)"
 <h2 id="data-bootcamp-tips-2017">Data Bootcamp Tips (2017)</h2>
 <ul>
   <li><a href="https://github.com/CloudChaoszero/DataMentor-Tips4Students-Library&quot;">Tips &amp; Tricks for Data Analytics Bootcamp Students</a></li>
+</ul>
+
+<h1 id="snowflake">Snowflake</h1>
+<h1 id="parsing-json-with-anscii-sql-in-snowflake">Parsing JSON with ANSCII SQL in Snowflake</h1>
+
+<ul>
+  <li><a href="https://www.snowflake.com/wp-content/uploads/2017/08/Snowflake-How-to-Analyze-JSON-with-SQL.pdf">How to Analyze JSON With Snowflake</a></li>
+</ul>
+
+<h1 id="listagg-missing-">LISTAGG Missing <delimiter></delimiter></h1>
+
+<p>If one were to use the LISTAGG operation like the following, and NULL values still exist in said list, they are included in the resulting operation</p>
+
+<p><code class="language-plaintext highlighter-rouge">LISTAGG( [ DISTINCT ] &lt;expr1&gt; [, &lt;delimiter&gt; ]</code></p>
+
+<p>However, if you add the resulting ORDER BY condition in the remainder of LISTAGG, it returns a list of non-NULL values with such delimiter</p>
+
+<p><code class="language-plaintext highlighter-rouge">LISTAGG( [ DISTINCT ] &lt;expr1&gt; [, &lt;delimiter&gt; ] ) [ WITHIN GROUP ( &lt;orderby_clause&gt; ) ]</code></p>
+
+<p>So, e.g.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SELECT LISTAGG(o_orderkey, ', ')
+    FROM orders WHERE o_totalprice &gt; 450000;
+
+------------------------------------------------------+
+             LISTAGG(O_ORDERKEY, ' ')                 |
+------------------------------------------------------+
+ 41445, 55937, 67781, 80550, 95808, 101700, 103136, ''|
+------------------------------------------------------+
+</code></pre></div></div>
+
+<p>The additional value at the end is due to a NULL value. So, to exclude it, add the remaining <code class="language-plaintext highlighter-rouge">WITHIN GROUP</code> to remove it in th results.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code></code></pre></div></div>
+<p>SELECT LISTAGG(o_orderkey, ‘, ‘)  WITHIN GROUP (ORDER BY 1) AS orders
+    FROM orders WHERE o_totalprice &gt; 450000;
+```</p>
+
+<h1 id="migrating-from-one-query-engine-andor-database-to-snowflake">Migrating from one query engine and/or database to Snowflake</h1>
+
+<ul>
+  <li>
+    <p><a href="https://community.snowflake.com/s/article/Migrating-from-Redshift-to-Snowflake">Instacart and migrating from Redshift to Snowflake</a></p>
+  </li>
+  <li>
+    <p><a href="https://medium.com/@jthandy/how-compatible-are-redshift-and-snowflakes-sql-syntaxes-c2103a43ae84">dbt’s take &amp; hints on transitioning from Redshift to Snowflake, from Tristan Handy</a></p>
+  </li>
 </ul>
 
         
@@ -436,7 +487,7 @@ python -m ipykernel install --user --name myenv --display-name "Python (myenv)"
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2020 Raul Maldonado. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2022 Raul Maldonado. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>

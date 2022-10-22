@@ -64,13 +64,28 @@ var store = [{
         "tags": ["Coding"],
         "url": "http://localhost:4000/SQL-Readability/",
         "teaser":"http://localhost:4000/assets/images/sql-query-worked.jpg"},{
-        "title": "Avoiding Data Project Failures",
-        "excerpt":"Data Analytics is more than ‘Analytics’. Regardless of the size of your analysis or project implementation, future proofing said items with either documentation, tests, or transparency ensures both short term and long term success for your team and organization. That being said, I discuss some borrowed Project Management skillsets that’s...","categories": [],
-        "tags": ["Project Management"],
-        "url": "http://localhost:4000/Projects-Gathering-Requirements/",
-        "teaser":"https://t8f8b3g9.stackpathcdn.com/wp-content/uploads/2019/07/3.png"},{
-        "title": "IT'S TIME TO IMPACT",
-        "excerpt":"“Every Western institution was unprepared for the coronavirus pandemic, despite many prior warnings. This monumental failure of institutional effectiveness will reverberate for the rest of the decade…But the other part of the problem is what we didn’t do in advance, and what we’re failing to do now. And that is...","categories": [],
-        "tags": ["Coding"],
-        "url": "http://localhost:4000/Its-Time-For-Impact/",
-        "teaser":"http://localhost:4000/assets/images/sql-query-worked.jpg"}]
+        "title": "COVID-19 - Information Resources during 'Dark Winter'",
+        "excerpt":"In this article, I list out my resources for reliable COVID-19 updates &amp; research. Moreover, I discuss what holds for Americans after COVID-19. Side note: Also, this is a follow up to my March 2020 article “Joining #Masks4All against Coronavirus” Resources General Anthony Stephen Fauci “is an American physician and...","categories": [],
+        "tags": ["Personal"],
+        "url": "http://localhost:4000/COVID-Winter-Is-Here/",
+        "teaser":"https://cdn.vox-cdn.com/thumbor/gZbcLANIyly6BjxTBBxq6RsqbEM=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19867593/acastro_200402_3959_drFauci_0001.jpg"},{
+        "title": "Next 5 years -- Another Raul'd-Map (Roadmap)",
+        "excerpt":"2020–Never heard of it. Just kidding. 2020 was truly, yes I will repeat it, “unprecedented times” for us all. 1918 Pandemic with cat wearing a mask. However, there are those who quite haven’t been impacted by the COVID-19 situation, and I feel I’ve been truly blessed to be somewhat in...","categories": [],
+        "tags": ["Personal"],
+        "url": "http://localhost:4000/Five-Year-Roadmap/",
+        "teaser":"http://localhost:4000/assets/images/personal/TacoBell-X-Bus-Stop.png"},{
+        "title": "Summarizing 'What Do Compressed Deep Neural Networks Forget?'",
+        "excerpt":"“What do Compressed Deep Neural Networks Forget” by Sara Hooker and others is 2020 published Arxiv.org article (also found here) discusses the tradeoffs between optimization and improvements into “AI”. Particularly, the article discusses how Deep Network “Pruning” results in higher level “AI” performance, but with an underlying tradeoff is memorization...","categories": [],
+        "tags": ["Data Science"],
+        "url": "http://localhost:4000/Summarizing-Compressed-Deep-NNs/",
+        "teaser":"https://miro.medium.com/max/770/1*9onqVYdPPrCcwDX6mGKCpg.jpeg"},{
+        "title": "Where have I been? A recap of '21-'22",
+        "excerpt":"Where have I been? 2022, the sun is coming up, climate change is becoming more real, and I’ve never been more excited at some new challenges and joy in my life. I’ve been gone sometime! I had a combination of technical issues updating this blog, personal life updates, and work...","categories": [],
+        "tags": ["Personal"],
+        "url": "http://localhost:4000/Where-Have-I-Been/",
+        "teaser":"https://yimbyaction.org/2021/wp-content/uploads/sites/5/2021/08/image_from_ios-6-scaled-e1628888786710-1536x1155.jpg"},{
+        "title": "How to become a dbt Certified Developer",
+        "excerpt":"Summary The dbt (data build tool) Certification let’s you show you’re a reliable source for Analytics Engineering industry’s development for (Operational) Analytics. I would recommend Paul Fry’s article “Preparing for the dbt ‘Analytics Engineering’ Certification” as an introduction to what the dbt Certified Developer Certification is and resources. This article...","categories": [],
+        "tags": ["Technical"],
+        "url": "http://localhost:4000/dbt-Certification/",
+        "teaser":"https://yimbyaction.org/2021/wp-content/uploads/sites/5/2021/08/image_from_ios-6-scaled-e1628888786710-1536x1155.jpg"}]

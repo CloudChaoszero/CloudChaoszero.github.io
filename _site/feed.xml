@@ -1,101 +1,385 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-18T13:37:50-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Raul Maldonado</title><subtitle>Enabling you or your business with resources, data concepts, or puns/jokes!</subtitle><author><name>Raul Maldonado</name></author><entry><title type="html">IT’S TIME TO IMPACT</title><link href="http://localhost:4000/Its-Time-For-Impact/" rel="alternate" type="text/html" title="IT'S TIME TO IMPACT" /><published>2020-10-06T00:00:00-07:00</published><updated>2020-10-06T00:00:00-07:00</updated><id>http://localhost:4000/Its-Time-For-Impact</id><content type="html" xml:base="http://localhost:4000/Its-Time-For-Impact/">&lt;p&gt;“Every Western institution was unprepared for the coronavirus pandemic, despite many prior warnings. This monumental failure of institutional effectiveness will reverberate for the rest of the decade…But the other part of the problem is what we didn’t &lt;strong&gt;do&lt;/strong&gt; in advance, and what we’re failing to do now. And that is a failure of action, and specifically our widespread inability to &lt;strong&gt;build&lt;/strong&gt;.” - &lt;a href=&quot;https://a16z.com/2020/04/18/its-time-to-build/&quot;&gt;IT’S TIME TO BUILD (April 2020)&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-10-22T12:48:17-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Raul Maldonado</title><subtitle>Enabling you or your business with resources, data concepts, or puns/jokes!</subtitle><author><name>Raul Maldonado</name></author><entry><title type="html">How to become a dbt Certified Developer</title><link href="http://localhost:4000/dbt-Certification/" rel="alternate" type="text/html" title="How to become a dbt Certified Developer" /><published>2022-10-22T00:00:00-05:00</published><updated>2022-10-22T00:00:00-05:00</updated><id>http://localhost:4000/dbt-Certification</id><content type="html" xml:base="http://localhost:4000/dbt-Certification/">&lt;h1 id=&quot;summary&quot;&gt;Summary&lt;/h1&gt;
 
-&lt;p&gt;It’s November 6th, 2020. Since the start of the pandemic, we’ve seen the acceleration of technological adaption, and it’s been fantastic, from a investor perspective. However, there had been consequential adoption in misinformation, strategy, and investments.&lt;/p&gt;
+&lt;p&gt;The dbt (data build tool) Certification let’s you show you’re a reliable source for Analytics Engineering industry’s development for (Operational) Analytics.&lt;/p&gt;
 
-&lt;p&gt;However, I would say that now we should focus on the following:&lt;/p&gt;
+&lt;p&gt;I would recommend &lt;a href=&quot;https://medium.com/geekculture/preparing-for-the-dbt-analytics-engineering-certification-5496c3ec6e15&quot;&gt;Paul Fry’s article “Preparing for the dbt ‘Analytics Engineering’ Certification”&lt;/a&gt; as an introduction to what the dbt Certified Developer Certification is and resources.&lt;/p&gt;
+
+&lt;p&gt;This article will cover additional material &amp;amp; tips that would be helpful for folks, like myself&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Investing in ourselves, is investing in others&lt;/li&gt;
-  &lt;li&gt;Business Personafication &amp;amp; Identity&lt;/li&gt;
-  &lt;li&gt;Good Trouble&lt;/li&gt;
+  &lt;li&gt;About me: I have 2+years of dbt experience, 3+ years of Python development for Analytics and reporting. I am currently a Sr. Data Analyst @ Autodesk.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Vanity metrics are statistics that aspire to a business goal, meanwhile look hypothetically good. However, they only aspire, but never achieve to such goal. Actionable metrics are specific tasks that are either incrementally or reach your business goal.&lt;/p&gt;
+&lt;h1 id=&quot;the-exam&quot;&gt;The Exam&lt;/h1&gt;
 
-&lt;p&gt;At the beginning of the COVID-19 outbreak, technologists and other thinkers envisoned a better future, through building processes for a better future. However, we must consider that maybe we had the pieces all along. However, are we making an impact?&lt;/p&gt;
+&lt;h2 id=&quot;the-scenario&quot;&gt;The Scenario&lt;/h2&gt;
+
+&lt;h3 id=&quot;what-would-you-do&quot;&gt;What would you do?&lt;/h3&gt;
+
+&lt;p&gt;These questions are geared towards experienced model &amp;amp; development. Moreover, the question range from starting a dbt project to developing &amp;amp; testing (i.e Building) your first model.&lt;/p&gt;
+
+&lt;p&gt;I would say this exam is more geared towards the following folks:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;3-6months of startup or full dbt project build&lt;/li&gt;
+  &lt;li&gt;6+months in dbt experience&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;you-can-be-technically-correct-in-one-sense-but-wrong-in-the-questions-scenario&quot;&gt;You can be technically correct in one sense, but wrong in the question’s scenario&lt;/h3&gt;
+
+&lt;p&gt;Imagine you are configuring a YAML file called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;src_sfdc.yml&lt;/code&gt;. The question you get calls for identifying a test configuration. You have 4 multiple choice questions. Two of them say “model” in their explanation, and sound right. REMEMBER, this is about a &lt;strong&gt;Source, not a model&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;mitigating-anxiety&quot;&gt;Mitigating Anxiety&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Learning about DOS testing strategy before you find out the hard way.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;types-of-questions&quot;&gt;Types of Questions&lt;/h2&gt;
+
+&lt;p&gt;Someone after the exam told me they had 2 Snapshot questions. However, I have none of those, and 3+ Incremental questions&lt;/p&gt;
+
+&lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;Metrics about Economy&lt;/p&gt;
+    &lt;p&gt;YAML file configurations&lt;/p&gt;
   &lt;/li&gt;
-  &lt;li&gt;Focus on net-good deployment&lt;/li&gt;
-  &lt;li&gt;Social Strife
-    &lt;blockquote&gt;
-      &lt;p&gt;GoodTrouble&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Example of clubhouse situations&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Example of “It is what it is”
-It’s Time for Impact.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The following was an important part to the article, but I would like to change something, seen highlighted:&lt;/p&gt;
-
-&lt;p&gt;“Every step of the way, to everyone around us, we should be asking the question, what are you &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;impacting&lt;/code&gt;? What are you &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;impacting&lt;/code&gt; directly, or helping other people to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;impact&lt;/code&gt;, or teaching other people to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;impact&lt;/code&gt;, or taking care of people who are &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;impacting&lt;/code&gt;? If the work you’re doing isn’t either leading to something being built or taking care of people directly, we’ve failed you, and we need to get you into a position, an occupation, a career where you can contribute to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;impacting&lt;/code&gt;. There are always outstanding people in even the most broken systems — we need to get all the talent we can on the biggest problems we have, and on building the answers to those problems.”&lt;/p&gt;</content><author><name>Raul Maldonado</name></author><category term="Coding" /><summary type="html">“Every Western institution was unprepared for the coronavirus pandemic, despite many prior warnings. This monumental failure of institutional effectiveness will reverberate for the rest of the decade…But the other part of the problem is what we didn’t do in advance, and what we’re failing to do now. And that is a failure of action, and specifically our widespread inability to build.” - IT’S TIME TO BUILD (April 2020)</summary></entry><entry><title type="html">Avoiding Data Project Failures</title><link href="http://localhost:4000/Projects-Gathering-Requirements/" rel="alternate" type="text/html" title="Avoiding Data Project Failures" /><published>2020-09-26T00:00:00-07:00</published><updated>2020-09-26T00:00:00-07:00</updated><id>http://localhost:4000/Projects-Gathering-Requirements</id><content type="html" xml:base="http://localhost:4000/Projects-Gathering-Requirements/">&lt;p&gt;Data Analytics is more than ‘Analytics’. Regardless of the size of your analysis or project implementation, future proofing said items with either documentation, tests, or transparency ensures both &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;short term&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;long term&lt;/code&gt; success for your team and organization.&lt;/p&gt;
-
-&lt;p&gt;That being said, I discuss some borrowed Project Management skillsets that’s helped me become sucessful with short &amp;amp; long term impact. This can be seen in the following:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Short Term
+  &lt;li&gt;dbt Fundamentals
     &lt;ul&gt;
-      &lt;li&gt;Transparency&lt;/li&gt;
-      &lt;li&gt;Reproducibility&lt;/li&gt;
+      &lt;li&gt;Advanced Materialization&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;Long Term
+  &lt;li&gt;Coalesce NOLA ‘22
     &lt;ul&gt;
-      &lt;li&gt;Documentation&lt;/li&gt;
-      &lt;li&gt;Requirements Gathering
-        &lt;ul&gt;
-          &lt;li&gt;Business Requirement Documents&lt;/li&gt;
-          &lt;li&gt;Project Requirement Documents&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
+      &lt;li&gt;Advanced Materialization&lt;/li&gt;
+      &lt;li&gt;Advanced Testing&lt;/li&gt;
+      &lt;li&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;
+&lt;/ul&gt;</content><author><name>Raul Maldonado</name></author><category term="Technical" /><summary type="html">Summary</summary></entry><entry><title type="html">Where have I been? A recap of ‘21-‘22</title><link href="http://localhost:4000/Where-Have-I-Been/" rel="alternate" type="text/html" title="Where have I been? A recap of ‘21-‘22" /><published>2022-06-27T00:00:00-05:00</published><updated>2022-06-27T00:00:00-05:00</updated><id>http://localhost:4000/Where-Have-I-Been</id><content type="html" xml:base="http://localhost:4000/Where-Have-I-Been/">&lt;h1 id=&quot;where-have-i-been&quot;&gt;Where have I been?&lt;/h1&gt;
 
-&lt;h1 id=&quot;why-should-i-further-read-this&quot;&gt;Why Should I Further Read This?&lt;/h1&gt;
+&lt;p&gt;2022, the sun is coming up, climate change is becoming more real, and I’ve never been more excited at some new challenges and joy in my life. I’ve been gone sometime! I had a combination of technical issues updating this blog, personal life updates, and work life udpates that prevented me from updating y’all.&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;I was a contributor to a high impact project under Agile Methodology&lt;/li&gt;
-  &lt;li&gt;I helped and assisted with migrations and reporting at a agile paced team in a top 5 Tech Company&lt;/li&gt;
-  &lt;li&gt;I currently contribute best, or at least better, practices in my team with eclectic project management skill-sets I learned from the preceding mentions&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;They are:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;I started becoming a YIMBY and Bike/Transit Advocate in California&lt;/li&gt;
+  &lt;li&gt;I became a Senior Data Analyst at my current company&lt;/li&gt;
+  &lt;li&gt;I couldn’t update this blog due to code-dependency issues&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;h2 id=&quot;short-term&quot;&gt;Short Term&lt;/h2&gt;
+&lt;h2 id=&quot;1-yimby-and-biketransit-advocate&quot;&gt;1. YIMBY and Bike/Transit Advocate.&lt;/h2&gt;
 
-&lt;h3 id=&quot;transparency&quot;&gt;Transparency&lt;/h3&gt;
+&lt;p&gt;You can find how I get started into advocacy, &lt;a href=&quot;https://raulingaverage.dev/notes/yimby&quot;&gt;here.&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Scenario:&lt;/p&gt;
+&lt;h3 id=&quot;tldr&quot;&gt;TL;DR&lt;/h3&gt;
+
 &lt;blockquote&gt;
-  &lt;p&gt;My business analyst provides a report on Company X’s user engagement, per request. However, I notice the y-axis on my visualization is blank. Moreover, why is there a trough, dropping, in March 2020?&lt;/p&gt;
+  &lt;p&gt;I advocate for diverse dense housing and tenant protections to ensure low-income people like my past self don’t get displaced, rent is stable, and more.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;What happened?&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Ultimately, I would like to reduce poverty, end homelessness, eliminate racial segregation, create jobs, mitigate displacement, and slow climate change.&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;As an analyst, we provided a report from a requested user as some point of time $t$. However, what happens if we do not consider the following:&lt;/p&gt;
+&lt;h2 id=&quot;2-senior-data-analyst&quot;&gt;2. Senior Data Analyst&lt;/h2&gt;
+
+&lt;p&gt;I’m happy to announce I am a Senior Data Analyst at Autodesk. Being within one part of the organization for ~3years helping 1,000+ internal business users with insights and analytic engineering, I went to another team within Autodesk to do the same things–but with a larger sub organization!&lt;/p&gt;
+
+&lt;p&gt;I remember my first day at Autodesk–it meant a lot to be a part of company with ethically positive impact in the world, at scale!&lt;/p&gt;
+
+&lt;h2 id=&quot;3-code-dependency-issues&quot;&gt;3. Code dependency issues&lt;/h2&gt;
+
+&lt;p&gt;There was a major &lt;a href=&quot;https://guides.rubygems.org/what-is-a-gem/&quot;&gt;Gems&lt;/a&gt; &lt;a href=&quot;https://github.com/mmistakes/minimal-mistakes/issues/2693&quot;&gt;issue in ~2021&lt;/a&gt; preventing me from locally updating this website. However, I found a way to update this website differently, without focusing on &lt;a href=&quot;https://guides.rubygems.org/what-is-a-gem/&quot;&gt;Gems&lt;/a&gt; installation and modifications.&lt;/p&gt;</content><author><name>Raul Maldonado</name></author><category term="Personal" /><summary type="html">Where have I been?</summary></entry><entry><title type="html">Summarizing ‘What Do Compressed Deep Neural Networks Forget?’</title><link href="http://localhost:4000/Summarizing-Compressed-Deep-NNs/" rel="alternate" type="text/html" title="Summarizing ‘What Do Compressed Deep Neural Networks Forget?’" /><published>2021-01-04T00:00:00-06:00</published><updated>2021-01-04T00:00:00-06:00</updated><id>http://localhost:4000/Summarizing-Compressed-Deep-NNs</id><content type="html" xml:base="http://localhost:4000/Summarizing-Compressed-Deep-NNs/">&lt;p&gt;&lt;a href=&quot;https://arxiv.org/pdf/1911.05248.pdf&quot;&gt;“What do Compressed Deep Neural Networks Forget” by Sara Hooker and others&lt;/a&gt; is 2020 published &lt;a href=&quot;https://arxiv.org/&quot;&gt;Arxiv.org&lt;/a&gt; article (&lt;a href=&quot;https://weightpruningdamage.github.io/&quot;&gt;also found here&lt;/a&gt;) discusses the tradeoffs between optimization and improvements into “AI”. Particularly, the article discusses how Deep Network “Pruning” results in  higher level “AI” performance, but with an underlying tradeoff is memorization of said model’s &lt;strong&gt;particular&lt;/strong&gt; data points, what are ultimately called &lt;a href=&quot;https://weightpruningdamage.github.io/#:~:text=natural%20adversarial%20images.-,PIE%3A%20Pruning%20Identified%20Exemplars,pruned%20and%20non%2Dpruned%20models.&quot;&gt;Pruning Identified Exemplars (PIEs)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-should-i-be-interested-in-this&quot;&gt;Why should I be interested in this?&lt;/h2&gt;
+
+&lt;p&gt;There should be a caution of using such optimizations for “AI” models as they can have societal impact on sensitive industries such as hiring, health care diagnostics, self-driving cars, facial recognition software, and others with small corner cases (i.e. uncommon occurrences).&lt;/p&gt;
+
+&lt;p&gt;You may be thinking, “ya okay, what’s a real example of this?”. Well, using programmatic implementations like Machine Learning or Artificial Intelligence, we can see consequences such as the following situations:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Virality
+  &lt;li&gt;&lt;a href=&quot;https://www.reuters.com/article/us-amazon-com-jobs-automation-insight/amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK08G&quot;&gt;scaling up bias in hiring practices&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Automated cars failed recognition in ultimately killing someone&lt;/li&gt;
+  &lt;li&gt;and other use cases&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Now technically, you should be interested in this is that such pruning or optimizations to models in products affects &lt;strong&gt;the compression impairs the model’s ability to predict accurately on the long-tail of less frequent instances&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;whats-in-the-publication&quot;&gt;What’s in the publication?&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Abstract&lt;/li&gt;
+  &lt;li&gt;Problem Statement&lt;/li&gt;
+  &lt;li&gt;Testing Framework&lt;/li&gt;
+  &lt;li&gt;Results&lt;/li&gt;
+  &lt;li&gt;Comments, mentions, and mentions of related work in the data space&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;takeaways&quot;&gt;Takeaways&lt;/h2&gt;
+
+&lt;p&gt;Deep Learning Pruning is accepted by the industry because of optimizations in memory, energy consumption, and lower inference latency with having little degradation to test set accuracy. “However, this measure of performance conceals significant difference in how different” small subset of data, &lt;a href=&quot;https://weightpruningdamage.github.io/#:~:text=natural%20adversarial%20images.-,PIE%3A%20Pruning%20Identified%20Exemplars,pruned%20and%20non%2Dpruned%20models.&quot;&gt;Pruning Identified Exemplars (PIEs)&lt;/a&gt;, are impacted by compression techniques.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Side note: “What are Pruning Identified Exemplars (PIEs)?”
+From the article, “PIEs are images where there is a high level of disagreement between the predictions of pruned and non-pruned models.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;These PIEs are corner cases, or uncommon occurrences, do not get classified correctly in a statistically significant implementation, for larger different degrees of pruned models.&lt;/p&gt;
+
+&lt;p&gt;And we should not some things about PIEs too, like the following:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Mislabelled (“Ground Truth Label incorrect”)&lt;/li&gt;
+  &lt;li&gt;Lower Quality or Corrupt Image&lt;/li&gt;
+  &lt;li&gt;Depict Multiple Objects&lt;/li&gt;
+  &lt;li&gt;Abstract Representations&lt;/li&gt;
+  &lt;li&gt;Require more fine-grained classifications (e.g. ‘Green Bottle’ vs ‘Green Plastic Bottle’)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ultimately, as people in the data community create more complex &amp;amp; larger data models, we observe vulnerabilities in classification with “lower end-tail” of the distributions of classes $c \in C$. Moreover, PIEs are heavily over-indexed relative to non-PIEs on both &lt;strong&gt;noisy&lt;/strong&gt; (corrupted information) and &lt;strong&gt;atypical&lt;/strong&gt; (abstract representation) examples.&lt;/p&gt;
+
+&lt;p&gt;Again, this was a short summary. But if you want to read more about this, check out the &lt;a href=&quot;https://weightpruningdamage.github.io/&quot;&gt;website&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://arxiv.org/pdf/1911.05248.pdf&quot;&gt;article&lt;/a&gt; on “Selective Brain Damage: Measuring the Disparate Impact of Model Compression”&lt;/p&gt;</content><author><name>Raul Maldonado</name></author><category term="Data Science" /><summary type="html">“What do Compressed Deep Neural Networks Forget” by Sara Hooker and others is 2020 published Arxiv.org article (also found here) discusses the tradeoffs between optimization and improvements into “AI”. Particularly, the article discusses how Deep Network “Pruning” results in higher level “AI” performance, but with an underlying tradeoff is memorization of said model’s particular data points, what are ultimately called Pruning Identified Exemplars (PIEs).</summary></entry><entry><title type="html">Next 5 years – Another Raul’d-Map (Roadmap)</title><link href="http://localhost:4000/Five-Year-Roadmap/" rel="alternate" type="text/html" title="Next 5 years – Another Raul’d-Map (Roadmap)" /><published>2021-01-01T00:00:00-06:00</published><updated>2021-01-01T00:00:00-06:00</updated><id>http://localhost:4000/Five-Year-Roadmap</id><content type="html" xml:base="http://localhost:4000/Five-Year-Roadmap/">&lt;p&gt;2020–Never heard of it. Just kidding. 2020 was truly, yes I will repeat it, &lt;a href=&quot;https://www.dictionary.com/e/s/the-best-words-to-use-during-unprecedented-times/#1&quot;&gt;“unprecedented times”&lt;/a&gt; for us all.&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;https://i.pinimg.com/originals/e1/40/fe/e140feb66e180e555fa62a7ba8afb4f7.jpg&quot; alt=&quot;1918 Pandemic with cat having mask on it.&quot; width=&quot;175&quot; height=&quot;175&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;1918 Pandemic with cat wearing a mask.&lt;/center&gt;
+
+&lt;p&gt;However, there are those who quite haven’t been impacted by the COVID-19 situation, and I feel I’ve been truly blessed to be somewhat in that cohort, given my recent relative privilege.&lt;/p&gt;
+
+&lt;p&gt;What do I mean by that? Let me take a step back…&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Note to the reader: This blog post is not a recommendation into &lt;a href=&quot;https://www.youtube.com/watch?v=L9Gpr7PEnbs&quot;&gt;hustle culture&lt;/a&gt;, financial advise, or imposing political views &amp;amp; opinions.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;self-reflection&quot;&gt;Self-Reflection&lt;/h2&gt;
+
+&lt;p&gt;In the past decade, I had the opportunity to both endure and succeed in my initiatives. In that path were underlying 2010 &amp;amp; 2016 5-year goals, graduating from college &amp;amp; getting a career, respectively. However, these ambitions and goals were certainly never expected of me.&lt;/p&gt;
+
+&lt;p&gt;How so? Well, in:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;~2009: I had the opportunity to drop out of High School, without traditional ‘sit-com family confrontational’ repercussions I used to watch.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;2010: The Great Recession lead me to not finding a job after High School (I was looking for warehouse or Fast Food jobs). So, I enrolled into Junior College, not knowing what to do.
     &lt;ul&gt;
-      &lt;li&gt;How frequent will this report be shared?&lt;/li&gt;
+      &lt;li&gt;2013: I transferred to UC Davis–truly thankful of their diversity initiatives for accepting me.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;Lifespan
+  &lt;li&gt;~2016: I had the opportunity to save up ~2months worth of rent and take a &lt;a href=&quot;https://raulingaverage.dev/i-wrote-this-when-i-was-a-teller-at-wells-fargo-in-2016/&quot;&gt;strategic risk to move to San Francisco&lt;/a&gt;, or move back to Modesto.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“As a child, I was always one level below the average in math, and I felt incompetent compared to peers.” –&lt;a href=&quot;https://blog.udacity.com/2017/12/5-year-plan-for-career-success.html&quot;&gt;My “5-Year Plan For Career Success” feature in a Udacity blog post&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Reiterating&lt;/strong&gt;, I had several opportunities to regress into an expected lifestyle, even so without a safety net. However, keeping that in mind, with lot of preparation, grit, network of opportunities &amp;amp; people, &lt;strong&gt;someone to personally help me in my journey&lt;/strong&gt;, I am fortunately still able to continue with my goals without minimized 2020 setback–hence the “relative privilege” term.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;“You have to work from one point to go to another point”&lt;br /&gt;@ zen_ameer &lt;a href=&quot;https://t.co/Wg20TKhEfI&quot;&gt;pic.twitter.com/Wg20TKhEfI&lt;/a&gt;&lt;/p&gt;&amp;mdash; 2PAC (@2PAC) &lt;a href=&quot;https://twitter.com/2PAC/status/1325893011176185857?ref_src=twsrc%5Etfw&quot;&gt;November 9, 2020&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;motivation-for-this-roadmap&quot;&gt;Motivation for this Roadmap&lt;/h2&gt;
+
+&lt;p&gt;The above prelude is not a boast, flex, or brag. But rather, a reflection on some thoughts I had in the past couple of years, especially this one…&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;How have I given back to lower-income communities, whilst pursuing my ambitions?&lt;/li&gt;
+  &lt;li&gt;Am I another case of cruising upwards into middle-class, while ignoring my origins?&lt;/li&gt;
+  &lt;li&gt;How can I use that same numbing frustration of the &lt;a href=&quot;https://www.npr.org/2020/05/29/865685777/why-u-s-needs-black-lives-matter-movement-today&quot;&gt;2020 Summer BLM movement&lt;/a&gt;, rapid rise of corruption in American government, and deaths of tragic heroes like &lt;a href=&quot;https://en.wikipedia.org/wiki/Kobe_Bryant&quot;&gt;Kobe Bryant&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Ruth_Bader_Ginsburg&quot;&gt;Ruth Bader Ginsburg&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/John_Lewis&quot;&gt;John Lewis&lt;/a&gt;, &amp;amp; more as motivation?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Visibly experiencing the &lt;a href=&quot;https://www.cnet.com/personal-finance/americas-v-shaped-vs-k-shaped-economic-recovery-what-does-it-all-mean/&quot;&gt;k-shaped&lt;/a&gt; bifurcation of the economy, theme of &lt;a href=&quot;https://www.youtube.com/watch?v=15pFQxG9wko&quot;&gt;rich keep on getting richer&lt;/a&gt;, and continuing with my ambitions while not fully being impacted from ‘The ‘Rona’, I have somewhat continued to drift, meanwhile knowing there are others like me that are dealing with their own hardships to a significant degree.&lt;/p&gt;
+
+&lt;p&gt;With these considerations, I lay out my Roadmap for the next 5 years.&lt;/p&gt;
+
+&lt;h2 id=&quot;1-increased-altruism&quot;&gt;1. Increased Altruism&lt;/h2&gt;
+
+&lt;p&gt;From the &lt;a href=&quot;https://slate.com/podcasts/what-next/2020/12/does-violence-make-protest-more-effective-makes-an-effective-protest&quot;&gt;Black Lives Matter Movement&lt;/a&gt;, deaths of icons like &lt;a href=&quot;https://en.wikipedia.org/wiki/Kobe_Bryant&quot;&gt;Kobe Bryant&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Ruth_Bader_Ginsburg&quot;&gt;Ruth Bader Ginsburg&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/John_Lewis&quot;&gt;John Lewis&lt;/a&gt;, and more, I reflect on the numbing pain of the overarching success they’ve achieved in their own lives, and relate how I can be a contributing factor to maintain or continue on their initiatives.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“There has to be an uncomfortable element in the discourse for anything to change. People have to be made to feel uncomfortable, &amp;amp; especially white people — because we are comfortable.” - &lt;a href=&quot;https://theundefeated.com/features/nba-gregg-popovich-speech-about-white-privilege-felt-like-a-personal-rebuke/&quot;&gt;Gregg Popovich&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;11-contribute-your-time-not-your-skills&quot;&gt;1.1 Contribute your time, not your skills&lt;/h3&gt;
+
+&lt;p&gt;I am currently, and have, volunteered with Nonprofits these past few years. The responsibilities associated with these contributions have been in Operational &amp;amp; Strategy-capacities. However, was my perceived impact…truly ‘impactful’, both in perception and &lt;a href=&quot;https://yaledailynews.com/sjp2020/2020/09/05/a-tale-of-performative-activism-how-black-lives-matter-became-just-a-trend/&quot;&gt;non-performative&lt;/a&gt;?&lt;/p&gt;
+
+&lt;p&gt;If true, this insignificant impact to individuals is consequential in that have I given more than I’ve taken from the San Francisco &amp;amp; other subcommunities that I have been a part of? Moreover, how can I represent the good of tech workers (ignoring the acclaimed &lt;a href=&quot;https://www.linkedin.com/pulse/its-time-committothebay-jeff-lawson/?trackingId=%2BdoojZvZQaOFRFdmYNfjHA%3D%3D&quot;&gt;Tech Exodus that is happening in 2020 #CommitTotTheBay&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;Sometimes, I felt that wasn’t the case–and maybe it was because I haven’t had by ‘boots to the ground’.&lt;/p&gt;
+
+&lt;p&gt;That being said, to give more than I’ve taken away from the San Francisco community, I need to contribute more time than my skills. Moreover, how can I lead by example both in the subcommunities that I interact with?&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;🧵 With many of the Valley’s richest companies fleeing the Bay mid-pandemic, I feel compelled to speak out. There’s no question that California is imperfect. The cost of living, taxes and policies, among other things, make it difficult for lots of people to succeed here. (1/9)&lt;/p&gt;&amp;mdash; Jeff Lawson (@jeffiel) &lt;a href=&quot;https://twitter.com/jeffiel/status/1339996375581396999?ref_src=twsrc%5Etfw&quot;&gt;December 18, 2020&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;h3 id=&quot;12-share-the-codes&quot;&gt;1.2 Share The Codes&lt;/h3&gt;
+
+&lt;p&gt;This section can be summarized in the following:&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;und&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://twitter.com/hashtag/SHARETHECODES?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#SHARETHECODES&lt;/a&gt; 💫🌱 &lt;a href=&quot;https://twitter.com/Pharrell?ref_src=twsrc%5Etfw&quot;&gt;@Pharrell&lt;/a&gt; &lt;a href=&quot;https://twitter.com/tylerthecreator?ref_src=twsrc%5Etfw&quot;&gt;@tylerthecreator&lt;/a&gt; &lt;a href=&quot;https://t.co/nJm5WnzGbG&quot;&gt;pic.twitter.com/nJm5WnzGbG&lt;/a&gt;&lt;/p&gt;&amp;mdash; my.💅🏽 (@_MAYA_A_) &lt;a href=&quot;https://twitter.com/_MAYA_A_/status/1331667687815086080?ref_src=twsrc%5Etfw&quot;&gt;November 25, 2020&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;h3 id=&quot;13-minimizing-american-misdis-information&quot;&gt;1.3 Minimizing American mis/dis-information&lt;/h3&gt;
+
+&lt;p&gt;I’ve been fortunate to started my journey online in 2009, when I bought my own HP laptop. Starting their, I had the opportunity to grow and contribute to the internet culture with early adoption of &lt;a href=&quot;https://www.buzzfeednews.com/article/katienotopoulos/memes-that-defined-the-2010s&quot;&gt;Rage Comic memes&lt;/a&gt;, &lt;a href=&quot;https://www.theverge.com/2019/4/5/18287318/youtube-logan-paul-pewdiepie-demonetization-adpocalypse-premium-influencers-creators&quot;&gt;Golden Age of Youtube&lt;/a&gt;, and more.&lt;/p&gt;
+
+&lt;p&gt;However, many other cohorts have jumped into it without proper introduction, onboarding, or guidance on how to navigate the internet.&lt;/p&gt;
+
+&lt;p&gt;(E.g. &lt;a href=&quot;https://g.co/kgs/LZikMX&quot;&gt;The Social dilemma&lt;/a&gt;, tying truth with memes, &lt;a href=&quot;https://abcnews.go.com/Politics/men-qanon/story?id=73046374&quot;&gt;Q-Anon&lt;/a&gt;, echo chambers, etc).&lt;/p&gt;
+
+&lt;p&gt;I should also mention even with either younger demographics or even my age group (i.e. younger family members &amp;amp; friends), I would assumed aligned moral ethics and uphold of truth would reside in their hearts. And resent the corruption that exists now.&lt;/p&gt;
+
+&lt;p&gt;However, they’ve lacked to updating their prior beliefs, and in consequence have a &lt;a href=&quot;https://scholar.harvard.edu/files/fryer/files/biasedupdating-mar-12-2017-revised.pdf&quot;&gt;insufficient update in their posterior belief of particular topics&lt;/a&gt;. In consequence, they accept the unjust. Even to older demographics, how can I educate them on how to properly navigate the internet, meanwhile not impose too much bias into those recommendations?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;This is something I am still thinking about how to solve&lt;/strong&gt;. If you have a suitable solution in the meantime, feel free to let me know.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“There are three kinds of lies: lies, damned lies, and statistics.” –Mark Twain (via my Junior College Stats Professor)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;20-career&quot;&gt;2.0 Career&lt;/h2&gt;
+
+&lt;h3 id=&quot;21-exponential-growth&quot;&gt;2.1 Exponential Growth&lt;/h3&gt;
+
+&lt;p&gt;In 2016, I graduated with a Bachelors in Applied Mathematics and Minor in Economics. But surprisingly, I didn’t know what I wanted to do. &lt;a href=&quot;https://www.youtube.com/watch?v=AGBGetoOW4s&amp;amp;pbjreload=101&quot;&gt;From that time&lt;/a&gt;, I aspired to go into &lt;a href=&quot;https://towardsdatascience.com/data-sciences-most-misunderstood-hero-2705da366f40&quot;&gt;Data Science&lt;/a&gt;, which can be summarized in the opportunity to be featured in a Udacity blog  &lt;a href=&quot;https://blog.udacity.com/2017/12/5-year-plan-for-career-success.html&quot;&gt;“5-Year Plan For Career Success” in a Udacity blog post&lt;/a&gt; by Caroline Watson.&lt;/p&gt;
+
+&lt;p&gt;This year, I have never been in a position to take my next steps into Data Science. With that being said, I plan to do the following:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Officially have a Data Science title and responsibilities&lt;/li&gt;
+  &lt;li&gt;Contribute to Open Source
     &lt;ul&gt;
-      &lt;li&gt;Will this report be resurfaced? If so, when?
-*
-Will this report be shared again business analyst provided the report, but now you
-Time and time again
-        &lt;h3 id=&quot;reproducibility&quot;&gt;Reproducibility&lt;/h3&gt;
-      &lt;/li&gt;
+      &lt;li&gt;Give back more than I’ve taken from the Python community (i.e. not being part of the ‘Stadium’ users, mentioned by &lt;a href=&quot;https://www.amazon.com/Working-Public-Making-Maintenance-Software/dp/0578675862&quot;&gt;Working in Public: The Making and Maintenance of Open Source by Nadia Eghbal&lt;/a&gt;)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Continue with Data-related Nonprofit contributions&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;22-transparent-background&quot;&gt;2.2 Transparent Background&lt;/h3&gt;
+
+&lt;p&gt;Linkedin&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;I’ll be more transparent about my background both on Linkedin and my curated &lt;a href=&quot;https://raulingaverage.dev/job-search&quot;&gt;Job Search Preparation material&lt;/a&gt; for lower-income individuals who are interested in starting their career.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;That being said, let me explain my blog cover…&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/images/personal/TacoBell-X-Bus-Stop.png&quot; alt=&quot;In between--the hustle. Modesto, CA Bus Stop&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;My first job was at Taco Bell, in 2007. In between transferring buses to get to High School, I went into that Taco Bell asking, honestly annoying, the team &amp;amp; manager if they had an open position. It took a few months, but I had a shot at getting a job.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;…I failed the interview, but the manager liked my perseverance and I got the job.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Mentions&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Offer more transparent background in workshop/talks&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;30-personal&quot;&gt;3.0 Personal&lt;/h2&gt;
+
+&lt;p&gt;Here are some personal goals that I also would like reach:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Celebrating &lt;a href=&quot;https://results.rmraces.live/Modesto-Marathon/events/2011/Modesto-Marathon/274/entrant/share&quot;&gt;my 10 year anniversary of running a Marathon&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Losing weight, per usual :cry:&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Frequently travel to the London&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Travel to five Countries, that I have not already been to.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Attend &lt;a href=&quot;https://youtu.be/vJ2eHsQv7Ac?t=3779&quot;&gt;Defcon Festival by Q-dance in Europe&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Home Ownership?&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;wrapping-it-all-up&quot;&gt;Wrapping it all up&lt;/h2&gt;
+
+&lt;p&gt;Looking back into past decade, I’ve updated my goals to center around more impactful altruistic contributions, meanwhile pursuing my career path &amp;amp; personal goals.&lt;/p&gt;
+
+&lt;p&gt;Now, I end with this Roadmap with two sentimental songs I heard as a kid.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Kxi3RQl6xVI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Ignore the fact Kanye West is in the above video (I.e. ‘I miss the old Kanye…I hate the new Kanye.’)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RvVfgvHucRY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name>Raul Maldonado</name></author><category term="Personal" /><summary type="html">2020–Never heard of it. Just kidding. 2020 was truly, yes I will repeat it, “unprecedented times” for us all.</summary></entry><entry><title type="html">COVID-19 - Information Resources during ‘Dark Winter’</title><link href="http://localhost:4000/COVID-Winter-Is-Here/" rel="alternate" type="text/html" title="COVID-19 - Information Resources during ‘Dark Winter’" /><published>2020-12-05T00:00:00-06:00</published><updated>2020-12-05T00:00:00-06:00</updated><id>http://localhost:4000/COVID-Winter-Is-Here</id><content type="html" xml:base="http://localhost:4000/COVID-Winter-Is-Here/">&lt;p&gt;In this article, I list out my resources for reliable COVID-19 updates &amp;amp; research. Moreover, I discuss what holds for Americans after COVID-19.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Side note: Also, this is a follow up to my March 2020 article &lt;a href=&quot;https://raulingaverage.dev/Joining-Masks4All/&quot;&gt;“Joining #Masks4All against Coronavirus”&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
+
+&lt;h3 id=&quot;general&quot;&gt;General&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Anthony Stephen Fauci&lt;/strong&gt; “is an American physician and immunologist who has served as the director of the National Institute of Allergy and Infectious Diseases since 1989”
+&lt;img src=&quot;https://cdn.vox-cdn.com/thumbor/gZbcLANIyly6BjxTBBxq6RsqbEM=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19867593/acastro_200402_3959_drFauci_0001.jpg&quot; alt=&quot;Fauci Meme &amp;lt;3&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.npr.org/podcasts/510318/up-first&quot;&gt;NPR’s UpFirst Podcast&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.nytimes.com/column/the-daily&quot;&gt;The Daily from New York Times&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;twitter&quot;&gt;Twitter&lt;/h3&gt;
+
+&lt;p&gt;Twitter has been always great with not only random spew of memes, jokes, and real time conversations, but also following noteable people. Here are some noteable people that I rely on for COVID-19 Opinions &amp;amp; Research Updates:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Epidemiology Asst. prof &lt;a href=&quot;https://twitter.com/EpiEllie&quot;&gt;@EpiEllie&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Ex-Obama health care head. &lt;a href=&quot;https://twitter.com/ASlavitt&quot;&gt;@ASlavitt&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Assistant Professor of Biostatistics &lt;a href=&quot;https://twitter.com/nataliexdean&quot;&gt;@nataliexdean&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;infectious disease epidemiology &lt;a href=&quot;https://twitter.com/emma__glennon&quot;&gt;@emma__glennon&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Biostatistician &lt;a href=&quot;https://twitter.com/LucyStats&quot;&gt;@LucyStats&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Biology Professor @UW &lt;a href=&quot;https://twitter.com/CT_Bergstrom&quot;&gt;@CT_Bergstrom&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Associate Professor in the Center for Policy and Research in Emergency Medicine, Oregon &lt;a href=&quot;https://twitter.com/choo_ek&quot;&gt;@choo_ek&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Epidemiologist &amp;amp; Health Economist. &lt;a href=&quot;https://twitter.com/DrEricDing&quot;&gt;DrEricDing&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Note: Some of his more recent tweets have become a mix bag of items, than sole-COVID19 topics&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;long-term&quot;&gt;Long Term&lt;/h2&gt;
-&lt;p&gt;about something that’s been on my mind the past year. And with recently working with particular Analytics Engineering best practices, it further ins&lt;/p&gt;</content><author><name>Raul Maldonado</name></author><category term="Project Management" /><summary type="html">Data Analytics is more than ‘Analytics’. Regardless of the size of your analysis or project implementation, future proofing said items with either documentation, tests, or transparency ensures both short term and long term success for your team and organization.</summary></entry><entry><title type="html">SQL Readability (2020)</title><link href="http://localhost:4000/SQL-Readability/" rel="alternate" type="text/html" title="SQL Readability (2020)" /><published>2020-04-03T00:00:00-07:00</published><updated>2020-04-03T00:00:00-07:00</updated><id>http://localhost:4000/SQL-Readability</id><content type="html" xml:base="http://localhost:4000/SQL-Readability/">&lt;p&gt;Scenario: You submitted a Pull Request (PR) for a sophisticated contribution to production (prod), that you spent &lt;strong&gt;several&lt;/strong&gt; hours working on.&lt;/p&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;SMALL GATHERINGS—I’m most worried about private small gatherings now. They are not publicly visible &amp;amp; difficult to monitor gathering sizes &amp;amp; masks. And people often let their guards down w/ friends/guests in own home. It’s a serious blindspot. &lt;a href=&quot;https://twitter.com/hashtag/COVID19?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#COVID19&lt;/a&gt; &lt;a href=&quot;https://t.co/tu2eIN0sfG&quot;&gt;pic.twitter.com/tu2eIN0sfG&lt;/a&gt;&lt;/p&gt;&amp;mdash; Eric Feigl-Ding (@DrEricDing) &lt;a href=&quot;https://twitter.com/DrEricDing/status/1335249398088036354?ref_src=twsrc%5Etfw&quot;&gt;December 5, 2020&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;h2 id=&quot;looking-into-the-future&quot;&gt;Looking into the future&lt;/h2&gt;
+
+&lt;h3 id=&quot;liability-and-insurance-eligibility-for-covid-19&quot;&gt;Liability, and Insurance Eligibility for COVID-19&lt;/h3&gt;
+
+&lt;h4 id=&quot;lawmakers-pressure-leaders-to-reach-covid-19-relief-deal&quot;&gt;&lt;a href=&quot;https://thehill.com/homenews/senate/528697-lawmakers-pressure-leaders-to-reach-covid-19-relief-deal&quot;&gt;“Lawmakers pressure leaders to reach COVID-19 relief deal”&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Currently, American GOP (Republicans) have been pressuring to “push for coronavirus-related liability protections for businesses, schools, nonprofit groups and religious organizations.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How does this impact you?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;coronavirus-faq-could-covid-19-ever-be-considered-a-preexisting-condition&quot;&gt;&lt;a href=&quot;https://www.npr.org/sections/goatsandsoda/2020/11/09/932067037/coronavirus-faq-could-covid-19-ever-be-considered-a-preexisting-condition&quot;&gt;“Coronavirus FAQ: Could COVID-19 Ever Be Considered A Preexisting Condition?”&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;“Health insurers used to be able to deny coverage – or charge more – for an applicant who had a preexisting medical condition. The Affordable Care Act changed all that as of 2014, guaranteeing coverage for those with preexisting conditions.”&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;But thanks to the current administration, does such coverage still hold for people?…
+  “If preexisting conditions were again to become a cause to deny coverage, would a COVID-19 survivor be in jeopardy?”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;information-mitigation&quot;&gt;Information Mitigation&lt;/h3&gt;
+
+&lt;p&gt;How can we ensure to mitigate dis/mis-information within different communities, &lt;a href=&quot;https://www.bbc.com/news/world-us-canada-55141055&quot;&gt;even to those who are ‘educated’&lt;/a&gt;?&lt;/p&gt;
+
+&lt;p&gt;I leave this as an open question, as Americans, and the world, have a lot to think and &lt;strong&gt;act&lt;/strong&gt; on this effort…&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/images/quotes/data-informed.jpg&quot; alt=&quot;Data Inform&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Stay safe, and hope you and your family and friends are well &amp;lt;3.&lt;/p&gt;</content><author><name>Raul Maldonado</name></author><category term="Personal" /><summary type="html">In this article, I list out my resources for reliable COVID-19 updates &amp;amp; research. Moreover, I discuss what holds for Americans after COVID-19. Side note: Also, this is a follow up to my March 2020 article “Joining #Masks4All against Coronavirus”</summary></entry><entry><title type="html">SQL Readability (2020)</title><link href="http://localhost:4000/SQL-Readability/" rel="alternate" type="text/html" title="SQL Readability (2020)" /><published>2020-04-03T00:00:00-05:00</published><updated>2020-04-03T00:00:00-05:00</updated><id>http://localhost:4000/SQL-Readability</id><content type="html" xml:base="http://localhost:4000/SQL-Readability/">&lt;p&gt;Scenario: You submitted a Pull Request (PR) for a sophisticated contribution to production (prod), that you spent &lt;strong&gt;several&lt;/strong&gt; hours working on.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Kudos to you!&lt;/strong&gt;&lt;/p&gt;
 
@@ -532,7 +816,7 @@ Time and time again
     &lt;p&gt;&lt;a href=&quot;https://www.codeproject.com/Articles/126380/Writing-Readable-SQL&quot;&gt;Code Project; Writing SQL&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.python.org/dev/peps/pep-0008/&quot;&gt;PEP 8&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Raul Maldonado</name></author><category term="Coding" /><summary type="html">Scenario: You submitted a Pull Request (PR) for a sophisticated contribution to production (prod), that you spent several hours working on.</summary></entry><entry><title type="html">Joining \#Masks4All against Coronavirus</title><link href="http://localhost:4000/Joining-Masks4All/" rel="alternate" type="text/html" title="Joining \#Masks4All against Coronavirus" /><published>2020-03-28T00:00:00-07:00</published><updated>2020-03-28T00:00:00-07:00</updated><id>http://localhost:4000/Joining-Masks4All</id><content type="html" xml:base="http://localhost:4000/Joining-Masks4All/">&lt;p&gt;I am a avid viewer of Lex Fridman’s podcasts and other misc. content, particularly his Youtube videos. I recently watched one of his videos on &lt;a href=&quot;https://www.youtube.com/watch?v=qFmaSNP6_z4&quot;&gt;“Face Masks for All” &amp;amp; DIY Masks, seen here&lt;/a&gt;.&lt;/p&gt;
+&lt;/ol&gt;</content><author><name>Raul Maldonado</name></author><category term="Coding" /><summary type="html">Scenario: You submitted a Pull Request (PR) for a sophisticated contribution to production (prod), that you spent several hours working on.</summary></entry><entry><title type="html">Joining \#Masks4All against Coronavirus</title><link href="http://localhost:4000/Joining-Masks4All/" rel="alternate" type="text/html" title="Joining \#Masks4All against Coronavirus" /><published>2020-03-28T00:00:00-05:00</published><updated>2020-03-28T00:00:00-05:00</updated><id>http://localhost:4000/Joining-Masks4All</id><content type="html" xml:base="http://localhost:4000/Joining-Masks4All/">&lt;p&gt;I am a avid viewer of Lex Fridman’s podcasts and other misc. content, particularly his Youtube videos. I recently watched one of his videos on &lt;a href=&quot;https://www.youtube.com/watch?v=qFmaSNP6_z4&quot;&gt;“Face Masks for All” &amp;amp; DIY Masks, seen here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;In it, he discusses what you need to know about face masks and its impact on it and the spread of COVID19 (2019 Coronavirus)&lt;/p&gt;
 &lt;blockquote&gt;
@@ -682,7 +966,7 @@ Time and time again
 &lt;ul&gt;
   &lt;li&gt;Slides for this video: https://bit.ly/3duqq82&lt;/li&gt;
   &lt;li&gt;Slide References: https://bit.ly/covid-19-masks&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Raul Maldonado</name></author><category term="Personal" /><summary type="html">I am a avid viewer of Lex Fridman’s podcasts and other misc. content, particularly his Youtube videos. I recently watched one of his videos on “Face Masks for All” &amp;amp; DIY Masks, seen here.</summary></entry><entry><title type="html">2019 Lookback and the \#2020Vision</title><link href="http://localhost:4000/2019Lookback-2020Growth/" rel="alternate" type="text/html" title="2019 Lookback and the \#2020Vision" /><published>2020-03-10T00:00:00-07:00</published><updated>2020-03-10T00:00:00-07:00</updated><id>http://localhost:4000/2019Lookback-2020Growth</id><content type="html" xml:base="http://localhost:4000/2019Lookback-2020Growth/">&lt;p&gt;It’s been a while since I’ve produced some quality personal content. Moreover, I’ve noticed that it’s been 1 year since my time as a Data Analyst at Autodesk! Though the journey has been amazing to work in a start-up-like workflow, meanwhile working to drive impact to a corporation, I thought it would be beneficial to readers to provide some lessons learned. Also, what’s coming up for me in 2020?&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>Raul Maldonado</name></author><category term="Personal" /><summary type="html">I am a avid viewer of Lex Fridman’s podcasts and other misc. content, particularly his Youtube videos. I recently watched one of his videos on “Face Masks for All” &amp;amp; DIY Masks, seen here.</summary></entry><entry><title type="html">2019 Lookback and the \#2020Vision</title><link href="http://localhost:4000/2019Lookback-2020Growth/" rel="alternate" type="text/html" title="2019 Lookback and the \#2020Vision" /><published>2020-03-10T00:00:00-05:00</published><updated>2020-03-10T00:00:00-05:00</updated><id>http://localhost:4000/2019Lookback-2020Growth</id><content type="html" xml:base="http://localhost:4000/2019Lookback-2020Growth/">&lt;p&gt;It’s been a while since I’ve produced some quality personal content. Moreover, I’ve noticed that it’s been 1 year since my time as a Data Analyst at Autodesk! Though the journey has been amazing to work in a start-up-like workflow, meanwhile working to drive impact to a corporation, I thought it would be beneficial to readers to provide some lessons learned. Also, what’s coming up for me in 2020?&lt;/p&gt;
 
 &lt;p&gt;Starting off…&lt;/p&gt;
 &lt;h1 id=&quot;1-lessons-learned&quot;&gt;1. Lessons Learned&lt;/h1&gt;
@@ -799,7 +1083,7 @@ I have to give some credit to this Youtube on shedding some light&lt;/p&gt;
   &lt;p&gt;Learn, grow, empower.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;#2020Vision&lt;/p&gt;</content><author><name>Raul Maldonado</name></author><category term="Motivation" /><summary type="html">It’s been a while since I’ve produced some quality personal content. Moreover, I’ve noticed that it’s been 1 year since my time as a Data Analyst at Autodesk! Though the journey has been amazing to work in a start-up-like workflow, meanwhile working to drive impact to a corporation, I thought it would be beneficial to readers to provide some lessons learned. Also, what’s coming up for me in 2020?</summary></entry><entry><title type="html">Why I Upgraded my Website from HTML -&amp;gt; Jekyll</title><link href="http://localhost:4000/Migrating-Blog/" rel="alternate" type="text/html" title="Why I Upgraded my Website from HTML -&gt; Jekyll" /><published>2020-02-01T00:00:00-08:00</published><updated>2020-02-01T00:00:00-08:00</updated><id>http://localhost:4000/Migrating-Blog</id><content type="html" xml:base="http://localhost:4000/Migrating-Blog/">&lt;p&gt;My initial blog started off with several considerations as a website. Should I create a website? If I create the website, how much would I have to pay for a yearly subscription? Is it worth it? What about free solutions?&lt;/p&gt;
+&lt;p&gt;#2020Vision&lt;/p&gt;</content><author><name>Raul Maldonado</name></author><category term="Motivation" /><summary type="html">It’s been a while since I’ve produced some quality personal content. Moreover, I’ve noticed that it’s been 1 year since my time as a Data Analyst at Autodesk! Though the journey has been amazing to work in a start-up-like workflow, meanwhile working to drive impact to a corporation, I thought it would be beneficial to readers to provide some lessons learned. Also, what’s coming up for me in 2020?</summary></entry><entry><title type="html">Why I Upgraded my Website from HTML -&amp;gt; Jekyll</title><link href="http://localhost:4000/Migrating-Blog/" rel="alternate" type="text/html" title="Why I Upgraded my Website from HTML -&amp;gt; Jekyll" /><published>2020-02-01T00:00:00-06:00</published><updated>2020-02-01T00:00:00-06:00</updated><id>http://localhost:4000/Migrating-Blog</id><content type="html" xml:base="http://localhost:4000/Migrating-Blog/">&lt;p&gt;My initial blog started off with several considerations as a website. Should I create a website? If I create the website, how much would I have to pay for a yearly subscription? Is it worth it? What about free solutions?&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;I tried it out, and it didn’t work out. I was broke in early 2016-2017, and had to save money&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -955,7 +1239,7 @@ I have to give some credit to this Youtube on shedding some light&lt;/p&gt;
 
 &lt;p&gt;If you have any questions of critical feedback on my implementation, feel &lt;a href=&quot;https://www.linkedin.com/in/raulm8/&quot;&gt;free to reach out at LinkedIn&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Cheers!&lt;/p&gt;</content><author><name>Raul Maldonado</name></author><category term="Coding" /><summary type="html">My initial blog started off with several considerations as a website. Should I create a website? If I create the website, how much would I have to pay for a yearly subscription? Is it worth it? What about free solutions? I tried it out, and it didn’t work out. I was broke in early 2016-2017, and had to save money</summary></entry><entry><title type="html">SaaS Metrics</title><link href="http://localhost:4000/SaaS-Metrics/" rel="alternate" type="text/html" title="SaaS Metrics" /><published>2020-01-30T00:00:00-08:00</published><updated>2020-01-30T00:00:00-08:00</updated><id>http://localhost:4000/SaaS%20Metrics</id><content type="html" xml:base="http://localhost:4000/SaaS-Metrics/">&lt;p&gt;This document is a review and breakdown of Metrics Definitions and formulas related to SaaS Metrics, particulary 16 SaaS Metrics critical for business growth&lt;/p&gt;
+&lt;p&gt;Cheers!&lt;/p&gt;</content><author><name>Raul Maldonado</name></author><category term="Coding" /><summary type="html">My initial blog started off with several considerations as a website. Should I create a website? If I create the website, how much would I have to pay for a yearly subscription? Is it worth it? What about free solutions? I tried it out, and it didn’t work out. I was broke in early 2016-2017, and had to save money</summary></entry><entry><title type="html">SaaS Metrics</title><link href="http://localhost:4000/SaaS-Metrics/" rel="alternate" type="text/html" title="SaaS Metrics" /><published>2020-01-30T00:00:00-06:00</published><updated>2020-01-30T00:00:00-06:00</updated><id>http://localhost:4000/SaaS%20Metrics</id><content type="html" xml:base="http://localhost:4000/SaaS-Metrics/">&lt;p&gt;This document is a review and breakdown of Metrics Definitions and formulas related to SaaS Metrics, particulary 16 SaaS Metrics critical for business growth&lt;/p&gt;
 
 &lt;h2 id=&quot;breaking-down-profit&quot;&gt;Breaking Down Profit&lt;/h2&gt;
 
@@ -1285,339 +1569,4 @@ I have to give some credit to this Youtube on shedding some light&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Raul Maldonado</name></author><category term="Project Management" /><summary type="html">This document is a review and breakdown of Metrics Definitions and formulas related to SaaS Metrics, particulary 16 SaaS Metrics critical for business growth</summary></entry><entry><title type="html">Quick Guide to OKRs</title><link href="http://localhost:4000/quick-guide-to-okrs/" rel="alternate" type="text/html" title="Quick Guide to OKRs" /><published>2020-01-22T00:00:00-08:00</published><updated>2020-01-22T00:00:00-08:00</updated><id>http://localhost:4000/quick-guide-to-okrs</id><content type="html" xml:base="http://localhost:4000/quick-guide-to-okrs/">&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2426/1*m87-DMxwddK2o6teYiEG1w.jpeg&quot; alt=&quot;OKR (via [https://medium.com/@LazaroIbanez/introduction-to-okr-6cc0ca8b4767](https://medium.com/@LazaroIbanez/introduction-to-okr-6cc0ca8b4767))&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;what-is-an-okr&quot;&gt;What is an OKR?&lt;/h1&gt;
-
-&lt;p&gt;OKR (Objectives and Key Results)[Not OKRA] is a framework for defining and tracking objectives and outcomes to drive engagement and focus on your goals.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Objectives&lt;/strong&gt; are motivational, challenging, and qualitative descriptions of what you want to achieve.&lt;/p&gt;
-
-&lt;p&gt;**Key Results **are a set of metrics that measure your progress towards the Objective.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2400/1*HLkJFt8lZPFfD5mQyq9T7A.png&quot; alt=&quot;OKR Timeline (via [www.perdoo.com/okr/](https://www.perdoo.com/okr/))&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;OKR methodology was introduced to Intel by &lt;a href=&quot;https://en.wikipedia.org/wiki/Andrew_Grove&quot;&gt;Andy Grove&lt;/a&gt; in his 1983 book “High Output Management”. Later on in 1999, Intel’s John Doerr recommends the methodology to Google’ CEOs Larry Page and Sergey Brin for their 40+team.&lt;/p&gt;
-
-&lt;h1 id=&quot;okr-example&quot;&gt;OKR Example&lt;/h1&gt;
-
-&lt;h4 id=&quot;okr-formulation&quot;&gt;OKR Formulation&lt;/h4&gt;
-
-&lt;p&gt;The following is a general structure for forming and OKR&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;I will [Objective] as measured by [Key Result].&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;and can be used in the following example&lt;/p&gt;
-
-&lt;h4 id=&quot;example&quot;&gt;Example&lt;/h4&gt;
-
-&lt;p&gt;Engineering Manager’s OKR:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Objective:&lt;/strong&gt; Create a better Customer Experience&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Key Results:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Improve Net Promoter Score from X to Y.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Mitigate Churn or Bounce Rate under Z%&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Improve Product/Business Awareness for Engineering team from 30% familiarity to 80% familiarity.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;In some instances, a hierarchy of OKRs can be created too. The manager above can have OKRs tied to team performance and growth, outside of business objectives as well.&lt;/p&gt;
-
-&lt;p&gt;Employee’s OKR:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Objective:&lt;/strong&gt; Improve Customer Journey with Product&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Key Results:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Create training/documentation on product usability&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Optimize UI and usability of product from X% engagement to X+ Y % engagement&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“If it does not have a number,&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;it is not a Key Result.” -Marissa Mayer&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;the-benefits&quot;&gt;The Benefits&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Agile Goals&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Simple&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Transparent&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Nested Cadences&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Bidirectional Goal Setting&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/996/1*6hu7GlEQ4pHMk8FPztzLLA.gif&quot; alt=&quot;(The Office Vogue Dance Scene)&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;okr-mistakes&quot;&gt;OKR Mistakes&lt;/h1&gt;
-
-&lt;p&gt;OKRs sounds so enticing, and when starting with the methodology, many are tempted to “LIST ALL THE GOALS”. However, avoid these OKR mistakes to ensure you reach your goal(s):&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Forgetting about your OKRs&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Using OKR as a task list&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Setting too many OKRs (Use between 2–5 Objectives)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Not aligning your OKRs&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Separate metrics from initiatives&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;getting-started&quot;&gt;Getting Started&lt;/h1&gt;
-
-&lt;p&gt;If you have a sophisticated system/software for driving OKR culture to your company, then awesome!&lt;/p&gt;
-
-&lt;p&gt;If you do not have funding for such sophisticated software, please feel free to check out the following resources to get you started:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/OKR&quot;&gt;What is an OKR&lt;/a&gt;?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.slideshare.net/meetfelipe/what-is-okr&quot;&gt;What is an OKR [Slides]?&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.perdoo.com/okr/&quot;&gt;Perdoo’s OKR breakdown&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://docs.google.com/document/d/1OHpQOvZz76_10ebJP2AKvvXUF3H9yd6FC89F5jS4mks/edit?pli=1&quot;&gt;OKR Google Doc Template&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1DGOSjkW70bYsgtubVoEYNi65cS4U9po4GGUTpfhEVOk/edit#gid=941531332&quot;&gt;OKR Google Sheet Template&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Hopefully you’ve enjoyed this quick breakdown. If you have any questions, feel free to reach out to &lt;a href=&quot;https://www.linkedin.com/in/raulm8&quot;&gt;me via LinkedIn&lt;/a&gt;.&lt;/p&gt;</content><author><name>Raul Maldonado</name></author><category term="Project Management" /><summary type="html"></summary></entry><entry><title type="html">Next Career Move, Striving for Full-Time Contributing Analytic and Technical Solutions</title><link href="http://localhost:4000/next-career-move-striving-for-full-time-contributing-analytic-and-technical-solutions/" rel="alternate" type="text/html" title="Next Career Move, Striving for Full-Time Contributing Analytic and Technical Solutions" /><published>2019-01-31T00:00:00-08:00</published><updated>2019-01-31T00:00:00-08:00</updated><id>http://localhost:4000/next-career-move-striving-for-full-time-contributing-analytic-and-technical-solutions</id><content type="html" xml:base="http://localhost:4000/next-career-move-striving-for-full-time-contributing-analytic-and-technical-solutions/">&lt;p&gt;It’s been &lt;strong&gt;1&lt;/strong&gt; week since I started the next part of my journey — a situation in which a lot of my coworkers appeared startled after responding “Nothing yet. I am going to start looking for my next opportunity soon” after the question “Where are you going to go next?”…&lt;/p&gt;
-
-&lt;p&gt;I made the decision to not extend my Business Data Analyst contract at a Top 10 Technology company.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/5766/1*LWypNwWcOod8-ZYxzlomIQ.jpeg&quot; alt=&quot;Visiting one of many office workspaces&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;From the food, commuting, work environment, and various fruitful amenities provided from the role to working with a wonderful group of Business Intelligence, Insights, and Engineering individuals in an agile and great environment, I was still not satisfied. I was not content with myself.&lt;/p&gt;
-
-&lt;p&gt;I still yearned to deliver scalable data solutions with recognition as a team member of the encompassing organization, as opposed to an external contributor. Moreover, I wanted to acquire and grow new data-related skills and techniques while maintaining my existing proficient data analytics experiences.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“You are your own startup”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;If you know me, my driven goals for career growth aspirations and providing qualitative analyses, automation, visualization, and knowledge to organizations stem from my core goal after graduating college— being part of a team making effective contributions, and feel a part of that organization. I had no opportunities handed to me, so I set to obtain those experiences through contracting. Thereafter, I would transition my skills to provide deployed solutions thereby turning complex data into meaningful insights and comprehensive business recommendations.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;“Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.” — Thomas Edison&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;That’s a story I talked about &lt;a href=&quot;https://medium.com/@CloudChaoszero/who-is-raul-54d5304f2178&quot;&gt;in a past article&lt;/a&gt;, but I am happy to the recent experiences I acquired from this role. As a sample of my recent accomplishments, I enabled a large organization of Sales users to understand compensation and SMB customer performances assigned to them for increased productivity, resolved and improved performances of workflows for deliverable data from disparate systems to other teams, built automation tools, lead in contributions for engineering requests, and even provided knowledge transfer sessions to enable other BI or developer contractors to effectively enable them to drive impact to the organization themselves.&lt;/p&gt;
-
-&lt;p&gt;When the time came to turn in my badge, I felt satisfied. I accomplished so much with my past implementations, and I was excited for the next opportunity for providing scalable data analytic and technical solutions for the next team I will collaborate with. Additionally, what was definitely a pleasing thought in turning my badge was amusingly recalling a quote I provided in a “Thank You” follow up email (from a brutal onsite technical interview from this mentioned contracting role) …&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/5416/1*EnPK7dJNJI0EHCS1VcjCOg.jpeg&quot; alt=&quot;Goodbye &amp;lt;/3&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;it-is-not-the-mountain-we-conquer-but-ourselves--sir-edmund-hillary&quot;&gt;&lt;em&gt;“It is not the mountain we conquer, but ourselves.” -Sir Edmund Hillary&lt;/em&gt;&lt;/h1&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;In the meantime, I am still a Teaching Assistant for an evening Data Analytics bootcamp enabling 30+student cohorts to understand and develop Big Data related projects and volunteering for a Data-for-Good nonprofit.&lt;/p&gt;
-
-&lt;p&gt;Moreover, I am showcasing deliverable data insights and tools from my experiences through several projects for my Q1 2019 pipeline. Stay tuned for that. :)&lt;/p&gt;
-
-&lt;p&gt;Here is a selection of personal projects and presentations I have created in the past:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://cloudchaoszero.github.io/&quot;&gt;Website (hosted via Git Pages)&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://cloudchaoszero.github.io/Strava-Running-Visualization/&quot;&gt;Strava Data Visualization&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://drive.google.com/file/d/1nUt11SW61YbghJAAgEiT-e3ajZUh4YFG/view&quot;&gt;Google Ads: Search Certification&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://certification.salesforce.com/verification?&amp;amp;fullname=Raul%20Maldonado&quot;&gt;SalesForce Admin Certification&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=OjT7mT5Ydw0&amp;amp;t=9s&quot;&gt;Lightning Talk/Seminar at a Python Meetup&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=g-sTaaaEVZQ&quot;&gt;Data Analytics Bootcamp: Example Lecture&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://public.tableau.com/profile/raul.maldonado#!/vizhome/Portfolio_52/Portfolio-2018?publish=yes&quot;&gt;Visual Portfolio/Resume (powered by Tableau)&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://github.com/CloudChaoszero/Youtube-TrendingVideos-AnalysisV2&quot;&gt;Youtube Data Analysis Project&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://github.com/CloudChaoszero&quot;&gt;Compilation of other data projects via Github&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;You can reach me via &lt;a href=&quot;https://www.linkedin.com/in/raulm8&quot;&gt;LinkedIn&lt;/a&gt; for any inquires or questions on projects, experiences, or how I can contribute to your data-related learnings.&lt;/p&gt;
-
-&lt;p&gt;Cheers!&lt;/p&gt;</content><author><name>Raul Maldonado</name></author><category term="Career" /><summary type="html">It’s been 1 week since I started the next part of my journey — a situation in which a lot of my coworkers appeared startled after responding “Nothing yet. I am going to start looking for my next opportunity soon” after the question “Where are you going to go next?”…</summary></entry><entry><title type="html">Finding Data Professional Mentors or Meetups in San Francisco Bay Area</title><link href="http://localhost:4000/finding-data-professional-mentors-or-meetups-in-san-francisco-bay-area/" rel="alternate" type="text/html" title="Finding Data Professional Mentors or Meetups in San Francisco Bay Area" /><published>2018-07-14T00:00:00-07:00</published><updated>2018-07-14T00:00:00-07:00</updated><id>http://localhost:4000/finding-data-professional-mentors-or-meetups-in-san-francisco-bay-area</id><content type="html" xml:base="http://localhost:4000/finding-data-professional-mentors-or-meetups-in-san-francisco-bay-area/">&lt;p&gt;Though I never had the opportunity to be a part of, you either just finished your Data Analytics/Science bootcamp or class. #BelatedCongrats!&lt;/p&gt;
-
-&lt;p&gt;Or maybe you are just part of the following:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Career change into the Data profession&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Recent college graduate&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Forgotten what places to go to to network&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Well, don’t worry. The following information are some of the network opportunities I found in the Bay Area to help get you started.&lt;/p&gt;
-
-&lt;p&gt;*Note: *If you have some additional resources,&lt;a href=&quot;https://www.linkedin.com/in/raulm8/&quot;&gt; let me know via Linkedin&lt;/a&gt;! I am happy to add and author your contribution.&lt;/p&gt;
-
-&lt;h1 id=&quot;data-science&quot;&gt;Data Science&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/5536/0*JiF6YGJfLEPv_iDT&quot; alt=&quot;Photo by [Mika Baumeister](https://unsplash.com/@mbaumi?utm_source=medium&amp;amp;utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&amp;amp;utm_medium=referral)&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;A university’s group under name of&lt;a href=&quot;https://www.meetup.com/San-Francisco-ODSC/&quot;&gt; San Francisco Data Science&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/DataKind-SF-Bay-Area/&quot;&gt;DataKind, SF&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;A community of top data scientists and social sector leaders working to tackle the world’s toughest problems with data science.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;AI &amp;amp; Deep Learning Enthusiasts (organized by same individual[s])&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Group of individuals remotely or in person diving into AI &amp;amp; Deep Learning education and research space.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.accel.ai/&quot;&gt;Accel.Ai&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Have not attended, but a friend has referred me to it.&lt;/p&gt;
-
-&lt;p&gt;Organized by Laura Montoya (Also organizer of the following)&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.latinxinai.org/&quot;&gt;Latinx In AI&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;New group discussing AI ethics and other sessions. Great sessions based on what a friend has told me. I actually have not attended, but give it a try!&lt;/p&gt;
-
-&lt;h1 id=&quot;programming-or-python&quot;&gt;Programming or Python&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/12000/0*vXJXOeCQ0JD6C9be&quot; alt=&quot;Photo by [Max Nelson](https://unsplash.com/@maxcodes?utm_source=medium&amp;amp;utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&amp;amp;utm_medium=referral)&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/sfpython/&quot;&gt;SF Python Bay Area&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Lead by Grace Law and other members, SF Python hosts bi weekly Wednesday sessions where you can grow your technical career by learning and sharing what you know with other local Python developers.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Also organizing &lt;a href=&quot;https://pybay.com/&quot;&gt;PyBay&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/PyLadiesSF/&quot;&gt;PyLadies, SF Chapter&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;International mentorship group with a focus on helping more women and people who identify as women in a way significant to them become active participants and leaders in the Python open-source community.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/events/zcxqvpyxkbxb/&quot;&gt;Code for San Francisco- Civic Hack Night&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Group of volunteers focused on civic tech and making government services better in San Francisco.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;other-networking-opportunities&quot;&gt;Other Networking Opportunities&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/12000/0*w8MwJYJYwsKmgz1M&quot; alt=&quot;Photo by [Christian Fregnan](https://unsplash.com/@christianfregnan?utm_source=medium&amp;amp;utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&amp;amp;utm_medium=referral)&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/district4toastmasters/&quot;&gt;Toastmasters (SF)&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Group organized to help you public speaking skills&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://kagglenoobs.herokuapp.com/&quot;&gt;Kaggler Noob Slack Channel&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Want to partner with a group of n0obs that aim to compete in ML/AI related Kaggle Competitions? Well here is the place to be!&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/techqueria/messages/boards/thread/49556757&quot;&gt;Techqueria&lt;/a&gt; Slack Channel&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Hispanics for networking. I don’t participate in it, but it looks great!&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;recommendations-from-others&quot;&gt;Recommendations from Others&lt;/h1&gt;
-
-&lt;p&gt;To be edited&lt;/p&gt;
-
-&lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.meetup.com/&quot;&gt;Meetup.com&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://facebook.com&quot;&gt;Facebook Events&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.galvanize.com/san-francisco/events&quot;&gt;Galvanize Events&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.thisismetis.com/events&quot;&gt;Metis&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=dQw4w9WgXcQ&quot;&gt;Word of Mouth&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;You can reach me &lt;a href=&quot;https://www.linkedin.com/in/raulm8/&quot;&gt;through LinkedIn &lt;/a&gt;for any questions or suggestions.&lt;/p&gt;
-
-&lt;p&gt;Cheers!
-x&lt;/p&gt;</content><author><name>Raul Maldonado</name></author><category term="Networking" /><summary type="html">Though I never had the opportunity to be a part of, you either just finished your Data Analytics/Science bootcamp or class. #BelatedCongrats!</summary></entry></feed>
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Raul Maldonado</name></author><category term="Project Management" /><summary type="html">This document is a review and breakdown of Metrics Definitions and formulas related to SaaS Metrics, particulary 16 SaaS Metrics critical for business growth</summary></entry></feed>
