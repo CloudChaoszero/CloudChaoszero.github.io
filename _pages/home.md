@@ -17,7 +17,7 @@ I am happy to meet new people! Have a great day! :D
 ## Currently...
 
 * I am a **Senior Data Analyst** at Autodesk developing mature data models and delivering insights for thousands of internal business users ranging in Sales, Customer Success, Developer Experience, and more.
-  * NOTE: List of projects found at the end of this page
+  * NOTE: List of projects found in the [projects page](https://raulingaverage.dev/portfolio/projects)
 
 ## Previously...
 
@@ -44,51 +44,3 @@ I am happy to meet new people! Have a great day! :D
 
 * a **DataKind Core Volunteer** enabling other profits to have pro-bono data consulting and
   driving change for data for good
-
-###  Past Industry Projects
-
-
-#### Autodesk
-
-> For 2019-2020 reports, those are deprecated due to migrated off Autodesk's Domo BI platform.
-
-##### Successes & Achievements
-
-##### Autodesk Construction Solutions
-2020-Present
-
-##### Data Analyst, Data Products
-
-###### Projects
-
-* BIM 360 Build Analysis:
-  * Description: ACS Customer Success is determining why BIM 360 Build offering Renewal Rates are decreasing, but usage is increasing.
-* Prospect Accounts:
-  * Description: Few ACS business sales leaders requested sample of Autodesk non-ACS customers to cross-sell to
-* Analytic Engineering - External Project Lead Sources:
-  * Description: Ingest external data sources from custom APIs Glenigan, Global Data, and BCI Australia & Asia into ACS Snowflake
-* Prodpad Usage
-  * Description: Providing 200+ ACS Research & Development and Customer Success users insights on customer feedback data via Prodpad.
-
-##### Additional Items
-
-* Feasability Analyses
-* BIM 360 Cost Control Analysis - SLIDES
-* ACS eStore Analytics and reporting
-
-##### Data Analyst, Data Engineering
-
-###### Projects
-
-* BIM 360 Data Source Migration
-  * Description: Migrated source SFTP file repository from Cleo SFTP to Xinch SFTP
-* dbt Documentation: https://acs-data-catalog.autodesk.com/#!/overview
-  * Description: Setup dbt Documentation deployed on AWS S3, Static Wbsite
-* BIM 360 Database & BI Migration from Domo BI to Snowflake
-  * Example: BIM 360 HQ Account & Subscriber Dashboard
-* Building 500+ models, tests, and LookML for ACS data
-* [External: Fivetan Presentation:"How Autodesk Achieves Fast, Reliable Data Pipelines with Snowflake and Fivetran"](https://get.fivetran.com/autodesk-webinar-on-demand.html) 
-
-##### Presentation
-
-* Root Cause Analysis: BIM 360 Pipeline Parsing, Fivetran
