@@ -101,15 +101,23 @@ toc: true
 <h1>Projects</h1>
 </header>
 
+<ul>
 <li>BIM 360 Data Source Migration</li>
+  <ul>
   <li>Description: Migrated source SFTP file repository from Cleo SFTP to Xinch SFTP</li>
+  </ul>
 <li>dbt Documentation: https://acs-data-catalog.autodesk.com/#!/overview</li>
+  <ul>
   <li>Description: Setup dbt Documentation deployed on AWS S3, Static Wbsite</li>
-<li>BIM 360 Database & BI Migration from Domo BI to Snowflake
+  </ul>
+<li>BIM 360 Database & BI Migration from Domo BI to Snowflake</li>
+  <ul>  
   <li>Example: BIM 360 HQ Account & Subscriber Dashboard</li>
+  </ul>
 <li>Building 500+ models, tests, and LookML for ACS data</li>
-<li>[External: Fivetan Presentation:"How Autodesk Achieves Fast, Reliable Data Pipelines with Snowflake and Fivetran"](https://get.fivetran.com/autodesk-webinar-on-demand.html)</li>
+<li><a href="https://get.fivetran.com/autodesk-webinar-on-demand.html">External: Fivetan Presentation:"How Autodesk Achieves Fast, Reliable Data Pipelines with Snowflake and Fivetran"</a></li>
 
+</ul>
 </details>
 
 
@@ -124,9 +132,9 @@ produced
 <h1>APIs and Databases</h1>
 </header>
 
-<li>[Youtube Data Analysis Project (APIs, Python, SQLALchemy, Flask, SQL](https://github.com/CloudChaoszero/Youtube-TrendingVideos-AnalysisV2)
+<li>[Youtube Data Analysis Project (APIs, Python, SQLALchemy, Flask, SQL](https://github.com/CloudChaoszero/Youtube-TrendingVideos-AnalysisV2)</li>
 
-<li>[Open Street Map Data Wrangling](https://github.com/CloudChaoszero/UdacityNanodegree_DataAnalyst_Projects_2017/blob/master/P3-Wrangle-OpenStreetMap-Data/P3-Wrangle-OpenStreetMap-Main/OpenStreepMap-SF-Wrangle.ipynb)
+<li>[Open Street Map Data Wrangling](https://github.com/CloudChaoszero/UdacityNanodegree_DataAnalyst_Projects_2017/blob/master/P3-Wrangle-OpenStreetMap-Data/P3-Wrangle-OpenStreetMap-Main/OpenStreepMap-SF-Wrangle.ipynb)</li>
 
 <header>
 <h1>Presentation Slide Decks</h1>
