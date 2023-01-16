@@ -16,6 +16,9 @@ toc: true
 ### Senior Data Analyst, PSET Analytics  - Autodesk Platform Services
 2022-Present
 
+<details open>
+<summary>Click here</summary>
+
 #### Projects
 
 * Forge Cloud Consumption Dashboard:
@@ -29,8 +32,14 @@ toc: true
 * CLIC Compliance Dasboard
 * Model Derivative Dashboard
 
+</details>
+
+
 ### Data Analyst, Data Products - Autodesk Construction Solutions
 2020-Present
+
+<details open>
+<summary>Click here</summary>
 
 #### Projects
 
@@ -46,7 +55,13 @@ toc: true
 * BIM 360 Cost Control Analysis
 * ACS eStore Analytics and reporting
 
+</details>
+
+
 ### Data Analyst, Data Engineering - Autodesk Construction Solutions
+
+<details open>
+<summary>Click here</summary>
 
 #### Projects
 
@@ -59,10 +74,15 @@ toc: true
 * Building 500+ models, tests, and LookML for ACS data
 * [External: Fivetan Presentation:"How Autodesk Achieves Fast, Reliable Data Pipelines with Snowflake and Fivetran"](https://get.fivetran.com/autodesk-webinar-on-demand.html) 
 
+</details>
+
 
 # Personal Projects
 In my spare time, I produce data-related projects. The following is a sample of some personal projects I have
 produced
+
+<details open>
+<summary>Click here</summary>
 
 # APIs and Databases
 * [Youtube Data Analysis Project (APIs, Python, SQLALchemy, Flask, SQL](https://github.com/CloudChaoszero/Youtube-TrendingVideos-AnalysisV2)
@@ -86,3 +106,5 @@ produced
 # And more!
 
 * [Github Profile](https://github.com/CloudChaoszero)
+
+</details>
