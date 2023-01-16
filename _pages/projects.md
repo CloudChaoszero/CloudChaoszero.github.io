@@ -106,7 +106,7 @@ toc: true
   <ul>
   <li>Description: Migrated source SFTP file repository from Cleo SFTP to Xinch SFTP</li>
   </ul>
-<li>dbt Documentation: https://acs-data-catalog.autodesk.com/#!/overview</li>
+<li>dbt Documentation website</li>
   <ul>
   <li>Description: Setup dbt Documentation deployed on AWS S3, Static Wbsite</li>
   </ul>
@@ -132,27 +132,26 @@ produced
 <h1>APIs and Databases</h1>
 </header>
 
-<li>[Youtube Data Analysis Project (APIs, Python, SQLALchemy, Flask, SQL](https://github.com/CloudChaoszero/Youtube-TrendingVideos-AnalysisV2)</li>
+<li><a href="https://github.com/CloudChaoszero/Youtube-TrendingVideos-AnalysisV2">Youtube Data Analysis Project (APIs, Python, SQLALchemy, Flask, SQL</a></li>
 
-<li>[Open Street Map Data Wrangling](https://github.com/CloudChaoszero/UdacityNanodegree_DataAnalyst_Projects_2017/blob/master/P3-Wrangle-OpenStreetMap-Data/P3-Wrangle-OpenStreetMap-Main/OpenStreepMap-SF-Wrangle.ipynb)</li>
+<li><a href="https://github.com/CloudChaoszero/UdacityNanodegree_DataAnalyst_Projects_2017/blob/master/P3-Wrangle-OpenStreetMap-Data/P3-Wrangle-OpenStreetMap-Main/OpenStreepMap-SF-Wrangle.ipynb">Open Street Map Data Wrangling</a></li>
 
 <header>
 <h1>Presentation Slide Decks</h1>
 </header>
 
-<li>[AB Testing in Python talk @PyData LA 2019](https://cloudchaoszero.github.io/AB-Testing-Python-PyData-2019)</li>
+<li><a href="https://cloudchaoszero.github.io/AB-Testing-Python-PyData-2019">AB Testing in Python talk @PyData LA 2019]</a></li>
 
-<li>[Flask & SQLAlchemy Demo (PyBay 2018)](https://github.com/CloudChaoszero/Presentations/blob/master/PyBayTalks/2018/Flask-SQLAlchemySLides/Flask-SQLAlchemy-Demo/SQLAlchemy-Demo-YoutubeData.ipynb)</li>
+<li><a href="https://github.com/CloudChaoszero/Presentations/blob/master/PyBayTalks/2018/Flask-SQLAlchemySLides/Flask-SQLAlchemy-Demo/SQLAlchemy-Demo-YoutubeData.ipynb">Flask & SQLAlchemy Demo (PyBay 2018)</a></li>
 
 <header>
 <h1>Visualizations</h1>
 </header>
 
 
-<li>[Bridge To Prosperity Tableau Dashboard #MakeOverMonday](https://public.tableau.com/profile/raul.maldonado#!/vizhome/BridgeToProsperity-MakeOverMonday/First-Draft-Dash)</li>
+<li><a href="https://public.tableau.com/profile/raul.maldonado#!/vizhome/BridgeToProsperity-MakeOverMonday/First-Draft-Dash">Bridge To Prosperity Tableau Dashboard #MakeOverMonday</a></li>
 
-<li>[My Strava running mileage per session data, using D3.js & HTML.](https://cloudchaoszero.github.io/Strava-Running-Visualization/)</li>
-
+<li><a href="https://cloudchaoszero.github.io/Strava-Running-Visualization/">My Strava running mileage per session data, using D3.js & HTML.</a></li>
 
 
 <header>
@@ -160,6 +159,6 @@ produced
 </header>
 
 
-<li>[Github Profile](https://github.com/CloudChaoszero)</li>
+<li>Github Profile: https://github.com/CloudChaoszero</li>
 
 </details>
