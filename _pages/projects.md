@@ -26,7 +26,7 @@ toc: true
 <ul>
 <li>Forge Cloud Consumption Dashboard:</li>
     <ul>
-  <li>Description: Customer dashboard on consumed cloud credits for developer API usage<li>
+  <li>Description: Customer dashboard on consumed cloud credits for developer API usage</li>
   </ul>
 <li>PSET KPI dashbard:</li>
     <ul>
