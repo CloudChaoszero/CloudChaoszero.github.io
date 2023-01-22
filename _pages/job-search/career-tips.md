@@ -20,7 +20,7 @@ Enjoy!
 
 ![Job Search](https://media.giphy.com/media/LoUmCyntgoQA6Rf2Mz/giphy.gif)
 
-# [Creating a stellar Resume](/job-search/resume)
+# [Creating a stellar Resume](/notes/job-search/resume)
 
 Other Resources
 
@@ -35,4 +35,4 @@ Other Resources
 
 # Additional Resources
 
-## [How to prepare for a Virtual call (Zoom) and common tips](/job-search/virtual-etiquette)
+## [How to prepare for a Virtual call (Zoom) and common tips](/notes/job-search/virtual-etiquette)
