@@ -1,12 +1,14 @@
 ---
-permalink: /accomplishments/cert
+permalink: /portfolio/certifications
 title: "Certifications"
 author_profile: true 
-last_modified_at: 2020-03-20T23:46:43-04:00
+last_modified_at: 2022-01-20T23:46:43-04:00
 toc: true
 ---
 
-# Data Science
+# Data
+
+* [dbt Certified Developer](https://www.credential.net/07a048a1-e41d-47b8-bc84-82d9a1028911)
 
 * [Udacity Machine Learning with Tensorflow Nanodegree Graduate](https://www.linkedin.com/in/raulm8/detail/treasury/education:435326074/?entityUrn=urn%3Ali%3Afs_treasuryMedia%3A(ACoAAA85XgIBMQXTj1tYicdwBKZpazH0_wtV3Oc%2C1505542379592))
   * [Coursework](https://raulingaverage.dev/Udacity-Machine-Learning-Tensorflow-Nanodegree/)
@@ -17,7 +19,7 @@ toc: true
 * [DataQuest.io Data Analyst Track Certification](https://www.dataquest.io/view_cert/F75NEI950S092ONZABIP/)
 
 
-# Other
+# Past Certifications
 
 * [Certified SalesForce Administrator](http://certification.salesforce.com/verification?&fullname=Raul%20Maldonado)* 
   * [Trailblazer Profile](https://trailblazer.me/id/rmaldonado1)

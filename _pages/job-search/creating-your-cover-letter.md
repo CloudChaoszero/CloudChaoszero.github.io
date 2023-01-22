@@ -1,5 +1,5 @@
 ---
-permalink: /job-search/cover-letter
+permalink: /notes/job-search/cover-letter
 title: "Making a quality Cover Letter"
 author_profile: true
 toc: true

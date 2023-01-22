@@ -1,5 +1,5 @@
 ---
-permalink: /accomplishments/resume
+permalink: /portfolio/resume
 title: "Resume"
 author_profile: true 
 last_modified_at: 2022-06-26T23:46:43-04:00

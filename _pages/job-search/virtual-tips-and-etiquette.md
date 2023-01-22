@@ -1,5 +1,5 @@
 ---
-permalink: /job-search/virtual-etiquette
+permalink: /notes/job-search/virtual-etiquette
 title: "Zoom Calls: Virtual Etiquette in a Transformative World"
 author_profile: true
 toc: true

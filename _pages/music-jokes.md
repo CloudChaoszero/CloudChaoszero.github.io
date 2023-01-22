@@ -1,5 +1,5 @@
 ---
-permalink: /music-puns
+permalink: /notes/music-puns
 title: "Misc. Music & Puns"
 author_profile: true 
 read_time: false

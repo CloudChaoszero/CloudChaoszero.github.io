@@ -1,5 +1,5 @@
 ---
-permalink: /job-search/resume
+permalink: /notes/job-search/resume
 title: "Job Search: Resume Tips"
 author_profile: true
 toc: true
