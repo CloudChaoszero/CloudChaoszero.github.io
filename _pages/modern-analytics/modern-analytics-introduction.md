@@ -69,4 +69,4 @@ Another argument in favor of building your own solution is that it allows you to
 
 Doing this research will help you in the long run in your implementation to Modern Analytics.
 
-I recommend this [next chapter, instrumentation](/_pages/modern-analytics/modern-analytics-instrumentation.md], to prepare your organization for Modern Analytics.
+I recommend this [next chapter, instrumentation](/_pages/modern-analytics/modern-analytics-instrumentation.md), to prepare your organization for Modern Analytics.

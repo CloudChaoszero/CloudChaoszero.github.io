@@ -10,4 +10,7 @@ header:
   og_image: https://www.ezlytix.com/wp-content/uploads/2020/09/The-Modern-Approach-To-Enterprise-Analytics-Self-Service-Tools-And-A-Culture-Of-Analytics.png
 ---
 
+# Directory
+
 1. [Introduction to Modern Analytics](/consulting/modern-analytics/introduction)
+2. [Modern Analytics Instrumentation](/consulting/modern-analytics/instrumentation)
