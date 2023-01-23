@@ -18,6 +18,8 @@ main:
     sublinks:
       - title: "Analytics Engineering & dbt: 0-100 Onboard"
         url: "https://raulingaverage.dev/onboarding-2-dbt"
+      - title: "Getting your company started with (Modern) Analytics"
+        url: /consulting/modern-analytics
   - title: "Resources"
     sublinks:
       - title: "YIMBYism"
