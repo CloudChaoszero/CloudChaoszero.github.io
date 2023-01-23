@@ -1,5 +1,5 @@
 ---
-permalink: /consulting/modern-analytics
+permalink: /consulting/modern-analytics/introduction
 title: "Introduction to Modern Analytics"
 description: "Enabling you to be successful in data, insights, and reporting"
 author_profile: true
@@ -52,3 +52,21 @@ Furthermore, legacy systems become slower and slower over time, which means that
 # The Decision -- Build vs Buy
 
 
+Organizations who take the step towards modernization opt to buy an already established (i.e. popular) solution to integrate with their existing systems. This is generally the easiest decision between `buying or building`, and is typically the preferred option as it saves both time and money.  
+
+Before buying, of course, you need to determine whether the embedded analytics solution is the right one for your business needs. But no matter the provider you choose, going for that option will save your developers’ time so that they can focus on your business core competency and what it was initially designed for. 
+
+> When investing in an existing solution, you save time, money, and maintenance & upgrade concerns.
+
+According to [Nucleus Research](https://nucleusresearch.com/research/single/analytics-pays-back-13-01-for-every-dollar-spent/) analytics return $13.01 for every dollar spent. 
+* That’s a 13:1 ROI for you, and for your customers when you offer embedded analytics in your SaaS solution!
+
+Building your own analytics capabilities into your application might be the right decision for those organizations that could afford the higher budget and the headcount to do it. The estimated average cost of building your own solution (the project takes about 7 months to complete) is as much as $350k. In comparison, the standard price for an embedded solution starts anywhere from $30K to $75K per year.
+
+Building your own solution gives you complete control over the system/application. By keeping all aspects of the development in-house, you can control everything from customization and branding to user experience and functionalities.  
+
+Another argument in favor of building your own solution is that it allows you to solve technical, security, or adminstrative problems that could arise internally.
+
+Doing this research will help you in the long run in your implementation to Modern Analytics.
+
+I recommend this instrumentation to prepare your organization for Modern Analytics.
