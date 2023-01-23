@@ -4,7 +4,7 @@ title: "Introduction to Modern Analytics"
 description: "Enabling you to be successful in data, insights, and reporting"
 author_profile: true
 toc: true
-read_time: false
+read_time: true
 header:
   teaser: https://www.ezlytix.com/wp-content/uploads/2020/09/The-Modern-Approach-To-Enterprise-Analytics-Self-Service-Tools-And-A-Culture-Of-Analytics.png
   og_image: https://www.ezlytix.com/wp-content/uploads/2020/09/The-Modern-Approach-To-Enterprise-Analytics-Self-Service-Tools-And-A-Culture-Of-Analytics.png
@@ -69,4 +69,4 @@ Another argument in favor of building your own solution is that it allows you to
 
 Doing this research will help you in the long run in your implementation to Modern Analytics.
 
-I recommend this instrumentation to prepare your organization for Modern Analytics.
+I recommend this [next chapter, instrumentation](/_pages/modern-analytics/modern-analytics-instrumentation.md], to prepare your organization for Modern Analytics.
