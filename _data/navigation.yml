@@ -16,9 +16,9 @@ main:
         url: /portfolio/projects
   - title: "Data Consulting"
     sublinks:
-      - title: "Analytics Engineering & dbt: 0-100 Onboard"
+      - title: "Analytic Engineering - dbt"
         url: "https://raulingaverage.dev/onboarding-2-dbt"
-      - title: "Getting your company started with (Modern) Analytics"
+      - title: "(Modern) Analytics"
         url: /consulting/modern-analytics
   - title: "Resources"
     sublinks:
