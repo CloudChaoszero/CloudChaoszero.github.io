@@ -14,3 +14,4 @@ header:
 
 1. [Introduction to Modern Analytics](/consulting/modern-analytics/introduction)
 2. [Modern Analytics Instrumentation](/consulting/modern-analytics/instrumentation)
+3. [Modern Analytics: Notebooks And Analyses](/consulting/modern-analytics/notebooks-and-analyses)
