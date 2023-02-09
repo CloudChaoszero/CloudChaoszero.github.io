@@ -13,5 +13,8 @@ header:
 # Directory
 
 1. [Introduction to Modern Analytics](/consulting/modern-analytics/introduction)
+  i. [Modern Analytics with dbt](/consulting/modern-analytics/dbt)
 2. [Modern Analytics Instrumentation](/consulting/modern-analytics/instrumentation)
+  i. Workflow Automation
+    1. [Prefect](/consulting/modern-analytics/instrumentation/workflow-automation/prefect)
 3. [Modern Analytics: Notebooks And Analyses](/consulting/modern-analytics/notebooks-and-analyses)
