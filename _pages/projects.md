@@ -2,17 +2,13 @@
 permalink: /portfolio/projects
 title: "Projects"
 author_profile: True 
-last_modified_at: 2023-01-20T23:46:43-04:00
+last_modified_at: 2025-03-20T23:46:43-04:00
 toc: true
 ---
 
 #  Past Industry Projects
 
-## Autodesk
-
-> For 2019-2020 reports, those are deprecated due to migrated off Autodesk's Domo BI platform.
-
-
+## Autodesk [2019-2025]
 ### Senior Data Analyst, PSET Analytics  - Autodesk Platform Services
 2022-Present
 
@@ -24,32 +20,63 @@ toc: true
 </header>
 
 <ul>
-<li>Forge Cloud Consumption Dashboard:</li>
-    <ul>
-  <li>Description: Customer dashboard on consumed cloud credits for developer API usage</li>
+  <li>APS Unit Economics:</li>
+  <ul>
+    <li>Description: This project involves piloting Developer API pricing and consumption for the Autodesk Platform Services (APS) platform across different customer types, such as Named and Midmarket.</li>
+    <li>Business Impact: Add a new line of revenue for Autodesk in PSET division monetization initiatives affecting 1,500+ customers & partners.</li>
   </ul>
-<li>PSET KPI dashbard:</li>
+  <li>APS Cloud Consumption Dashboard:</li>
+  <ul>
+    <li>Description: This customer dashboard displays consumed cloud credits for developer API usage.</li>
+    <li>Business Impact: Provide PSET division-associated Token and Sales teams (100+) a gauge on how to educate and inform customers about API overuse, saving customers money and building a better partnership with Autodesk.</li>
+  </ul>
+  <li>PSET KPI Dashboard:</li>
+  <ul>
+    <li>Description: This is a C-suite analytics dashboard for the PSET organization, including sub drill-down dashboards. Each dashboard is built on Looker, ensuring a robust user experience and thorough requirement gathering.</li>
+    <li>Business Impact: Create one-stop-shop for a quick summary of analytics at the C-suite (20+) and Platform Initiative levels (50+ Product & Technical Managers).</li>
+  </ul>
+  <li>Operation Review Process (Exec Summary)</li>
+  <li>Analytics Team</li>
+  <ul>
+    <li>Team Lead - FY'26: Leading Analytics team of 5 for 6 months, during Sr. Analytics Manager on Medical Leave</li>
+    <li>Business Intelligence Sprawl</li>
+    <li>AWS & Snowflake Cloud Cost Forecasting</li>
+    <li>GenAI Analytics Integration Coaching</li>
+    <li>Founded Analytics Team Analytics Agile process</li>
+  </ul>
+  <li>Platform Initiatives</li>
+  <ul>
+    <li>Identity Analytics:</li>
     <ul>
-  <li>Description: C-suite analytics dashboard for PSET (organization) KPI, including sub drill-down dashboards. Each dashboard is built on Looker, with robust user experience and requirement gathering.</li>
+      <li>Develop V1 Framework for SSO & Authentication Logging Analytics</li>
+      <li>Logging & Observability Dashboard</li>
     </ul>
-<li>Analytics Engineering</li>
-  <ul>
-  <li>Mixpanel Product events Models</li>
+    <li>Universal Data Access Analytics:</li>
+    <ul>
+      <li>UDA Search Based Integration Analytics</li>
+      <li>Cohort Retention & Adoption Analytics</li>
+    </ul>
+    <li>Design & Make Analytics:</li>
+    <ul>
+      <li>Cohort Retention & Adoption Analytics</li>
+      <li>AEC, MFG, and M&E Data Model Platform Analytics Dashboards</li>
+      <li>Data Exchange Adoption and Funnel Analytics</li>
+      <li>Power BI Adoption after General Release</li>
+    </ul>
   </ul>
+  <li>Analytics Engineering:</li>
   <ul>
-  <li>Internal Product Analytics models</li> 
+    <li>Mixpanel Product Analytics Instrumentation with Fivetran Snowflake, and dbt Core</li>
+    <li>Identity Product Analytics Instrumentation with Fivetran Snowflake, and dbt Core</li>
+    <li>Hive-based Product Analytics Instrumentation with Presto and dbt Core</li>
   </ul>
-<li>Universal Data Access Dashboard</li>
-<li>CLIC Compliance Dasboard</li>
-<li>Model Derivative Dashboard</li>
-
 </ul>
 
 </details>
 
 
 ### Data Analyst, Data Products - Autodesk Construction Solutions
-2020-Present
+2021-2022
 
 <details closed>
 <summary>Click here for more information</summary>
@@ -93,6 +120,7 @@ toc: true
 
 
 ### Data Analyst, Data Engineering - Autodesk Construction Solutions
+2019-2021
 
 <details closed>
 <summary>Click here for more information</summary>
@@ -102,6 +130,11 @@ toc: true
 </header>
 
 <ul>
+<li>Founding team for Modern Data Analytics</li>
+  <ul>
+  <li>Description: Build the first platform with Snowflake, dbt Cloud, and Fivetran.
+  </li>
+  </ul>
 <li>BIM 360 Data Source Migration</li>
   <ul>
   <li>Description: Migrated source SFTP file repository from Cleo SFTP to Xinch SFTP</li>
@@ -120,6 +153,45 @@ toc: true
 </ul>
 </details>
 
+
+## Google [2018-2019]
+### Business Data Analyst
+
+<details closed>
+<summary>Click here for more information</summary>
+
+<header>
+<h1>Projects</h1>
+</header>
+
+<ul>
+  <li>Develop Dashboards and use Google Big Query for System Issues and Program Insights for Sub-Engineering team of ~10 Googlers</li>
+  <li>Contribute Javascript Code Migration for 100+ variables including respective Unit Tests, supporting 3 Engineers</li>
+  <li>Used Python for API calls for backend configuration of system information</li>
+  <li>Streamline team documents & resources using Markdown, HTML, or GSuite applications for 8 System Data Analysts</li>
+  <li>Manage and Resolve escalated issues of several Backend Pipelines</li>
+</ul>
+<p>Skills: Python, SQL (BigQuery), Javascript, HTML, BI Dashboards, Dremel, and App Script</p>
+
+</details>
+## MobileIron [2017-2018]
+### Data Analyst
+
+<details closed>
+<summary>Click here for more information</summary>
+
+<header>
+<h1>Projects</h1>
+</header>
+
+<ul>
+  <li>Analyze Salesforce Sales related (Quotes, Orders, Billing Schedules, etc.) data for 2,000+ customer accounts</li>
+  <li>Produce Salesforce and Domo reports and dashboards for Sales and Applications teams using MySQL or Salesforce Reporting</li>
+  <li>Perform regression and unit testing for data validation, system updates all under SCRUM and Sprint model</li>
+  <li>Data Wrangling and Transformation for 60%+ Asset information for migration to new system</li>
+  <li>Initiate Sales Department Opportunity Renewal Automation Procedure and post analysis from Q4 2017 to Q4 2018</li>
+</ul>
+</details>
 
 # Personal Projects
 In my spare time, I produce data-related projects. The following is a sample of some personal projects I have
