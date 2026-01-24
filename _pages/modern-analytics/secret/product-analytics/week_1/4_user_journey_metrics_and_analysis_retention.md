@@ -1,5 +1,11 @@
-# User Journey Metrics and Analysis Techniques: Retention
-
+---
+permalink: /consulting/modern-analytics/secret/product-analytics/week-1/user-journey-metrics-retention
+title: "User Journey Metrics and Analysis Techniques: Retention"
+description: "Why retention compounds, how to define it, and how to analyze cohort-based performance."
+author_profile: true
+toc: true
+read_time: true
+---
 ## User Journey Metrics and Analysis Techniques: Retention
 
 
