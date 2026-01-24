@@ -3,7 +3,7 @@ by [Raul Maldonado](https://cloudchaoszero.github.io/)
 
 
 <a href="https://cloudchaoszero.github.io/">
-     <img src="https://miro.medium.com/max/308/1*uTD6djbD6vJOfvllre6Pdw.jpeg" width="110" height="160">
+     <img src="https://avatars.githubusercontent.com/u/19514362?v=4" width="110" height="160">
 </a>
 
 Website (Version 3.0): 
