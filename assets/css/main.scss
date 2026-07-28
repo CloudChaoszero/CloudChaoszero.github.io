@@ -5,6 +5,11 @@
 @charset "utf-8";
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+
+/* Warm papel picado cream, replacing the skin's flat gray/white page
+   background — in the spirit of the Mexican-inspired masthead palette. */
+$background-color: #f7ecd7;
+
 @import "minimal-mistakes"; // main partials
 
 .is-fullwidth {
