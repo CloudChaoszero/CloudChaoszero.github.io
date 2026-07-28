@@ -10,3 +10,60 @@
 .is-fullwidth {
     width: 100%;
 }
+
+/* ==========================================================================
+   Masthead — Mexican-inspired palette
+   Talavera teal, rosa mexicano magenta, and cempasúchil marigold gold,
+   in the spirit of the CDMX / Aztec imagery on the site.
+   ========================================================================== */
+
+.masthead {
+  border-bottom: 3px solid #e8a33d;
+}
+
+.greedy-nav {
+  background: linear-gradient(120deg, #045c5c 0%, #a6076a 55%, #e8a33d 100%);
+}
+
+.greedy-nav a,
+.site-title,
+.site-subtitle {
+  color: #fce8b4;
+}
+
+.greedy-nav a:hover {
+  color: #ffffff;
+}
+
+.visible-links a:before {
+  background: #e8a33d;
+}
+
+.greedy-nav .dropdown-content,
+.greedy-nav .hidden-links {
+  background: #045c5c;
+  border-color: #e8a33d;
+}
+
+.greedy-nav .hidden-links a:hover {
+  background: rgba(232, 163, 61, 0.25);
+  color: #ffffff;
+}
+
+.search__toggle {
+  color: #fce8b4;
+}
+
+.navicon,
+.navicon:before,
+.navicon:after {
+  background: #fce8b4;
+}
+
+.greedy-nav__toggle:hover {
+  .navicon,
+  .navicon:before,
+  .navicon:after {
+    background: #ffffff;
+  }
+}
