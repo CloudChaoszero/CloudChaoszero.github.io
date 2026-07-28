@@ -72,3 +72,239 @@ $background-color: #f7ecd7;
     background: #ffffff;
   }
 }
+
+/* ==========================================================================
+   Typography — Modern hierarchy with better readability
+   ========================================================================== */
+
+body {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+  margin-top: 1.5em;
+  color: #045c5c;
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: 600;
+  margin-bottom: 0.75em;
+  margin-top: 1.25em;
+  color: #a6076a;
+  border-bottom: 3px solid #e8a33d;
+  padding-bottom: 0.5em;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-bottom: 0.5em;
+  color: #045c5c;
+}
+
+p {
+  margin-bottom: 1.5em;
+  line-height: 1.8;
+}
+
+/* ==========================================================================
+   Card System — Modern feature & section cards
+   ========================================================================== */
+
+.card {
+  background: white;
+  border-radius: 8px;
+  padding: 2em;
+  margin-bottom: 1.5em;
+  box-shadow: 0 2px 8px rgba(4, 92, 92, 0.08);
+  border-left: 4px solid #e8a33d;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 12px rgba(4, 92, 92, 0.15);
+  transform: translateY(-2px);
+}
+
+.card__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+  gap: 1em;
+}
+
+.card__icon {
+  width: 48px;
+  height: 48px;
+  background: linear-gradient(120deg, #045c5c, #a6076a);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 24px;
+  flex-shrink: 0;
+}
+
+.card__title {
+  font-size: 1.25em;
+  font-weight: 600;
+  color: #045c5c;
+  margin: 0;
+}
+
+.card__content {
+  font-size: 0.95em;
+  line-height: 1.7;
+  color: #393e46;
+}
+
+.card__meta {
+  font-size: 0.85em;
+  color: #8e8b82;
+  margin-top: 1em;
+  font-style: italic;
+}
+
+/* Card Grid Layout */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2em;
+  margin: 2em 0;
+}
+
+@media (max-width: 768px) {
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ==========================================================================
+   Feature List — Modern list styling with icons
+   ========================================================================== */
+
+.feature-list {
+  list-style: none;
+  padding: 0;
+  margin: 2em 0;
+}
+
+.feature-list li {
+  display: flex;
+  gap: 1em;
+  margin-bottom: 1.5em;
+  padding: 1.25em;
+  background: rgba(230, 163, 61, 0.05);
+  border-left: 3px solid #e8a33d;
+  border-radius: 4px;
+}
+
+.feature-list li:before {
+  content: "✓";
+  color: #045c5c;
+  font-weight: bold;
+  font-size: 1.25em;
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature-list li strong {
+  color: #a6076a;
+  display: block;
+  font-size: 1.1em;
+  margin-bottom: 0.25em;
+}
+
+/* ==========================================================================
+   Section Spacing & Layout
+   ========================================================================== */
+
+.page__content {
+  background: #f7ecd7;
+}
+
+main {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+/* Improve spacing around major sections */
+main > h1 + p {
+  margin-top: 1.5em;
+}
+
+main > h2 {
+  margin-top: 3em;
+  margin-bottom: 2em;
+}
+
+/* Better list styling */
+main ul:not(.feature-list) {
+  margin-left: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+main ul:not(.feature-list) li {
+  margin-bottom: 0.75em;
+  line-height: 1.7;
+}
+
+/* ==========================================================================
+   Button & CTA Styling
+   ========================================================================== */
+
+.btn-primary,
+.btn-cta {
+  display: inline-block;
+  padding: 0.75em 1.5em;
+  margin: 0.5em 0.5em 0.5em 0;
+  background: linear-gradient(120deg, #045c5c, #a6076a);
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary:hover,
+.btn-cta:hover {
+  background: linear-gradient(120deg, #034848, #8a0558);
+  box-shadow: 0 4px 12px rgba(4, 92, 92, 0.25);
+  transform: translateY(-2px);
+}
+
+/* ==========================================================================
+   Page Wrapper & Container
+   ========================================================================== */
+
+.page-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2em 1.5em;
+}
+
+/* Blockquote enhancement */
+blockquote {
+  border-left: 4px solid #e8a33d;
+  padding-left: 1.5em;
+  margin-left: 0;
+  margin-bottom: 1.5em;
+  font-style: italic;
+  color: #045c5c;
+  background: rgba(230, 163, 61, 0.08);
+  padding: 1em 1.5em;
+  border-radius: 4px;
+}

@@ -16,44 +16,128 @@ I am happy to meet new people! Have a great day! :D
 
 ## Currently...
 
-* I am an **Analytics Leader & Analytics Engineer** at Sift, owning GTM analytics pipelines and revenue metrics across Snowflake, dbt, and Salesforce.
-  * Built and drove adoption for 150+ GTM dbt models, improving query performance and reducing reporting latency by 30% across RevOps and Finance.
-  * Standardized 15+ core revenue metrics (CARR, backlog, usage overages), aligning Sales and Finance leadership on reporting definitions.
-  * Unified Finance, Sales Ops, and GTM data into a single source of truth for $200M+ in ARR, enabling faster and more accurate forecasting across Billing and Usage insights.
-  * Engineered dbt testing, contracts, CI/CD, and pipelines for 10+ critical CARR models, catching 99.9% of data quality issues pre-production.
-  * Scaled analytics adoption to 25+ MAU in one month with 90%+ satisfaction, and led end-to-end RBAC architecture for data governance and permissioning.
-  * NOTE: List of projects found in the [projects page](https://raulingaverage.dev/portfolio/projects)
+<div class="card">
+  <div class="card__header">
+    <div class="card__icon">📊</div>
+    <h3 class="card__title">Analytics Leader & Analytics Engineer @ Sift</h3>
+  </div>
+  <div class="card__content">
+    <p>Owning GTM analytics pipelines and revenue metrics across Snowflake, dbt, and Salesforce.</p>
+    <ul class="feature-list">
+      <li><strong>150+ dbt Models:</strong> Built and drove adoption, improving query performance and reducing reporting latency by 30% across RevOps and Finance</li>
+      <li><strong>15+ Revenue Metrics:</strong> Standardized core metrics (CARR, backlog, usage overages), aligning Sales and Finance leadership on reporting definitions</li>
+      <li><strong>$200M+ in ARR:</strong> Unified Finance, Sales Ops, and GTM data into a single source of truth for faster and more accurate forecasting</li>
+      <li><strong>99.9% Data Quality:</strong> Engineered dbt testing, contracts, CI/CD, and pipelines for 10+ critical CARR models</li>
+      <li><strong>25+ MAU Adoption:</strong> Scaled analytics adoption in one month with 90%+ satisfaction, led end-to-end RBAC architecture</li>
+    </ul>
+    <p class="card__meta">📌 Full project details available on the <a href="https://raulingaverage.dev/portfolio/projects">projects page</a></p>
+  </div>
+</div>
 
 ## Previously...
 
-* **Senior Data Analyst, Platform Services (APS)** at Autodesk, delivering data products and platform insights for thousands of APS stakeholders.
-  * Delivered 20+ operations and product data products for 1,600+ stakeholders in the APS division.
-  * Productionized 250+ fact and dimension models across Snowflake, Airflow, dbt, and Looker.
-  * Standardized a modern data stack (Snowflake, Airflow, dbt, Fivetran, Looker) for billions of records across 35 web services.
-  * Performed usage and cost analysis across Autodesk's developer platform to guide product and leadership decisions.
-  * Trained 6+ analysts in stakeholder management and the modern data stack, doubling productivity and delivery in APS.
+<div class="card">
+  <div class="card__header">
+    <div class="card__icon">🏗️</div>
+    <h3 class="card__title">Senior Data Analyst @ Autodesk</h3>
+  </div>
+  <div class="card__content">
+    <p>Delivered data products and platform insights for thousands of stakeholders in Platform Services.</p>
+    <ul class="feature-list">
+      <li><strong>20+ Data Products:</strong> Delivered operations and product data products for 1,600+ stakeholders</li>
+      <li><strong>250+ Models:</strong> Productionized fact and dimension models across Snowflake, Airflow, dbt, and Looker</li>
+      <li><strong>Modern Data Stack:</strong> Standardized tooling (Snowflake, Airflow, dbt, Fivetran, Looker) for billions of records across 35 web services</li>
+      <li><strong>Cost Analysis:</strong> Performed usage and cost analysis across Autodesk's developer platform to guide strategic decisions</li>
+      <li><strong>Team Growth:</strong> Trained 6+ analysts in stakeholder management and modern data stack, doubling productivity</li>
+    </ul>
+  </div>
+</div>
 
-* A **Business Data Analyst** driving impact for internal Sales and Engineering teams under Signature Consultants onsite @ Google.
+<div class="card">
+  <div class="card__header">
+    <div class="card__icon">📈</div>
+    <h3 class="card__title">Business Data Analyst @ Google</h3>
+  </div>
+  <div class="card__content">
+    <p>Drove impact for internal Sales and Engineering teams under Signature Consultants.</p>
+  </div>
+</div>
 
-* **Data Analyst** helping stand up reporting and Salesforce automation for Business Intelligence and Sales at MobileIron
+<div class="card">
+  <div class="card__header">
+    <div class="card__icon">💼</div>
+    <h3 class="card__title">Data Analyst @ MobileIron</h3>
+  </div>
+  <div class="card__content">
+    <p>Helped stand up reporting and Salesforce automation for Business Intelligence and Sales teams.</p>
+  </div>
+</div>
 
-*  **Teaching Assistant & Substitute Instructor** at one of UC Berkeley Extension's Data Visualization Bootcamps for 30+ student cohorts
+<div class="card">
+  <div class="card__header">
+    <div class="card__icon">👨‍🏫</div>
+    <h3 class="card__title">Teaching Assistant @ UC Berkeley Extension</h3>
+  </div>
+  <div class="card__content">
+    <p>Substitute Instructor for Data Visualization Bootcamps, mentoring 30+ student cohorts in data storytelling and visualization best practices.</p>
+  </div>
+</div>
 
 
 # Volunteer
 
 ## Currently...
 
-* I am a **Bike Instructor** for Bike East Bay in the bay area. There, I advocate for Urban Cycling as sustainable transportation
+<div class="card">
+  <div class="card__header">
+    <div class="card__icon">🚴</div>
+    <h3 class="card__title">Bike Instructor @ Bike East Bay</h3>
+  </div>
+  <div class="card__content">
+    <p>Advocating for urban cycling as sustainable transportation in the Bay Area. Teaching the next generation of cyclists to build a more equitable, car-free future.</p>
+  </div>
+</div>
 
-* I am a **Co-lead** for [East Bay YIMBY](https://www.eastbayyimby.org/) in the bay area. There, I advocate for diverse dense housing and tenant protections. 
-  * Moreover, I am a Urban Commuter (bike) advocate for sustainability and equitable transportation.
+<div class="card">
+  <div class="card__header">
+    <div class="card__icon">🏘️</div>
+    <h3 class="card__title">Co-lead @ East Bay YIMBY</h3>
+  </div>
+  <div class="card__content">
+    <p>Advocating for diverse dense housing and tenant protections. Urban commuter (bike) advocate for sustainability and equitable transportation. Working to build inclusive, affordable neighborhoods across the Bay Area.</p>
+    <p><a href="https://www.eastbayyimby.org/">Learn more about East Bay YIMBY</a></p>
+  </div>
+</div>
 
 ## Previously...
 
-* a **Teaching Fellow** for [Delta Analytics](http://www.deltanalytics.org/teaching-fellows.html). At Delta, I help with operational items to better enable opportunities for Delta Analytics to help empower individuals to learn Machine Learning and Data Ethics & Best practices.
+<div class="card">
+  <div class="card__header">
+    <div class="card__icon">🤝</div>
+    <h3 class="card__title">Teaching Fellow @ Delta Analytics</h3>
+  </div>
+  <div class="card__content">
+    <p>Helped enable opportunities for Delta Analytics to empower individuals to learn Machine Learning, Data Ethics, and best practices. Supported operational and strategic initiatives.</p>
+    <p><a href="http://www.deltanalytics.org/teaching-fellows.html">Explore Delta Analytics</a></p>
+  </div>
+</div>
 
-* a Social Media Marketing and Operations Specialist at PyBay (2019)
+<div class="card">
+  <div class="card__header">
+    <div class="card__icon">🎤</div>
+    <h3 class="card__title">Social Media & Operations @ PyBay</h3>
+  </div>
+  <div class="card__content">
+    <p>Marketing and Operations Specialist for PyBay (2019), supporting the Bay Area Python community.</p>
+  </div>
+</div>
 
-* a **DataKind Core Volunteer** enabling other profits to have pro-bono data consulting and
-  driving change for data for good
+<div class="card">
+  <div class="card__header">
+    <div class="card__icon">💡</div>
+    <h3 class="card__title">Core Volunteer @ DataKind</h3>
+  </div>
+  <div class="card__content">
+    <p>Enabled nonprofits to access pro-bono data consulting, driving social impact through data for good initiatives.</p>
+  </div>
+</div>
