@@ -74,6 +74,109 @@ $background-color: #f7ecd7;
 }
 
 /* ==========================================================================
+   Hero Section — Bold entry point with Mexican palette
+   ========================================================================== */
+
+.hero {
+  background: linear-gradient(135deg, #045c5c 0%, #a6076a 50%, #e8a33d 100%);
+  color: white;
+  padding: 6em 2em;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 3em;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image:
+    radial-gradient(circle at 20% 50%, rgba(252, 232, 180, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(4, 92, 92, 0.1) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+.hero__content {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero__headline {
+  font-size: 3.5em;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+}
+
+.hero__subheadline {
+  font-size: 1.5em;
+  font-weight: 400;
+  margin-bottom: 1.5em;
+  opacity: 0.95;
+  line-height: 1.6;
+}
+
+.hero__cta {
+  display: inline-block;
+  padding: 1em 2em;
+  margin: 0.5em;
+  background: white;
+  color: #045c5c;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  font-size: 1.1em;
+}
+
+.hero__cta:hover {
+  background: #fce8b4;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.hero__scroll-indicator {
+  position: absolute;
+  bottom: 2em;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: bounce 2s infinite;
+  opacity: 0.7;
+  font-size: 2em;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateX(-50%) translateY(0); }
+  50% { transform: translateX(-50%) translateY(-10px); }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 4em 1.5em;
+  }
+
+  .hero__headline {
+    font-size: 2.5em;
+  }
+
+  .hero__subheadline {
+    font-size: 1.2em;
+  }
+
+  .hero__cta {
+    display: block;
+    margin: 0.75em 0;
+  }
+}
+
+/* ==========================================================================
    Typography — Modern hierarchy with better readability
    ========================================================================== */
 
@@ -307,4 +410,208 @@ blockquote {
   background: rgba(230, 163, 61, 0.08);
   padding: 1em 1.5em;
   border-radius: 4px;
+}
+
+/* ==========================================================================
+   Blog Post Metadata — Reading time, dates, tags, and author
+   ========================================================================== */
+
+.post__header {
+  border-bottom: 2px solid #e8a33d;
+  padding-bottom: 2em;
+  margin-bottom: 3em;
+}
+
+.post__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  margin-bottom: 1.5em;
+  font-size: 0.95em;
+  color: #8e8b82;
+}
+
+.post__meta-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.post__meta-icon {
+  font-size: 1.1em;
+}
+
+.post__date {
+  font-weight: 600;
+  color: #045c5c;
+}
+
+.post__reading-time {
+  background: rgba(230, 163, 61, 0.1);
+  padding: 0.25em 0.75em;
+  border-radius: 4px;
+  font-weight: 500;
+  color: #a6076a;
+}
+
+.post__tags {
+  margin-top: 1.5em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75em;
+}
+
+.post__tag {
+  display: inline-block;
+  padding: 0.5em 1em;
+  background: linear-gradient(120deg, rgba(4, 92, 92, 0.1), rgba(166, 7, 106, 0.1));
+  border: 1px solid #e8a33d;
+  border-radius: 20px;
+  color: #045c5c;
+  text-decoration: none;
+  font-size: 0.85em;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.post__tag:hover {
+  background: linear-gradient(120deg, #045c5c, #a6076a);
+  color: white;
+  border-color: transparent;
+}
+
+/* Table of Contents Styling */
+.page__content .toc {
+  background: rgba(252, 232, 180, 0.3);
+  border-left: 4px solid #e8a33d;
+  padding: 1.5em;
+  margin: 2em 0;
+  border-radius: 4px;
+  font-size: 0.95em;
+}
+
+.page__content .toc ul {
+  margin: 0;
+  padding-left: 1.5em;
+}
+
+.page__content .toc li {
+  margin-bottom: 0.5em;
+}
+
+.page__content .toc a {
+  color: #045c5c;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.page__content .toc a:hover {
+  color: #a6076a;
+  text-decoration: underline;
+}
+
+/* Author Section */
+.post__author {
+  background: rgba(4, 92, 92, 0.05);
+  border: 2px solid #e8a33d;
+  padding: 2em;
+  border-radius: 8px;
+  margin: 3em 0;
+  display: flex;
+  gap: 1.5em;
+  align-items: center;
+}
+
+.post__author-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: linear-gradient(120deg, #045c5c, #a6076a);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2em;
+  flex-shrink: 0;
+}
+
+.post__author-info h3 {
+  margin: 0 0 0.5em 0;
+  color: #045c5c;
+}
+
+.post__author-info p {
+  margin: 0;
+  font-size: 0.95em;
+  line-height: 1.6;
+}
+
+/* Related Posts Section */
+.post__related {
+  margin-top: 4em;
+  padding-top: 2em;
+  border-top: 2px solid #e8a33d;
+}
+
+.post__related h3 {
+  font-size: 1.75em;
+  color: #045c5c;
+  margin-bottom: 2em;
+}
+
+.related-posts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5em;
+}
+
+.related-post-card {
+  background: white;
+  border: 1px solid #e8a33d;
+  border-radius: 8px;
+  padding: 1.5em;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  color: inherit;
+}
+
+.related-post-card:hover {
+  box-shadow: 0 4px 12px rgba(4, 92, 92, 0.15);
+  border-color: #a6076a;
+  transform: translateY(-2px);
+}
+
+.related-post-card__tag {
+  display: inline-block;
+  font-size: 0.75em;
+  font-weight: 600;
+  color: #a6076a;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0.5em;
+}
+
+.related-post-card__title {
+  font-size: 1.1em;
+  font-weight: 600;
+  color: #045c5c;
+  margin: 0.75em 0;
+  line-height: 1.4;
+}
+
+.related-post-card__date {
+  font-size: 0.85em;
+  color: #8e8b82;
+}
+
+@media (max-width: 768px) {
+  .post__meta {
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  .post__author {
+    flex-direction: column;
+    text-align: center;
+  }
 }
