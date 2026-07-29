@@ -25,10 +25,29 @@ layout: default
 
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
-        <header>
+        <header class="post__header">
           {% if page.title %}<h1 id="page-title" class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
-          {% if page.read_time %}
-            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
+
+          <div class="post__meta">
+            {% if page.date %}
+              <div class="post__meta-item">
+                <time class="post__date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
+              </div>
+            {% endif %}
+
+            {% if page.read_time %}
+              <div class="post__meta-item">
+                <span class="post__reading-time">{% include read-time.html %} read</span>
+              </div>
+            {% endif %}
+          </div>
+
+          {% if page.tags %}
+            <div class="post__tags">
+              {% for tag in page.tags %}
+                <a href="{{ site.baseurl }}/tags/#{{ tag | slugify }}" class="post__tag">#{{ tag }}</a>
+              {% endfor %}
+            </div>
           {% endif %}
         </header>
       {% endunless %}

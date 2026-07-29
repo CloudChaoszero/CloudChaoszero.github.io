@@ -1,16 +1,26 @@
 ---
 permalink: /home
 title: "About Me"
-author_profile: true
+author_profile: false
 last_modified_at: 2026-01-24T12:00:00-08:00
 toc: true
 ---
 
+<div class="hero">
+  <div class="hero__content">
+    <h1 class="hero__headline">Raul Maldonado</h1>
+    <p class="hero__subheadline">Analytics Leader | Data Engineer | Community Builder</p>
+    <p style="font-size: 1.1em; margin-bottom: 2em; opacity: 0.9;">Building data-driven solutions for impact. Advocating for equitable tech and sustainable communities.</p>
+    <a href="#professional-background" class="hero__cta">View My Work</a>
+    <a href="https://www.linkedin.com/in/raulm8" class="hero__cta">Connect on LinkedIn</a>
+  </div>
+</div>
+
+## About Me
+
 I enjoy providing feasible solutions to positively impact businesses and communities with data and action. I have a "jack of all trades and a master of none" teamwork framework championing best practices, ethics, and implementations.
 
-You can reach out to me on [via LinkedIn](https://www.linkedin.com/in/raulm8) for any questions or inquires.
-
-I am happy to meet new people! Have a great day! :D
+You can reach out to me [via LinkedIn](https://www.linkedin.com/in/raulm8) for any questions or inquiries. I'm happy to meet new people!
 
 # Professional Background
 
@@ -18,7 +28,7 @@ I am happy to meet new people! Have a great day! :D
 
 <div class="card">
   <div class="card__header">
-    <div class="card__icon">📊</div>
+    <div class="card__icon"></div>
     <h3 class="card__title">Analytics Leader & Analytics Engineer @ Sift</h3>
   </div>
   <div class="card__content">
@@ -38,7 +48,7 @@ I am happy to meet new people! Have a great day! :D
 
 <div class="card">
   <div class="card__header">
-    <div class="card__icon">🏗️</div>
+    <div class="card__icon"></div>
     <h3 class="card__title">Senior Data Analyst @ Autodesk</h3>
   </div>
   <div class="card__content">
