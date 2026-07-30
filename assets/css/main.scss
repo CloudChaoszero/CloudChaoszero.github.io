@@ -29,17 +29,19 @@ $background-color: #f7ecd7;
   position: sticky;
   top: 0;
   z-index: 999;
-  margin: 0;
-  padding: 0;
-  width: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100vw;
   left: 0;
   right: 0;
+  margin-left: calc(-50vw + 50%);
 }
 
 .masthead__inner-wrap {
-  margin: 0;
+  margin: 0 auto;
   padding: 1.25em 1em;
   max-width: 100%;
+  width: 100%;
 }
 
 .greedy-nav {
