@@ -18,3 +18,11 @@ header:
   i. Workflow Automation
     1. [Prefect](/consulting/modern-analytics/instrumentation/workflow-automation/prefect)
 3. [Modern Analytics: Notebooks And Analyses](/consulting/modern-analytics/notebooks-and-analyses)
+
+---
+
+## Real-World Examples
+
+See how these concepts are applied in practice: **[View My Project Experience & Case Studies](/portfolio/projects)**
+
+Explore concrete examples of modern analytics implementations across organizations like Sift, Autodesk, and Google, including dbt pipelines, data modeling, and metrics standardization.
