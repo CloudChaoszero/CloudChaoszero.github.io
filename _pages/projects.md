@@ -11,6 +11,9 @@ toc: true
 ## Sift — Analytics Leader & Analytics Engineer
 **2026–Present**
 
+<details open>
+<summary>Click to collapse</summary>
+
 <div class="card">
   <div class="card__header">
     <div class="card__icon"></div>
@@ -28,6 +31,8 @@ toc: true
     <p><strong>Scaled analytics adoption to 25+ MAU in 1 month with 90%+ satisfaction</strong> while reducing manual reporting. Led end-to-end RBAC architecture for data governance and permissioning to set the foundation for GenAI (Looker Conversational Analytics & Glean Agents).</p>
   </div>
 </div>
+
+</details>
 
 ---
 
