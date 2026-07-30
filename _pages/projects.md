@@ -6,6 +6,31 @@ last_modified_at: 2025-03-20T23:46:43-04:00
 toc: true
 ---
 
+# Current Experience
+
+## Sift — Analytics Leader & Analytics Engineer
+**2026–Present**
+
+<div class="card">
+  <div class="card__header">
+    <div class="card__icon"></div>
+    <h3 class="card__title">GTM Analytics & Data Engineering Leadership</h3>
+  </div>
+  <div class="card__content">
+    <p><strong>Owned building and adoption for 150+ GTM-based dbt models and pipelines</strong> in Snowflake, improving query performance and reducing reporting latency by 30% across RevOps and Finance.</p>
+    
+    <p><strong>Defined and standardized 15+ core revenue metrics</strong> (CARR, backlog, usage overages) used by Sales and Finance leadership, driving 100% alignment on reporting definitions.</p>
+    
+    <p><strong>Unified $200M+ in annual recurring revenue tracking</strong> by partnering with Finance, Sales Ops, and GTM teams. Created a single source of truth across M3ter and Salesforce data to enable faster and more accurate forecasting (Billing + Usage Insights).</p>
+    
+    <p><strong>Engineered dbt testing and contracts, CI/CD pipelines for 10+ critical CARR models</strong> that catch 99.9% of data quality issues pre-production, ensuring consistent delivery of reliable insights at scale.</p>
+    
+    <p><strong>Scaled analytics adoption to 25+ MAU in 1 month with 90%+ satisfaction</strong> while reducing manual reporting. Led end-to-end RBAC architecture for data governance and permissioning to set the foundation for GenAI (Looker Conversational Analytics & Glean Agents).</p>
+  </div>
+</div>
+
+---
+
 #  Past Industry Projects
 
 ## Autodesk [2019-2025]
