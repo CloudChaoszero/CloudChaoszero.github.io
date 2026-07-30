@@ -29,12 +29,24 @@ $background-color: #f7ecd7;
   position: sticky;
   top: 0;
   z-index: 999;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  left: 0;
+  right: 0;
+}
+
+.masthead__inner-wrap {
+  margin: 0;
+  padding: 1.25em 1em;
+  max-width: 100%;
 }
 
 .greedy-nav {
   background: linear-gradient(120deg, #045c5c 0%, #a6076a 55%, #e8a33d 100%);
-  padding: 1.25em 0;
+  padding: 0;
   backdrop-filter: blur(10px);
+  margin: 0;
 }
 
 .greedy-nav a,
@@ -522,8 +534,9 @@ blockquote {
 /* Table of Contents Styling */
 .page__content .toc,
 .sidebar__right .toc {
-  background: rgba(216, 112, 77, 0.08);
-  border-left: 4px solid #d8704d;
+  background: white !important;
+  border: 1px solid #d8704d !important;
+  border-left: 4px solid #d8704d !important;
   padding: 1.5em;
   margin: 2em 0;
   border-radius: 8px;
@@ -543,8 +556,9 @@ blockquote {
 }
 
 .page__content .toc a,
-.sidebar__right .toc a {
-  color: #045c5c;
+.sidebar__right .toc a,
+.sidebar__right .nav__title {
+  color: #045c5c !important;
   text-decoration: none;
   font-weight: 500;
   transition: all 0.3s ease;
@@ -558,8 +572,9 @@ blockquote {
 }
 
 .sidebar__right .nav__title {
-  color: #d8704d;
-  font-weight: 700;
+  color: #d8704d !important;
+  font-weight: 700 !important;
+  border-bottom: 2px solid #d8704d !important;
 }
 
 /* Author Section */
