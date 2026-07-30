@@ -17,52 +17,83 @@ $background-color: #f7ecd7;
 }
 
 /* ==========================================================================
-   Masthead — Mexican-inspired palette
+   Masthead — Modern Mexican-inspired header
    Talavera teal, rosa mexicano magenta, and cempasúchil marigold gold,
    in the spirit of the CDMX / Aztec imagery on the site.
    ========================================================================== */
 
 .masthead {
-  border-bottom: 3px solid #e8a33d;
+  border-bottom: none;
+  box-shadow: 0 4px 12px rgba(4, 92, 92, 0.15);
+  backdrop-filter: blur(10px);
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
 
 .greedy-nav {
   background: linear-gradient(120deg, #045c5c 0%, #a6076a 55%, #e8a33d 100%);
+  padding: 1.25em 0;
+  backdrop-filter: blur(10px);
 }
 
 .greedy-nav a,
 .site-title,
 .site-subtitle {
   color: #fce8b4;
+  transition: all 0.3s ease;
 }
 
 .greedy-nav a:hover {
   color: #ffffff;
+  transform: scale(1.05);
+}
+
+.site-title {
+  font-size: 1.5em;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.site-subtitle {
+  font-size: 0.85em;
+  opacity: 0.9;
 }
 
 .visible-links a:before {
   background: #e8a33d;
+  height: 3px;
 }
 
 .greedy-nav .dropdown-content,
 .greedy-nav .hidden-links {
-  background: #045c5c;
-  border-color: #e8a33d;
+  background: rgba(4, 92, 92, 0.95);
+  border: 1px solid #e8a33d;
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
 .greedy-nav .hidden-links a:hover {
-  background: rgba(232, 163, 61, 0.25);
+  background: linear-gradient(120deg, #045c5c, #a6076a);
   color: #ffffff;
+  border-radius: 4px;
 }
 
 .search__toggle {
   color: #fce8b4;
+  transition: all 0.3s ease;
+}
+
+.search__toggle:hover {
+  color: #ffffff;
+  transform: scale(1.1);
 }
 
 .navicon,
 .navicon:before,
 .navicon:after {
   background: #fce8b4;
+  transition: all 0.3s ease;
 }
 
 .greedy-nav__toggle:hover {
@@ -489,33 +520,46 @@ blockquote {
 }
 
 /* Table of Contents Styling */
-.page__content .toc {
-  background: rgba(252, 232, 180, 0.3);
-  border-left: 4px solid #e8a33d;
+.page__content .toc,
+.sidebar__right .toc {
+  background: rgba(216, 112, 77, 0.08);
+  border-left: 4px solid #d8704d;
   padding: 1.5em;
   margin: 2em 0;
-  border-radius: 4px;
+  border-radius: 8px;
   font-size: 0.95em;
+  box-shadow: 0 2px 8px rgba(216, 112, 77, 0.1);
 }
 
-.page__content .toc ul {
+.page__content .toc ul,
+.sidebar__right .toc ul {
   margin: 0;
   padding-left: 1.5em;
 }
 
-.page__content .toc li {
+.page__content .toc li,
+.sidebar__right .toc li {
   margin-bottom: 0.5em;
 }
 
-.page__content .toc a {
+.page__content .toc a,
+.sidebar__right .toc a {
   color: #045c5c;
   text-decoration: none;
   font-weight: 500;
+  transition: all 0.3s ease;
 }
 
-.page__content .toc a:hover {
-  color: #a6076a;
+.page__content .toc a:hover,
+.sidebar__right .toc a:hover {
+  color: #d8704d;
   text-decoration: underline;
+  padding-left: 0.5em;
+}
+
+.sidebar__right .nav__title {
+  color: #d8704d;
+  font-weight: 700;
 }
 
 /* Author Section */
