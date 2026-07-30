@@ -558,8 +558,7 @@ blockquote {
 }
 
 .page__content .toc a,
-.sidebar__right .toc a,
-.sidebar__right .nav__title {
+.sidebar__right .toc a {
   color: #045c5c !important;
   text-decoration: none;
   font-weight: 500;
@@ -573,10 +572,15 @@ blockquote {
   padding-left: 0.5em;
 }
 
-.sidebar__right .nav__title {
-  color: #d8704d !important;
+.sidebar__right .nav__title,
+.sidebar__right .toc .nav__title {
+  background: #d8704d !important;
+  color: white !important;
   font-weight: 700 !important;
-  border-bottom: 2px solid #d8704d !important;
+  border-bottom: none !important;
+  margin: -1.5em -1.5em 1em -1.5em !important;
+  padding: 1em 1.5em !important;
+  border-radius: 8px 8px 0 0 !important;
 }
 
 /* Author Section */
