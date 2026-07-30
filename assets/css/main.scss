@@ -392,8 +392,13 @@ p {
 }
 
 main {
-  padding-top: 3em;
+  padding-top: 0;
   padding-bottom: 3em;
+}
+
+/* Restore top padding for pages without hero headers */
+.page__header ~ main {
+  padding-top: 3em;
 }
 
 /* Improve spacing around major sections */
