@@ -26,8 +26,6 @@ main:
         url: /notes/yimby
       - title: Technical
         url: /notes/technical
-      - title: "Misc. Music & Puns"
-        url: /notes/music-puns
       - title: "Job Search Prep."
         url: /notes/job-search
   - title: "Archive"
