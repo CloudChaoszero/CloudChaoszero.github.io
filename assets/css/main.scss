@@ -164,13 +164,25 @@ a:hover {
    Hero Section — Bold entry point with Mexican palette
    ========================================================================== */
 
+.page__header {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+}
+
+.page__hero-image {
+  background-size: cover !important;
+  background-position: center !important;
+  width: 100% !important;
+  min-height: auto !important;
+}
+
 .hero {
   background: linear-gradient(135deg, #045c5c 0%, #a6076a 50%, #e8a33d 100%);
   color: white;
   padding: 6em 2em;
   text-align: center;
   position: relative;
-  overflow: hidden;
+  overflow: visible;
   margin-bottom: 3em;
 }
 
