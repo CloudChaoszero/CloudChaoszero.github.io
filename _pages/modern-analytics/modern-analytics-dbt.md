@@ -1,5 +1,5 @@
 ---
-permalink: /average-analytics-builder/dbt
+permalink: /average-analytics-specialist/dbt
 title: "Modern Analytics and dbt"
 description: "Learning pros of dbt in Modern Analytics"
 author_profile: true

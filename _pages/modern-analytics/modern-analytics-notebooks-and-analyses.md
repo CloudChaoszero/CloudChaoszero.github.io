@@ -1,5 +1,5 @@
 ---
-permalink: /average-analytics-builder/notebooks-and-analyses
+permalink: /average-analytics-specialist/notebooks-and-analyses
 title: "Modern Analytics: Notebooks and Analyses"
 description: "Understanding Notebooks and Analyses, and it's pros and cons"
 author_profile: true
