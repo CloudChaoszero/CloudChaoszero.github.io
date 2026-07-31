@@ -192,11 +192,81 @@ toc: true
 
 ---
 
+## Color Scheme & Theme
+
+**Primary Colors:**
+- **Terracotta Orange**: `#d8704d` (header, hover underlines, accents)
+- **Lighter Terracotta**: `#f0b08a` (borders, highlights)
+- **Teal/Dark Teal**: Previously used, phased out in favor of terracotta
+
+**Header Styling:**
+- Background: Terracotta orange
+- Hover highlight: Lighter semi-transparent white (rgba 0.2)
+- Dropdown menu: Terracotta with lighter border
+- Link hover underlines: Terracotta orange border-bottom (no text-decoration)
+
+## Navigation Structure
+
+**Key Pattern:** Navigation items can be top-level (with URL) or with sublinks (dropdown).
+
+```yaml
+- title: "Menu Item"        # Shows in nav
+  url: "/path"             # Direct link (or external)
+  sublinks:                # Optional dropdown menu
+    - title: "Sub Item"
+      url: "/sub-path"
+```
+
+**Recent Updates:**
+- "Data Consulting" replaced by "Consulting" (external link to raulingaverage.com)
+- Portfolio dropdown now includes consulting items:
+  - Analytic Engineering - dbt
+  - Average Analytics Specialist
+
+## Common Issues & Fixes
+
+### Browser Cache
+**Problem:** Changes deployed but not visible (old styles/content showing)
+**Solution:** Hard refresh with Cmd+Shift+R (Mac) or Ctrl+Shift+R (Windows)
+
+### Hero/Banner Image Cutoff
+**Problem:** Banner image was being clipped at frame edges
+**Solution:** 
+- Set `.page__header` to full viewport width (100vw)
+- Remove conflicting background gradients
+- Set `.page__hero-image` background-size to cover
+
+### Link Underlines (Blue vs Terracotta)
+**Problem:** Browser default blue underlines conflicting with custom styling
+**Solution:**
+- Remove all `text-decoration` (set to `none !important`)
+- Use only `border-bottom` for underlines
+- Apply to `:hover` state only with `text-decoration-color: transparent`
+- Exclude special elements (site title, etc.) with specific selectors
+
+### Header Color Updates
+**Pattern:** When changing header background, also update:
+- `.greedy-nav` background color
+- `.greedy-nav .dropdown-content` background and border
+- Hover states to complement new color
+
+## File References & Patterns
+
+**Screenshots:** User keeps screenshots in `~/Desktop/Screenshot*.png`
+- Use `ls -t /Users/CloudChaoszero/Desktop/Screenshot*.png | head -1` to find latest
+- Screenshots help identify visual issues (layout, colors, spacing)
+
+**Permalinks & URLs:**
+- Analytics resource: `/average-analytics-specialist/` (was `/average-analytics-builder/`)
+- Portfolio sections accessible via dropdown menu
+- Internal links use relative paths (e.g., `/average-analytics-specialist/introduction`)
+
 ## When in Doubt
 
 1. Reference `.claude/writing_style_guide.md` for blog content
 2. Reference `CLAUDE.md` in repo root for project overview
 3. Check recent commits (`git log -10`) to see patterns
-4. Test in browser after deployment
-5. Ask in PR comments or documentation if something is unclear
+4. Test in browser after deployment (hard refresh for cache)
+5. Check screenshots from Desktop to verify visual changes
+6. Ask in PR comments or documentation if something is unclear
 
