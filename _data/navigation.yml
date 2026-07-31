@@ -18,8 +18,10 @@ main:
     sublinks:
       - title: "Analytic Engineering - dbt"
         url: "https://raulingaverage.dev/onboarding-2-dbt"
-      - title: "(Modern) Analytics"
+      - title: "Average Analytics Specialist"
         url: /average-analytics-specialist
+  - title: "Consulting"
+    url: "https://www.raulingaverage.com/"
   - title: "Resources"
     sublinks:
       - title: "YIMBYism"
