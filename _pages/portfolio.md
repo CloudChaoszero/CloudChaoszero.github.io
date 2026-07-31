@@ -52,3 +52,9 @@ produced
 # Recent Presentations
 
 {% include gallery id="layouts_gallery" caption="AB Testing in Python @PyDataLA 2019, Takes two to Data Clean @SF Python, Heroku with Python, AB Testing in Python @PyBay 2019" %}
+
+# Consulting & Resources
+
+* [Analytic Engineering - dbt Onboarding](https://raulingaverage.dev/onboarding-2-dbt)
+
+* [Average Analytics Specialist](/average-analytics-specialist)
