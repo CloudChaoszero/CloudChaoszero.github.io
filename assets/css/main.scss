@@ -74,6 +74,15 @@ $background-color: #f7ecd7;
   opacity: 0.9;
 }
 
+/* Global link styling */
+a {
+  text-decoration-color: #d8704d;
+}
+
+a:hover {
+  text-decoration-color: #d8704d;
+}
+
 .visible-links a:before {
   background: #d8704d;
   height: 3px;
@@ -254,7 +263,7 @@ h2 {
   margin-bottom: 0.75em;
   margin-top: 1.25em;
   color: #a6076a;
-  border-bottom: 3px solid #e8a33d;
+  border-bottom: 3px solid #d8704d;
   padding-bottom: 0.5em;
 }
 
@@ -476,7 +485,7 @@ blockquote {
    ========================================================================== */
 
 .post__header {
-  border-bottom: 2px solid #e8a33d;
+  border-bottom: 2px solid #d8704d;
   padding-bottom: 2em;
   margin-bottom: 3em;
 }
