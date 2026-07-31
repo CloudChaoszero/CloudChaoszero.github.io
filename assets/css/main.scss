@@ -167,13 +167,21 @@ a:hover {
 .page__header {
   width: 100vw;
   margin-left: calc(-50vw + 50%);
+  background-image: none !important;
+  background-color: transparent !important;
+}
+
+.page__header::before {
+  background: none !important;
 }
 
 .page__hero-image {
   background-size: cover !important;
   background-position: center !important;
+  background-repeat: no-repeat !important;
   width: 100% !important;
   min-height: auto !important;
+  background-color: transparent !important;
 }
 
 .hero {
