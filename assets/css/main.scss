@@ -84,6 +84,12 @@ a:hover {
   border-bottom: 2px solid #d8704d !important;
 }
 
+/* Pagination active page background color */
+.pagination a.current {
+  background: #d8704d !important;
+  color: #fff !important;
+}
+
 .visible-links a:before {
   background: #d8704d;
   height: 3px;
