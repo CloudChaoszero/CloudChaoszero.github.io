@@ -45,7 +45,7 @@ $background-color: #f7ecd7;
 }
 
 .greedy-nav {
-  background: linear-gradient(120deg, #045c5c 0%, #0d7377 100%);
+  background: #1E3A8A;
   padding: 0;
   backdrop-filter: blur(10px);
   margin: 0;
@@ -79,16 +79,27 @@ $background-color: #f7ecd7;
 /* Global link styling - no text-decoration, use border-bottom instead */
 a {
   text-decoration: none !important;
+  text-decoration-color: transparent !important;
+  outline: none;
 }
 
 a:hover {
   text-decoration: none !important;
+  text-decoration-color: transparent !important;
   border-bottom: 2px solid #d8704d !important;
+  outline: none;
 }
 
 /* Exclude site title from hover underline */
 .site-title a:hover {
   border-bottom: none !important;
+}
+
+/* Remove underline from TOC links - use border instead */
+.page__content .toc a:hover,
+.sidebar__right .toc a:hover {
+  text-decoration: none !important;
+  border-bottom: 2px solid #d8704d !important;
 }
 
 /* Pagination active page background color */
