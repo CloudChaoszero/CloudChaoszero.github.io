@@ -1,5 +1,5 @@
 ---
-permalink: /consulting/modern-analytics/instrumentation/workflow-automation/prefect
+permalink: /average-analytics-builder/instrumentation/workflow-automation/prefect
 title: "Prefect: The Next Generation Workflow Automation Framework"
 description: "Learning pros of Prefect in Modern Analytics"
 author_profile: true

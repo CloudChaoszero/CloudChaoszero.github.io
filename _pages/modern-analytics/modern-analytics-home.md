@@ -1,5 +1,5 @@
 ---
-permalink: /consulting/modern-analytics
+permalink: /average-analytics-builder
 title: "Modern Analytics - Home"
 description: "Enabling you to be successful in data, insights, and reporting"
 author_profile: true
@@ -12,12 +12,12 @@ header:
 
 # Directory
 
-1. [Introduction to Modern Analytics](/consulting/modern-analytics/introduction)
-  i. [Modern Analytics with dbt](/consulting/modern-analytics/dbt)
-2. [Modern Analytics Instrumentation](/consulting/modern-analytics/instrumentation)
+1. [Introduction to Modern Analytics](/average-analytics-builder/introduction)
+  i. [Modern Analytics with dbt](/average-analytics-builder/dbt)
+2. [Modern Analytics Instrumentation](/average-analytics-builder/instrumentation)
   i. Workflow Automation
-    1. [Prefect](/consulting/modern-analytics/instrumentation/workflow-automation/prefect)
-3. [Modern Analytics: Notebooks And Analyses](/consulting/modern-analytics/notebooks-and-analyses)
+    1. [Prefect](/average-analytics-builder/instrumentation/workflow-automation/prefect)
+3. [Modern Analytics: Notebooks And Analyses](/average-analytics-builder/notebooks-and-analyses)
 
 ---
 

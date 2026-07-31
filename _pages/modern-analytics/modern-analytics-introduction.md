@@ -1,5 +1,5 @@
 ---
-permalink: /consulting/modern-analytics/introduction
+permalink: /average-analytics-builder/introduction
 title: "Introduction to Modern Analytics"
 description: "Enabling you to be successful in data, insights, and reporting"
 author_profile: true
