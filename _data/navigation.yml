@@ -14,6 +14,10 @@ main:
         url: /portfolio/presentations
       - title: "Projects"
         url: /portfolio/projects
+      - title: "Analytic Engineering - dbt"
+        url: "https://raulingaverage.dev/onboarding-2-dbt"
+      - title: "Average Analytics Specialist"
+        url: /average-analytics-specialist
   - title: "Consulting"
     url: "https://www.raulingaverage.com/"
   - title: "Resources"
