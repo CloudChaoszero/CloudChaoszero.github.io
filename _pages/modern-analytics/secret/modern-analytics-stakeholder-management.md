@@ -1,5 +1,5 @@
 ---
-permalink: /consulting/modern-analytics/data-teams
+permalink: /average-analytics-builder/data-teams
 title: "Effective Strategies for Managing Data Team Requests"
 description: "Learning pros of dbt in Modern Analytics"
 author_profile: true
