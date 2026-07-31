@@ -52,21 +52,23 @@ $background-color: #f7ecd7;
 }
 
 .greedy-nav a,
-.site-title,
 .site-subtitle {
   color: #fce8b4;
   transition: all 0.3s ease;
 }
 
-.greedy-nav a:hover {
-  color: #ffffff;
-  transform: scale(1.05);
-}
-
 .site-title {
+  color: #ffffff;
   font-size: 1.5em;
   font-weight: 700;
   letter-spacing: 0.5px;
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
+
+.greedy-nav a:hover {
+  color: #ffffff;
+  transform: scale(1.05);
 }
 
 .site-subtitle {
