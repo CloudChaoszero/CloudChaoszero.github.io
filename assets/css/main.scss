@@ -76,11 +76,13 @@ $background-color: #f7ecd7;
 
 /* Global link styling */
 a {
-  text-decoration-color: #d8704d;
+  text-decoration-color: #d8704d !important;
 }
 
 a:hover {
-  text-decoration-color: #d8704d;
+  text-decoration: underline !important;
+  text-decoration-color: #d8704d !important;
+  -webkit-text-decoration-color: #d8704d !important;
 }
 
 .visible-links a:before {
