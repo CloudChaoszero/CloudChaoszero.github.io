@@ -9,7 +9,6 @@ toc: true
 <div class="hero">
   <div class="hero__content">
     <h1 class="hero__headline">Raul Maldonado</h1>
-    <p class="hero__subheadline">Analytics Leader | Data Engineer | Community Builder</p>
     <p style="font-size: 1.1em; margin-bottom: 2em; opacity: 0.9;">Building data-driven solutions for impact. Advocating for equitable tech and sustainable communities.</p>
     <a href="#professional-background" class="hero__cta">View My Work</a>
     <a href="https://www.linkedin.com/in/raulm8" class="hero__cta">Connect on LinkedIn</a>
