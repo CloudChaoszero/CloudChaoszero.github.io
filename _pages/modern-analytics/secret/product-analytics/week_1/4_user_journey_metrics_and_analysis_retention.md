@@ -1,5 +1,5 @@
 ---
-permalink: /average-analytics-builder/secret/product-analytics/week-1/user-journey-metrics-retention
+permalink: /average-analytics-specialist/secret/product-analytics/week-1/user-journey-metrics-retention
 title: "User Journey Metrics and Analysis Techniques: Retention"
 description: "Why retention compounds, how to define it, and how to analyze cohort-based performance."
 author_profile: true

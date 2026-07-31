@@ -1,5 +1,5 @@
 ---
-permalink: /average-analytics-builder/instrumentation
+permalink: /average-analytics-specialist/instrumentation
 title: "Modern Analytics Instrumentation"
 description: "Modern Analytics Tools Recommendations for your organization"
 author_profile: true
