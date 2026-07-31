@@ -45,7 +45,7 @@ $background-color: #f7ecd7;
 }
 
 .greedy-nav {
-  background: #1E3A8A;
+  background: #d8704d;
   padding: 0;
   backdrop-filter: blur(10px);
   margin: 0;
@@ -69,6 +69,8 @@ $background-color: #f7ecd7;
 .greedy-nav a:hover {
   color: #ffffff;
   transform: scale(1.05);
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
 }
 
 .site-subtitle {
@@ -115,8 +117,8 @@ a:hover {
 
 .greedy-nav .dropdown-content,
 .greedy-nav .hidden-links {
-  background: rgba(4, 92, 92, 0.95);
-  border: 1px solid #e8a33d;
+  background: rgba(216, 112, 77, 0.95);
+  border: 1px solid #f0b08a;
   border-radius: 8px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
