@@ -74,15 +74,14 @@ $background-color: #f7ecd7;
   opacity: 0.9;
 }
 
-/* Global link styling */
+/* Global link styling - no text-decoration, use border-bottom instead */
 a {
-  text-decoration-color: #d8704d !important;
+  text-decoration: none !important;
 }
 
 a:hover {
-  text-decoration: underline !important;
-  text-decoration-color: #d8704d !important;
-  -webkit-text-decoration-color: #d8704d !important;
+  text-decoration: none !important;
+  border-bottom: 2px solid #d8704d !important;
 }
 
 .visible-links a:before {
