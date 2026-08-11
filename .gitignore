@@ -8,3 +8,11 @@
 ehthumbs.db
 Thumbs.db
 *.DS_Store
+
+# Jekyll local build #
+######################
+# Vendored gems from `bundle install --path vendor/bundle` (~228MB).
+vendor/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
