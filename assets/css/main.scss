@@ -31,10 +31,12 @@ $background-color: #f7ecd7;
   z-index: 999;
   margin: 0 !important;
   padding: 0 !important;
-  width: 100vw;
+  /* .masthead is a direct child of <body>, so it is already full-bleed.
+     A 100vw width here would include the scrollbar gutter and pin the header
+     to the initial viewport width, which causes sideways panning on mobile. */
+  width: 100%;
   left: 0;
   right: 0;
-  margin-left: calc(-50vw + 50%);
 }
 
 .masthead__inner-wrap {
@@ -167,8 +169,7 @@ a:hover {
    ========================================================================== */
 
 .page__header {
-  width: 100vw;
-  margin-left: calc(-50vw + 50%);
+  width: 100%;
   background-image: none !important;
   background-color: transparent !important;
 }
@@ -695,7 +696,9 @@ blockquote {
 
 .related-posts {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  /* min() keeps the track from forcing a 280px column on phones narrower
+     than that, which would push the grid past the viewport. */
+  grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
   gap: 1.5em;
 }
 
@@ -747,5 +750,90 @@ blockquote {
   .post__author {
     flex-direction: column;
     text-align: center;
+  }
+}
+
+/* ==========================================================================
+   Mobile sizing safety net
+   Keeps wide content (embeds, code, tables, images) inside the viewport so
+   the page never gains a horizontal scroll — the usual cause of a phone
+   rendering the layout at the wrong scale.
+   ========================================================================== */
+
+/* `clip` rather than `hidden`: `hidden` turns the element into a scroll
+   container, which would break the sticky masthead. `clip` does not.
+   Older Safari ignores it and simply gets no safety net, which is fine
+   because the actual overflow sources above are fixed at the source. */
+html {
+  max-width: 100%;
+  overflow-x: clip;
+}
+
+body {
+  max-width: 100%;
+}
+
+/* Media and embeds scale down instead of forcing the page wider.
+   Tweets, YouTube iframes, and gists all ship intrinsic widths. */
+img,
+video,
+iframe,
+embed,
+object,
+.twitter-tweet,
+.instagram-media,
+.gist {
+  max-width: 100% !important;
+}
+
+/* Only elements with an intrinsic aspect ratio can safely reflow height.
+   An iframe given height:auto collapses to the 150px default, so it is
+   deliberately excluded here. */
+img,
+video {
+  height: auto;
+}
+
+/* Long code lines and wide tables scroll within their own box. */
+.page__content pre,
+.page__content table,
+.highlight,
+figure.highlight {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+/* Unbroken strings (long URLs, IDs) wrap instead of stretching the column. */
+.page__content p,
+.page__content li,
+.page__content h1,
+.page__content h2,
+.page__content h3,
+.related-post-card__title {
+  overflow-wrap: break-word;
+}
+
+@media (max-width: 600px) {
+  /* The hero's 2em side padding plus a 3.5em headline is too tight to fit
+     a long word on a 320px screen. */
+  .hero {
+    padding: 3em 1.25em;
+  }
+
+  .hero__headline {
+    font-size: 2em;
+  }
+
+  .hero__subheadline {
+    font-size: 1.05em;
+  }
+
+  .page-wrapper {
+    padding: 1.5em 1em;
+  }
+
+  .card,
+  .related-post-card {
+    padding: 1.25em;
   }
 }
