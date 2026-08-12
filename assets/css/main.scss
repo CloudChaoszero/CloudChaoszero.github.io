@@ -131,6 +131,64 @@ a:hover {
   border-radius: 4px;
 }
 
+/* ==========================================================================
+   Mobile hamburger dropdown
+   The greedy-nav script relocates overflowing <li> out of .visible-links and
+   into .hidden-links. Nav items that have sublinks carry .dropdown, and
+   _navigation.scss gives .dropdown `float: left` for the horizontal desktop
+   bar. That float travels with the element into the vertical mobile panel,
+   where floated and non-floated items land on the same line on top of each
+   other -- Portfolio under Consulting, Resources under Archive -- with the
+   wider labels spilling past the panel edge.
+   ========================================================================== */
+
+.greedy-nav .hidden-links li,
+.greedy-nav .hidden-links li.dropdown {
+  float: none;
+  width: 100%;
+}
+
+/* Folding the submenus in makes the panel ~700px tall. It is absolutely
+   positioned inside the sticky masthead, so on a short phone the last items
+   sit below the fold and page-scrolling never reaches them. Let the panel
+   scroll itself instead. dvh accounts for mobile browser chrome; the vh
+   line is the fallback for browsers without it. */
+.greedy-nav .hidden-links {
+  max-height: calc(100vh - 6rem);
+  max-height: calc(100dvh - 6rem);
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.greedy-nav .hidden-links a {
+  /* nowrap on the plain links is what pushed text past the panel edge */
+  white-space: normal;
+}
+
+/* Submenus are hover-revealed and absolutely positioned, which cannot work
+   inside the mobile panel -- they render off to the side and off-screen.
+   Fold them into the panel as an indented list so sublinks stay reachable. */
+.greedy-nav .hidden-links .dropdown-content {
+  display: block;
+  position: static;
+  min-width: 0;
+  width: 100%;
+  background: none;
+  box-shadow: none;
+  border: 0;
+  padding-left: 0.75em;
+}
+
+.greedy-nav .hidden-links .dropdown-content li {
+  float: none;
+  width: 100%;
+}
+
+.greedy-nav .hidden-links .dropdown-toggle .fa-caret-down,
+.greedy-nav .hidden-links .dropdown-toggle .caret {
+  display: none;
+}
+
 .search__toggle {
   color: #fce8b4;
   transition: all 0.3s ease;
